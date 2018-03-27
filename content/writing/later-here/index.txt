@@ -30,6 +30,8 @@ It's also an all-around description of these tools and the reason I use them.
 
 Another one from Jon. [Enoki](https://enoki.site) is *"an experimental ~~platform~~ tool for peer-to-peer publishing"*. It's basically a static-site generator with a simple CMS. Exactly what I was looking for. This site uses the "original" version ([enoki-starterkit](https://github.com/enokidotsite/starterkit)), but Jon's currently working on a new Enoki.
 
+*Update: The site now uses the [Enoki Panel](https://panel.enoki.site).*
+
 [Hardly Everything](https://hardlyeverything.com) is the last tool in the list that's by Jon. It supplies you with an "anti-feed". You can read more about it [here](https://github.com/jondashkyle/hardly-everything). The way I use it is that I save different sites and a set a "pace" for them. There are pages that I usually check too often, even if they have new content only once a while, so I put them into Hardly Everything and access them only from there. This isn't a rule, but I try to act like it would be. I'm much more organized, because in the morning I go through my feed and then I don't check them again for a day.\
 (*Note: I've realized that I used the term "put them into" and it sounds a bit weird, but I do think about Hardly Everything as a grinder machine that destroys the low-quality time spent on these websites "unintentionally".*)
 

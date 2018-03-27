@@ -12,7 +12,8 @@ function wrapper (state, emit) {
 	if (!state.site.loaded) return loading()
 	var view = views[state.page.view] || views.default
 
-	if (state.page) emit('DOMTitleChange', 'hex22' + state.page.path)
+	if (state.page) emit('DOMTitleChange', 'hex22' + state.page.url)
+
     return html`
       <main>
 	  	<div class="">
@@ -34,7 +35,7 @@ function wrapper (state, emit) {
 
 function title (state, emit) {
   return html`
-    <div class="1/2 p1 dib f4 ffh fl title">
+    <div class="1/2 p1 dib f4 fl title">
       <a href="/" class="nbb">${state.title}</a>
     </div>
   `
@@ -45,7 +46,7 @@ function navigation (state, emit) {
   return html`
     <div class="p1 dib 1/2 fl">
       <div class="fr f4">
-		<div class="dib ffh">
+		<div class="dib">
 		  ${link(state.links['/projects'])}
 		</div>
       </div>

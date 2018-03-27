@@ -29,7 +29,10 @@ a:not(.nbb) {
 
 /* Typography */
 
-h1, h2, h3, .f1, .f2, .f3 { font-family: 'Inter UI', helvetica, sans-serif; }
+h1, h2, h3, h4, h5, h6, .f1, .f2, .f3 {
+	font-family: 'Inter UI', helvetica, sans-serif;
+	font-weight: inherit;
+}
 
 h1, .f1 { font-size: 2.75rem; }
 h2, .f2 { font-size: 2.25rem; }
