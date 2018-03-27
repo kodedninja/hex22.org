@@ -1,0 +1,827 @@
+{
+  "/cdn": {
+    "name": "cdn",
+    "path": "/content/cdn",
+    "url": "/cdn",
+    "files": {
+      "2018_0x22_weeklybeats-2018_1_analop.mp3": {
+        "name": "2018_0x22_weeklybeats-2018_1_analop",
+        "path": "/content/cdn/2018_0x22_weeklybeats-2018_1_analop.mp3",
+        "url": "/cdn/2018_0x22_weeklybeats-2018_1_analop.mp3",
+        "source": "dat://58daa0bbc5d679fa8e5b7bb40fb690a81e61442f227b2d1b62bded36f2058152/content/cdn/2018_0x22_weeklybeats-2018_1_analop.mp3",
+        "extension": ".mp3",
+        "filename": "2018_0x22_weeklybeats-2018_1_analop.mp3",
+        "type": "audio"
+      },
+      "default.txt": {
+        "name": "default",
+        "path": "/content/cdn/default.txt",
+        "url": "/cdn/default.txt",
+        "source": "dat://58daa0bbc5d679fa8e5b7bb40fb690a81e61442f227b2d1b62bded36f2058152/content/cdn/default.txt",
+        "extension": ".txt",
+        "filename": "default.txt"
+      }
+    },
+    "pages": {}
+  },
+  "/plore/anonymous": {
+    "name": "anonymous",
+    "path": "/content/plore/anonymous",
+    "url": "/plore/anonymous",
+    "files": {
+      "default.txt": {
+        "name": "default",
+        "path": "/content/plore/anonymous/default.txt",
+        "url": "/plore/anonymous/default.txt",
+        "source": "dat://58daa0bbc5d679fa8e5b7bb40fb690a81e61442f227b2d1b62bded36f2058152/content/plore/anonymous/default.txt",
+        "extension": ".txt",
+        "filename": "default.txt"
+      }
+    },
+    "pages": {}
+  },
+  "/plore/cyclios": {
+    "name": "cyclios",
+    "path": "/content/plore/cyclios",
+    "url": "/plore/cyclios",
+    "files": {
+      "default.txt": {
+        "name": "default",
+        "path": "/content/plore/cyclios/default.txt",
+        "url": "/plore/cyclios/default.txt",
+        "source": "dat://58daa0bbc5d679fa8e5b7bb40fb690a81e61442f227b2d1b62bded36f2058152/content/plore/cyclios/default.txt",
+        "extension": ".txt",
+        "filename": "default.txt"
+      }
+    },
+    "pages": {}
+  },
+  "/plore/nh00": {
+    "name": "nh00",
+    "path": "/content/plore/nh00",
+    "url": "/plore/nh00",
+    "files": {
+      "default.txt": {
+        "name": "default",
+        "path": "/content/plore/nh00/default.txt",
+        "url": "/plore/nh00/default.txt",
+        "source": "dat://58daa0bbc5d679fa8e5b7bb40fb690a81e61442f227b2d1b62bded36f2058152/content/plore/nh00/default.txt",
+        "extension": ".txt",
+        "filename": "default.txt"
+      }
+    },
+    "pages": {}
+  },
+  "/plore/romantics": {
+    "name": "romantics",
+    "path": "/content/plore/romantics",
+    "url": "/plore/romantics",
+    "files": {
+      "default.txt": {
+        "name": "default",
+        "path": "/content/plore/romantics/default.txt",
+        "url": "/plore/romantics/default.txt",
+        "source": "dat://58daa0bbc5d679fa8e5b7bb40fb690a81e61442f227b2d1b62bded36f2058152/content/plore/romantics/default.txt",
+        "extension": ".txt",
+        "filename": "default.txt"
+      }
+    },
+    "pages": {}
+  },
+  "/plore": {
+    "title": "Plore is an archive of travels in possible or impossible presents and futures.",
+    "view": "default",
+    "text": "### Locations\n[Cyclios](plore/cyclios)\n\n### Characters\n[Anonymous](plore/anonymous)\\\n[NH00](plore/nh00)",
+    "name": "plore",
+    "path": "/content/plore",
+    "url": "/plore",
+    "files": {},
+    "pages": {
+      "anonymous": {
+        "name": "anonymous",
+        "path": "/content/plore/anonymous",
+        "url": "/plore/anonymous",
+        "source": "/content/plore/anonymous"
+      },
+      "cyclios": {
+        "name": "cyclios",
+        "path": "/content/plore/cyclios",
+        "url": "/plore/cyclios",
+        "source": "/content/plore/cyclios"
+      },
+      "nh00": {
+        "name": "nh00",
+        "path": "/content/plore/nh00",
+        "url": "/plore/nh00",
+        "source": "/content/plore/nh00"
+      },
+      "romantics": {
+        "name": "romantics",
+        "path": "/content/plore/romantics",
+        "url": "/plore/romantics",
+        "source": "/content/plore/romantics"
+      }
+    }
+  },
+  "/programmer-goals": {
+    "title": "Programmer Goals",
+    "view": "default",
+    "text": "[  ] A language that compiles to Javascript\\\n[  ] An interpreted language\\\n[  ] A language that compiles to byte-code\\\n[  ] A virtual machine\\\n[  ] A released game\\\n[  ] An instrument\\\n[  ] A phone\\\n[  ] A spacecraft",
+    "name": "programmer-goals",
+    "path": "/content/programmer-goals",
+    "url": "/programmer-goals",
+    "files": {},
+    "pages": {}
+  },
+  "/0x22": {
+    "title": "0x22 is an ambient music project",
+    "view": "default",
+    "text": "#### [Bandcamp](https://0x22.bandcamp.com)\n\nSince 2015, after bands and instrumental music projects, [I](/karaman-hunor)'ve started composing electronical music. It started with making noises for a progressive metal album, but later I've found the long sine waves and fell in love with the ambient / drone sounding.\n\nI'm inspired by feelings and the music of talented musicians like Nils Frahm, Celer or Ólafur Arnalds.\n\n### Releases\n[Metaphases](/0x22/metaphases) - 2017 December\\\n[glacio](/0x22/glacio) - 2017 December\\\n[With love from very small places](/0x22/with-love-from-very-small-places) - 2017 November\\\n[It was dawn when the old man died](/0x22/it-was-dawn-when-the-old-man-died) - 2017 October\\\n[Nothingness EP (early works under the moniker Shiip)](https://0x22.bandcamp.com/album/nothingness-ep) - 2017 February",
+    "name": "0x22",
+    "path": "/content/0x22",
+    "url": "/0x22",
+    "files": {},
+    "pages": {
+      "glacio": {
+        "name": "glacio",
+        "path": "/content/0x22/glacio",
+        "url": "/0x22/glacio",
+        "source": "/content/0x22/glacio"
+      },
+      "it-was-dawn-when-the-old-man-died": {
+        "name": "it-was-dawn-when-the-old-man-died",
+        "path": "/content/0x22/it-was-dawn-when-the-old-man-died",
+        "url": "/0x22/it-was-dawn-when-the-old-man-died",
+        "source": "/content/0x22/it-was-dawn-when-the-old-man-died"
+      },
+      "metaphases": {
+        "name": "metaphases",
+        "path": "/content/0x22/metaphases",
+        "url": "/0x22/metaphases",
+        "source": "/content/0x22/metaphases"
+      },
+      "with-love-from-very-small-places": {
+        "name": "with-love-from-very-small-places",
+        "path": "/content/0x22/with-love-from-very-small-places",
+        "url": "/0x22/with-love-from-very-small-places",
+        "source": "/content/0x22/with-love-from-very-small-places"
+      }
+    }
+  },
+  "/log": {
+    "title": "Log",
+    "view": "log",
+    "text": "",
+    "name": "log",
+    "path": "/content/log",
+    "url": "/log",
+    "files": {},
+    "pages": {}
+  },
+  "/projects": {
+    "title": "work",
+    "view": "projects",
+    "text": "",
+    "name": "projects",
+    "path": "/content/projects",
+    "url": "/projects",
+    "files": {},
+    "pages": {
+      "aut": {
+        "name": "aut",
+        "path": "/content/projects/aut",
+        "url": "/projects/aut",
+        "source": "/content/projects/aut"
+      },
+      "cereal": {
+        "name": "cereal",
+        "path": "/content/projects/cereal",
+        "url": "/projects/cereal",
+        "source": "/content/projects/cereal"
+      },
+      "datta": {
+        "name": "datta",
+        "path": "/content/projects/datta",
+        "url": "/projects/datta",
+        "source": "/content/projects/datta"
+      },
+      "delog": {
+        "name": "delog",
+        "path": "/content/projects/delog",
+        "url": "/projects/delog",
+        "source": "/content/projects/delog"
+      },
+      "ff": {
+        "name": "ff",
+        "path": "/content/projects/ff",
+        "url": "/projects/ff",
+        "source": "/content/projects/ff"
+      },
+      "freemium": {
+        "name": "freemium",
+        "path": "/content/projects/freemium",
+        "url": "/projects/freemium",
+        "source": "/content/projects/freemium"
+      },
+      "microne": {
+        "name": "microne",
+        "path": "/content/projects/microne",
+        "url": "/projects/microne",
+        "source": "/content/projects/microne"
+      },
+      "notebook-index": {
+        "name": "notebook-index",
+        "path": "/content/projects/notebook-index",
+        "url": "/projects/notebook-index",
+        "source": "/content/projects/notebook-index"
+      },
+      "ntain": {
+        "name": "ntain",
+        "path": "/content/projects/ntain",
+        "url": "/projects/ntain",
+        "source": "/content/projects/ntain"
+      },
+      "odot": {
+        "name": "odot",
+        "path": "/content/projects/odot",
+        "url": "/projects/odot",
+        "source": "/content/projects/odot"
+      },
+      "orkl": {
+        "name": "orkl",
+        "path": "/content/projects/orkl",
+        "url": "/projects/orkl",
+        "source": "/content/projects/orkl"
+      },
+      "pictogon": {
+        "name": "pictogon",
+        "path": "/content/projects/pictogon",
+        "url": "/projects/pictogon",
+        "source": "/content/projects/pictogon"
+      },
+      "solo": {
+        "name": "solo",
+        "path": "/content/projects/solo",
+        "url": "/projects/solo",
+        "source": "/content/projects/solo"
+      },
+      "vocabulum": {
+        "name": "vocabulum",
+        "path": "/content/projects/vocabulum",
+        "url": "/projects/vocabulum",
+        "source": "/content/projects/vocabulum"
+      },
+      "waves": {
+        "name": "waves",
+        "path": "/content/projects/waves",
+        "url": "/projects/waves",
+        "source": "/content/projects/waves"
+      }
+    }
+  },
+  "/writing": {
+    "title": "writing",
+    "view": "blog",
+    "text": "About tools, systems ― what I see, what I think.",
+    "name": "writing",
+    "path": "/content/writing",
+    "url": "/writing",
+    "files": {},
+    "pages": {
+      "later-here": {
+        "name": "later-here",
+        "path": "/content/writing/later-here",
+        "url": "/writing/later-here",
+        "source": "/content/writing/later-here"
+      }
+    }
+  },
+  "/projects/aut": {
+    "title": "aut",
+    "view": "project",
+    "description": "Automations for myself",
+    "text": "#### [Github](https://github.com/kodedninja/aut)\n\n**aut** is a set of scripts globally available from my computer that reduce keystrokes and headaches.",
+    "name": "aut",
+    "path": "/content/projects/aut",
+    "url": "/projects/aut",
+    "files": {},
+    "pages": {}
+  },
+  "/projects/cereal": {
+    "title": "cereal",
+    "view": "project",
+    "description": "A context-based encryption scheme",
+    "text": "#### [Github](https://github.com/kodedninja/cereal) [npm](https://www.npmjs.com/package/crl)\n\nCereal is an encryption scheme based on the AES256 symmetric algorithm.\\\nThe keys never leave the two instances and they always change.\n\n[More details](https://github.com/kodedninja/cereal)",
+    "name": "cereal",
+    "path": "/content/projects/cereal",
+    "url": "/projects/cereal",
+    "files": {},
+    "pages": {}
+  },
+  "/projects/datta": {
+    "title": "datta",
+    "view": "project",
+    "tags": [
+      ""
+    ],
+    "description": "A readable plain text structure for strictly formatted data",
+    "text": "#### [Github](http://github.com/kodedninja/datta) [npm](https://npmjs.com/packages/datta)\nA readable plain text structure for strictly formatted data\n### Installation\n\n```npm i datta```\n\n### Usage\n[Documentation](http://github.com/kodedninja/datta)\n\n### Structure\nThe header contains the names of the fields that are separated by **spaces**. The spaces define the max length of the value.\n\nThe ```---``` separates the header from the content.\n\nThe content forms columns (every field begins where its name is in the header). The last column is basically doesn't have defined length.",
+    "name": "datta",
+    "path": "/content/projects/datta",
+    "url": "/projects/datta",
+    "files": {},
+    "pages": {}
+  },
+  "/projects/ff": {
+    "title": "ff",
+    "view": "project",
+    "description": "simple functional css library",
+    "text": "**ff** was inspired from other functional css libraries ([Tachyons](https://tachyons.io) and more) and formed to the way I prefer it. I also took some code from them. *Thanks!*",
+    "name": "ff",
+    "path": "/content/projects/ff",
+    "url": "/projects/ff",
+    "files": {},
+    "pages": {}
+  },
+  "/projects/odot": {
+    "title": "odot",
+    "view": "project",
+    "description": "A CLI to-do list tool",
+    "text": "#### [Github](https://github.com/kodedninja/odot) [npm](https://www.npmjs.com/package/odotlist)\n\nodot is a really simple checklist command line tool. It's pretty dumb, but I'll work on it. It makes todoing very comfortable through short commands.\n\n#### Installation: ```npm install -g odotlist```\n\n[Usage documentation](https://github.com/kodedninja/odot/blob/master/README.md)",
+    "name": "odot",
+    "path": "/content/projects/odot",
+    "url": "/projects/odot",
+    "files": {},
+    "pages": {}
+  },
+  "/": {
+    "title": "hex22",
+    "view": "home",
+    "text": "dev ― design ― art ― p2p\n\n[about](/about) / [work](/projects)",
+    "name": "content",
+    "path": "/content",
+    "url": "/",
+    "files": {},
+    "pages": {
+      "cdn": {
+        "name": "cdn",
+        "path": "/content/cdn",
+        "url": "/cdn",
+        "source": "/content/cdn"
+      },
+      "about": {
+        "name": "about",
+        "path": "/content/about",
+        "url": "/about",
+        "source": "/content/about"
+      },
+      "plore": {
+        "name": "plore",
+        "path": "/content/plore",
+        "url": "/plore",
+        "source": "/content/plore"
+      },
+      "programmer-goals": {
+        "name": "programmer-goals",
+        "path": "/content/programmer-goals",
+        "url": "/programmer-goals",
+        "source": "/content/programmer-goals"
+      },
+      "0x22": {
+        "name": "0x22",
+        "path": "/content/0x22",
+        "url": "/0x22",
+        "source": "/content/0x22"
+      },
+      "log": {
+        "name": "log",
+        "path": "/content/log",
+        "url": "/log",
+        "source": "/content/log"
+      },
+      "projects": {
+        "name": "projects",
+        "path": "/content/projects",
+        "url": "/projects",
+        "source": "/content/projects"
+      },
+      "writing": {
+        "name": "writing",
+        "path": "/content/writing",
+        "url": "/writing",
+        "source": "/content/writing"
+      }
+    }
+  },
+  "/about": {
+    "title": "Hello, I'm Hunor Karamán.",
+    "view": "default",
+    "text": "#### [Github](https://github.com/kodedninja) [Twitter](https://twitter.com/kodedninja) [Rotonde](dat://81ff8011a4534aac2b46b7a82a6fce8afd0907b2ed0558d2dfb9e92888051e53/) [Are.na](https://www.are.na/hunor-karaman)\n\nI work on experimental [tools and projects](/projects) that form a greater system: *life*. My main focus is on designing and making functional tools / interfaces. I enjoy [researching](https://are.na/hunor-karaman/index) about possible and impossible futures.\n\nMy goal is to optimize life and my way of living (whatever does this \"optimize\" mean). *I do not like illogical.*\n\nI'm a true fan of peer-to-peer networking, functional design and the *computer*. And **not** a fan of ~~money~~, ~~web trackers~~ and ~~capitalism~~.\n\nSometimes I [write](/writing) about the things I see or think.\n\n [0x22](/0x22) is my music project.\n\n You can visit the [Log](/log) for a consistently updating tracker of my productivity.\n\n> \"I really enjoy making tools.\" - Callil Capuozzo\n\nhunix94@gmail.com",
+    "name": "about",
+    "path": "/content/about",
+    "url": "/about",
+    "files": {
+      "me.png": {
+        "name": "me",
+        "path": "/content/about/me.png",
+        "url": "/about/me.png",
+        "source": "dat://58daa0bbc5d679fa8e5b7bb40fb690a81e61442f227b2d1b62bded36f2058152/content/about/me.png",
+        "extension": ".png",
+        "filename": "me.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/writing/later-here": {
+    "title": "Later, Here...",
+    "view": "entry",
+    "date": "2018-03-05",
+    "location": "Home",
+    "excerpt": "Just a note about systems / tools I want to mention in later entries.",
+    "text": "Most of them are newcomers to my life, but they changed my workflow and day-to-day life significantly. Probably I forgot a few, but will edit this entry later.\n\nIt's also an all-around description of these tools and the reason I use them.\n\n---\n\n[Log](https://joshavanier.itch.io/log) was the first tool I've started using late last year. Inspired by [Devine](https://wiki.xxiivv.com) I wanted to write my own time-tracker, but then I've found Josh's and it was a perfect fit. I don't use it for prediction (yet), but mostly to review my productive output.\n\n![Log screenshot](https://img.itch.zone/aW1hZ2UvMTg3ODI5LzEwMDM4ODQucG5n/original/Yvd0oU.png)\n\n[Are.na](https://are.na). Oh, Are.na. It's one of the best tools I've found in my whole life. I'm not sure why, but I love it so much it's not describable. A perfect example of functional design. I'm very new there, but [I use it a lot](https://are.na/hunor-karaman/index). \"Social media that helps you think\"? Yes, please. My one-word description of Are.na is *quality*. Quality people, quality content, quality website.\n\n![Are.na screenshot](/content/writing/later-here/arena-screenshot.png)\n\n[Beaker Browser](https://beakerbrowser.com) is a bit different than the others, but I must write about it because it changed the way I think about the internet. I feel 100% better browsing on the peer-to-peer web, enjoying the beauty of 64 characters long urls, seeding and forking sites. Making personal tools based on it like [orkl](/projects/orkl) or [ntain](/projects/ntain). Or using what other people made like Dropout.\n\n[Dropout](https://dropout.jon-kyle.com) is a tool that *\"saves a url as static html/json for later offline access and personal archive\"*. It was made by Jon Kyle, whose work inspire me a lot. Three tools from this list were made by him. He's a good guy. I mostly use Dropout to save documentations for offline access, as I try to reduce my internet usage.\n\n![Dropout screenshot](https://camo.githubusercontent.com/33131061d30a2b6e36109cf7efc3797d84ffe3f0/687474703a2f2f64726f702e6a6f6e2d6b796c652e636f6d2f6d6f64756c65732f64726f706f75742d6265616b65722d322e706e67)\n\nAnother one from Jon. [Enoki](https://enoki.site) is *\"an experimental ~~platform~~ tool for peer-to-peer publishing\"*. It's basically a static-site generator with a simple CMS. Exactly what I was looking for. This site uses the \"original\" version ([enoki-starterkit](https://github.com/enokidotsite/starterkit)), but Jon's currently working on a new Enoki.\n\n[Hardly Everything](https://hardlyeverything.com) is the last tool in the list that's by Jon. It supplies you with an \"anti-feed\". You can read more about it [here](https://github.com/jondashkyle/hardly-everything). The way I use it is that I save different sites and a set a \"pace\" for them. There are pages that I usually check too often, even if they have new content only once a while, so I put them into Hardly Everything and access them only from there. This isn't a rule, but I try to act like it would be. I'm much more organized, because in the morning I go through my feed and then I don't check them again for a day.\\\n(*Note: I've realized that I used the term \"put them into\" and it sounds a bit weird, but I do think about Hardly Everything as a grinder machine that destroys the low-quality time spent on these websites \"unintentionally\".*)\n\n![Hardly Everything screeshot](/content/writing/later-here/hardly-everything.png)\n\nI also want to write about how I use my phone. It has changed much in the past month. It's more ambient and less distracting.\n\n> \"Yeah, I think phones have failed us.\" - Edouerd Urcades\n\n---\nUpdate: I've came across Alex Singh's blog and found [this entry](https://alexsingh.svbtle.com/ambient-interventions-for-2018). He pretty much talks about the same tools as me, with better writing skills. I follow [Alex's channel](https://www.are.na/alex-singh/ambient-product-design) on Are.na and it makes me happy that he too is amazed by these tools.",
+    "name": "later-here",
+    "path": "/content/writing/later-here",
+    "url": "/writing/later-here",
+    "files": {
+      "arena-screenshot.png": {
+        "name": "arena-screenshot",
+        "path": "/content/writing/later-here/arena-screenshot.png",
+        "url": "/writing/later-here/arena-screenshot.png",
+        "source": "dat://58daa0bbc5d679fa8e5b7bb40fb690a81e61442f227b2d1b62bded36f2058152/content/writing/later-here/arena-screenshot.png",
+        "extension": ".png",
+        "filename": "arena-screenshot.png",
+        "type": "image"
+      },
+      "hardly-everything.png": {
+        "name": "hardly-everything",
+        "path": "/content/writing/later-here/hardly-everything.png",
+        "url": "/writing/later-here/hardly-everything.png",
+        "source": "dat://58daa0bbc5d679fa8e5b7bb40fb690a81e61442f227b2d1b62bded36f2058152/content/writing/later-here/hardly-everything.png",
+        "extension": ".png",
+        "filename": "hardly-everything.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/0x22/glacio": {
+    "title": "glacio",
+    "view": "album",
+    "released": "2017-12-14",
+    "tracks": [
+      "December",
+      "I don't know my feelings"
+    ],
+    "text": "#### [Bandcamp](https://0x22.bandcamp.com/album/glacio)\n\ni love winter\\\nand the cold and the snow\\\nand i love the sound of the ice\\\nbreaking itself on the stone\n\n\"December\" was written in December, 2017.\\\n\"I don't know my feelings\" was written in February, 2017 (found the file now).",
+    "name": "glacio",
+    "path": "/content/0x22/glacio",
+    "url": "/0x22/glacio",
+    "files": {
+      "cover.jpg": {
+        "name": "cover",
+        "path": "/content/0x22/glacio/cover.jpg",
+        "url": "/0x22/glacio/cover.jpg",
+        "source": "dat://58daa0bbc5d679fa8e5b7bb40fb690a81e61442f227b2d1b62bded36f2058152/content/0x22/glacio/cover.jpg",
+        "extension": ".jpg",
+        "filename": "cover.jpg",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/0x22/it-was-dawn-when-the-old-man-died": {
+    "title": "It was dawn when the old man died",
+    "view": "album",
+    "released": "2017-10-01",
+    "tracks": [
+      "It was dawn when the old man died I.",
+      "It was dawn when the old man died II."
+    ],
+    "text": "#### [Bandcamp](https://0x22.bandcamp.com/album/it-was-dawn-when-the-old-man-died)\n\nAt dawn warmer waves arrive to the surface of Earth. They break up into millions of other waves, then return into the atmosphere. These waves are the reason that life exists on Earth. These waves our the reason why we die.\n\n\"It was dawn when the old man died I.\" presents 3 perspectives of a dawn. Is just a simple dawn the same for a dying man, for a couple or for a child? Is it the same for you and me?\n\n\"It was dawn when the old man died II.\" is an experimental slowed down version of the first track. Doesn't sure which one describes more the concept.",
+    "name": "it-was-dawn-when-the-old-man-died",
+    "path": "/content/0x22/it-was-dawn-when-the-old-man-died",
+    "url": "/0x22/it-was-dawn-when-the-old-man-died",
+    "files": {
+      "itwasdawn.png": {
+        "name": "itwasdawn",
+        "path": "/content/0x22/it-was-dawn-when-the-old-man-died/itwasdawn.png",
+        "url": "/0x22/it-was-dawn-when-the-old-man-died/itwasdawn.png",
+        "source": "dat://58daa0bbc5d679fa8e5b7bb40fb690a81e61442f227b2d1b62bded36f2058152/content/0x22/it-was-dawn-when-the-old-man-died/itwasdawn.png",
+        "extension": ".png",
+        "filename": "itwasdawn.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/0x22/metaphases": {
+    "title": "Metaphases",
+    "view": "album",
+    "released": "2017-12-23",
+    "tracks": [
+      "Metaphases"
+    ],
+    "text": "#### [Bandcamp](https://0x22.bandcamp.com/album/metaphases)\n\nRecorded in December 2017. All music by 0x22.",
+    "name": "metaphases",
+    "path": "/content/0x22/metaphases",
+    "url": "/0x22/metaphases",
+    "files": {
+      "covermountinas.jpg": {
+        "name": "covermountinas",
+        "path": "/content/0x22/metaphases/covermountinas.jpg",
+        "url": "/0x22/metaphases/covermountinas.jpg",
+        "source": "dat://58daa0bbc5d679fa8e5b7bb40fb690a81e61442f227b2d1b62bded36f2058152/content/0x22/metaphases/covermountinas.jpg",
+        "extension": ".jpg",
+        "filename": "covermountinas.jpg",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/0x22/with-love-from-very-small-places": {
+    "title": "With love from very small places",
+    "view": "album",
+    "released": "2017-11-14",
+    "tracks": [
+      "Moon Shadow",
+      "Silhouettes",
+      "Spaces",
+      "Hearts and Magnets",
+      "Sun Light"
+    ],
+    "text": "#### [Bandcamp](https://0x22.bandcamp.com/album/with-love-from-very-small-places)\n\nIn life sometimes we stuck into small places, places that make us feel closed and paralysed. Will a hand help you out from there?\n\n\"With love from very small places\" is a concept album, written for my girlfriend for our anniversary. It's a journey to the surface from somewhere below. From a very small place.",
+    "name": "with-love-from-very-small-places",
+    "path": "/content/0x22/with-love-from-very-small-places",
+    "url": "/0x22/with-love-from-very-small-places",
+    "files": {
+      "smallplaces.png": {
+        "name": "smallplaces",
+        "path": "/content/0x22/with-love-from-very-small-places/smallplaces.png",
+        "url": "/0x22/with-love-from-very-small-places/smallplaces.png",
+        "source": "dat://58daa0bbc5d679fa8e5b7bb40fb690a81e61442f227b2d1b62bded36f2058152/content/0x22/with-love-from-very-small-places/smallplaces.png",
+        "extension": ".png",
+        "filename": "smallplaces.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/projects/delog": {
+    "title": "Delog",
+    "view": "project",
+    "tags": [
+      ""
+    ],
+    "description": "A web visualizer for Log",
+    "text": "#### [Github](https://github.com/kodedninja/Delog)\n\nDelog is a visualizer for your data exported from [joshavanier](https://twitter.com/joshavanier)'s [Log](https://joshavanier.itch.io/log) on the web.\n\nSee the [Log](/log) as an example.",
+    "name": "delog",
+    "path": "/content/projects/delog",
+    "url": "/projects/delog",
+    "files": {
+      "Screenshot-2017-12-23 hex22.png": {
+        "name": "Screenshot-2017-12-23 hex22",
+        "path": "/content/projects/delog/Screenshot-2017-12-23 hex22.png",
+        "url": "/projects/delog/Screenshot-2017-12-23 hex22.png",
+        "source": "dat://58daa0bbc5d679fa8e5b7bb40fb690a81e61442f227b2d1b62bded36f2058152/content/projects/delog/Screenshot-2017-12-23 hex22.png",
+        "extension": ".png",
+        "filename": "Screenshot-2017-12-23 hex22.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/projects/freemium": {
+    "title": "freemium",
+    "view": "project",
+    "tags": [
+      ""
+    ],
+    "description": "Firefox and Chrome addon that removes premium articles from Medium",
+    "text": "#### [Github](https://github.com/kodedninja/freemium) [Add to Mozilla](https://addons.mozilla.org/en-US/firefox/addon/freemium/)\n\nFreemium replaces premium articles with nice and beautiful whitespace.",
+    "name": "freemium",
+    "path": "/content/projects/freemium",
+    "url": "/projects/freemium",
+    "files": {
+      "Screenshot-2017-12-19 Medium – Read, write and share stories that matter.png": {
+        "name": "Screenshot-2017-12-19 Medium – Read, write and share stories that matter",
+        "path": "/content/projects/freemium/Screenshot-2017-12-19 Medium – Read, write and share stories that matter.png",
+        "url": "/projects/freemium/Screenshot-2017-12-19 Medium – Read, write and share stories that matter.png",
+        "source": "dat://58daa0bbc5d679fa8e5b7bb40fb690a81e61442f227b2d1b62bded36f2058152/content/projects/freemium/Screenshot-2017-12-19 Medium – Read, write and share stories that matter.png",
+        "extension": ".png",
+        "filename": "Screenshot-2017-12-19 Medium – Read, write and share stories that matter.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/projects/microne": {
+    "title": "MICRONE",
+    "view": "project",
+    "tags": [
+      "selected"
+    ],
+    "description": "A tiny, minimalistic JS music player",
+    "text": "#### [Github](https://github.com/kodedninja/microne) [Website](https://microne.now.sh)\n\nA tiny, minimalistic JS music player. It's around **2 kilobytes** and it's **super beautiful**.\n\n[See more](https://github.com/kodedninja/microne)",
+    "name": "microne",
+    "path": "/content/projects/microne",
+    "url": "/projects/microne",
+    "files": {
+      "microne-screenshot.png": {
+        "name": "microne-screenshot",
+        "path": "/content/projects/microne/microne-screenshot.png",
+        "url": "/projects/microne/microne-screenshot.png",
+        "source": "dat://58daa0bbc5d679fa8e5b7bb40fb690a81e61442f227b2d1b62bded36f2058152/content/projects/microne/microne-screenshot.png",
+        "extension": ".png",
+        "filename": "microne-screenshot.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/projects/notebook-index": {
+    "title": "Notebook Index",
+    "view": "project",
+    "tags": [
+      "selected"
+    ],
+    "description": "A public archive for scanned notebooks",
+    "text": "#### [Github](https://github.com/kodedninja/notebook-index) [Website](https://notebooks-kodedninja.hashbase.io)\n\nCurrently I'm collecting data to be archived here. If you have a notebook you would like to see, there's an [open Are.na channe](https://are.na/hunor-karaman/notebook-index)l for suggestions.",
+    "name": "notebook-index",
+    "path": "/content/projects/notebook-index",
+    "url": "/projects/notebook-index",
+    "files": {
+      "notebook-index.png": {
+        "name": "notebook-index",
+        "path": "/content/projects/notebook-index/notebook-index.png",
+        "url": "/projects/notebook-index/notebook-index.png",
+        "source": "dat://58daa0bbc5d679fa8e5b7bb40fb690a81e61442f227b2d1b62bded36f2058152/content/projects/notebook-index/notebook-index.png",
+        "extension": ".png",
+        "filename": "notebook-index.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/projects/ntain": {
+    "title": "ntain",
+    "view": "project",
+    "tags": [
+      ""
+    ],
+    "description": "A peer-to-peer file sharing application based on Beaker",
+    "text": "#### [Github](https://github.com/kodedninja/ntain) [ntain](dat://ntain-kodedninja.hashbase.io)\n\nNtain was my first try in making a peer-to-peer application based on Beaker Browser. I love it's design, but it misses many functionalities.\n\nYou can use it by forking ```dat://ntain-kodedninja.hashbase.io``` in [Beaker](https://beakerbrowser.com).",
+    "name": "ntain",
+    "path": "/content/projects/ntain",
+    "url": "/projects/ntain",
+    "files": {
+      "ntain.png": {
+        "name": "ntain",
+        "path": "/content/projects/ntain/ntain.png",
+        "url": "/projects/ntain/ntain.png",
+        "source": "dat://58daa0bbc5d679fa8e5b7bb40fb690a81e61442f227b2d1b62bded36f2058152/content/projects/ntain/ntain.png",
+        "extension": ".png",
+        "filename": "ntain.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/projects/orkl": {
+    "title": "orkl",
+    "view": "project",
+    "tags": [
+      "selected"
+    ],
+    "description": "Super simple peer-to-peer blogging site",
+    "text": "#### [Github](https://github.com/kodedninja/orkl) [Website](https://orkl-kodedninja.hashbase.io)\n\nI wanted to build a peer-to-peer only blog; kind of like the p2p child of Svbtle and Telegra.ph. Fell in love with the idea of a site, which feels the same for the writer and the reader. The only difference is that the writer can change the content and the reader can't. Thanks to [Dat](https://datproject.org/), we can easily decide if a computer is the owner or not of a site.\n\norkl is also 100% dynamic, so it's basically just a bunch of ```txt``` files (using [smarkt](https://github.com/jondashkyle/smarkt)) = no site generation or building.\n\n### Usage\nThe magic of Beaker Browser is the possibility to fork a site. To get started you can fork any orkl site, but for the sake of simplicity we will use an empty site I've made.\n\n- Download [Beaker Browser](https://beakerbrowser.com)\n- Navigate to [dat://orkl-kodedninja.hashbase.io](dat://orkl-kodedninja.hashbase.io)\n- Find the \"Fork this site\" button, click it and fill out with your information\n- Navigate to your site\n- Edit the site's dat.json, adding `\"fallback_page\": \"index.html\"`\n- Read the \"How to use orkl?\" entry",
+    "name": "orkl",
+    "path": "/content/projects/orkl",
+    "url": "/projects/orkl",
+    "files": {
+      "Screenshot from 2018-03-02 23-22-37.png": {
+        "name": "Screenshot from 2018-03-02 23-22-37",
+        "path": "/content/projects/orkl/Screenshot from 2018-03-02 23-22-37.png",
+        "url": "/projects/orkl/Screenshot from 2018-03-02 23-22-37.png",
+        "source": "dat://58daa0bbc5d679fa8e5b7bb40fb690a81e61442f227b2d1b62bded36f2058152/content/projects/orkl/Screenshot from 2018-03-02 23-22-37.png",
+        "extension": ".png",
+        "filename": "Screenshot from 2018-03-02 23-22-37.png",
+        "type": "image"
+      },
+      "Screenshot from 2018-03-02 23-26-04.png": {
+        "name": "Screenshot from 2018-03-02 23-26-04",
+        "path": "/content/projects/orkl/Screenshot from 2018-03-02 23-26-04.png",
+        "url": "/projects/orkl/Screenshot from 2018-03-02 23-26-04.png",
+        "source": "dat://58daa0bbc5d679fa8e5b7bb40fb690a81e61442f227b2d1b62bded36f2058152/content/projects/orkl/Screenshot from 2018-03-02 23-26-04.png",
+        "extension": ".png",
+        "filename": "Screenshot from 2018-03-02 23-26-04.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/projects/pictogon": {
+    "title": "Pictogon",
+    "view": "project",
+    "tags": [
+      "selected"
+    ],
+    "description": "A modern image map editor",
+    "text": "#### [Pictogon](https://pictogon.com)\n\nPictogon is a simple solution to make interactive images and embed them into webpages.\n\nI've built the back-end and a part of the front-end editor. It's a small, yet functional tool and building it was an unforgettable experience. You think differently when you write code that thousands of people will use and you must be safe about payments and about a whole infrastructure.\n\nI co-create it with Csaba, the creator of [Mapplic](http://www.mapplic.com), my good friend and mentor.",
+    "name": "pictogon",
+    "path": "/content/projects/pictogon",
+    "url": "/projects/pictogon",
+    "files": {
+      "Screenshot-2018-3-2 Pictogon.png": {
+        "name": "Screenshot-2018-3-2 Pictogon",
+        "path": "/content/projects/pictogon/Screenshot-2018-3-2 Pictogon.png",
+        "url": "/projects/pictogon/Screenshot-2018-3-2 Pictogon.png",
+        "source": "dat://58daa0bbc5d679fa8e5b7bb40fb690a81e61442f227b2d1b62bded36f2058152/content/projects/pictogon/Screenshot-2018-3-2 Pictogon.png",
+        "extension": ".png",
+        "filename": "Screenshot-2018-3-2 Pictogon.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/projects/solo": {
+    "title": "solo",
+    "view": "project",
+    "tags": [
+      "selected"
+    ],
+    "description": "The simplest publishing tool",
+    "text": "#### [Github](https://github.com/kodedninja/solo) [Website]()\n\nSolo is a publishing tool based on the [Beaker Browser](https://beakerbrowser.com) and the Dat protocol.\n\nThe main inspiration was [Telegra.ph](http://telegra.ph). Every entry is under a different Dat URL and there's no index page like on blogs or publishing platforms.\n\nOnly *disconnected texts* that centralize in the author's mind.\n\nSolo is a simplified version of [orkl](/projects/orkl).",
+    "name": "solo",
+    "path": "/content/projects/solo",
+    "url": "/projects/solo",
+    "files": {
+      "Screenshot-2018-3-25 solo.png": {
+        "name": "Screenshot-2018-3-25 solo",
+        "path": "/content/projects/solo/Screenshot-2018-3-25 solo.png",
+        "url": "/projects/solo/Screenshot-2018-3-25 solo.png",
+        "source": "dat://58daa0bbc5d679fa8e5b7bb40fb690a81e61442f227b2d1b62bded36f2058152/content/projects/solo/Screenshot-2018-3-25 solo.png",
+        "extension": ".png",
+        "filename": "Screenshot-2018-3-25 solo.png",
+        "type": "image"
+      },
+      "soloedit.png": {
+        "name": "soloedit",
+        "path": "/content/projects/solo/soloedit.png",
+        "url": "/projects/solo/soloedit.png",
+        "source": "dat://58daa0bbc5d679fa8e5b7bb40fb690a81e61442f227b2d1b62bded36f2058152/content/projects/solo/soloedit.png",
+        "extension": ".png",
+        "filename": "soloedit.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/projects/vocabulum": {
+    "title": "vocabulum",
+    "view": "project",
+    "tags": [
+      "conlang",
+      "vocabulary",
+      "building"
+    ],
+    "description": "A vocabulary building application",
+    "text": "#### [Github](https://github.com/kodedninja/vocabulum)\n\nVocabulum helps you build vocabularies (for constructed languages).",
+    "name": "vocabulum",
+    "path": "/content/projects/vocabulum",
+    "url": "/projects/vocabulum",
+    "files": {
+      "vocabulum.png": {
+        "name": "vocabulum",
+        "path": "/content/projects/vocabulum/vocabulum.png",
+        "url": "/projects/vocabulum/vocabulum.png",
+        "source": "dat://58daa0bbc5d679fa8e5b7bb40fb690a81e61442f227b2d1b62bded36f2058152/content/projects/vocabulum/vocabulum.png",
+        "extension": ".png",
+        "filename": "vocabulum.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/projects/waves": {
+    "title": "waves",
+    "view": "project",
+    "description": "A shorthand system",
+    "text": "#### [Github](https://github.com/kodedninja/waves)\n\nIts major goal is not to be fast, but to be more beautiful.\n\nInspired by Devine's [Shorthand](http://wiki.xxiivv.com/#Shorthand) and by existing shorthand systems, I developed my own. I'm a very fast writer, but I do write very ugly. With waves I want to change this: a bit slower, but more beautiful writing.\n\nWaves written down looks like the waves of the sea (after a magical transformation).",
+    "name": "waves",
+    "path": "/content/projects/waves",
+    "url": "/projects/waves",
+    "files": {
+      "alphabet.png": {
+        "name": "alphabet",
+        "path": "/content/projects/waves/alphabet.png",
+        "url": "/projects/waves/alphabet.png",
+        "source": "dat://58daa0bbc5d679fa8e5b7bb40fb690a81e61442f227b2d1b62bded36f2058152/content/projects/waves/alphabet.png",
+        "extension": ".png",
+        "filename": "alphabet.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  }
+}

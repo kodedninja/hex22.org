@@ -1,0 +1,20 @@
+title: MICRONE
+----
+view: project
+----
+
+tags:
+  - selected
+
+
+----
+
+description: A tiny, minimalistic JS music player
+
+----
+
+text: #### [Github](https://github.com/kodedninja/microne) [Website](https://microne.now.sh)
+
+A tiny, minimalistic JS music player. It's around **2 kilobytes** and it's **super beautiful**.
+
+[See more](https://github.com/kodedninja/microne)

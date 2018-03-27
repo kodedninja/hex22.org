@@ -1,0 +1,43 @@
+title: Later, Here...
+----
+view: entry
+----
+date: 2018-03-05
+----
+location: Home
+----
+excerpt: Just a note about systems / tools I want to mention in later entries.
+----
+text: Most of them are newcomers to my life, but they changed my workflow and day-to-day life significantly. Probably I forgot a few, but will edit this entry later.
+
+It's also an all-around description of these tools and the reason I use them.
+
+---
+
+[Log](https://joshavanier.itch.io/log) was the first tool I've started using late last year. Inspired by [Devine](https://wiki.xxiivv.com) I wanted to write my own time-tracker, but then I've found Josh's and it was a perfect fit. I don't use it for prediction (yet), but mostly to review my productive output.
+
+![Log screenshot](https://img.itch.zone/aW1hZ2UvMTg3ODI5LzEwMDM4ODQucG5n/original/Yvd0oU.png)
+
+[Are.na](https://are.na). Oh, Are.na. It's one of the best tools I've found in my whole life. I'm not sure why, but I love it so much it's not describable. A perfect example of functional design. I'm very new there, but [I use it a lot](https://are.na/hunor-karaman/index). "Social media that helps you think"? Yes, please. My one-word description of Are.na is *quality*. Quality people, quality content, quality website.
+
+![Are.na screenshot](/content/writing/later-here/arena-screenshot.png)
+
+[Beaker Browser](https://beakerbrowser.com) is a bit different than the others, but I must write about it because it changed the way I think about the internet. I feel 100% better browsing on the peer-to-peer web, enjoying the beauty of 64 characters long urls, seeding and forking sites. Making personal tools based on it like [orkl](/projects/orkl) or [ntain](/projects/ntain). Or using what other people made like Dropout.
+
+[Dropout](https://dropout.jon-kyle.com) is a tool that *"saves a url as static html/json for later offline access and personal archive"*. It was made by Jon Kyle, whose work inspire me a lot. Three tools from this list were made by him. He's a good guy. I mostly use Dropout to save documentations for offline access, as I try to reduce my internet usage.
+
+![Dropout screenshot](https://camo.githubusercontent.com/33131061d30a2b6e36109cf7efc3797d84ffe3f0/687474703a2f2f64726f702e6a6f6e2d6b796c652e636f6d2f6d6f64756c65732f64726f706f75742d6265616b65722d322e706e67)
+
+Another one from Jon. [Enoki](https://enoki.site) is *"an experimental ~~platform~~ tool for peer-to-peer publishing"*. It's basically a static-site generator with a simple CMS. Exactly what I was looking for. This site uses the "original" version ([enoki-starterkit](https://github.com/enokidotsite/starterkit)), but Jon's currently working on a new Enoki.
+
+[Hardly Everything](https://hardlyeverything.com) is the last tool in the list that's by Jon. It supplies you with an "anti-feed". You can read more about it [here](https://github.com/jondashkyle/hardly-everything). The way I use it is that I save different sites and a set a "pace" for them. There are pages that I usually check too often, even if they have new content only once a while, so I put them into Hardly Everything and access them only from there. This isn't a rule, but I try to act like it would be. I'm much more organized, because in the morning I go through my feed and then I don't check them again for a day.\
+(*Note: I've realized that I used the term "put them into" and it sounds a bit weird, but I do think about Hardly Everything as a grinder machine that destroys the low-quality time spent on these websites "unintentionally".*)
+
+![Hardly Everything screeshot](/content/writing/later-here/hardly-everything.png)
+
+I also want to write about how I use my phone. It has changed much in the past month. It's more ambient and less distracting.
+
+> "Yeah, I think phones have failed us." - Edouerd Urcades
+
+---
+Update: I've came across Alex Singh's blog and found [this entry](https://alexsingh.svbtle.com/ambient-interventions-for-2018). He pretty much talks about the same tools as me, with better writing skills. I follow [Alex's channel](https://www.are.na/alex-singh/ambient-product-design) on Are.na and it makes me happy that he too is amazed by these tools.

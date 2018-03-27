@@ -1,0 +1,20 @@
+title: vocabulum
+----
+view: project
+----
+
+tags:
+  - conlang
+  - vocabulary
+  - building
+
+
+----
+
+description: A vocabulary building application
+
+----
+
+text: #### [Github](https://github.com/kodedninja/vocabulum)
+
+Vocabulum helps you build vocabularies (for constructed languages).

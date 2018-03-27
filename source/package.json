@@ -1,0 +1,36 @@
+{
+  "name": "hex22-theme",
+  "version": "1.0.0",
+  "description": "Personal theme",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify index.js -o ../bundles/bundle.js -t require-globify -t yo-yoify -t es2040",
+    "start": "watchify index.js -o ../bundles/bundle.js -t require-globify -t yo-yoify -t es2040",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "kodedninja",
+  "license": "ISC",
+  "dependencies": {
+    "brfs": "^1.4.3",
+    "choo": "^6.0.0",
+    "choo-resize": "^1.0.1",
+    "enoki": "^2.0.5",
+    "markdown-it": "^8.4.0",
+    "nanoassert": "^1.1.0",
+    "nanocomponent": "^6.4.0",
+    "object-keys": "^1.0.11",
+    "object-values": "^1.0.0",
+    "query-string": "^5.0.0",
+    "require-globify": "^1.4.1",
+    "tags-input": "^1.1.1",
+    "xhr": "^2.4.0",
+    "xtend": "^4.0.1",
+    "yo-yoify": "^3.7.3"
+  },
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "es2040": "^1.2.6",
+    "watchify": "^3.11.0"
+  }
+}

@@ -1,0 +1,25 @@
+title: glacio
+----
+view: album
+----
+
+released: 2017-12-14
+
+----
+
+tracks:
+  - December
+  - I don't know my feelings
+
+
+----
+
+text: #### [Bandcamp](https://0x22.bandcamp.com/album/glacio)
+
+i love winter\
+and the cold and the snow\
+and i love the sound of the ice\
+breaking itself on the stone
+
+"December" was written in December, 2017.\
+"I don't know my feelings" was written in February, 2017 (found the file now).

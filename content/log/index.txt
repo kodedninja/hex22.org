@@ -1,0 +1,6 @@
+title: Log
+----
+view: log
+----
+
+text:

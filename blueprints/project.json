@@ -1,0 +1,21 @@
+{
+  "title": "Project",
+  "fields": {
+    "title": {
+      "label": "Title",
+      "type": "text"
+    },
+    "tags": {
+      "label": "Tags",
+      "type": "tags"
+    },
+    "description": {
+      "label": "Description",
+      "type": "text"
+    },
+    "text": {
+      "label": "Text",
+      "type": "textarea"
+    }
+  }
+}

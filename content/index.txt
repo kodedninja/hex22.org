@@ -1,0 +1,7 @@
+title: hex22
+----
+view: home
+----
+text: dev ― design ― art ― p2p
+
+[about](/about) / [work](/projects)

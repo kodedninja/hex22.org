@@ -1,0 +1,18 @@
+title: freemium
+----
+view: project
+----
+
+tags:
+  - ''
+
+
+----
+
+description: Firefox and Chrome addon that removes premium articles from Medium
+
+----
+
+text: #### [Github](https://github.com/kodedninja/freemium) [Add to Mozilla](https://addons.mozilla.org/en-US/firefox/addon/freemium/)
+
+Freemium replaces premium articles with nice and beautiful whitespace.

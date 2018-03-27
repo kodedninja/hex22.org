@@ -1,0 +1,47 @@
+.content { min-height: calc(100vh - 140px); }
+
+h4 a { margin-right: 8px; }
+
+blockquote {
+    border-left: 1px solid #999;
+    padding-left: 30px;
+    font-size: 1.25rem;
+    color: #999;
+}
+
+.log #sectors h3,
+.log #projects h3 {
+	font-size: 1.5rem !important;
+}
+
+/**
+ * loading
+ */
+
+.loading {
+  --radius: 1rem;
+  margin: calc(var(--radius) * -1);
+  height: calc(var(--radius) * 2);
+  width: calc(var(--radius) * 2);
+  border-radius: 50rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  border: 3px solid var(--foreground);
+  border-top: 3px solid var(--background);
+  border-left: 3px solid var(--background);
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg) }
+  100% { transform: rotate(360deg) }
+}
+
+/* Media query customs */
+
+@media (max-width: 900px) {
+    .sector {
+        width: 50% !important;
+    }
+}

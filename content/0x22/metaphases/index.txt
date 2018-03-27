@@ -1,0 +1,18 @@
+title: Metaphases
+----
+view: album
+----
+
+released: 2017-12-23
+
+----
+
+tracks:
+  - Metaphases
+
+
+----
+
+text: #### [Bandcamp](https://0x22.bandcamp.com/album/metaphases)
+
+Recorded in December 2017. All music by 0x22.

@@ -1,0 +1,16 @@
+title: waves
+----
+view: project
+----
+
+description: A shorthand system
+
+----
+
+text: #### [Github](https://github.com/kodedninja/waves)
+
+Its major goal is not to be fast, but to be more beautiful.
+
+Inspired by Devine's [Shorthand](http://wiki.xxiivv.com/#Shorthand) and by existing shorthand systems, I developed my own. I'm a very fast writer, but I do write very ugly. With waves I want to change this: a bit slower, but more beautiful writing.
+
+Waves written down looks like the waves of the sea (after a magical transformation).
