@@ -7,7 +7,7 @@ var views = require('./')
 module.exports = wrapper
 
 function wrapper (state, emit) {
-	state.page = state.content[state.href || '/']
+	state.page = state.content[state.href || '/'] || state.content['/']
 
 	if (!state.site.loaded) return loading()
 	var view = views[state.page.view] || views.default

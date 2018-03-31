@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cp ~/mem/log/data ./bundles/log.json
+now
+now alias
