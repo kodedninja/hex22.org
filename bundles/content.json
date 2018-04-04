@@ -300,83 +300,6 @@
       }
     }
   },
-  "/about": {
-    "title": "Hello, I'm Hunor Karamán.",
-    "view": "default",
-    "text": "#### [Github](https://github.com/kodedninja) [Twitter](https://twitter.com/kodedninja) [Rotonde](dat://81ff8011a4534aac2b46b7a82a6fce8afd0907b2ed0558d2dfb9e92888051e53/) [Are.na](https://www.are.na/hunor-karaman)\n\nI work on experimental [tools and projects](/projects) that form a greater system: *life*. My main focus is on designing and making functional tools / interfaces. I enjoy [researching](https://are.na/hunor-karaman/index) about possible and impossible futures.\n\nMy goal is to optimize life and my way of living (whatever does this \"optimize\" mean). *I do not like illogical.*\n\nI'm a true fan of peer-to-peer networking, functional design and the *computer*. And **not** a fan of ~~money~~, ~~web trackers~~ and ~~capitalism~~.\n\nSometimes I [write](/writing) about the things I see or think.\n\n [0x22](/0x22) is my music project.\n\n You can visit the [Log](/log) for a consistently updating tracker of my productivity or read my [devlog](https://devlog-kodedninja.hashbase.io), where I write an entry every week to sum up my productive outcome.\n\n> \"I really enjoy making tools.\" - Callil Capuozzo\n\nhunix94@gmail.com",
-    "name": "about",
-    "path": "/content/about",
-    "url": "/about",
-    "files": {
-      "me.png": {
-        "name": "me",
-        "path": "/content/about/me.png",
-        "url": "/about/me.png",
-        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/about/me.png",
-        "extension": ".png",
-        "filename": "me.png",
-        "type": "image"
-      }
-    },
-    "pages": {}
-  },
-  "/writing/p2p-myself": {
-    "title": "Peer-to-peer myself",
-    "view": "entry",
-    "date": "2018-03-27",
-    "location": "Home",
-    "excerpt": "Since I've started digging into the peer-to-peer internet I wanted to move my site onto it. Today I found the way that perfectly fits into my workflow.",
-    "text": "[![Peer-to-peer Day Image](/content/writing/p2p-myself/lines.png)](dat://peer-to-peer-web.com)\n\nI've moved the site off of Github Pages and onto a combo of [now.sh](https://now.sh) and [Hashbase](https://hashbase.io). Finally I'm able to use magical subdomains of hex22.org on Dat.\n\n### The core of the site: Enoki\n[Enoki](https://enoki.site) is an \"An experimental ~~platform~~ tool for peer-to-peer publishing\" ― simply a CMS on the [Dat](https://dat-project.org) protocol.\n\nThe site was based on the pre-alpha version of it (a static-site generator with a CMS page) and I wasn't able to move it to the Beta version, because that's a \"peer-to-peer first\" tool. Today this changed too, because I rewrote it to use the Panel and I'm amazed by the feeling of it. It's the best writing / CMS tool I've ever used. Everything feels so natural and *in the flow*. Thumbs up, [Jon Kyle](https://jon-kyle.com).\n\n### Hashbase\nHashbase is a seeding service by the developers of the [Beaker Browser](https://beakerbrowser.com). Although peer-to-peer sites are powered by their users, it's good to have a constant peer. I try to use Hashbase as little as possible, because using for everything would break the peer-to-peer side of the sites. Also, I seed every Dat site I've visited and liked.\n\nCurrently I have a free account on Hashbase, but I'm on the edge of the 100 MB free limit. I'm planning to upgrade and have 15 GB of space. That's a lot!\n\n### HTTP version\nCommand line tools have a warm place in my heart. That's why I've started using [now](https://now.sh) and used it for a few projects. More complex tasks are done in a few keystrokes (ie: buying domain names, DNS settings, SSL certs.).\n\nThe ```hex22.org``` domain was bought with *now* too. One thing I didn't know is that custom domains aren't supported in the OSS (free) plan. That's why until now the site was on Github Pages, but for the Dat URL I needed an ```https``` certificate.\n\nCustom domains on Dat work like this: Beaker checks for a ```https://your-domain.com/.well-known/dat``` file and gets the raw dat URL from that.\n\nSince my SSL certificate was valid only on ```now.sh``` servers I've decided to move the HTTP version to *now* and change my plan from OSS to On-Demand, which means I pay only for what I use. For a small project like this it's a very good price.\n\n---\n\nThis means that currently I pay less than 2$ per month for this site, but when I upgrade my Hashbase plan there will be a **+7$/n** per month, where **n** is the number of projects hosted on Hashbase.\n\nIn the future I can do the same for subdomains for a +1.5$/domain.\n\n### Inspirations\n[How I publish taravancil.com](https://taravancil.com/blog/how-i-publish-taravancil-com/) by Tara Vancil\\\n[Distributed now](https://jon-kyle.com/entries/2017-08-01-distributed-now/) by Jon Kyle",
-    "visible": true,
-    "name": "p2p-myself",
-    "path": "/content/writing/p2p-myself",
-    "url": "/writing/p2p-myself",
-    "files": {
-      "lines.png": {
-        "name": "lines",
-        "path": "/content/writing/p2p-myself/lines.png",
-        "url": "/writing/p2p-myself/lines.png",
-        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/writing/p2p-myself/lines.png",
-        "extension": ".png",
-        "filename": "lines.png",
-        "type": "image"
-      }
-    },
-    "pages": {}
-  },
-  "/writing/later-here": {
-    "title": "Later, Here...",
-    "view": "entry",
-    "date": "2018-03-05",
-    "location": "Home",
-    "excerpt": "Just a note about systems / tools I want to mention in later entries.",
-    "text": "Most of them are newcomers to my life, but they changed my workflow and day-to-day life significantly. Probably I forgot a few, but will edit this entry later.\n\nIt's also an all-around description of these tools and the reason I use them.\n\n---\n\n[Log](https://joshavanier.itch.io/log) was the first tool I've started using late last year. Inspired by [Devine](https://wiki.xxiivv.com) I wanted to write my own time-tracker, but then I've found Josh's and it was a perfect fit. I don't use it for prediction (yet), but mostly to review my productive output.\n\n![Log screenshot](https://img.itch.zone/aW1hZ2UvMTg3ODI5LzEwMDM4ODQucG5n/original/Yvd0oU.png)\n\n[Are.na](https://are.na). Oh, Are.na. It's one of the best tools I've found in my whole life. I'm not sure why, but I love it so much it's not describable. A perfect example of functional design. I'm very new there, but [I use it a lot](https://are.na/hunor-karaman/index). \"Social media that helps you think\"? Yes, please. My one-word description of Are.na is *quality*. Quality people, quality content, quality website.\n\n![Are.na screenshot](/content/writing/later-here/arena-screenshot.png)\n\n[Beaker Browser](https://beakerbrowser.com) is a bit different than the others, but I must write about it because it changed the way I think about the internet. I feel 100% better browsing on the peer-to-peer web, enjoying the beauty of 64 characters long urls, seeding and forking sites. Making personal tools based on it like [orkl](/projects/orkl) or [ntain](/projects/ntain). Or using what other people made like Dropout.\n\n[Dropout](https://dropout.jon-kyle.com) is a tool that *\"saves a url as static html/json for later offline access and personal archive\"*. It was made by Jon Kyle, whose work inspire me a lot. Three tools from this list were made by him. He's a good guy. I mostly use Dropout to save documentations for offline access, as I try to reduce my internet usage.\n\n![Dropout screenshot](https://camo.githubusercontent.com/33131061d30a2b6e36109cf7efc3797d84ffe3f0/687474703a2f2f64726f702e6a6f6e2d6b796c652e636f6d2f6d6f64756c65732f64726f706f75742d6265616b65722d322e706e67)\n\nAnother one from Jon. [Enoki](https://enoki.site) is *\"an experimental ~~platform~~ tool for peer-to-peer publishing\"*. It's basically a static-site generator with a simple CMS. Exactly what I was looking for. This site uses the \"original\" version ([enoki-starterkit](https://github.com/enokidotsite/starterkit)), but Jon's currently working on a new Enoki.\n\n*Update: The site now uses the [Enoki Panel](https://panel.enoki.site).*\n\n[Hardly Everything](https://hardlyeverything.com) is the last tool in the list that's by Jon. It supplies you with an \"anti-feed\". You can read more about it [here](https://github.com/jondashkyle/hardly-everything). The way I use it is that I save different sites and a set a \"pace\" for them. There are pages that I usually check too often, even if they have new content only once a while, so I put them into Hardly Everything and access them only from there. This isn't a rule, but I try to act like it would be. I'm much more organized, because in the morning I go through my feed and then I don't check them again for a day.\\\n(*Note: I've realized that I used the term \"put them into\" and it sounds a bit weird, but I do think about Hardly Everything as a grinder machine that destroys the low-quality time spent on these websites \"unintentionally\".*)\n\n![Hardly Everything screeshot](/content/writing/later-here/hardly-everything.png)\n\nI also want to write about how I use my phone. It has changed much in the past month. It's more ambient and less distracting.\n\n> \"Yeah, I think phones have failed us.\" - Edouerd Urcades\n\n---\nUpdate: I've came across Alex Singh's blog and found [this entry](https://alexsingh.svbtle.com/ambient-interventions-for-2018). He pretty much talks about the same tools as me, with better writing skills. I follow [Alex's channel](https://www.are.na/alex-singh/ambient-product-design) on Are.na and it makes me happy that he too is amazed by these tools.",
-    "visible": true,
-    "name": "later-here",
-    "path": "/content/writing/later-here",
-    "url": "/writing/later-here",
-    "files": {
-      "arena-screenshot.png": {
-        "name": "arena-screenshot",
-        "path": "/content/writing/later-here/arena-screenshot.png",
-        "url": "/writing/later-here/arena-screenshot.png",
-        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/writing/later-here/arena-screenshot.png",
-        "extension": ".png",
-        "filename": "arena-screenshot.png",
-        "type": "image"
-      },
-      "hardly-everything.png": {
-        "name": "hardly-everything",
-        "path": "/content/writing/later-here/hardly-everything.png",
-        "url": "/writing/later-here/hardly-everything.png",
-        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/writing/later-here/hardly-everything.png",
-        "extension": ".png",
-        "filename": "hardly-everything.png",
-        "type": "image"
-      }
-    },
-    "pages": {}
-  },
   "/projects/aut": {
     "title": "aut",
     "view": "project",
@@ -504,6 +427,83 @@
         "source": "/content/writing"
       }
     }
+  },
+  "/about": {
+    "title": "Hello, I'm Hunor Karamán.",
+    "view": "default",
+    "text": "#### [Github](https://github.com/kodedninja) [Twitter](https://twitter.com/kodedninja) [Rotonde](dat://81ff8011a4534aac2b46b7a82a6fce8afd0907b2ed0558d2dfb9e92888051e53/) [Are.na](https://www.are.na/hunor-karaman)\n\nI work on experimental [tools and projects](/projects) that form a greater system: *life*. My main focus is on designing and making functional tools / interfaces. I enjoy [researching](https://are.na/hunor-karaman/index) about possible and impossible futures.\n\nMy goal is to optimize life and my way of living (whatever does this \"optimize\" mean). *I do not like illogical.*\n\nI'm a true fan of peer-to-peer networking, functional design and the *computer*. And **not** a fan of ~~money~~, ~~web trackers~~ and ~~capitalism~~.\n\nSometimes I [write](/writing) about the things I see or think.\n\n [0x22](/0x22) is my music project.\n\n You can visit the [Log](/log) for a consistently updating tracker of my productivity or read my [devlog](https://devlog-kodedninja.hashbase.io), where I write an entry every week to sum up my productive outcome.\n\n> \"I really enjoy making tools.\" - Callil Capuozzo\n\nhunix94@gmail.com",
+    "name": "about",
+    "path": "/content/about",
+    "url": "/about",
+    "files": {
+      "me.png": {
+        "name": "me",
+        "path": "/content/about/me.png",
+        "url": "/about/me.png",
+        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/about/me.png",
+        "extension": ".png",
+        "filename": "me.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/writing/p2p-myself": {
+    "title": "Peer-to-peer myself",
+    "view": "entry",
+    "date": "2018-03-27",
+    "location": "Home",
+    "excerpt": "Since I've started digging into the peer-to-peer internet I wanted to move my site onto it. Today I found the way that perfectly fits into my workflow.",
+    "text": "[![Peer-to-peer Day Image](/content/writing/p2p-myself/lines.png)](dat://peer-to-peer-web.com)\n\nI've moved the site off of Github Pages and onto a combo of [now.sh](https://now.sh) and [Hashbase](https://hashbase.io). Finally I'm able to use magical subdomains of hex22.org on Dat.\n\n### The core of the site: Enoki\n[Enoki](https://enoki.site) is an \"An experimental ~~platform~~ tool for peer-to-peer publishing\" ― simply a CMS on the [Dat](https://dat-project.org) protocol.\n\nThe site was based on the pre-alpha version of it (a static-site generator with a CMS page) and I wasn't able to move it to the Beta version, because that's a \"peer-to-peer first\" tool. Today this changed too, because I rewrote it to use the Panel and I'm amazed by the feeling of it. It's the best writing / CMS tool I've ever used. Everything feels so natural and *in the flow*. Thumbs up, [Jon Kyle](https://jon-kyle.com).\n\n### Hashbase\nHashbase is a seeding service by the developers of the [Beaker Browser](https://beakerbrowser.com). Although peer-to-peer sites are powered by their users, it's good to have a constant peer. I try to use Hashbase as little as possible, because using for everything would break the peer-to-peer side of the sites. Also, I seed every Dat site I've visited and liked.\n\nCurrently I have a free account on Hashbase, but I'm on the edge of the 100 MB free limit. I'm planning to upgrade and have 15 GB of space. That's a lot!\n\n### HTTP version\nCommand line tools have a warm place in my heart. That's why I've started using [now](https://now.sh) and used it for a few projects. More complex tasks are done in a few keystrokes (ie: buying domain names, DNS settings, SSL certs.).\n\nThe ```hex22.org``` domain was bought with *now* too. One thing I didn't know is that custom domains aren't supported in the OSS (free) plan. That's why until now the site was on Github Pages, but for the Dat URL I needed an ```https``` certificate.\n\nCustom domains on Dat work like this: Beaker checks for a ```https://your-domain.com/.well-known/dat``` file and gets the raw dat URL from that.\n\nSince my SSL certificate was valid only on ```now.sh``` servers I've decided to move the HTTP version to *now* and change my plan from OSS to On-Demand, which means I pay only for what I use. For a small project like this it's a very good price.\n\n---\n\nThis means that currently I pay less than 2$ per month for this site, but when I upgrade my Hashbase plan there will be a **+7$/n** per month, where **n** is the number of projects hosted on Hashbase.\n\nIn the future I can do the same for subdomains for a +1.5$/domain.\n\n### Inspirations\n[How I publish taravancil.com](https://taravancil.com/blog/how-i-publish-taravancil-com/) by Tara Vancil\\\n[Distributed now](https://jon-kyle.com/entries/2017-08-01-distributed-now/) by Jon Kyle",
+    "visible": true,
+    "name": "p2p-myself",
+    "path": "/content/writing/p2p-myself",
+    "url": "/writing/p2p-myself",
+    "files": {
+      "lines.png": {
+        "name": "lines",
+        "path": "/content/writing/p2p-myself/lines.png",
+        "url": "/writing/p2p-myself/lines.png",
+        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/writing/p2p-myself/lines.png",
+        "extension": ".png",
+        "filename": "lines.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/writing/later-here": {
+    "title": "Later, Here...",
+    "view": "entry",
+    "date": "2018-03-05",
+    "location": "Home",
+    "excerpt": "Just a note about systems / tools I want to mention in later entries.",
+    "text": "Most of them are newcomers to my life, but they changed my workflow and day-to-day life significantly. Probably I forgot a few, but will edit this entry later.\n\nIt's also an all-around description of these tools and the reason I use them.\n\n---\n\n[Log](https://joshavanier.itch.io/log) was the first tool I've started using late last year. Inspired by [Devine](https://wiki.xxiivv.com) I wanted to write my own time-tracker, but then I've found Josh's and it was a perfect fit. I don't use it for prediction (yet), but mostly to review my productive output.\n\n![Log screenshot](https://img.itch.zone/aW1hZ2UvMTg3ODI5LzEwMDM4ODQucG5n/original/Yvd0oU.png)\n\n[Are.na](https://are.na). Oh, Are.na. It's one of the best tools I've found in my whole life. I'm not sure why, but I love it so much it's not describable. A perfect example of functional design. I'm very new there, but [I use it a lot](https://are.na/hunor-karaman/index). \"Social media that helps you think\"? Yes, please. My one-word description of Are.na is *quality*. Quality people, quality content, quality website.\n\n![Are.na screenshot](/content/writing/later-here/arena-screenshot.png)\n\n[Beaker Browser](https://beakerbrowser.com) is a bit different than the others, but I must write about it because it changed the way I think about the internet. I feel 100% better browsing on the peer-to-peer web, enjoying the beauty of 64 characters long urls, seeding and forking sites. Making personal tools based on it like [orkl](/projects/orkl) or [ntain](/projects/ntain). Or using what other people made like Dropout.\n\n[Dropout](https://dropout.jon-kyle.com) is a tool that *\"saves a url as static html/json for later offline access and personal archive\"*. It was made by Jon Kyle, whose work inspire me a lot. Three tools from this list were made by him. He's a good guy. I mostly use Dropout to save documentations for offline access, as I try to reduce my internet usage.\n\n![Dropout screenshot](https://camo.githubusercontent.com/33131061d30a2b6e36109cf7efc3797d84ffe3f0/687474703a2f2f64726f702e6a6f6e2d6b796c652e636f6d2f6d6f64756c65732f64726f706f75742d6265616b65722d322e706e67)\n\nAnother one from Jon. [Enoki](https://enoki.site) is *\"an experimental ~~platform~~ tool for peer-to-peer publishing\"*. It's basically a static-site generator with a simple CMS. Exactly what I was looking for. This site uses the \"original\" version ([enoki-starterkit](https://github.com/enokidotsite/starterkit)), but Jon's currently working on a new Enoki.\n\n*Update: The site now uses the [Enoki Panel](https://panel.enoki.site).*\n\n[Hardly Everything](https://hardlyeverything.com) is the last tool in the list that's by Jon. It supplies you with an \"anti-feed\". You can read more about it [here](https://github.com/jondashkyle/hardly-everything). The way I use it is that I save different sites and a set a \"pace\" for them. There are pages that I usually check too often, even if they have new content only once a while, so I put them into Hardly Everything and access them only from there. This isn't a rule, but I try to act like it would be. I'm much more organized, because in the morning I go through my feed and then I don't check them again for a day.\\\n(*Note: I've realized that I used the term \"put them into\" and it sounds a bit weird, but I do think about Hardly Everything as a grinder machine that destroys the low-quality time spent on these websites \"unintentionally\".*)\n\n![Hardly Everything screeshot](/content/writing/later-here/hardly-everything.png)\n\nI also want to write about how I use my phone. It has changed much in the past month. It's more ambient and less distracting.\n\n> \"Yeah, I think phones have failed us.\" - Edouerd Urcades\n\n---\nUpdate: I've came across Alex Singh's blog and found [this entry](https://alexsingh.svbtle.com/ambient-interventions-for-2018). He pretty much talks about the same tools as me, with better writing skills. I follow [Alex's channel](https://www.are.na/alex-singh/ambient-product-design) on Are.na and it makes me happy that he too is amazed by these tools.",
+    "visible": true,
+    "name": "later-here",
+    "path": "/content/writing/later-here",
+    "url": "/writing/later-here",
+    "files": {
+      "arena-screenshot.png": {
+        "name": "arena-screenshot",
+        "path": "/content/writing/later-here/arena-screenshot.png",
+        "url": "/writing/later-here/arena-screenshot.png",
+        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/writing/later-here/arena-screenshot.png",
+        "extension": ".png",
+        "filename": "arena-screenshot.png",
+        "type": "image"
+      },
+      "hardly-everything.png": {
+        "name": "hardly-everything",
+        "path": "/content/writing/later-here/hardly-everything.png",
+        "url": "/writing/later-here/hardly-everything.png",
+        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/writing/later-here/hardly-everything.png",
+        "extension": ".png",
+        "filename": "hardly-everything.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
   },
   "/0x22/glacio": {
     "title": "glacio",
