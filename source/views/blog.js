@@ -16,7 +16,7 @@ function blog (state, emit) {
             ${format(state.page.text)}
         </div>
         <div class="db">
-        	${entries.reverse().map(entry)}
+        	${entries.reverse().filter((entry) => state.content[entry.url].visible == true).map(entry)}
         </div>
     </div>
   `

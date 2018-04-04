@@ -40,3 +40,5 @@ In the future I can do the same for subdomains for a +1.5$/domain.
 ### Inspirations
 [How I publish taravancil.com](https://taravancil.com/blog/how-i-publish-taravancil-com/) by Tara Vancil\
 [Distributed now](https://jon-kyle.com/entries/2017-08-01-distributed-now/) by Jon Kyle
+----
+visible: true

@@ -21918,7 +21918,9 @@ function blog(state, emit) {
     ac(bel2, ["\n        \t", arguments[2], "\n        "]);
     ac(bel3, ["\n\t\t", bel0, "\n        ", bel1, "\n        ", bel2, "\n    "]);
     return bel3;
-  }(state.page.title, format(state.page.text), entries.reverse().map(entry));
+  }(state.page.title, format(state.page.text), entries.reverse().filter(function (entry) {
+    return state.content[entry.url].visible == true;
+  }).map(entry));
 
   function entry(page) {
     page = state.content[page.url];
