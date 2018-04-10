@@ -1,0 +1,30 @@
+title: Peer-to-Peer
+----
+view: default
+----
+text: These are the peer-to-peer projects I was/am working on in chronological order:
+
+1. [ntain](/projects/ntain) ― Peer-to-Peer file sharing site → 2017
+2. [orkl](/projects/orkl) ― Super simple peer-to-peer blogging site → 2018
+3. [solo](/projects/solo) ― The simplest publication tool → 2018
+4. [forkup](/projects/forkup) ― Updater for forked Beaker sites → 2018
+5. [ridder](/projects/ridder) ― An RSS reader that you own → 2018
+6. [seeder](/projects/seeder) ― Plug-and-play Raspberry Pi DAT seeder → 2018
+
+---
+
+If you're new to the peer-to-peer web check out:
+
+1. [What does peer-to-peer mean?](https://en.wikipedia.org/wiki/Peer-to-peer)
+2. [Peer-to-Peer Day](https://peer-to-peer-web.com)
+3. [Beaker Browser](https://beakerbrowser.com)
+4. [Guides by NCWG](https://guides.newcomputers.group)
+5. [Secrets](https://lhs.nu/archive#dat)
+
+---
+
+Story: 
+
+I've been attracted by the peer-to-peer web from a young age ― before I knew what it does mean. I remember standing next to a friend and sending a message to him over the internet (I think it was Facebook), when I realized how wrong it is that this message has to travel thousands of kilometers to arrive to him. 
+
+Since then I'm planning and trying to built peer-to-peer networks, but then one day I've found the [Beaker Browser](https://beakerbrowser.com) and [Dat](https://datproject.org).

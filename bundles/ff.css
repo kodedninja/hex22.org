@@ -64,8 +64,12 @@ h3, .f3 { font-size: 1.75rem; }
 
 .lh1 { line-height: 1.2 }
 
-p {
+p, ul, ol {
 	margin: 2rem 0;
+}
+
+li {
+	margin: 0.5rem 0;
 }
 
 code {

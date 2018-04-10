@@ -4,11 +4,9 @@ view: default
 ----
 text: #### [Github](https://github.com/kodedninja) [Twitter](https://twitter.com/kodedninja) [Rotonde](dat://81ff8011a4534aac2b46b7a82a6fce8afd0907b2ed0558d2dfb9e92888051e53/) [Are.na](https://www.are.na/hunor-karaman)
 
-I work on experimental [tools and projects](/projects) that form a greater system: *life*. My main focus is on designing and making functional tools / interfaces. I enjoy [researching](https://are.na/hunor-karaman/index) about possible and impossible futures.
+I work on experimental [tools and projects](/projects) that form a greater system: *life*. My main focus is designing and making functional tools / interfaces. I'm a true fan of peer-to-peer networking, functional design and the *[computer](https://newcomputers.group)*. 
 
-My goal is to optimize life and my way of living (whatever does this "optimize" mean). *I do not like illogical.*
-
-I'm a true fan of peer-to-peer networking, functional design and the *computer*. And **not** a fan of ~~money~~, ~~web trackers~~ and ~~capitalism~~.
+Currently I'm making and researching tools for the [peer-to-peer web](/p2p).
 
 Sometimes I [write](/writing) about the things I see or think.
 
