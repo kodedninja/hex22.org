@@ -1,0 +1,12 @@
+title: ridder
+----
+view: project
+----
+tags:
+  - selected
+----
+description: An RSS reader that you own
+----
+text: #### [Github](https://github.com/kodedninja/ridder) [Site](https://ridder-kodedninja.hashbase.io)
+
+Currently in pre-alpha.
