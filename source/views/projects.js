@@ -8,7 +8,7 @@ var thumbnail = require('../components/thumbnail')
 module.exports = projects
 
 function projects (state, emit) {
-  var entries = ov(state.page.pages)
+  var entries = ov(state.page.pages).sort((a, b) => (a.url > b.url ? 1 : (b.url > a.url ? -1 : 0)))
   if (state.filter) entries = entries.filter((page) => {
 	  page = state.content[page.url]
 	  return (page.tags && page.tags.indexOf('selected') != -1)

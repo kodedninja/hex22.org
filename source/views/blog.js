@@ -16,7 +16,8 @@ function blog (state, emit) {
             ${format(state.page.text)}
         </div>
         <div class="db">
-        	${entries.reverse()
+        	${entries.sort((a, b) => (state.content[a.url].date > state.content[b.url].date ? 1 : (state.content[b.url].date > state.content[a.url].date ? -1 : 0)))
+				.reverse()
 				.filter((entry) => state.site.info.isOwner || state.content[entry.url].visible == true)
 				.map(entry)}
         </div>
