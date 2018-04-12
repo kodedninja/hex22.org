@@ -4,7 +4,7 @@ view: project
 ----
 description: Raspberry Pi DAT seeder
 ----
-text: #### [Github](https://github.com/kodedninja/seeder)
+text: #### [Github](https://github.com/new-computers/seeder)
 
 This project is in a very early development stage and it's developed together with other guys in the [New Computer Working Group](https://newcomputers.group).
 

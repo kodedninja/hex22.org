@@ -1,4 +1,4 @@
-title: work
+title: Work
 ----
 view: projects
 ----

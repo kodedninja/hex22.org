@@ -34,11 +34,12 @@ h1, h2, h3, h4, h5, h6, .f1, .f2, .f3 {
 	font-weight: inherit;
 }
 
+.fgiant { font-size: 10rem; }
 h1, .f1 { font-size: 2.75rem; }
 h2, .f2 { font-size: 2.25rem; }
 h3, .f3 { font-size: 1.75rem; }
-.f4 { font-size: 1.25rem; }
-.f5 { font-size: 1rem; }
+h4, .f4 { font-size: 1.25rem; }
+h5, .f5 { font-size: 1rem; }
 .f6 { font-size: .875rem; }
 
 .i { font-style: italic; }
@@ -48,6 +49,8 @@ h3, .f3 { font-size: 1.75rem; }
 .ttc { text-transform: capitalize; }
 .ttu { text-transform: uppercase; }
 .tac { text-align: center }
+.tal { text-align: left }
+.tar { text-align: right }
 .brw { word-wrap: break-word; }
 .bra { word-wrap: break-all; }
 
@@ -185,6 +188,8 @@ hr {
 
 @media (max-width: 900px) {
 	.m-\31{ width:100.000% }
+
+	.fgiant { font-size: 6rem }
 
     .p0-5 { padding: 0.5rem }
     .p1 { padding: 0.75rem }

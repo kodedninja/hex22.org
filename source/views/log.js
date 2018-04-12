@@ -32,7 +32,7 @@ function view (state, emit) {
 					var projects = document.getElementById('projects');
 					var since = document.getElementById('since');
 
-                    var log = new Delog('/bundles/log.json', function() {
+                    var log = new Delog('/assets/log.json', function() {
 						log.days(since);
 						log.total(elem, 80, {color: '#000', empties: true});
 						log.sectors(sectors);

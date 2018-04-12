@@ -1,4 +1,4 @@
-title: writing
+title: Writing
 ----
 view: blog
 ----

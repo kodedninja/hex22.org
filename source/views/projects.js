@@ -27,7 +27,7 @@ function projects (state, emit) {
 			  ${state.page.title}
 		  </div>
 		  <div>
-		  	<a href="#" class="${state.filter ? '' : 'strike'}" onclick="${only_selected}">selected</a> / <a href="#" class="${state.filter ? 'strike' : ''}" onclick="${only_mess}">mess</a>
+		  	<a href="#" class="${state.filter ? '' : 'strike'}" onclick="${only_selected}">Selected</a> / <a href="#" class="${state.filter ? 'strike' : ''}" onclick="${only_mess}">Mess</a>
 		  </div>
 	  </div>
 	  <div class="1 p1 pr db">
