@@ -6,6 +6,8 @@ description: Raspberry Pi DAT seeder
 ----
 text: #### [Github](https://github.com/new-computers/seeder)
 
+![seeder ui](/content/projects/image.png)
+
 This project is in a very early development stage and it's developed together with other guys in the [New Computer Working Group](https://newcomputers.group).
 
 The documentation is on Github.
