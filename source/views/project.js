@@ -25,6 +25,9 @@ function project (state, emit) {
           <div class="pt1 db">
             ${format(state.page.text)}
           </div>
+		  <div class="f6">
+		  	<a href="/projects" class="nbb">← Back</a>
+		  </div>
         </div>
       </div>
       <div class="2/3 m-1 sm-mt4 dib fl">

@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "brfs": "^1.4.3",
+    "bytespin": "^2.0.6",
     "choo": "^6.0.0",
     "choo-resize": "^1.0.1",
     "enoki": "^2.0.5",

@@ -1,11 +1,14 @@
 var html = require('choo/html')
 var ov = require('object-values')
 var path = require('path')
+var bytespin = require('bytespin')
 
 var views = require('./')
 var footer = require('../components/footer')
 
 module.exports = wrapper
+
+var blink = bytespin({chars: '__ _ __ __ _ ', speed: 125})
 
 function wrapper (state, emit) {
 	state.page = state.content[state.href || '/'] || state.content['/']
@@ -78,7 +81,9 @@ function navigation (state, emit) {
 function loading() {
 	return html`
 		<main>
-			<div class="loading"></div>
+			<div class="fl 1 db p2">
+				<div class="fl db 1/2 fgiant tar"><div class="dib">${blink.render(true)}</div>hex22</div>
+			</div>
 		</main>
 	`
 }

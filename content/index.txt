@@ -4,4 +4,4 @@ view: home
 ----
 text: dev ― design ― art ― p2p
 
-[About](/about) / [Work](/projects)
+[About](/about) ↔ [Work](/projects)

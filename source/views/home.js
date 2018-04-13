@@ -8,6 +8,9 @@ var footer = require('../components/footer')
 module.exports = home
 
 function home (state, emit) {
+
+	var mobile = document.body.clientWidth < 900
+
   	return html`
  		<main>
 	      	<div class="fl 1 db p2 tcwhite" style="background: #000;">
@@ -28,7 +31,7 @@ function home (state, emit) {
 
   function text () {
     return html`
-      <div class="1 tal fl">
+      <div class="1 ${mobile ? 'tar' : 'tal'} fl">
         ${format(state.page.text)}
       </div>
     `
