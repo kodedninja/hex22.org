@@ -6,7 +6,7 @@ module.exports = view
 function view (state, emit) {
   return html`
     <div class="db 1 p2 f2 tac fl">
-      Page not found
+      404
     </div>
   `
 }

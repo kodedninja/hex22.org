@@ -5,37 +5,31 @@ module.exports = function (state, emit) {
     return function () {
 
         var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
-        var bel9 = document.createElement("div");
         var bel7 = document.createElement("div");
-        bel7.setAttribute("class", "db p2 pb1 fl 1");
+        var bel5 = document.createElement("div");
+        bel5.setAttribute("class", "db p2 pb1 fl 1");
         var bel1 = document.createElement("div");
         bel1.setAttribute("class", "dib fl 1/2 m-1");
         var bel0 = document.createElement("a");
         bel0.setAttribute("href", "/about");
         ac(bel0, ["Hunor Karamán"]);
         ac(bel1, ["\n\t            ", bel0, " © 2018\n\t        "]);
-        var bel6 = document.createElement("div");
-        bel6.setAttribute("class", "dib fl 1/2 m-1");
-        var bel5 = document.createElement("div");
-        bel5.setAttribute("class", "fl");
+        var bel4 = document.createElement("div");
+        bel4.setAttribute("class", "dib fl 1/2 m-1");
+        var bel3 = document.createElement("div");
+        bel3.setAttribute("class", "fl");
         var bel2 = document.createElement("a");
-        bel2.setAttribute("href", "https://enoki.site");
-        bel2.setAttribute("target", "_blank");
-        ac(bel2, ["Enoki"]);
-        var bel3 = document.createElement("a");
-        bel3.setAttribute("href", "https://rsms.me/inter");
-        bel3.setAttribute("target", "_blank");
-        ac(bel3, ["Inter UI"]);
-        var bel4 = document.createElement("br");
-        ac(bel5, ["\n\t                Built with ", bel2, ". Set in ", bel3, ".", bel4, "\n\t            "]);
-        ac(bel6, ["\n\t            ", bel5, "\n\t        "]);
-        ac(bel7, ["\n\t        ", bel1, "\n\t        ", bel6, "\n\t    "]);
-        var bel8 = document.createElement("div");
-        bel8.setAttribute("style", "font-size: 13px;");
-        bel8.setAttribute("class", "px2 pb2 brw fl db 1");
-        ac(bel8, ["dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/"]);
-        ac(bel9, ["\n\t    ", bel7, "\n\t\t", bel8, "\n\t"]);
-        return bel9;
+        bel2.setAttribute("href", "/thanks");
+        ac(bel2, ["Thanks!"]);
+        ac(bel3, [bel2]);
+        ac(bel4, ["\n\t            ", bel3, "\n\t        "]);
+        ac(bel5, ["\n\t        ", bel1, "\n\t        ", bel4, "\n\t    "]);
+        var bel6 = document.createElement("div");
+        bel6.setAttribute("style", "font-size: 13px;");
+        bel6.setAttribute("class", "px2 pb2 brw fl db 1");
+        ac(bel6, ["dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/"]);
+        ac(bel7, ["\n\t    ", bel5, "\n\t\t", bel6, "\n\t"]);
+        return bel7;
     }();
 };
 },{"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":195,"choo/html":13}],2:[function(require,module,exports){
@@ -22603,7 +22597,7 @@ function view(state, emit) {
         var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
         var bel0 = document.createElement("div");
         bel0.setAttribute("class", "db 1 p2 f2 tac fl");
-        ac(bel0, ["\n      Page not found\n    "]);
+        ac(bel0, ["\n      404\n    "]);
         return bel0;
     }();
 }
@@ -22823,10 +22817,10 @@ module.exports = wrapper;
 var blink = bytespin({ chars: '__ _ __ __ _ ', speed: 125 });
 
 function wrapper(state, emit) {
-  state.page = state.content[state.href || '/'] || state.content['/'];
+  state.page = state.content[state.href || '/'] || {};
 
   if (!state.site.loaded) return loading();
-  var view = views[state.page.view] || views.default;
+  var view = views[state.page.view] || views.notfound;
 
   emit('DOMTitleChange', 'hex22' + state.page.url);
 

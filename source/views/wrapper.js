@@ -11,10 +11,10 @@ module.exports = wrapper
 var blink = bytespin({chars: '__ _ __ __ _ ', speed: 125})
 
 function wrapper (state, emit) {
-	state.page = state.content[state.href || '/'] || state.content['/']
+	state.page = state.content[state.href || '/'] || {}
 
 	if (!state.site.loaded) return loading()
-	var view = views[state.page.view] || views.default
+	var view = views[state.page.view] || views.notfound
 
 	emit('DOMTitleChange', 'hex22' + state.page.url)
 
