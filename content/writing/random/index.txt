@@ -1,0 +1,9 @@
+title: Thanks, Random?
+----
+view: entry
+----
+date: 2018-04-17
+----
+location: Home
+----
+excerpt: My philosophy on how the world and life was formed.
