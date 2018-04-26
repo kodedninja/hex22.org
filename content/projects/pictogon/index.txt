@@ -2,21 +2,15 @@ title: Pictogon
 ----
 view: project
 ----
-
 tags:
   - selected
-
-
 ----
-
 description: A modern image map editor
-
 ----
-
-text: #### [Pictogon](https://pictogon.com)
-
-Pictogon is a simple solution to make interactive images and embed them into webpages.
+text: Pictogon is a simple solution to make interactive images and embed them into webpages.
 
 I've built the back-end and a part of the front-end editor. It's a small, yet functional tool and building it was an unforgettable experience. You think differently when you write code that thousands of people will use and you must be safe about payments and about a whole infrastructure.
 
 I co-create it with Csaba, the creator of [Mapplic](http://www.mapplic.com), my good friend and mentor.
+----
+website: https://pictogon.com

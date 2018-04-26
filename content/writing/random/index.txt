@@ -1,4 +1,4 @@
-title: Thanks, Random?
+title: We are random
 ----
 view: entry
 ----
@@ -7,3 +7,23 @@ date: 2018-04-17
 location: Home
 ----
 excerpt: My philosophy on how the world and life was formed.
+----
+text: *A journey that wasn't like this, but it might has been.*
+
+In the beginning there was nothing, at least something that's the closest to nothing in our sense. Like a lake, the calm water of a lake without movement and changes, for an unrealizable time.
+
+But due to a random force and the mirror-like surface of the lake started to move and get noisy. We were lucky and one "*thing*" hit another "*thing*" and these two "*things*" started to form what we today call the existence.
+
+It's a bit abstract, but something like the formation of life must be abstract and unreal.
+
+After many billions or trillions of these random happenings we're here. We were lucky! It's possible that this whole process has happened a thousand times, but with different output. 
+
+It was random how nucleons, electrons appeared and then somehow (by random) these started to form atoms and then molecules. Even when two cells met and started changing their internals was random. And so on...
+
+The outcome might have been different. How our brain works, how we look, what Earth is. We could be gas fields in the universe or signals in an unknown system. But we're not. Because random choices formed us like this.
+
+---
+
+- [A more exact explanation of how the world was formed.](https://www.youtube.com/watch?v=ZL4yYHdDSWs)
+----
+visible: true

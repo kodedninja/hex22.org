@@ -1,12 +1,16 @@
 var html = require('choo/html')
 var format = require('../components/format')
+var footer = require('../components/footer')
 
 module.exports = view
 
 function view (state, emit) {
   return html`
-    <div class="db 1 p2 f2 tac fl">
-      404
-    </div>
+    <main class="1 db fl">
+	  <div class="pfeed 1 db f1 bb">
+	  	404
+	  </div>
+	  ${footer()}
+    </main>
   `
 }

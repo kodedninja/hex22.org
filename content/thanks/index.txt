@@ -2,7 +2,7 @@ title: Thanks!
 ----
 view: default
 ----
-text: ### This site is based on the following technologies and projects.
+text: # This site is based on the following technologies and projects.
 
 - [Enoki](https://enoki.site/), an experimental ~~platform~~ tool for peer-to-peer publishing.
 - [Choo](https://choo.io/), a front-end framework that loves you.
@@ -10,8 +10,10 @@ text: ### This site is based on the following technologies and projects.
 - [Beaker Browser](https://beakerbrowser.com/), the web-browser of freedom.
 - [Dat Protocol](https://datproject.org/), the hidden force in this whole.
 
-### Shoutouts to the following people who shape my creative individuality
+# Shoutouts to the following people who shape my creative individuality
 [Jon-Kyle](https;//jon-kyle.com) ↔ [Devine](https://xxiivv.com) ↔ [Callil](https://callil.com) ↔ [Alex](https://alexsingh.com) ↔ [Edouard](https://edouard.us)
 
-### You should check out
+# You should check out
 [New Computer Working Group](https://new-computers.group), [Peer-to-Peer Day](https://peer-to-peer-web.com), [minimal.gallery](https://minimal.gallery), [Are.na](https://are.na)
+
+Thanks to [Gavin Atkinson](https://gav.space) whose site inspired me in this design.

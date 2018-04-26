@@ -2,17 +2,13 @@ title: Notebook Index
 ----
 view: project
 ----
-
 tags:
   - selected
-
-
 ----
-
 description: A public archive for scanned notebooks
-
 ----
-
-text: #### [Github](https://github.com/kodedninja/notebook-index) [Website](https://notebooks-kodedninja.hashbase.io)
-
-Currently I'm collecting data to be archived here. If you have a notebook you would like to see, there's an [open Are.na channe](https://are.na/hunor-karaman/notebook-index)l for suggestions.
+text: Currently I'm collecting data to be archived here. If you have a notebook you would like to see, there's an [open Are.na channe](https://are.na/hunor-karaman/notebook-index)l for suggestions.
+----
+github: https://github.com/kodedninja/notebook-index
+----
+website: https://notebooks-kodedninja.hashbase.io

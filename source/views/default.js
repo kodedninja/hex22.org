@@ -1,17 +1,19 @@
 var html = require('choo/html')
 var format = require('../components/format')
+var footer = require('../components/footer')
 
 module.exports = view
 
 function view (state, emit) {
   return html`
-    <div class="db 1 p1 fl">
-      <div class="p1 pb0 2/3 m-1 mxa">
-        <div class="f1">${state.page.title}</div>
-      </div>
-      <div class="2/3 m-1 p1 mxa">
-        ${format(state.page.text)}
-      </div>
-    </div>
+    <main class="db 1 fl">
+	  <div class="pfeed 1 bb">
+	    <div class="f1"><a class="nbb mr1" href="/">/</a> ${state.page.title}</div>
+	  </div>
+	  <div class="pfeed 1 bb">
+	    <div class="f2">${format(state.page.text)}</div>
+	  </div>
+	  ${footer()}
+    </main>
   `
 }

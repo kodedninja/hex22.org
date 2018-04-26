@@ -2,8 +2,7 @@ var html = require('choo/html')
 var ov = require('object-values')
 var xt = require('xtend')
 const format = require('../components/format')
-
-var thumbnail = require('../components/thumbnail')
+var footer = require('../components/footer')
 
 module.exports = projects
 
@@ -21,49 +20,40 @@ function projects (state, emit) {
   entries = slice(entries, divisor)
 
   return html`
-    <div class="p1 1 fl">
-	  <div class="1 db fl tac f4">
-		  <div class="f2 tac mb2">
-			  ${state.page.title}
-		  </div>
-		  <div>
-		  	<a href="#" class="${state.filter ? '' : 'strike'}" onclick="${only_selected}">Selected</a> / <a href="#" class="${state.filter ? 'strike' : ''}" onclick="${only_mess}">Mess</a>
-		  </div>
+    <main class="db 1 fl">
+	  <div class="pfeed 1 bb">
+	    <div class="f1"><a class="nbb mr1" href="/">/</a> ${state.page.title}</div>
 	  </div>
-	  <div class="1 p1 pr db">
-		  ${entries.map(row)}
+	  <div class="1 db bb">
+		<a href="#" class="${state.filter ? '' : 'strike'} f1 br 1/2 dib p1 tac nbb" onclick="${only_selected}">Selected</a>
+		<a href="#" class="${state.filter ? 'strike' : ''} f1 1/2 dib p1 tac nbb" onclick="${only_mess}">Mess</a>
 	  </div>
-    </div>
+	  <div class="1 db">
+	    ${entries.map(row)}
+	  </div>
+	  ${footer()}
+    </main>
   `
 
   function row(r, emit) {
 	  return html`
-	  	<div class="db 1 ${w > 900 ? 'my0-5' : ''} pr fl">
+	  	<div class="db 1 bb">
 			${r.map(pp)}
 		</div>
 	  `
   }
 
-  function pp(page, emit) {
+  function pp(page, id) {
       var page = state.content[page.url] || {};
 
       return html`
         <a
           href="${page.url}"
-          class="dib m-1 nbb fl ${rows} ${w <= 900 ? 'my0-5' : ''}"
+          class="dib m-1 nbb p2 f1 tac ${rows} ${(w >= 900 && id%divisor < divisor - 1) ? 'br' : ''} ${(w < 900 && id%2 == 0) ? 'bb' : ''}"
         >
-          ${page.title ? title() : ''}
-          ${page.description ? description() : ''}
+          ${page.title || page.dirname}
         </a>
       `
-
-      function title () {
-        return html`
-          <div class="pt1 f3">
-            ${page.title || page.dirname}
-          </div>
-        `
-      }
 
       function description () {
         return html`

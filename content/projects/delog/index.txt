@@ -2,19 +2,13 @@ title: Delog
 ----
 view: project
 ----
-
 tags:
   - ''
-
-
 ----
-
 description: A web visualizer for Log
-
 ----
-
-text: #### [Github](https://github.com/kodedninja/Delog)
-
-Delog is a visualizer for your data exported from [joshavanier](https://twitter.com/joshavanier)'s [Log](https://joshavanier.itch.io/log) on the web.
+text: Delog is a visualizer for your data exported from [joshavanier](https://twitter.com/joshavanier)'s [Log](https://joshavanier.itch.io/log) on the web.
 
 See the [Log](/log) as an example.
+----
+github: https://github.com/kodedninja/Delog

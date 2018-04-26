@@ -2,14 +2,13 @@ title: cereal
 ----
 view: project
 ----
-
 description: A context-based encryption scheme
-
 ----
-
-text: #### [Github](https://github.com/kodedninja/cereal) [npm](https://www.npmjs.com/package/crl)
-
-Cereal is an encryption scheme based on the AES256 symmetric algorithm.\
+text: Cereal is an encryption scheme based on the AES256 symmetric algorithm.\
 The keys never leave the two instances and they always change.
 
 [More details](https://github.com/kodedninja/cereal)
+----
+github: https://github.com/kodedninja/cereal
+----
+npm: https://www.npmjs.com/package/crl

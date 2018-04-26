@@ -18,7 +18,9 @@ function wrapper (state, emit) {
 
 	emit('DOMTitleChange', 'hex22' + state.page.url)
 
-	if (state.page.url == '/') return view(state, emit)
+	if (state.page.url == '/' || state.page.url == '/feed') return view(state, emit)
+
+	return view(state, emit)
 
     return html`
       <main>

@@ -1,11 +1,27 @@
 var html = require('choo/html')
 var ov = require('object-values')
 var format = require('../components/format')
+var footer = require('../components/footer')
 
 module.exports = view
 
 function view (state, emit) {
   var images = state.page.files ? ov(state.page.files).filter(file => file.type === 'image')[0] : false
+
+  return html`
+    <main class="db 1 fl">
+	  <div class="pfeed 1 bb">
+	    <div class="f1"><a class="nbb mr1" href="/">/</a> ${state.page.title}</div>
+	  </div>
+	  <div class="p2 bb">
+	  	<div class="f2">${state.page.released ? 'Released on ' + state.page.released : ''}</div>
+	  </div>
+	  <div class="pfeed 1 bb">
+	    <div class="f2">${format(state.page.text)}</div>
+	  </div>
+	  ${footer()}
+    </main>
+  `
 
   return html`
   	<div class="db fl 1">

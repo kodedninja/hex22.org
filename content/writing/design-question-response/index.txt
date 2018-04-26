@@ -1,0 +1,33 @@
+title: Design: Question ― Response
+----
+view: entry
+----
+date: 2018-04-25
+----
+location: Home
+----
+excerpt: When I was young my guitar teacher taught me a way to think about music.
+----
+text: He said that a piece is like a talk: you ask a question with a melody and respond to that with another one.
+
+In reality this is more complex because a melody can be a question somewhere in the piece and a response somewhere else. Or the response can be the question itself.
+
+The point is that this very simple structure makes a flow in the listening and in the writing process. The listener never gets a response without a question (the part where a theme is introduced) and the whole piece won't feel chaotic and disoriented. 
+
+I think about this pattern in interface design too.
+
+On a good interface you don't have to find a question to respond to or a question to your possible response. A good interface asks the right questions that can be answered without thinking. 
+
+As a designer your job is to know what questions may be in the user's head and give him the biggest possible "question mark" on that part of the interface. Asking the right questions about a problem (content) is what design's about. A question can be a button, a link or the urge to scroll. 
+
+As an example take a look at Peer-to-Peer Web's index page. There is a question with a "giant question mark": *which city's event you want to see?*
+
+![Peer-to-Peer Web Index](/content/writing/design-question-response/peer-to-peer-web-index.png)
+
+After you respond (in this case *Berlin*) there's another question: *which event you want to see?*
+
+![Peer-to-Peer Web Berlin](/content/writing/design-question-response/peer-to-peer-web.png)
+
+The only thing you can do is answer that one question. You do this instantly, almost like a reflex.
+
+WIP

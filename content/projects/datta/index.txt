@@ -2,19 +2,12 @@ title: datta
 ----
 view: project
 ----
-
 tags:
   - ''
-
-
 ----
-
 description: A readable plain text structure for strictly formatted data
-
 ----
-
-text: #### [Github](http://github.com/kodedninja/datta) [npm](https://npmjs.com/packages/datta)
-A readable plain text structure for strictly formatted data
+text: A readable plain text structure for strictly formatted data
 ### Installation
 
 ```npm i datta```
@@ -28,3 +21,7 @@ The header contains the names of the fields that are separated by **spaces**. Th
 The ```---``` separates the header from the content.
 
 The content forms columns (every field begins where its name is in the header). The last column is basically doesn't have defined length.
+----
+github: http://github.com/kodedninja/datta
+----
+npm: https://npmjs.com/packages/datta

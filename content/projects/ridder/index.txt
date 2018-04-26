@@ -7,10 +7,12 @@ tags:
 ----
 description: An RSS reader that you own
 ----
-text: #### [Github](https://github.com/kodedninja/ridder) [Site](https://ridder-kodedninja.hashbase.io)
-
-Ridder was made to make content reading transparent and controllable. It's an RSS reader completely owned and run by you, there's no server in the cloud to connect to.
+text: Ridder was made to make content reading transparent and controllable. It's an RSS reader completely owned and run by you, there's no server in the cloud to connect to.
 
 There's no middleman to filter or track what you read.
 
 Currently in pre-alpha.
+----
+github: https://github.com/kodedninja/ridder
+----
+website: https://ridder-kodedninja.hashbase.io

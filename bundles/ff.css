@@ -9,7 +9,7 @@
 html { font-size: 16px }
 
 body, pre {
-	font-family: 'Inter UI', 'helvetica neue', helvetica, sans-serif;
+	font-family: 'Inter UI', 'arial', 'helvetica neue', helvetica, sans-serif;
 	line-height: 1.6;
 	font-size: 1rem;
 	font-feature-settings:"onum" 1, "pnum" 1, "kern" 1, "ss01" 1;
@@ -23,14 +23,14 @@ a {
 }
 
 a:not(.nbb) {
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 0.2em;
+  border-bottom: 4px solid #ddd;
+  padding-bottom: 0.1em;
 }
 
 /* Typography */
 
 h1, h2, h3, h4, h5, h6, .f1, .f2, .f3 {
-	font-family: 'Inter UI', helvetica, sans-serif;
+	font-family: 'Inter UI', 'arial', 'helvetica neue', sans-serif;
 	font-weight: inherit;
 }
 
@@ -67,9 +67,9 @@ h5, .f5 { font-size: 1rem; }
 
 .lh1 { line-height: 1.2 }
 
-p, ul, ol {
-	margin: 2rem 0;
-}
+p, ul, ol { margin: 2rem 0 }
+
+ul, ol { margin-left: 1em }
 
 li {
 	margin: 0.5rem 0;
@@ -101,6 +101,7 @@ code {
 
 /* https://github.com/CreoOne/x001F */
 .\31{width:100.000%}
+.\31 \2f 1{width:100.000%}
 .\31 \2f 2{width:50.000%}
 .\31 \2f 3{width:33.333%}
 .\31 \2f 4{width:25.000%}
@@ -145,6 +146,8 @@ code {
 .pb0 { padding-bottom: 0 }
 .pb2 { padding-bottom: 3rem }
 
+.pfeed { padding: 10rem 3rem }
+
 .m0 { margin: 0 }
 .my0-5 { margin: 0.75rem 0 }
 .my1 { margin: 1.5rem 0 }
@@ -182,6 +185,11 @@ h4 > img {
 hr {
 	border: none;
 	border-bottom: 1px solid #000;
+}
+
+.entry p,
+.entry li {
+	font-size: 1.15rem;
 }
 
 /* Media query customs */

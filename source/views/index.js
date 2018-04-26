@@ -1,4 +1,5 @@
 module.exports = {
+	about: require('./about.js'),
 	album: require('./album.js'),
 	blog: require('./blog.js'),
 	default: require('./default.js'),
@@ -8,5 +9,5 @@ module.exports = {
 	log: require('./log.js'),
 	notfound: require('./notfound.js'),
 	project: require('./project.js'),
-	projects: require('./projects.js'),
+	projects: require('./projects.js')
 }

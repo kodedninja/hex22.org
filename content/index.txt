@@ -1,7 +1,17 @@
-title: hex22
+title: hunor karamán
 ----
 view: home
 ----
-text: dev ― design ― art ― p2p
+text: bio:
 
-[About](/about) ↔ [Work](/projects)
+I work on experimental [tools and projects](/projects) that form a greater system: *life*. My main focus is designing and making functional tools / interfaces. I'm a true fan of peer-to-peer networking, functional design and the *[computer](https://newcomputers.group)*.
+
+Sometimes I [write](/writing) about the things I see or think.
+
+ [0x22](/0x22) is my music project.
+
+ You can visit the [Log](/log) for a consistently updating tracker of my productivity or read my [devlog](https://devlog-kodedninja.hashbase.io).
+
+> "I really enjoy making tools." - Callil Capuozzo
+
+*[Thanks!](/thanks)*

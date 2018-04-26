@@ -1,6 +1,7 @@
 var html = require('choo/html')
 var ov = require('object-values')
 var format = require('../components/format')
+var footer = require('../components/footer')
 
 module.exports = project
 
@@ -11,36 +12,52 @@ function project (state, emit) {
     : false
 
   return html`
-    <div class="db 1 p2 sm-mt4 fl">
-	  <div class="db 1 fl p1 tac">
-		  <div class="f1 lh1-25">
-			${state.page.title}
+    <main class="db 1 fl">
+      <div class="fl pfeed 1 bb">
+	  <div class="f1"><a class="nbb mr1" href="/">/</a><a class="nbb mr1" href="/projects">Work</a><span class="mr1">/</span>${state.page.title}</div>
+      </div>
+	  <div class="fl p2 1 bb">
+        <div class="f2">${state.page.description ? state.page.description : ''}</div>
+      </div>
+	  <div class="fl 1 f2">
+        ${links()}
+      </div>
+	  <div class="p2 dib fl bb 1">
+		  <div class="${images.length > 0 ? '2/5' : '1'} m-1 dib fl">
+		  	<div class="f3">${format(state.page.text)}</div>
 		  </div>
-		  <div class="pt1 tcgrey">
-			${state.page.description ? state.page.description : ''}
+		  <div class="3/5 m-1 dib fl p1">
+		  	${images ? images.map(image) : ''}
 		  </div>
 	  </div>
-      <div class="1/3 m-1 dib fl">
-        <div class="t0 psst">
-          <div class="pt1 db">
-            ${format(state.page.text)}
-          </div>
-		  <div class="f6">
-		  	<a href="/projects" class="nbb">← Back</a>
-		  </div>
-        </div>
-      </div>
-      <div class="2/3 m-1 sm-mt4 dib fl">
-        ${images ? images.map(image) : ''}
-      </div>
-    </div>
+      ${footer()}
+    </main>
   `
 
   function image (image) {
     return html`
-      <div class="p1">
+      <div class="1 my1">
         <img class="c12 db" src="${image.path}" />
       </div>
     `
+  }
+
+  function links() {
+	  var l = []
+	  if (state.page.github) l.push({t: 'Github', url: state.page.github})
+	  if (state.page.website) l.push({t: 'Website', url: state.page.website})
+	  if (state.page.npm) l.push({t: 'npm', url: state.page.npm})
+
+	  return html`
+	  	<div class="1 db">
+			${l.map(link)}
+		</div>
+	  `
+
+	  function link(state, id) {
+		  return html`
+		  	<a href="${state.url}" class="nbb p2 tac bb dib fl 1/${l.length} ${id < l.length - 1 ? 'br' : ''}">${state.t}</a>
+		  `
+	  }
   }
 }

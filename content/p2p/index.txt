@@ -2,7 +2,7 @@ title: Peer-to-Peer
 ----
 view: default
 ----
-text: These are the peer-to-peer projects I was/am working on in chronological order:
+text: These are the peer-to-peer projects I was / am working on in chronological order:
 
 1. [ntain](/projects/ntain) ― Peer-to-Peer file sharing site → 2017
 2. [orkl](/projects/orkl) ― Super simple peer-to-peer blogging site → 2018

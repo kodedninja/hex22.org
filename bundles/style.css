@@ -3,9 +3,8 @@
 h4 a { margin-right: 8px; }
 
 blockquote {
-    border-left: 1px solid #999;
+    border-left: 4px solid #ddd;
     padding-left: 30px;
-    font-size: 1.25rem;
     color: #999;
 }
 

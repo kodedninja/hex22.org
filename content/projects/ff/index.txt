@@ -2,9 +2,8 @@ title: ff
 ----
 view: project
 ----
-
 description: simple functional css library
-
 ----
-
 text: **ff** was inspired from other functional css libraries ([Tachyons](https://tachyons.io) and more) and formed to the way I prefer it. I also took some code from them. *Thanks!*
+----
+github: https://github.com/kodedninja/ff

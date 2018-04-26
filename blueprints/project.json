@@ -16,6 +16,21 @@
     "text": {
       "label": "Text",
       "type": "textarea"
+    },
+	"github": {
+	  "label": "Github",
+	  "type": "text",
+	  "width": "1/2"
+	},
+	"website": {
+	  "label": "Website",
+	  "type": "text",
+	  "width": "1/2"
+    },
+    "npm": {
+	  "label": "npm",
+	  "type": "text",
+	  "width": "1/2"
     }
   }
 }

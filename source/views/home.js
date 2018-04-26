@@ -12,17 +12,30 @@ function home (state, emit) {
 	var mobile = document.body.clientWidth < 900
 
   	return html`
- 		<main>
-	      	<div class="fl 1 db p2 tcwhite" style="background: #000;">
-	        	<div class="fl db 1/2 fgiant tar">${state.content['/'].title}</div>
-				<div class="db 1 fl mt1 f4">
-					<div class="m-1 1/2 dib fr">
-						${text()}
-					</div>
-				</div>
-		  	</div>
-			${footer()}
-		</main>
+	<main class="db 1 fl">
+	  <div class="pfeed 1 bb">
+		<div class="f1">${state.page.title}</div>
+	  </div>
+	  <div class="pfeed 1 bb">
+		<div class="f1">currently: freelance, engineering <a href="/p2p">peer-to-peer tools</a>, school</div>
+	  </div>
+	  <div class="pfeed 1 bb">
+		<div class="f1">previously: <a href="https://pictogon.com/">pictogon</a></div>
+	  </div>
+	  <div class="p2 1 bb">
+		<div class="f1"><a href="https://github.com/kodedninja" target="_blank">github</a></div>
+	  </div>
+	  <div class="p2 1 bb">
+		<div class="f1"><a href="https://are.na/hunor-karaman" target="_blank">are.na</a></div>
+	  </div>
+	  <div class="p2 1 bb">
+		<div class="f1"><a href="mailto:karamanhunor@protonmail.com">email</a></div>
+	  </div>
+	  <div class="pfeed 1 bb">
+	    <div class="f2">${format(state.page.text)}</div>
+	  </div>
+	  ${footer()}
+	</main>
 	`
 
   function sectionTitle (title) {

@@ -2,6 +2,7 @@ var html = require('choo/html')
 var path = require('path')
 var ov = require('object-values')
 var format = require('../components/format')
+var footer = require('../components/footer')
 
 module.exports = view
 
@@ -9,38 +10,40 @@ function view (state, emit) {
   var logs = state.page.files ? ov(state.page.files) : false
 
   return html`
-    <div class="db p2 sm-mt4 1">
-		<div class="db c100 tac f2 projecttitle">
-			Log
-		</div>
-		<div class="2/3 mxa m-1">
-			<div class="f4">
-				Logging for <b><span id="since"></span></b>.
-			</div>
+    <main class="db 1 fl">
+	  <div class="pfeed 1 bb">
+	    <div class="f1"><a class="nbb mr1" href="/">/</a> ${state.page.title}</div>
+	  </div>
+	  <div class="pfeed 1 bb">
+		  <div class="f4">
+			  Logging for <b><span id="since"></span></b>.
+		  </div>
 
-			<div class="log">
-				<div id="total-wrapper" class="db 1" style="height: 200px"></div>
+		  <div class="log">
+			  <div id="total-wrapper" class="db 1" style="height: 200px"></div>
 
-				<h3 class="my1">Sectors</h3>
-				<div id="sectors"></div>
+			  <h3 class="my1">Sectors</h3>
+			  <div id="sectors"></div>
 
-				<h3 class="my1">Projects</h3>
-				<div id="projects"></div>
-				<script>
-					var elem = document.getElementById('total-wrapper');
-					var sectors = document.getElementById('sectors');
-					var projects = document.getElementById('projects');
-					var since = document.getElementById('since');
+			  <h3 class="my1">Projects</h3>
+			  <div id="projects"></div>
+			  <script>
+				  var elem = document.getElementById('total-wrapper');
+				  var sectors = document.getElementById('sectors');
+				  var projects = document.getElementById('projects');
+				  var since = document.getElementById('since');
 
-                    var log = new Delog('/assets/log.json', function() {
-						log.days(since);
-						log.total(elem, 80, {color: '#000', empties: true});
-						log.sectors(sectors);
-						log.projects(projects);
-					});
-				</script>
-			</div>
-    </div>
+				  var log = new Delog('/assets/log.json', function() {
+					  log.days(since);
+					  log.total(elem, 100, {color: '#000', empties: true});
+					  log.sectors(sectors);
+					  log.projects(projects);
+				  });
+			  </script>
+		  </div>
+	  </div>
+	  ${footer()}
+    </main>
   `
 
   function image () {
