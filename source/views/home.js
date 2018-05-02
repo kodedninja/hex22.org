@@ -17,10 +17,10 @@ function home (state, emit) {
 		<div class="f1">${state.page.title}</div>
 	  </div>
 	  <div class="pfeed 1 bb">
-		<div class="f1">currently: freelance, engineering <a href="/p2p">peer-to-peer tools</a>, school</div>
+		<div class="f1">${format('currently: ' + state.page.currently)}</div>
 	  </div>
 	  <div class="pfeed 1 bb">
-		<div class="f1">previously: <a href="https://pictogon.com/">pictogon</a></div>
+		<div class="f1">${format('previously: ' + state.page.previously)}</div>
 	  </div>
 	  <div class="p2 1 bb">
 		<div class="f1"><a href="https://github.com/kodedninja" target="_blank">github</a></div>

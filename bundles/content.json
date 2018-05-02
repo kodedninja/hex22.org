@@ -128,41 +128,6 @@
     "files": {},
     "pages": {}
   },
-  "/0x22": {
-    "title": "0x22 is an ambient music project",
-    "view": "default",
-    "text": "#### [Bandcamp](https://0x22.bandcamp.com)\n\nSince 2015, after bands and instrumental music projects, [I](/karaman-hunor)'ve started composing electronical music. It started with making noises for a progressive metal album, but later I've found the long sine waves and fell in love with the ambient / drone sounding.\n\nI'm inspired by feelings and the music of talented musicians like Nils Frahm, Celer or Ólafur Arnalds.\n\n# Releases\n[Metaphases](/0x22/metaphases) - 2017 December\\\n[glacio](/0x22/glacio) - 2017 December\\\n[With love from very small places](/0x22/with-love-from-very-small-places) - 2017 November\\\n[It was dawn when the old man died](/0x22/it-was-dawn-when-the-old-man-died) - 2017 October\\\n[Nothingness EP (early works under the moniker Shiip)](https://0x22.bandcamp.com/album/nothingness-ep) - 2017 February",
-    "name": "0x22",
-    "path": "/content/0x22",
-    "url": "/0x22",
-    "files": {},
-    "pages": {
-      "glacio": {
-        "name": "glacio",
-        "path": "/content/0x22/glacio",
-        "url": "/0x22/glacio",
-        "source": "/content/0x22/glacio"
-      },
-      "it-was-dawn-when-the-old-man-died": {
-        "name": "it-was-dawn-when-the-old-man-died",
-        "path": "/content/0x22/it-was-dawn-when-the-old-man-died",
-        "url": "/0x22/it-was-dawn-when-the-old-man-died",
-        "source": "/content/0x22/it-was-dawn-when-the-old-man-died"
-      },
-      "metaphases": {
-        "name": "metaphases",
-        "path": "/content/0x22/metaphases",
-        "url": "/0x22/metaphases",
-        "source": "/content/0x22/metaphases"
-      },
-      "with-love-from-very-small-places": {
-        "name": "with-love-from-very-small-places",
-        "path": "/content/0x22/with-love-from-very-small-places",
-        "url": "/0x22/with-love-from-very-small-places",
-        "source": "/content/0x22/with-love-from-very-small-places"
-      }
-    }
-  },
   "/projects": {
     "title": "Work",
     "view": "projects",
@@ -288,6 +253,16 @@
       }
     }
   },
+  "/thanks": {
+    "title": "Thanks!",
+    "view": "default",
+    "text": "# This site is based on the following technologies and projects.\n\n- [Enoki](https://enoki.site/), an experimental ~~platform~~ tool for peer-to-peer publishing.\n- [Choo](https://choo.io/), a front-end framework that loves you.\n- [Inter UI](https://rsms.me/inter), the most legible typeface on computer screens.\n- [Beaker Browser](https://beakerbrowser.com/), the web-browser of freedom.\n- [Dat Protocol](https://datproject.org/), the hidden force in this whole.\n\n# Shoutouts to the following people who shape my creative individuality\n[Jon-Kyle](https;//jon-kyle.com) ↔ [Devine](https://xxiivv.com) ↔ [Callil](https://callil.com) ↔ [Alex](https://alexsingh.com) ↔ [Edouard](https://edouard.us)\n\n# You should check out\n[New Computer Working Group](https://new-computers.group), [Peer-to-Peer Day](https://peer-to-peer-web.com), [minimal.gallery](https://minimal.gallery), [Are.na](https://are.na)\n\nThanks to [Gavin Atkinson](https://gav.space) whose site inspired me in this design.",
+    "name": "thanks",
+    "path": "/content/thanks",
+    "url": "/thanks",
+    "files": {},
+    "pages": {}
+  },
   "/writing": {
     "title": "Writing",
     "view": "blog",
@@ -323,15 +298,40 @@
       }
     }
   },
-  "/thanks": {
-    "title": "Thanks!",
+  "/0x22": {
+    "title": "0x22 is an ambient music project",
     "view": "default",
-    "text": "# This site is based on the following technologies and projects.\n\n- [Enoki](https://enoki.site/), an experimental ~~platform~~ tool for peer-to-peer publishing.\n- [Choo](https://choo.io/), a front-end framework that loves you.\n- [Inter UI](https://rsms.me/inter), the most legible typeface on computer screens.\n- [Beaker Browser](https://beakerbrowser.com/), the web-browser of freedom.\n- [Dat Protocol](https://datproject.org/), the hidden force in this whole.\n\n# Shoutouts to the following people who shape my creative individuality\n[Jon-Kyle](https;//jon-kyle.com) ↔ [Devine](https://xxiivv.com) ↔ [Callil](https://callil.com) ↔ [Alex](https://alexsingh.com) ↔ [Edouard](https://edouard.us)\n\n# You should check out\n[New Computer Working Group](https://new-computers.group), [Peer-to-Peer Day](https://peer-to-peer-web.com), [minimal.gallery](https://minimal.gallery), [Are.na](https://are.na)\n\nThanks to [Gavin Atkinson](https://gav.space) whose site inspired me in this design.",
-    "name": "thanks",
-    "path": "/content/thanks",
-    "url": "/thanks",
+    "text": "[Bandcamp](https://0x22.bandcamp.com)\n\nSince 2015, after bands and instrumental music projects, [I](/karaman-hunor)'ve started composing electronical music. It started with making noises for a progressive metal album, but later I've found the long sine waves and fell in love with the ambient / drone sounding.\n\nI'm inspired by feelings and the music of talented musicians like Nils Frahm, Celer or Ólafur Arnalds.\n\n# Releases\n[Metaphases](/0x22/metaphases) - 2017 December\\\n[glacio](/0x22/glacio) - 2017 December\\\n[With love from very small places](/0x22/with-love-from-very-small-places) - 2017 November\\\n[It was dawn when the old man died](/0x22/it-was-dawn-when-the-old-man-died) - 2017 October\\\n[Nothingness EP (early works under the moniker Shiip)](https://0x22.bandcamp.com/album/nothingness-ep) - 2017 February",
+    "name": "0x22",
+    "path": "/content/0x22",
+    "url": "/0x22",
     "files": {},
-    "pages": {}
+    "pages": {
+      "glacio": {
+        "name": "glacio",
+        "path": "/content/0x22/glacio",
+        "url": "/0x22/glacio",
+        "source": "/content/0x22/glacio"
+      },
+      "it-was-dawn-when-the-old-man-died": {
+        "name": "it-was-dawn-when-the-old-man-died",
+        "path": "/content/0x22/it-was-dawn-when-the-old-man-died",
+        "url": "/0x22/it-was-dawn-when-the-old-man-died",
+        "source": "/content/0x22/it-was-dawn-when-the-old-man-died"
+      },
+      "metaphases": {
+        "name": "metaphases",
+        "path": "/content/0x22/metaphases",
+        "url": "/0x22/metaphases",
+        "source": "/content/0x22/metaphases"
+      },
+      "with-love-from-very-small-places": {
+        "name": "with-love-from-very-small-places",
+        "path": "/content/0x22/with-love-from-very-small-places",
+        "url": "/0x22/with-love-from-very-small-places",
+        "source": "/content/0x22/with-love-from-very-small-places"
+      }
+    }
   },
   "/projects/cereal": {
     "title": "cereal",
@@ -440,10 +440,25 @@
     "files": {},
     "pages": {}
   },
+  "/writing/design-question-response": {
+    "title": "Design: Question ― Response",
+    "view": "entry",
+    "date": "2018-04-25",
+    "location": "Home",
+    "excerpt": "When I was a child my guitar teacher taught me a simple way to think about music composition.",
+    "text": "He said that a piece is like a talk: you ask a question with a melody and respond to that with another one.\n\nIn reality this can be more complex because a melody can be a question somewhere in the piece and a response somewhere else or the response can be the question itself. Basically these variations make the music unpredictable.\n\nThe point is that this very simple structure makes a flow in the listening and in the writing process. The listener never receives a response without a question (the part where a theme is introduced) and the whole piece won't feel chaotic and disoriented. \n\nI think about this pattern in interface design too.\n\nOn a good interface you don't have to find a question to respond to or the question to your possible response (for example searching for the login field or button). A good interface asks the right questions at the right time and these can be answered without much thinking. Clicking, scrolling, tapping in our society work like reflexes, anyways.\n\nAs a designer your job is to know what questions may be in the user's head and give him the biggest possible \"question mark\" on that part of the interface. Asking the right questions about a problem is what design's about. A question can be the content, a button, a link or the urge to scroll, etc...\n\nSo, before including something inside an interface and before thinking hours on its location, I try to find the question that element should respond to.\n\n[WIP]",
+    "name": "design-question-response",
+    "path": "/content/writing/design-question-response",
+    "url": "/writing/design-question-response",
+    "files": {},
+    "pages": {}
+  },
   "/": {
     "title": "hunor karamán",
     "view": "home",
     "text": "bio:\n\nI work on experimental [tools and projects](/projects) that form a greater system: *life*. My main focus is designing and making functional tools / interfaces. I'm a true fan of peer-to-peer networking, functional design and the *[computer](https://newcomputers.group)*.\n\nSometimes I [write](/writing) about the things I see or think.\n\n [0x22](/0x22) is my music project.\n\n You can visit the [Log](/log) for a consistently updating tracker of my productivity or read my [devlog](https://devlog-kodedninja.hashbase.io).\n\n> \"I really enjoy making tools.\" - Callil Capuozzo\n\n*[Thanks!](/thanks)*",
+    "currently": "freelance, engineering [peer-to-peer tools](/p2p), school",
+    "previously": "[pictogon](https://pictogon.com)",
     "name": "content",
     "path": "/content",
     "url": "/",
@@ -473,17 +488,17 @@
         "url": "/p2p",
         "source": "/content/p2p"
       },
-      "0x22": {
-        "name": "0x22",
-        "path": "/content/0x22",
-        "url": "/0x22",
-        "source": "/content/0x22"
-      },
       "projects": {
         "name": "projects",
         "path": "/content/projects",
         "url": "/projects",
         "source": "/content/projects"
+      },
+      "thanks": {
+        "name": "thanks",
+        "path": "/content/thanks",
+        "url": "/thanks",
+        "source": "/content/thanks"
       },
       "writing": {
         "name": "writing",
@@ -491,11 +506,11 @@
         "url": "/writing",
         "source": "/content/writing"
       },
-      "thanks": {
-        "name": "thanks",
-        "path": "/content/thanks",
-        "url": "/thanks",
-        "source": "/content/thanks"
+      "0x22": {
+        "name": "0x22",
+        "path": "/content/0x22",
+        "url": "/0x22",
+        "source": "/content/0x22"
       }
     }
   },
@@ -507,7 +522,7 @@
       "December",
       "I don't know my feelings"
     ],
-    "text": "#### [Bandcamp](https://0x22.bandcamp.com/album/glacio)\n\ni love winter\\\nand the cold and the snow\\\nand i love the sound of the ice\\\nbreaking itself on the stone\n\n\"December\" was written in December, 2017.\\\n\"I don't know my feelings\" was written in February, 2017 (found the file now).",
+    "text": "[Bandcamp](https://0x22.bandcamp.com/album/glacio)\n\ni love winter\\\nand the cold and the snow\\\nand i love the sound of the ice\\\nbreaking itself on the stone\n\n\"December\" was written in December, 2017.\\\n\"I don't know my feelings\" was written in February, 2017 (found the file now).",
     "name": "glacio",
     "path": "/content/0x22/glacio",
     "url": "/0x22/glacio",
@@ -532,7 +547,7 @@
       "It was dawn when the old man died I.",
       "It was dawn when the old man died II."
     ],
-    "text": "#### [Bandcamp](https://0x22.bandcamp.com/album/it-was-dawn-when-the-old-man-died)\n\nAt dawn warmer waves arrive to the surface of Earth. They break up into millions of other waves, then return into the atmosphere. These waves are the reason that life exists on Earth. These waves our the reason why we die.\n\n\"It was dawn when the old man died I.\" presents 3 perspectives of a dawn. Is just a simple dawn the same for a dying man, for a couple or for a child? Is it the same for you and me?\n\n\"It was dawn when the old man died II.\" is an experimental slowed down version of the first track. Doesn't sure which one describes more the concept.",
+    "text": "[Bandcamp](https://0x22.bandcamp.com/album/it-was-dawn-when-the-old-man-died)\n\nAt dawn warmer waves arrive to the surface of Earth. They break up into millions of other waves, then return into the atmosphere. These waves are the reason that life exists on Earth. These waves our the reason why we die.\n\n\"It was dawn when the old man died I.\" presents 3 perspectives of a dawn. Is just a simple dawn the same for a dying man, for a couple or for a child? Is it the same for you and me?\n\n\"It was dawn when the old man died II.\" is an experimental slowed down version of the first track. Doesn't sure which one describes more the concept.",
     "name": "it-was-dawn-when-the-old-man-died",
     "path": "/content/0x22/it-was-dawn-when-the-old-man-died",
     "url": "/0x22/it-was-dawn-when-the-old-man-died",
@@ -556,7 +571,7 @@
     "tracks": [
       "Metaphases"
     ],
-    "text": "#### [Bandcamp](https://0x22.bandcamp.com/album/metaphases)\n\nRecorded in December 2017. All music by 0x22.",
+    "text": "[Bandcamp](https://0x22.bandcamp.com/album/metaphases)\n\nRecorded in December 2017. All music by 0x22.",
     "name": "metaphases",
     "path": "/content/0x22/metaphases",
     "url": "/0x22/metaphases",
@@ -584,7 +599,7 @@
       "Hearts and Magnets",
       "Sun Light"
     ],
-    "text": "#### [Bandcamp](https://0x22.bandcamp.com/album/with-love-from-very-small-places)\n\nIn life sometimes we stuck into small places, places that make us feel closed and paralysed. Will a hand help you out from there?\n\n\"With love from very small places\" is a concept album, written for my girlfriend for our anniversary. It's a journey to the surface from somewhere below. From a very small place.",
+    "text": "[Bandcamp](https://0x22.bandcamp.com/album/with-love-from-very-small-places)\n\nIn life sometimes we stuck into small places, places that make us feel closed and paralysed. Will a hand help you out from there?\n\n\"With love from very small places\" is a concept album, written for my girlfriend for our anniversary. It's a journey to the surface from somewhere below. From a very small place.",
     "name": "with-love-from-very-small-places",
     "path": "/content/0x22/with-love-from-very-small-places",
     "url": "/0x22/with-love-from-very-small-places",
@@ -977,38 +992,6 @@
         "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/writing/later-here/hardly-everything.png",
         "extension": ".png",
         "filename": "hardly-everything.png",
-        "type": "image"
-      }
-    },
-    "pages": {}
-  },
-  "/writing/design-question-response": {
-    "title": "Design: Question ― Response",
-    "view": "entry",
-    "date": "2018-04-25",
-    "location": "Home",
-    "excerpt": "When I was young my guitar teacher taught me a way to think about music.",
-    "text": "He said that a piece is like a talk: you ask a question with a melody and respond to that with another one.\n\nIn reality this is more complex because a melody can be a question somewhere in the piece and a response somewhere else. Or the response can be the question itself.\n\nThe point is that this very simple structure makes a flow in the listening and in the writing process. The listener never gets a response without a question (the part where a theme is introduced) and the whole piece won't feel chaotic and disoriented. \n\nI think about this pattern in interface design too.\n\nOn a good interface you don't have to find a question to respond to or a question to your possible response. A good interface asks the right questions that can be answered without thinking. \n\nAs a designer your job is to know what questions may be in the user's head and give him the biggest possible \"question mark\" on that part of the interface. Asking the right questions about a problem (content) is what design's about. A question can be a button, a link or the urge to scroll. \n\nAs an example take a look at Peer-to-Peer Web's index page. There is a question with a \"giant question mark\": *which city's event you want to see?*\n\n![Peer-to-Peer Web Index](/content/writing/design-question-response/peer-to-peer-web-index.png)\n\nAfter you respond (in this case *Berlin*) there's another question: *which event you want to see?*\n\n![Peer-to-Peer Web Berlin](/content/writing/design-question-response/peer-to-peer-web.png)\n\nThe only thing you can do is answer that one question. You do this instantly, almost like a reflex.\n\nWIP",
-    "name": "design-question-response",
-    "path": "/content/writing/design-question-response",
-    "url": "/writing/design-question-response",
-    "files": {
-      "peer-to-peer-web.png": {
-        "name": "peer-to-peer-web",
-        "path": "/content/writing/design-question-response/peer-to-peer-web.png",
-        "url": "/writing/design-question-response/peer-to-peer-web.png",
-        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/writing/design-question-response/peer-to-peer-web.png",
-        "extension": ".png",
-        "filename": "peer-to-peer-web.png",
-        "type": "image"
-      },
-      "peer-to-peer-web-index.png": {
-        "name": "peer-to-peer-web-index",
-        "path": "/content/writing/design-question-response/peer-to-peer-web-index.png",
-        "url": "/writing/design-question-response/peer-to-peer-web-index.png",
-        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/writing/design-question-response/peer-to-peer-web-index.png",
-        "extension": ".png",
-        "filename": "peer-to-peer-web-index.png",
         "type": "image"
       }
     },

@@ -1,0 +1,21 @@
+{
+  "title": "Home",
+  "fields": {
+    "title": {
+      "label": "Title",
+      "type": "text"
+    },
+	"currently": {
+      "label": "Currently",
+      "type": "textarea"
+    },
+	"previously": {
+      "label": "Previously",
+      "type": "textarea"
+    },
+    "text": {
+      "label": "Text",
+      "type": "textarea"
+    }
+  }
+}

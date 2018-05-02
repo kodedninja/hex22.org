@@ -2,19 +2,13 @@ title: glacio
 ----
 view: album
 ----
-
 released: 2017-12-14
-
 ----
-
 tracks:
   - December
   - I don't know my feelings
-
-
 ----
-
-text: #### [Bandcamp](https://0x22.bandcamp.com/album/glacio)
+text: [Bandcamp](https://0x22.bandcamp.com/album/glacio)
 
 i love winter\
 and the cold and the snow\

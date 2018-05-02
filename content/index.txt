@@ -15,3 +15,7 @@ Sometimes I [write](/writing) about the things I see or think.
 > "I really enjoy making tools." - Callil Capuozzo
 
 *[Thanks!](/thanks)*
+----
+currently: freelance, engineering [peer-to-peer tools](/p2p), school
+----
+previously: [pictogon](https://pictogon.com)

@@ -6,28 +6,20 @@ date: 2018-04-25
 ----
 location: Home
 ----
-excerpt: When I was young my guitar teacher taught me a way to think about music.
+excerpt: When I was a child my guitar teacher taught me a simple way to think about music composition.
 ----
 text: He said that a piece is like a talk: you ask a question with a melody and respond to that with another one.
 
-In reality this is more complex because a melody can be a question somewhere in the piece and a response somewhere else. Or the response can be the question itself.
+In reality this can be more complex because a melody can be a question somewhere in the piece and a response somewhere else or the response can be the question itself. Basically these variations make the music unpredictable.
 
-The point is that this very simple structure makes a flow in the listening and in the writing process. The listener never gets a response without a question (the part where a theme is introduced) and the whole piece won't feel chaotic and disoriented. 
+The point is that this very simple structure makes a flow in the listening and in the writing process. The listener never receives a response without a question (the part where a theme is introduced) and the whole piece won't feel chaotic and disoriented. 
 
 I think about this pattern in interface design too.
 
-On a good interface you don't have to find a question to respond to or a question to your possible response. A good interface asks the right questions that can be answered without thinking. 
+On a good interface you don't have to find a question to respond to or the question to your possible response (for example searching for the login field or button). A good interface asks the right questions at the right time and these can be answered without much thinking. Clicking, scrolling, tapping in our society work like reflexes, anyways.
 
-As a designer your job is to know what questions may be in the user's head and give him the biggest possible "question mark" on that part of the interface. Asking the right questions about a problem (content) is what design's about. A question can be a button, a link or the urge to scroll. 
+As a designer your job is to know what questions may be in the user's head and give him the biggest possible "question mark" on that part of the interface. Asking the right questions about a problem is what design's about. A question can be the content, a button, a link or the urge to scroll, etc...
 
-As an example take a look at Peer-to-Peer Web's index page. There is a question with a "giant question mark": *which city's event you want to see?*
+So, before including something inside an interface and before thinking hours on its location, I try to find the question that element should respond to.
 
-![Peer-to-Peer Web Index](/content/writing/design-question-response/peer-to-peer-web-index.png)
-
-After you respond (in this case *Berlin*) there's another question: *which event you want to see?*
-
-![Peer-to-Peer Web Berlin](/content/writing/design-question-response/peer-to-peer-web.png)
-
-The only thing you can do is answer that one question. You do this instantly, almost like a reflex.
-
-WIP
+[WIP]

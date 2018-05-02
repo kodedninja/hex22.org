@@ -67,7 +67,7 @@ h5, .f5 { font-size: 1rem; }
 
 .lh1 { line-height: 1.2 }
 
-p, ul, ol { margin: 2rem 0 }
+p, ul, ol { margin: 2.5rem 0 }
 
 ul, ol { margin-left: 1em }
 
@@ -200,9 +200,12 @@ hr {
 	h1, .f1 { font-size: 2.25rem; }
 	h2, .f2 { font-size: 2.0rem; }
 
+	p, ul, ol { margin: 2rem 0 }
+
     .p0-5 { padding: 0.5rem }
     .p1 { padding: 0.75rem }
     .p2 { padding: 1.5rem }
+	.pfeed { padding: 5rem 1.5rem }
     .pt1 { padding-top: 1rem }
     .px1 { padding-left: 0.75rem; padding-right: 0.75rem; }
 	.px2 { padding-left: 1.5rem; padding-right: 1.5rem; }
@@ -211,8 +214,4 @@ hr {
     .my2 { margin: 1.5rem 0 }
     .mt2 { margin-top: 1.5rem }
     .mt3 { margin-top: 2rem }
-
-    p > img {
-        width: 100%;
-    }
 }

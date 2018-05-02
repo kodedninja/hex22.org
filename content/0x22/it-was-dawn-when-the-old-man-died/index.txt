@@ -2,19 +2,13 @@ title: It was dawn when the old man died
 ----
 view: album
 ----
-
 released: 2017-10-01
-
 ----
-
 tracks:
   - It was dawn when the old man died I.
   - It was dawn when the old man died II.
-
-
 ----
-
-text: #### [Bandcamp](https://0x22.bandcamp.com/album/it-was-dawn-when-the-old-man-died)
+text: [Bandcamp](https://0x22.bandcamp.com/album/it-was-dawn-when-the-old-man-died)
 
 At dawn warmer waves arrive to the surface of Earth. They break up into millions of other waves, then return into the atmosphere. These waves are the reason that life exists on Earth. These waves our the reason why we die.
 

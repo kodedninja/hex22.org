@@ -11,7 +11,7 @@ function view (state, emit) {
   return html`
     <main class="db 1 fl">
 	  <div class="pfeed 1 bb">
-	    <div class="f1"><a class="nbb mr1" href="/">/</a> ${state.page.title}</div>
+	    <div class="f1"><a class="nbb mr1" href="/">/</a><a class="nbb mr1" href="/0x22">0x22</a><span class="mr1">/</span> ${state.page.title}</div>
 	  </div>
 	  <div class="p2 bb">
 	  	<div class="f2">${state.page.released ? 'Released on ' + state.page.released : ''}</div>
@@ -19,38 +19,24 @@ function view (state, emit) {
 	  <div class="pfeed 1 bb">
 	    <div class="f2">${format(state.page.text)}</div>
 	  </div>
+	  <div class="pfeed 1 bb">
+	  	${tracks(state, emit)}
+	  </div>
 	  ${footer()}
     </main>
   `
 
-  return html`
-  	<div class="db fl 1">
-		<div class="db 2/3 m-1 mxa p1">
-			<div class="1 p1">
-				<div class="f2">${state.page.title}</div>
-				<span class="tcgrey db mb1">${state.page.released ? 'Released on ' + state.page.released : ''}</span>
-			</div>
-			<div class="c100 1 mt4 p1">
-				${format(state.page.text)}
-			</div>
-			${tracks(state, emit)}
-		</div>
-	</div>
-  `
-
   	function tracks(state, emit) {
 	  return html`
-	  	<div class="db 1/2 m-1 mxa ba" style="background: #eee; border-color: #eee;">
-			${images ? image(images) : ''}
-			<div class="p1 ">
-				${state.page.tracks ? state.page.tracks.map(track) : ''}
-			</div>
+	  	<div class="db 1 f2">
+			<span>Tracks:</span>
+			${state.page.tracks ? state.page.tracks.map(track) : ''}
 		</div>
 	  `
 
-	  function track(track) {
+	  function track(track, id) {
 		  return html`
-		  	<div class="db 1">- ${track}</div>
+		  	<div class="db 1">${id + 1}. ${track}</div>
 		  `
 	  }
 
