@@ -197,7 +197,8 @@ hr {
 @media (max-width: 900px) {
 	.m-\31{ width:100.000% }
 
-	.fgiant { font-size: 6rem }
+	h1, .f1 { font-size: 2.25rem; }
+	h2, .f2 { font-size: 2.0rem; }
 
     .p0-5 { padding: 0.5rem }
     .p1 { padding: 0.75rem }

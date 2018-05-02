@@ -1,5 +1,4 @@
 module.exports = {
-	about: require('./about.js'),
 	album: require('./album.js'),
 	blog: require('./blog.js'),
 	default: require('./default.js'),

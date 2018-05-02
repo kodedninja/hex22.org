@@ -152,7 +152,7 @@ app.route('*', require('./views/wrapper'));
 
 // start
 if (!module.parent) app.mount('main');else module.exports = app;
-},{"./plugins/project_filter":196,"./plugins/scroll":197,"./views/wrapper":210,"choo":14,"choo-resize":12,"enoki/choo":17}],5:[function(require,module,exports){
+},{"./plugins/project_filter":196,"./plugins/scroll":197,"./views/wrapper":209,"choo":14,"choo-resize":12,"enoki/choo":17}],5:[function(require,module,exports){
 (function (global){
 'use strict';
 
@@ -22172,84 +22172,6 @@ function scroll(state, emitter) {
 }
 },{}],198:[function(require,module,exports){
 var html = require('choo/html');
-var format = require('../components/format');
-var footer = require('../components/footer');
-
-module.exports = view;
-
-function view(state, emit) {
-    return function () {
-
-        var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
-        var bel20 = document.createElement("main");
-        bel20.setAttribute("class", "db 1 fl");
-        var bel2 = document.createElement("div");
-        bel2.setAttribute("class", "pfeed 1 bb");
-        var bel1 = document.createElement("div");
-        bel1.setAttribute("class", "f1");
-        var bel0 = document.createElement("a");
-        bel0.setAttribute("href", "/");
-        bel0.setAttribute("class", "nbb mr1");
-        ac(bel0, ["/"]);
-        ac(bel1, [bel0, " ", arguments[0]]);
-        ac(bel2, ["\n\t    ", bel1, "\n\t  "]);
-        var bel5 = document.createElement("div");
-        bel5.setAttribute("class", "pfeed 1 bb");
-        var bel4 = document.createElement("div");
-        bel4.setAttribute("class", "f1");
-        var bel3 = document.createElement("a");
-        bel3.setAttribute("href", "/p2p");
-        ac(bel3, ["peer-to-peer tools"]);
-        ac(bel4, ["currently: freelance, engineering ", bel3, ", school"]);
-        ac(bel5, ["\n\t\t", bel4, "\n\t  "]);
-        var bel8 = document.createElement("div");
-        bel8.setAttribute("class", "pfeed 1 bb");
-        var bel7 = document.createElement("div");
-        bel7.setAttribute("class", "f1");
-        var bel6 = document.createElement("a");
-        bel6.setAttribute("href", "https://pictogon.com/");
-        ac(bel6, ["pictogon"]);
-        ac(bel7, ["previously: ", bel6]);
-        ac(bel8, ["\n\t\t", bel7, "\n\t  "]);
-        var bel11 = document.createElement("div");
-        bel11.setAttribute("class", "p2 1 bb");
-        var bel10 = document.createElement("div");
-        bel10.setAttribute("class", "f1");
-        var bel9 = document.createElement("a");
-        bel9.setAttribute("href", "https://github.com/kodedninja");
-        ac(bel9, ["github"]);
-        ac(bel10, [bel9]);
-        ac(bel11, ["\n\t\t", bel10, "\n\t  "]);
-        var bel14 = document.createElement("div");
-        bel14.setAttribute("class", "p2 1 bb");
-        var bel13 = document.createElement("div");
-        bel13.setAttribute("class", "f1");
-        var bel12 = document.createElement("a");
-        bel12.setAttribute("href", "https://are.na/hunor-karaman");
-        ac(bel12, ["are.na"]);
-        ac(bel13, [bel12]);
-        ac(bel14, ["\n\t\t", bel13, "\n\t  "]);
-        var bel17 = document.createElement("div");
-        bel17.setAttribute("class", "p2 1 bb");
-        var bel16 = document.createElement("div");
-        bel16.setAttribute("class", "f1");
-        var bel15 = document.createElement("a");
-        bel15.setAttribute("href", "mailto:karamanhunor@protonmail.com");
-        ac(bel15, ["email"]);
-        ac(bel16, [bel15]);
-        ac(bel17, ["\n\t\t", bel16, "\n\t  "]);
-        var bel19 = document.createElement("div");
-        bel19.setAttribute("class", "pfeed 1 bb");
-        var bel18 = document.createElement("div");
-        bel18.setAttribute("class", "f2");
-        ac(bel18, [arguments[1]]);
-        ac(bel19, ["\n\t    ", bel18, "\n\t  "]);
-        ac(bel20, ["\n\t  ", bel2, "\n\t  ", bel5, "\n\t  ", bel8, "\n\t  ", bel11, "\n\t  ", bel14, "\n\t  ", bel17, "\n\t  ", bel19, "\n\t  ", arguments[2], "\n    "]);
-        return bel20;
-    }(state.page.title, format(state.page.text), footer());
-}
-},{"../components/footer":1,"../components/format":2,"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":195,"choo/html":13}],199:[function(require,module,exports){
-var html = require('choo/html');
 var ov = require('object-values');
 var format = require('../components/format');
 var footer = require('../components/footer');
@@ -22356,7 +22278,7 @@ function view(state, emit) {
             }
       }
 }
-},{"../components/footer":1,"../components/format":2,"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":195,"choo/html":13,"object-values":154}],200:[function(require,module,exports){
+},{"../components/footer":1,"../components/format":2,"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":195,"choo/html":13,"object-values":154}],199:[function(require,module,exports){
 var html = require('choo/html');
 var ov = require('object-values');
 var format = require('../components/format');
@@ -22412,7 +22334,7 @@ function blog(state, emit) {
     }(page.title, page.date, page.url);
   }
 }
-},{"../components/footer":1,"../components/format":2,"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":195,"choo/html":13,"object-values":154}],201:[function(require,module,exports){
+},{"../components/footer":1,"../components/format":2,"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":195,"choo/html":13,"object-values":154}],200:[function(require,module,exports){
 var html = require('choo/html');
 var format = require('../components/format');
 var footer = require('../components/footer');
@@ -22445,7 +22367,7 @@ function view(state, emit) {
         return bel5;
     }(state.page.title, format(state.page.text), footer());
 }
-},{"../components/footer":1,"../components/format":2,"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":195,"choo/html":13}],202:[function(require,module,exports){
+},{"../components/footer":1,"../components/format":2,"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":195,"choo/html":13}],201:[function(require,module,exports){
 var html = require('choo/html');
 var format = require('../components/format');
 var footer = require('../components/footer');
@@ -22509,7 +22431,7 @@ function view(state, emit) {
             return bel5;
       }(state.page.title, state.page.date ? state.page.date : '', state.page.location ? state.page.location : '', format(state.page.excerpt), format(state.page.text));
 }
-},{"../components/footer":1,"../components/format":2,"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":195,"choo/html":13}],203:[function(require,module,exports){
+},{"../components/footer":1,"../components/format":2,"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":195,"choo/html":13}],202:[function(require,module,exports){
 var html = require('choo/html');
 var ov = require('object-values');
 var format = require('../components/format');
@@ -22563,7 +22485,7 @@ function gallery(state, emit) {
     }(image.path);
   }
 }
-},{"../components/format":2,"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":195,"choo/html":13,"object-values":154}],204:[function(require,module,exports){
+},{"../components/format":2,"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":195,"choo/html":13,"object-values":154}],203:[function(require,module,exports){
 var html = require('choo/html');
 var ov = require('object-values');
 var format = require('../components/format');
@@ -22667,9 +22589,8 @@ function home(state, emit) {
     }(mobile ? 'tar' : 'tal', format(state.page.text));
   }
 }
-},{"../components/footer":1,"../components/format":2,"../components/thumbnail":3,"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":195,"choo/html":13,"object-values":154}],205:[function(require,module,exports){
+},{"../components/footer":1,"../components/format":2,"../components/thumbnail":3,"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":195,"choo/html":13,"object-values":154}],204:[function(require,module,exports){
 module.exports = {
-	about: require('./about.js'),
 	album: require('./album.js'),
 	blog: require('./blog.js'),
 	default: require('./default.js'),
@@ -22681,7 +22602,7 @@ module.exports = {
 	project: require('./project.js'),
 	projects: require('./projects.js')
 };
-},{"./about.js":198,"./album.js":199,"./blog.js":200,"./default.js":201,"./entry.js":202,"./gallery.js":203,"./home.js":204,"./log.js":206,"./notfound.js":207,"./project.js":208,"./projects.js":209}],206:[function(require,module,exports){
+},{"./album.js":198,"./blog.js":199,"./default.js":200,"./entry.js":201,"./gallery.js":202,"./home.js":203,"./log.js":205,"./notfound.js":206,"./project.js":207,"./projects.js":208}],205:[function(require,module,exports){
 var html = require('choo/html');
 var path = require('path');
 var ov = require('object-values');
@@ -22786,7 +22707,7 @@ function view(state, emit) {
     }(state.key, state.value);
   }
 }
-},{"../components/footer":1,"../components/format":2,"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":195,"choo/html":13,"object-values":154,"path":159}],207:[function(require,module,exports){
+},{"../components/footer":1,"../components/format":2,"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":195,"choo/html":13,"object-values":154,"path":159}],206:[function(require,module,exports){
 var html = require('choo/html');
 var format = require('../components/format');
 var footer = require('../components/footer');
@@ -22806,7 +22727,7 @@ function view(state, emit) {
         return bel1;
     }(footer());
 }
-},{"../components/footer":1,"../components/format":2,"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":195,"choo/html":13}],208:[function(require,module,exports){
+},{"../components/footer":1,"../components/format":2,"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":195,"choo/html":13}],207:[function(require,module,exports){
 var html = require('choo/html');
 var ov = require('object-values');
 var format = require('../components/format');
@@ -22909,7 +22830,7 @@ function project(state, emit) {
     }
   }
 }
-},{"../components/footer":1,"../components/format":2,"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":195,"choo/html":13,"object-values":154}],209:[function(require,module,exports){
+},{"../components/footer":1,"../components/format":2,"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":195,"choo/html":13,"object-values":154}],208:[function(require,module,exports){
 var html = require('choo/html');
 var ov = require('object-values');
 var xt = require('xtend');
@@ -23040,7 +22961,7 @@ function projects(state, emit) {
     emit('change-selected', false);
   }
 }
-},{"../components/footer":1,"../components/format":2,"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":195,"choo/html":13,"object-values":154,"xtend":193}],210:[function(require,module,exports){
+},{"../components/footer":1,"../components/format":2,"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":195,"choo/html":13,"object-values":154,"xtend":193}],209:[function(require,module,exports){
 var html = require('choo/html');
 var ov = require('object-values');
 var path = require('path');
@@ -23169,4 +23090,4 @@ function getTitle(state) {
 
   return siteTitle !== pageTitle ? siteTitle + ' | ' + pageTitle : siteTitle;
 }
-},{"../components/footer":1,"./":205,"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":195,"bytespin":11,"choo/html":13,"object-values":154,"path":159}]},{},[4]);
+},{"../components/footer":1,"./":204,"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":195,"bytespin":11,"choo/html":13,"object-values":154,"path":159}]},{},[4]);
