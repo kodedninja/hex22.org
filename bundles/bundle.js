@@ -22562,7 +22562,7 @@ function projects(state, emit) {
       var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
       var bel0 = document.createElement("a");
       bel0.setAttribute("href", arguments[0]);
-      bel0.setAttribute("class", "dib m-1 nbb p2 f1 tac " + arguments[1] + " " + arguments[2] + " " + arguments[3]);
+      bel0.setAttribute("class", "dib m-1 nbb p2 f1 tac project " + arguments[1] + " " + arguments[2] + " " + arguments[3]);
       ac(bel0, ["\n          ", arguments[4], "\n        "]);
       return bel0;
     }(page.url, rows, w >= 900 && id % divisor < divisor - 1 ? 'br' : '', w < 900 && id % 2 == 0 ? 'bb' : '', page.title || page.dirname);

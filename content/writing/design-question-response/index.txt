@@ -8,18 +8,26 @@ location: Home
 ----
 excerpt: When I was a child my guitar teacher taught me a simple way to think about music composition.
 ----
-text: He said that a piece is like a talk: you ask a question with a melody and respond to that with another one.
+text: He said that a piece is like a **conversation** between two egos in the music. One of them asks a question and the other one responds. For the composer this compiles to: **Asking a question with a melody and responding to that with another one**.
 
-In reality this can be more complex because a melody can be a question somewhere in the piece and a response somewhere else or the response can be the question itself. Basically these variations make the music unpredictable.
+In reality this isn't that simple because a melody can be a question somewhere in the piece and a response somewhere else ― or the response can be the question itself. *Like a person's role in a conversation changes from emitter to receiver and vice-versa.* Basically these variations make music unpredictable.
 
 The point is that this very simple structure makes a flow in the listening and in the writing process. The listener never receives a response without a question (the part where a theme is introduced) and the whole piece won't feel chaotic and disoriented. 
 
-I think about this pattern in interface design too.
+I think about this system in interface design too.
 
-On a good interface you don't have to find a question to respond to or the question to your possible response (for example searching for the login field or button). A good interface asks the right questions at the right time and these can be answered without much thinking. Clicking, scrolling, tapping in our society work like reflexes, anyways.
+What you want in design is a predictable **conversation**. A learnable **conversation**, where you learn the personality of the interface and know the answers before questioning.
 
-As a designer your job is to know what questions may be in the user's head and give him the biggest possible "question mark" on that part of the interface. Asking the right questions about a problem is what design's about. A question can be the content, a button, a link or the urge to scroll, etc...
+On a good interface you don't have to find a question to respond to or the question to your possible response (for example searching for the login field or button). A good interface asks the right questions at the right time and these can be answered without much thinking. *In our society clicking, scrolling, tapping work subcounciously, anyways.*
 
-So, before including something inside an interface and before thinking hours on its location, I try to find the question that element should respond to.
+A designer's job is to know what questions might be in the user's head at a given time and give him the biggest possible "*question mark*" on that part of the interface. Asking the right questions about a problem is what design's about. A question can be the content, a button, a link or the urge to scroll, etc...
+
+So, before including something into an interface and before thinking hours on its location, I try to find the question that element should respond to. 
+
+The question and the context give the properties (position, size, content) of the element . 
+
+The result is a natural **conversation** between interface and user. **An information flow between computer and human.**
 
 [WIP]
+----
+visible: true

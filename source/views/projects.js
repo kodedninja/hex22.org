@@ -49,7 +49,7 @@ function projects (state, emit) {
       return html`
         <a
           href="${page.url}"
-          class="dib m-1 nbb p2 f1 tac ${rows} ${(w >= 900 && id%divisor < divisor - 1) ? 'br' : ''} ${(w < 900 && id%2 == 0) ? 'bb' : ''}"
+          class="dib m-1 nbb p2 f1 tac project ${rows} ${(w >= 900 && id%divisor < divisor - 1) ? 'br' : ''} ${(w < 900 && id%2 == 0) ? 'bb' : ''}"
         >
           ${page.title || page.dirname}
         </a>

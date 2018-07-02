@@ -16,6 +16,6 @@ Sometimes I [write](/writing) about the things I see or think.
 
 *[Thanks!](/thanks)*
 ----
-currently: freelance, engineering [peer-to-peer tools](/p2p), school
+currently: freelance, engineering [peer-to-peer tools](/p2p)
 ----
-previously: [pictogon](https://pictogon.com)
+previously: [pictogon](https://pictogon.com), school
