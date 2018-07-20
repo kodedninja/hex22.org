@@ -3,11 +3,12 @@ title: Hunor Karamán
 view: home
 ----
 info: Hello. I’m a developer working mostly on experimental projects with small footprint.
-I'm your <u>peer</u>.
 "I really enjoy making tools." ― Callil Capuozzo
 
 [Github](https://github.com/kodedninja) ― [Are.na](https://are.na/hunor-karaman)
 [karamanhunor@protonmail.com](mailto:karamanhunor@protonmail.com)
+
+I'm your <u>peer</u>.
 ----
 currently: ◦ Intern at GeoGebra
 ◦ Freelance developer & designer

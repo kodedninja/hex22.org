@@ -24,6 +24,7 @@ function wrapper (state, emit) {
 	  	<div class="1 db fl">
 			${header()}
 			${view(state, emit)}
+			${footer()}
 		</div>
       </main>
     `

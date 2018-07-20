@@ -1,18 +1,40 @@
 (function(){function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s}return e})()({1:[function(require,module,exports){
 var html = require('choo/html');
 
-module.exports = function (state, emit) {
-     return function () {
+var nav = [{ title: 'Projects', url: '/projects' }, { title: 'Peer-to-Peer', url: '/p2p' }, { title: 'Writing', url: '/writing' }, { title: 'Music', url: '/0x22' }];
 
-          var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
-          var bel1 = document.createElement("div");
-          bel1.setAttribute("class", "p2 1");
-          var bel0 = document.createElement("div");
-          bel0.setAttribute("class", "brw");
-          ac(bel0, ["dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/"]);
-          ac(bel1, ["\n\t  \t\t", bel0, "\n\t\t"]);
-          return bel1;
-     }();
+module.exports = function (state, emit) {
+  return function () {
+
+    var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
+    var bel3 = document.createElement("div");
+    bel3.setAttribute("class", "p0-5 px1 1 pf b0 bt footer");
+    var bel0 = document.createElement("div");
+    bel0.setAttribute("class", "fl 1/2 dib m-1");
+    ac(bel0, ["\n\t\t\t\t", arguments[0], "\n\t\t\t"]);
+    var bel2 = document.createElement("div");
+    bel2.setAttribute("class", "fl 1/2 dib m-1");
+    var bel1 = document.createElement("div");
+    bel1.setAttribute("class", "brw");
+    ac(bel1, ["dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/"]);
+    ac(bel2, ["\n\t\t\t\t", bel1, "\n\t\t\t"]);
+    ac(bel3, ["\n\t\t\t", bel0, "\n\t\t\t", bel2, "\n\t\t"]);
+    return bel3;
+  }(nav.map(link));
+
+  function link(state, id) {
+    return function () {
+
+      var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
+      var bel1 = document.createElement("span");
+      var bel0 = document.createElement("a");
+      bel0.setAttribute("href", arguments[0]);
+      bel0.setAttribute("class", "nbb");
+      ac(bel0, [arguments[1]]);
+      ac(bel1, ["\n\t\t\t\t", arguments[2], " ", bel0, "\n\t\t\t"]);
+      return bel1;
+    }(state.url, state.title, id != 0 ? ' + ' : '');
+  }
 };
 },{"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":190,"choo/html":11}],2:[function(require,module,exports){
 var html = require('choo/html');
@@ -22557,10 +22579,10 @@ function wrapper(state, emit) {
     var bel1 = document.createElement("main");
     var bel0 = document.createElement("div");
     bel0.setAttribute("class", "1 db fl");
-    ac(bel0, ["\n\t\t\t", arguments[0], "\n\t\t\t", arguments[1], "\n\t\t"]);
+    ac(bel0, ["\n\t\t\t", arguments[0], "\n\t\t\t", arguments[1], "\n\t\t\t", arguments[2], "\n\t\t"]);
     ac(bel1, ["\n\t  \t", bel0, "\n      "]);
     return bel1;
-  }(header(), view(state, emit));
+  }(header(), view(state, emit), footer());
 
   function header() {
     return function () {

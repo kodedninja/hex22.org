@@ -94,6 +94,7 @@ code {
 .pf { position: fixed};
 .t0 { top: 0; }
 .l0 { left: 0; }
+.b0 { bottom: 0; }
 
 .fl { float: left; }
 .fr { float: right; }
