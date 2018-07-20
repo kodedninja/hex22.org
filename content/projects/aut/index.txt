@@ -1,9 +1,0 @@
-title: aut
-----
-view: project
-----
-description: Automations for myself
-----
-text: **aut** is a set of scripts globally available from my computer that reduce keystrokes and headaches.
-----
-github: https://github.com/kodedninja/aut

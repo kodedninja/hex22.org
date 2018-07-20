@@ -2,36 +2,25 @@
 var html = require('choo/html');
 
 module.exports = function (state, emit) {
-    return function () {
+     return function () {
 
-        var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
-        var bel5 = document.createElement("div");
-        bel5.setAttribute("class", "fl 1 db");
-        var bel2 = document.createElement("div");
-        bel2.setAttribute("class", "1 db bb");
-        var bel0 = document.createElement("a");
-        bel0.setAttribute("href", "/");
-        bel0.setAttribute("class", "dib 1/2 p2 nbb br f1 tac");
-        ac(bel0, ["About"]);
-        var bel1 = document.createElement("a");
-        bel1.setAttribute("href", "/projects");
-        bel1.setAttribute("class", "dib 1/2 p2 nbb f1 tac");
-        ac(bel1, ["Work"]);
-        ac(bel2, ["\n\t  ", bel0, "\n\t  ", bel1, "\n    "]);
-        var bel4 = document.createElement("div");
-        bel4.setAttribute("class", "p2 1");
-        var bel3 = document.createElement("div");
-        bel3.setAttribute("class", "f3 brw");
-        ac(bel3, ["dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/"]);
-        ac(bel4, ["\n\t  \t", bel3, "\n\t"]);
-        ac(bel5, ["\n    ", bel2, "\n\t", bel4, "\n  "]);
-        return bel5;
-    }();
+          var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
+          var bel1 = document.createElement("div");
+          bel1.setAttribute("class", "p2 1");
+          var bel0 = document.createElement("div");
+          bel0.setAttribute("class", "brw");
+          ac(bel0, ["dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/"]);
+          ac(bel1, ["\n\t  \t\t", bel0, "\n\t\t"]);
+          return bel1;
+     }();
 };
 },{"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":190,"choo/html":11}],2:[function(require,module,exports){
 var html = require('choo/html');
 var MarkdownIt = require('markdown-it');
-var md = new MarkdownIt();
+var md = new MarkdownIt({
+  html: true,
+  breaks: true
+});
 
 module.exports = format;
 
@@ -22156,92 +22145,17 @@ var footer = require('../components/footer');
 module.exports = home;
 
 function home(state, emit) {
-
-  var mobile = document.body.clientWidth < 900;
-
-  return function () {
-
-    var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
-    var bel17 = document.createElement("main");
-    bel17.setAttribute("class", "db 1 fl");
-    var bel1 = document.createElement("div");
-    bel1.setAttribute("class", "pfeed 1 bb");
-    var bel0 = document.createElement("div");
-    bel0.setAttribute("class", "f1");
-    ac(bel0, [arguments[0]]);
-    ac(bel1, ["\n\t\t", bel0, "\n\t  "]);
-    var bel3 = document.createElement("div");
-    bel3.setAttribute("class", "pfeed 1 bb");
-    var bel2 = document.createElement("div");
-    bel2.setAttribute("class", "f1");
-    ac(bel2, [arguments[1]]);
-    ac(bel3, ["\n\t\t", bel2, "\n\t  "]);
-    var bel5 = document.createElement("div");
-    bel5.setAttribute("class", "pfeed 1 bb");
-    var bel4 = document.createElement("div");
-    bel4.setAttribute("class", "f1");
-    ac(bel4, [arguments[2]]);
-    ac(bel5, ["\n\t\t", bel4, "\n\t  "]);
-    var bel8 = document.createElement("div");
-    bel8.setAttribute("class", "p2 1 bb");
-    var bel7 = document.createElement("div");
-    bel7.setAttribute("class", "f1");
-    var bel6 = document.createElement("a");
-    bel6.setAttribute("href", "https://github.com/kodedninja");
-    bel6.setAttribute("target", "_blank");
-    ac(bel6, ["github"]);
-    ac(bel7, [bel6]);
-    ac(bel8, ["\n\t\t", bel7, "\n\t  "]);
-    var bel11 = document.createElement("div");
-    bel11.setAttribute("class", "p2 1 bb");
-    var bel10 = document.createElement("div");
-    bel10.setAttribute("class", "f1");
-    var bel9 = document.createElement("a");
-    bel9.setAttribute("href", "https://are.na/hunor-karaman");
-    bel9.setAttribute("target", "_blank");
-    ac(bel9, ["are.na"]);
-    ac(bel10, [bel9]);
-    ac(bel11, ["\n\t\t", bel10, "\n\t  "]);
-    var bel14 = document.createElement("div");
-    bel14.setAttribute("class", "p2 1 bb");
-    var bel13 = document.createElement("div");
-    bel13.setAttribute("class", "f1");
-    var bel12 = document.createElement("a");
-    bel12.setAttribute("href", "mailto:karamanhunor@protonmail.com");
-    ac(bel12, ["email"]);
-    ac(bel13, [bel12]);
-    ac(bel14, ["\n\t\t", bel13, "\n\t  "]);
-    var bel16 = document.createElement("div");
-    bel16.setAttribute("class", "pfeed 1 bb");
-    var bel15 = document.createElement("div");
-    bel15.setAttribute("class", "f2");
-    ac(bel15, [arguments[3]]);
-    ac(bel16, ["\n\t    ", bel15, "\n\t  "]);
-    ac(bel17, ["\n\t  ", bel1, "\n\t  ", bel3, "\n\t  ", bel5, "\n\t  ", bel8, "\n\t  ", bel11, "\n\t  ", bel14, "\n\t  ", bel16, "\n\t  ", arguments[4], "\n\t"]);
-    return bel17;
-  }(state.page.title, format('currently: ' + state.page.currently), format('previously: ' + state.page.previously), format(state.page.text), footer());
-
-  function sectionTitle(title) {
     return function () {
 
-      var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
-      var bel0 = document.createElement("div");
-      bel0.setAttribute("class", "1 px1");
-      ac(bel0, [arguments[0]]);
-      return bel0;
-    }(title);
-  }
-
-  function text() {
-    return function () {
-
-      var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
-      var bel0 = document.createElement("div");
-      bel0.setAttribute("class", "1 " + arguments[0] + " fl");
-      ac(bel0, ["\n        ", arguments[1], "\n      "]);
-      return bel0;
-    }(mobile ? 'tar' : 'tal', format(state.page.text));
-  }
+        var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
+        var bel1 = document.createElement("div");
+        bel1.setAttribute("class", "1 db p1");
+        var bel0 = document.createElement("div");
+        bel0.setAttribute("class", "1/3 mxa m-1");
+        ac(bel0, ["\n\t\t\t\t", arguments[0], "\n\t\t\t"]);
+        ac(bel1, ["\n\t\t\t", bel0, "\n\t\t"]);
+        return bel1;
+    }(format(state.page.text));
 }
 },{"../components/footer":1,"../components/format":2,"../components/thumbnail":3,"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":190,"choo/html":11,"object-values":150}],199:[function(require,module,exports){
 module.exports = {
@@ -22622,8 +22536,11 @@ var path = require('path');
 
 var views = require('./');
 var footer = require('../components/footer');
+var format = require('../components/format');
 
 module.exports = wrapper;
+
+var header_open = false;
 
 function wrapper(state, emit) {
   state.page = state.content[state.href || '/'] || {};
@@ -22633,29 +22550,69 @@ function wrapper(state, emit) {
 
   emit('DOMTitleChange', state.page.title + ' | hex22');
 
-  if (state.page.url == '/' || state.page.url == '/feed') return view(state, emit);
-
-  return view(state, emit);
-
+  // ${view(state, emit)}
   return function () {
 
     var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
-    var bel3 = document.createElement("main");
-    var bel2 = document.createElement("div");
-    bel2.setAttribute("class", "");
+    var bel1 = document.createElement("main");
     var bel0 = document.createElement("div");
-    bel0.setAttribute("class", "1 p1 db");
-    ac(bel0, ["\n\t\t\t\t", arguments[0], "\n\t\t\t\t", arguments[1], "\n\t\t\t"]);
-    var bel1 = document.createElement("div");
-    bel1.setAttribute("class", "content mw1600 mxa");
-    ac(bel1, ["\n\t\t\t\t", arguments[2], "\n\t\t\t"]);
-    ac(bel2, ["\n\t\t\t", bel0, "\n\t\t\t", bel1, "\n\t\t\t", arguments[3], "\n\t\t"]);
-    ac(bel3, ["\n\t  \t", bel2, "\n      "]);
-    return bel3;
-  }(title(state.content['/']), navigation({
-    active: state.page ? state.page.path : '',
-    links: state.content ? state.content : {}
-  }), view(state, emit), footer(state, emit));
+    bel0.setAttribute("class", "1 db fl");
+    ac(bel0, ["\n\t\t\t", arguments[0], "\n\t\t\t", arguments[1], "\n\t\t"]);
+    ac(bel1, ["\n\t  \t", bel0, "\n      "]);
+    return bel1;
+  }(header(), view(state, emit));
+
+  function header() {
+    return function () {
+
+      var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
+      var bel9 = document.createElement("div");
+      bel9.setAttribute("class", "1 fl db p0-5 px1 bb mb4 header " + arguments[5]);
+      var bel2 = document.createElement("div");
+      bel2.setAttribute("class", "1 db fl mb1");
+      var bel0 = document.createElement("a");
+      bel0.setAttribute("href", "/");
+      bel0.setAttribute("class", "nbb");
+      ac(bel0, [arguments[0]]);
+      var bel1 = document.createElement("a");
+      bel1.setAttribute("href", "#");
+      bel1["onclick"] = arguments[1];
+      bel1.setAttribute("class", "nbb fr");
+      ac(bel1, ["Info ↓"]);
+      ac(bel2, ["\n\t\t\t\t\t", bel0, "\n\t\t\t\t\t", bel1, "\n\t\t\t\t"]);
+      var bel8 = document.createElement("div");
+      bel8.setAttribute("class", "1 fl db");
+      var bel3 = document.createElement("div");
+      bel3.setAttribute("class", "1/2 m-1 dib fl");
+      ac(bel3, ["\n\t\t\t\t\t\t", arguments[2], "\n\t\t\t\t\t"]);
+      var bel5 = document.createElement("div");
+      bel5.setAttribute("class", "1/4 m-1 dib fl");
+      var bel4 = document.createElement("p");
+      ac(bel4, ["Currently:"]);
+      ac(bel5, ["\n\t\t\t\t\t\t", bel4, "\n\t\t\t\t\t\t", arguments[3], "\n\t\t\t\t\t"]);
+      var bel7 = document.createElement("div");
+      bel7.setAttribute("class", "1/4 m-1 dib fl");
+      var bel6 = document.createElement("p");
+      ac(bel6, ["Previously:"]);
+      ac(bel7, ["\n\t\t\t\t\t\t", bel6, "\n\t\t\t\t\t\t", arguments[4], "\n\t\t\t\t\t"]);
+      ac(bel8, ["\n\t\t\t\t\t", bel3, "\n\t\t\t\t\t", bel5, "\n\t\t\t\t\t", bel7, "\n\t\t\t\t"]);
+      ac(bel9, ["\n\t\t\t\t", bel2, "\n\t\t\t\t", bel8, "\n\t\t\t"]);
+      return bel9;
+    }(state.content['/'].title, click, format(state.content['/'].info), format(state.content['/'].currently), format(state.content['/'].previously), !header_open ? 'collapsed' : '');
+
+    function click(e) {
+      e.preventDefault();
+      if (!header_open) {
+        e.target.parentNode.parentNode.classList.remove('collapsed');
+        e.target.innerHTML = 'Info ↑';
+      } else {
+        e.target.parentNode.parentNode.classList.add('collapsed');
+        e.target.innerHTML = 'Info ↓';
+      }
+
+      header_open = !header_open;
+    }
+  }
 }
 
 function title(state, emit) {
@@ -22738,4 +22695,4 @@ function getTitle(state) {
 
   return siteTitle !== pageTitle ? siteTitle + ' | ' + pageTitle : siteTitle;
 }
-},{"../components/footer":1,"./":199,"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":190,"choo/html":11,"object-values":150,"path":154}]},{},[4]);
+},{"../components/footer":1,"../components/format":2,"./":199,"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":190,"choo/html":11,"object-values":150,"path":154}]},{},[4]);

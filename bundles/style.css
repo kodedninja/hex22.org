@@ -13,6 +13,17 @@ blockquote {
 	font-size: 1.5rem !important;
 }
 
+.header {
+	height: auto;
+	max-height: 700px;
+	transition: max-height 0.5s;
+	overflow-y: hidden;
+}
+
+.header.collapsed {
+	max-height: 46px;
+}
+
 /**
  * loading
  */
@@ -42,4 +53,8 @@ blockquote {
     .sector {
         width: 50% !important;
     }
+
+	.header.collapsed {
+		max-height: 40px;
+	}
 }

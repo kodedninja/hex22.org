@@ -4,8 +4,11 @@ var path = require('path')
 
 var views = require('./')
 var footer = require('../components/footer')
+var format = require('../components/format')
 
 module.exports = wrapper
+
+var header_open = false
 
 function wrapper (state, emit) {
 	state.page = state.content[state.href || '/'] || {}
@@ -15,28 +18,54 @@ function wrapper (state, emit) {
 
 	emit('DOMTitleChange', state.page.title + ' | hex22')
 
-	if (state.page.url == '/' || state.page.url == '/feed') return view(state, emit)
-
-	return view(state, emit)
-
+	// ${view(state, emit)}
     return html`
       <main>
-	  	<div class="">
-			<div class="1 p1 db">
-				${title(state.content['/'])}
-				${navigation({
-					active: state.page ? state.page.path : '',
-					links: state.content ? state.content : { }
-				})}
-			</div>
-			<div class="content mw1600 mxa">
-				${view(state, emit)}
-			</div>
-			${footer(state, emit)}
+	  	<div class="1 db fl">
+			${header()}
+			${view(state, emit)}
 		</div>
       </main>
     `
+
+	function header() {
+		return html`
+			<div class="1 fl db p0-5 px1 bb mb4 header ${!header_open ? 'collapsed' : ''}">
+				<div class="1 db fl mb1">
+					<a href="/" class="nbb">${state.content['/'].title}</a>
+					<a href="#" class="nbb fr" onclick="${click}">Info ↓</a>
+				</div>
+				<div class="1 fl db">
+					<div class="1/2 m-1 dib fl">
+						${format(state.content['/'].info)}
+					</div>
+					<div class="1/4 m-1 dib fl">
+						<p>Currently:</p>
+						${format(state.content['/'].currently)}
+					</div>
+					<div class="1/4 m-1 dib fl">
+						<p>Previously:</p>
+						${format(state.content['/'].previously)}
+					</div>
+				</div>
+			</div>
+		`
+
+		function click(e) {
+			e.preventDefault()
+			if (!header_open) {
+				e.target.parentNode.parentNode.classList.remove('collapsed')
+				e.target.innerHTML = 'Info ↑'
+			} else {
+				e.target.parentNode.parentNode.classList.add('collapsed')
+				e.target.innerHTML = 'Info ↓'
+			}
+
+			header_open = !header_open
+		}
+	}
 }
+
 
 function title (state, emit) {
   return html`

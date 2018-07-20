@@ -8,45 +8,11 @@ var footer = require('../components/footer')
 module.exports = home
 
 function home (state, emit) {
-
-	var mobile = document.body.clientWidth < 900
-
   	return html`
-	<main class="db 1 fl">
-	  <div class="pfeed 1 bb">
-		<div class="f1">${state.page.title}</div>
-	  </div>
-	  <div class="pfeed 1 bb">
-		<div class="f1">${format('currently: ' + state.page.currently)}</div>
-	  </div>
-	  <div class="pfeed 1 bb">
-		<div class="f1">${format('previously: ' + state.page.previously)}</div>
-	  </div>
-	  <div class="p2 1 bb">
-		<div class="f1"><a href="https://github.com/kodedninja" target="_blank">github</a></div>
-	  </div>
-	  <div class="p2 1 bb">
-		<div class="f1"><a href="https://are.na/hunor-karaman" target="_blank">are.na</a></div>
-	  </div>
-	  <div class="p2 1 bb">
-		<div class="f1"><a href="mailto:karamanhunor@protonmail.com">email</a></div>
-	  </div>
-	  <div class="pfeed 1 bb">
-	    <div class="f2">${format(state.page.text)}</div>
-	  </div>
-	  ${footer()}
-	</main>
+		<div class="1 db p1">
+			<div class="1/3 mxa m-1">
+				${format(state.page.text)}
+			</div>
+		</div>
 	`
-
-  function sectionTitle (title) {
-    return html`<div class="1 px1">${title}</div>`
-  }
-
-  function text () {
-    return html`
-      <div class="1 ${mobile ? 'tar' : 'tal'} fl">
-        ${format(state.page.text)}
-      </div>
-    `
-  }
 }

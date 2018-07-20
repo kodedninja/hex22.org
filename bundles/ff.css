@@ -6,7 +6,7 @@
 ::-moz-selection { color: #fff; background: #000; }
 ::selection { color: #fff; background: #000; }
 
-html { font-size: 16px }
+html { font-size: 15px }
 
 body, pre {
 	font-family: 'Inter UI', 'arial', 'helvetica neue', helvetica, sans-serif;
@@ -23,7 +23,7 @@ a {
 }
 
 a:not(.nbb) {
-  border-bottom: 4px solid #ddd;
+  border-bottom: 1px solid #ddd;
   padding-bottom: 0.1em;
 }
 
@@ -35,12 +35,12 @@ h1, h2, h3, h4, h5, h6, .f1, .f2, .f3 {
 }
 
 .fgiant { font-size: 10rem; }
-h1, .f1 { font-size: 2.75rem; }
+h1, .f1 { font-size: 2.5rem; }
 h2, .f2 { font-size: 2.25rem; }
 h3, .f3 { font-size: 1.75rem; }
 h4, .f4 { font-size: 1.25rem; }
 h5, .f5 { font-size: 1rem; }
-.f6 { font-size: .875rem; }
+.f6 { font-size: .825rem; }
 
 .i { font-style: italic; }
 .b { font-weight: bold; }
@@ -67,7 +67,7 @@ h5, .f5 { font-size: 1rem; }
 
 .lh1 { line-height: 1.2 }
 
-p, ul, ol { margin: 2.5rem 0 }
+p, ul, ol { margin: 1.5rem 0 }
 
 ul, ol { margin-left: 1em }
 
@@ -158,6 +158,7 @@ code {
 .mt2 { margin-top: 3rem }
 .mt3 { margin-top: 4rem }
 .mb2 { margin-bottom: 3rem }
+.mb4 { margin-bottom: 6rem }
 .mxa { margin-left: auto; margin-right: auto; }
 
 .mt50 { margin-top: 50% }
@@ -200,7 +201,7 @@ hr {
 	h1, .f1 { font-size: 2.25rem; }
 	h2, .f2 { font-size: 2.0rem; }
 
-	p, ul, ol { margin: 2rem 0 }
+	p, ul, ol { margin: 0.75rem 0 }
 
     .p0-5 { padding: 0.5rem }
     .p1 { padding: 0.75rem }

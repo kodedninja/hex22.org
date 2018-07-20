@@ -1,6 +1,9 @@
 var html = require('choo/html')
 var MarkdownIt = require('markdown-it')
-var md = new MarkdownIt()
+var md = new MarkdownIt({
+	html: true,
+	breaks: true
+})
 
 module.exports = format
 

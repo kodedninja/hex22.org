@@ -1,21 +1,37 @@
-title: hunor karamán
+title: Hunor Karamán
 ----
 view: home
 ----
-text: bio:
+info: Hello. I’m a developer working mostly on experimental projects with small footprint.
+I'm your <u>peer</u>.
+"I really enjoy making tools." ― Callil Capuozzo
 
-I work on experimental [tools and projects](/projects) that form a greater system: *life*. My main focus is designing and making functional tools / interfaces. I'm a true fan of peer-to-peer networking, functional design and the *[computer](https://newcomputers.group)*.
-
-Sometimes I [write](/writing) about the things I see or think.
-
- [0x22](/0x22) is my music project.
-
- You can visit the [Log](/log) for a consistently updating tracker of my productivity or read my [devlog](https://devlog-kodedninja.hashbase.io).
-
-> "I really enjoy making tools." - Callil Capuozzo
-
-*[Thanks!](/thanks)*
+[Github](https://github.com/kodedninja) ― [Are.na](https://are.na/hunor-karaman)
+[karamanhunor@protonmail.com](mailto:karamanhunor@protonmail.com)
 ----
-currently: freelance, engineering [peer-to-peer tools](/p2p)
+currently: ◦ Intern at GeoGebra
+◦ Freelance developer & designer
+◦ Engineer of Peer-to-Peer tools
 ----
-previously: [pictogon](https://pictogon.com), school
+previously: ◦ [Pictogon](https://pictogon.com)
+----
+text: <span style="color: red;">You won't see world-changing blockchain projects here!</span> Those can be seen on television or in newspapers. I'm interested in the <span class="f6 dib">small</span>, [in “What’s After Now”, the alternative form, A New Spirit of Computation](https://newcomputers.group).
+
+I think small, design small, build small ― small is useful, adoptable, personal & __can grow__.
+
+Small tools can solve big problems. Small is not a compromise, it's a possibility.
+
+---
+
+<u>Interests</u>
+
+Future ― Solarpunk
+Decentralization ― Peer-to-Peer
+Artificial Intelligence
+Functional Design
+
+---
+
+<u>Opinion</u>
+
+I think the __future__ will be decentralized, solar-powered, encrypted and owned by the people.
