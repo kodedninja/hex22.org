@@ -10,9 +10,8 @@ info: Hello. I’m a developer working mostly on experimental projects with smal
 
 I'm your <u>peer</u>.
 ----
-currently: ◦ Intern at GeoGebra
-◦ Freelance developer & designer
-◦ Engineer of Peer-to-Peer tools
+currently: ◦ Freelance developer & designer
+◦ Engineer of [Peer-to-Peer tools](/p2p)
 ----
 previously: ◦ [Pictogon](https://pictogon.com)
 ----
@@ -28,7 +27,7 @@ Small tools can solve big problems. Small is not a compromise, it's a possibilit
 
 Future ― Solarpunk
 Decentralization ― Peer-to-Peer
-Artificial Intelligence
+Machine Learning
 Functional Design
 
 ---
