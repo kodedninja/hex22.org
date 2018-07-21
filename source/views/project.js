@@ -11,15 +11,15 @@ function project (state, emit) {
     	: false
 
 	return html`
-		<div class="1 db p1 mb4">
+		<div class="1 db p1 mb4 fl">
 			<div class="db 3/5 mxa m-1">
-				<div class="1/2 dib fl">
+				<div class="1/2 dib fl m-1">
 					<p>${state.page.title}</p>
 					<p>
 						${links()}
 					</p>
 				</div>
-				<div class="1/2 dib fl">
+				<div class="1/2 dib fl m-1">
 					<p><span class="bb">${state.page.description}</span></p>
 					${format(state.page.text)}
 				</div>

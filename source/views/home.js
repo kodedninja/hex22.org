@@ -9,7 +9,7 @@ module.exports = home
 
 function home (state, emit) {
   	return html`
-		<div class="1 db p1">
+		<div class="1 db p1 mb4">
 			<div class="1/3 mxa m-1">
 				${format(state.page.text)}
 			</div>
