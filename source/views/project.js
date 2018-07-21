@@ -12,9 +12,50 @@ function project (state, emit) {
 
 	return html`
 		<div class="1 db p1 mb4">
-			
+			<div class="db 3/5 mxa m-1">
+				<div class="1/2 dib fl">
+					<p>${state.page.title}</p>
+					<p>
+						${links()}
+					</p>
+				</div>
+				<div class="1/2 dib fl">
+					<p><span class="bb">${state.page.description}</span></p>
+					${format(state.page.text)}
+				</div>
+				<div class="fl 1 db bt my2">
+					${images ? images.map(image) : ''}
+				</div>
+			</div>
 		</div>
 	`
+
+	function links() {
+  	  var l = []
+  	  if (state.page.github) l.push({t: 'Github ↗', url: state.page.github})
+  	  if (state.page.website) l.push({t: 'Website ↗', url: state.page.website})
+  	  if (state.page.npm) l.push({t: 'npm ↗', url: state.page.npm})
+
+  	  return html`
+  	  	<div class="1 db">
+  			${l.map(link)}
+  		</div>
+  	  `
+
+  	  function link(state, id) {
+  		  return html`
+  		  	<a href="${state.url}" class="mr1">${state.t}</a>
+  		  `
+  	  }
+    }
+
+	function image (image) {
+      return html`
+        <div class="1 my2">
+          <img class="1 db" src="${image.path}" />
+        </div>
+      `
+    }
 
   return html`
     <main class="db 1 fl">
@@ -38,30 +79,6 @@ function project (state, emit) {
     </main>
   `
 
-  function image (image) {
-    return html`
-      <div class="1 my1">
-        <img class="c12 db" src="${image.path}" />
-      </div>
-    `
-  }
 
-  function links() {
-	  var l = []
-	  if (state.page.github) l.push({t: 'Github', url: state.page.github})
-	  if (state.page.website) l.push({t: 'Website', url: state.page.website})
-	  if (state.page.npm) l.push({t: 'npm', url: state.page.npm})
 
-	  return html`
-	  	<div class="1 db">
-			${l.map(link)}
-		</div>
-	  `
-
-	  function link(state, id) {
-		  return html`
-		  	<a href="${state.url}" class="nbb p2 tac bb dib fl 1/${l.length} ${id < l.length - 1 ? 'br' : ''}">${state.t}</a>
-		  `
-	  }
-  }
 }

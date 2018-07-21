@@ -6,7 +6,7 @@ description: A context-based encryption scheme
 ----
 dates: January 2018
 ----
-priority: 2
+priority: 3
 ----
 text: Cereal is an encryption scheme based on the AES256 symmetric algorithm.\
 The keys never leave the two instances and they always change.

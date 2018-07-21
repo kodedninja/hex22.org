@@ -21,7 +21,7 @@ function projects (state, emit) {
 		return html`
 			<a href="${page.url}" class="1 db fl p1 nbb bb ${id == 0 ? 'bt' : ''}">
 				<div class="1/2 dib fl">
-					${page.name} → ${page.description}
+					${page.title} ― ${page.description}
 				</div>
 				<div class="1/2 dib fl">
 					${page.dates}

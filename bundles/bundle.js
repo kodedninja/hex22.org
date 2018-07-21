@@ -22270,11 +22270,74 @@ function project(state, emit) {
       return function () {
 
             var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
-            var bel0 = document.createElement("div");
-            bel0.setAttribute("class", "1 db p1 mb4");
-            ac(bel0, ["\n\t\t\t\n\t\t"]);
-            return bel0;
-      }();
+            var bel8 = document.createElement("div");
+            bel8.setAttribute("class", "1 db p1 mb4");
+            var bel7 = document.createElement("div");
+            bel7.setAttribute("class", "db 3/5 mxa m-1");
+            var bel2 = document.createElement("div");
+            bel2.setAttribute("class", "1/2 dib fl");
+            var bel0 = document.createElement("p");
+            ac(bel0, [arguments[0]]);
+            var bel1 = document.createElement("p");
+            ac(bel1, ["\n\t\t\t\t\t\t", arguments[1], "\n\t\t\t\t\t"]);
+            ac(bel2, ["\n\t\t\t\t\t", bel0, "\n\t\t\t\t\t", bel1, "\n\t\t\t\t"]);
+            var bel5 = document.createElement("div");
+            bel5.setAttribute("class", "1/2 dib fl");
+            var bel4 = document.createElement("p");
+            var bel3 = document.createElement("span");
+            bel3.setAttribute("class", "bb");
+            ac(bel3, [arguments[2]]);
+            ac(bel4, [bel3]);
+            ac(bel5, ["\n\t\t\t\t\t", bel4, "\n\t\t\t\t\t", arguments[3], "\n\t\t\t\t"]);
+            var bel6 = document.createElement("div");
+            bel6.setAttribute("class", "fl 1 db bt my2");
+            ac(bel6, ["\n\t\t\t\t\t", arguments[4], "\n\t\t\t\t"]);
+            ac(bel7, ["\n\t\t\t\t", bel2, "\n\t\t\t\t", bel5, "\n\t\t\t\t", bel6, "\n\t\t\t"]);
+            ac(bel8, ["\n\t\t\t", bel7, "\n\t\t"]);
+            return bel8;
+      }(state.page.title, links(), state.page.description, format(state.page.text), images ? images.map(image) : '');
+
+      function links() {
+            var l = [];
+            if (state.page.github) l.push({ t: 'Github ↗', url: state.page.github });
+            if (state.page.website) l.push({ t: 'Website ↗', url: state.page.website });
+            if (state.page.npm) l.push({ t: 'npm ↗', url: state.page.npm });
+
+            return function () {
+
+                  var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
+                  var bel0 = document.createElement("div");
+                  bel0.setAttribute("class", "1 db");
+                  ac(bel0, ["\n  \t\t\t", arguments[0], "\n  \t\t"]);
+                  return bel0;
+            }(l.map(link));
+
+            function link(state, id) {
+                  return function () {
+
+                        var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
+                        var bel0 = document.createElement("a");
+                        bel0.setAttribute("href", arguments[0]);
+                        bel0.setAttribute("class", "mr1");
+                        ac(bel0, [arguments[1]]);
+                        return bel0;
+                  }(state.url, state.t);
+            }
+      }
+
+      function image(image) {
+            return function () {
+
+                  var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
+                  var bel1 = document.createElement("div");
+                  bel1.setAttribute("class", "1 my2");
+                  var bel0 = document.createElement("img");
+                  bel0.setAttribute("src", arguments[0]);
+                  bel0.setAttribute("class", "1 db");
+                  ac(bel1, ["\n          ", bel0, "\n        "]);
+                  return bel1;
+            }(image.path);
+      }
 
       return function () {
 
@@ -22322,48 +22385,6 @@ function project(state, emit) {
             ac(bel12, ["\n      ", bel4, "\n\t  ", bel6, "\n\t  ", bel7, "\n\t  ", bel11, "\n    "]);
             return bel12;
       }(state.page.title, state.page.description ? state.page.description : '', links(), format(state.page.text), images.length > 0 ? '2/5' : '1', images ? images.map(image) : '');
-
-      function image(image) {
-            return function () {
-
-                  var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
-                  var bel1 = document.createElement("div");
-                  bel1.setAttribute("class", "1 my1");
-                  var bel0 = document.createElement("img");
-                  bel0.setAttribute("src", arguments[0]);
-                  bel0.setAttribute("class", "c12 db");
-                  ac(bel1, ["\n        ", bel0, "\n      "]);
-                  return bel1;
-            }(image.path);
-      }
-
-      function links() {
-            var l = [];
-            if (state.page.github) l.push({ t: 'Github', url: state.page.github });
-            if (state.page.website) l.push({ t: 'Website', url: state.page.website });
-            if (state.page.npm) l.push({ t: 'npm', url: state.page.npm });
-
-            return function () {
-
-                  var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
-                  var bel0 = document.createElement("div");
-                  bel0.setAttribute("class", "1 db");
-                  ac(bel0, ["\n\t\t\t", arguments[0], "\n\t\t"]);
-                  return bel0;
-            }(l.map(link));
-
-            function link(state, id) {
-                  return function () {
-
-                        var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
-                        var bel0 = document.createElement("a");
-                        bel0.setAttribute("href", arguments[0]);
-                        bel0.setAttribute("class", "nbb p2 tac bb dib fl 1/" + arguments[1] + " " + arguments[2]);
-                        ac(bel0, [arguments[3]]);
-                        return bel0;
-                  }(state.url, l.length, id < l.length - 1 ? 'br' : '', state.t);
-            }
-      }
 }
 },{"../components/format":2,"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":190,"choo/html":11,"object-values":150}],203:[function(require,module,exports){
 var html = require('choo/html');
@@ -22397,13 +22418,13 @@ function projects(state, emit) {
       bel2.setAttribute("class", "1 db fl p1 nbb bb " + arguments[4]);
       var bel0 = document.createElement("div");
       bel0.setAttribute("class", "1/2 dib fl");
-      ac(bel0, ["\n\t\t\t\t\t", arguments[0], " → ", arguments[1], "\n\t\t\t\t"]);
+      ac(bel0, ["\n\t\t\t\t\t", arguments[0], " ― ", arguments[1], "\n\t\t\t\t"]);
       var bel1 = document.createElement("div");
       bel1.setAttribute("class", "1/2 dib fl");
       ac(bel1, ["\n\t\t\t\t\t", arguments[2], "\n\t\t\t\t"]);
       ac(bel2, ["\n\t\t\t\t", bel0, "\n\t\t\t\t", bel1, "\n\t\t\t"]);
       return bel2;
-    }(page.name, page.description, page.dates, page.url, id == 0 ? 'bt' : '');
+    }(page.title, page.description, page.dates, page.url, id == 0 ? 'bt' : '');
   }
 
   return function () {
