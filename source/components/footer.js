@@ -19,11 +19,17 @@ module.exports = function (state, emit) {
 		</div>
   	`
 
-	function link(state, id) {
+	function link(page, id) {
+		var active = isActive(page)
 		return html`
 			<span>
-				${id != 0 ? ' + ' : ''} <a href="${state.url}" class="nbb">${state.title}</a>
+				${id != 0 ? ' + ' : ''} <a href="${page.url}" class="nbb ${active ? 'bb' : ''}">${page.title}</a>
 			</span>
 		`
+
+		function isActive() {
+			return state.href.split('/').indexOf(page.url.replace('/', '')) != -1
+			return state.href == page.url
+		}
 	}
 }

@@ -1,37 +1,32 @@
 var html = require('choo/html')
 var ov = require('object-values')
 var format = require('../components/format')
-var footer = require('../components/footer')
 
 module.exports = blog
 
 function blog (state, emit) {
-  var entries = ov(state.page.pages)
+	var entries = ov(state.page.pages)
 
-  return html`
-    <main class="db 1 fl">
-	  <div class="pfeed 1 bb">
-	    <div class="f1"><a class="nbb mr1" href="/">/</a> ${state.page.title}</div>
-	  </div>
-	  <div class="1 db">
-	  ${entries.sort((a, b) => (state.content[a.url].date > state.content[b.url].date ? 1 : (state.content[b.url].date > state.content[a.url].date ? -1 : 0)))
-		  .reverse()
-		  .filter((entry) => (state.site.info && state.site.info.isOwner) || state.content[entry.url].visible == true)
-		  .map(entry)}
-	  </div>
-	  ${footer()}
-    </main>
-  `
+	return html`
+		<div class="1 db p1 mb4">
+			<div class="2/5 mxa m-1">
+				${entries.sort((a, b) => (state.content[a.url].date > state.content[b.url].date ? 1 : (state.content[b.url].date > state.content[a.url].date ? -1 : 0)))
+				  .reverse()
+				  .filter((entry) => (state.site.info && state.site.info.isOwner) || state.content[entry.url].visible == true)
+				  .map(entry)}
+			</div>
+		</div>
+	`
 
-  function entry (page) {
-    page = state.content[page.url]
-    return html`
-      <a href="${page.url}" class="dib nbb bb p2 1">
-        <div class="f1 fl">
-          ${page.title}
-        </div>
-		<div class="fr tcgrey f1">${page.date}</div>
-      </a>
-    `
-  }
+  	function entry (page, id) {
+		page = state.content[page.url]
+		return html`
+			<a href="${page.url}" class="dib nbb p2 1 bb ${id == 0 ? 'bt' : ''}">
+				<div class="fl">
+					${page.title}
+				</div>
+				<div class="fr tcgrey">${page.date}</div>
+      		</a>
+    	`
+  	}
 }

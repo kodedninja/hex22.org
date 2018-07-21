@@ -1,36 +1,33 @@
 var html = require('choo/html')
 var ov = require('object-values')
 var format = require('../components/format')
-var footer = require('../components/footer')
 
 module.exports = view
 
 function view (state, emit) {
-  var images = state.page.files ? ov(state.page.files).filter(file => file.type === 'image')[0] : false
+	var cover = state.page.files ? ov(state.page.files).filter(file => file.type === 'image')[0] : false
 
-  return html`
-    <main class="db 1 fl">
-	  <div class="pfeed 1 bb">
-	    <div class="f1"><a class="nbb mr1" href="/">/</a><a class="nbb mr1" href="/0x22">0x22</a><span class="mr1">/</span> ${state.page.title}</div>
-	  </div>
-	  <div class="p2 bb">
-	  	<div class="f2">${state.page.released ? 'Released on ' + state.page.released : ''}</div>
-	  </div>
-	  <div class="pfeed 1 bb">
-	    <div class="f2">${format(state.page.text)}</div>
-	  </div>
-	  <div class="pfeed 1 bb">
-	  	${tracks(state, emit)}
-	  </div>
-	  ${footer()}
-    </main>
-  `
+	return html`
+		<div class="1 db p1 mb4">
+			<div class="1/3 mxa m-1">
+				<div class="mb4">0x22 ― ${state.page.title} <span class="fr">${state.page.released ? 'Released on ' + state.page.released : ''}</span></div>
+				<div class="1 db bb">
+					${format(state.page.text)}
+				</div>
+				<div class="1 db bb">
+					${tracks(state, emit)}
+				</div>
+			</div>
+		</div>
+	`
 
   	function tracks(state, emit) {
 	  return html`
-	  	<div class="db 1 f2">
-			<span>Tracks:</span>
-			${state.page.tracks ? state.page.tracks.map(track) : ''}
+	  	<div class="db 1">
+			<p><span class="bb">Tracks</span></p>
+			<p>
+				${state.page.tracks ? state.page.tracks.map(track) : ''}
+			</p>
 		</div>
 	  `
 
@@ -43,7 +40,7 @@ function view (state, emit) {
 	  function image (image) {
 	    return html`
 	      <div class="mb4">
-	        <img class="1 db" src="${image.path}" />
+	        <img class="1 db mxa" src="${image.path}" />
 	      </div>
 	    `
 	  }
