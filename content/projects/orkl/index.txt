@@ -2,8 +2,9 @@ title: orkl
 ----
 view: project
 ----
-tags:
-  - selected
+dates: April 2018 ― present
+----
+priority: 8
 ----
 description: Super simple peer-to-peer blogging site
 ----

@@ -2,8 +2,9 @@ title: MICRONE
 ----
 view: project
 ----
-tags:
-  - selected
+dates: March 2018
+----
+priority: 5
 ----
 description: A tiny, minimalistic JS music player
 ----

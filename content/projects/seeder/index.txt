@@ -4,6 +4,10 @@ view: project
 ----
 description: Raspberry Pi DAT seeder
 ----
+dates: April 2018 ― present
+----
+priority: 9
+----
 text: This project is in a very early development stage and it's developed together with other guys in the [New Computer Working Group](https://newcomputers.group).
 
 The documentation is on Github.

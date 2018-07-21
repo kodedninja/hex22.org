@@ -2,8 +2,9 @@ title: solo
 ----
 view: project
 ----
-tags:
-  - selected
+dates: March ― April 2018
+----
+priority: 5
 ----
 description: The simplest publishing tool
 ----

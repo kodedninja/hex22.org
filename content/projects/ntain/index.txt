@@ -2,8 +2,9 @@ title: ntain
 ----
 view: project
 ----
-tags:
-  - ''
+dates: November ― December 2018
+----
+priority: 3
 ----
 description: A peer-to-peer file sharing application based on Beaker
 ----

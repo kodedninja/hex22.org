@@ -1,15 +1,20 @@
 var html = require('choo/html')
 var ov = require('object-values')
 var format = require('../components/format')
-var footer = require('../components/footer')
 
 module.exports = project
 
 function project (state, emit) {
-  var state = state || { }
-  var images = state.page.files
-    ? ov(state.page.files).filter(file => file.type === 'image')
-    : false
+	var state = state || { }
+	var images = state.page.files
+    	? ov(state.page.files).filter(file => file.type === 'image')
+    	: false
+
+	return html`
+		<div class="1 db p1 mb4">
+			
+		</div>
+	`
 
   return html`
     <main class="db 1 fl">
@@ -30,7 +35,6 @@ function project (state, emit) {
 		  	${images ? images.map(image) : ''}
 		  </div>
 	  </div>
-      ${footer()}
     </main>
   `
 

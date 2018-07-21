@@ -2,8 +2,9 @@ title: freemium
 ----
 view: project
 ----
-tags:
-  - ''
+dates: January 2018
+----
+priority: 4
 ----
 description: Firefox and Chrome addon that removes premium articles from Medium
 ----

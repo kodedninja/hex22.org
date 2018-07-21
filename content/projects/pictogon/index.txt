@@ -2,8 +2,9 @@ title: Pictogon
 ----
 view: project
 ----
-tags:
-  - selected
+dates: June ― September 2017
+----
+priority: 1
 ----
 description: A modern image map editor
 ----

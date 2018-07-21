@@ -4,6 +4,10 @@ view: project
 ----
 description: A CLI to-do list tool
 ----
+dates: May ― November 2017
+----
+priority: 0
+----
 text: odot is a really simple checklist command line tool. It's pretty dumb, but I'll work on it. It makes todoing very comfortable through short commands.
 
 #### Installation: ```npm install -g odotlist```

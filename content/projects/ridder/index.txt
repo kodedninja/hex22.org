@@ -2,8 +2,9 @@ title: ridder
 ----
 view: project
 ----
-tags:
-  - selected
+dates: April ― May 2018
+----
+priority: 6
 ----
 description: An RSS reader that you own
 ----

@@ -2,22 +2,35 @@ var html = require('choo/html')
 var ov = require('object-values')
 var xt = require('xtend')
 const format = require('../components/format')
-var footer = require('../components/footer')
 
 module.exports = projects
 
 function projects (state, emit) {
-  var entries = ov(state.page.pages).sort((a, b) => (a.url > b.url ? 1 : (b.url > a.url ? -1 : 0)))
-  if (state.filter) entries = entries.filter((page) => {
-	  page = state.content[page.url]
-	  return (page.tags && page.tags.indexOf('selected') != -1)
-  })
+  	var entries = ov(state.page.pages).sort((a, b) => {
+		return state.content[b.url].priority - state.content[a.url].priority
+	})
 
-  var w = (typeof window !== 'undefined') ? document.body.clientWidth : 0
-  var divisor = w > 1500 ? 3 : 2
-  var rows = '1/' + divisor
+	return html`
+		<div class="1 db p1 mb4 fl">
+			${entries.map(entry)}
+		</div>
+	`
 
-  entries = slice(entries, divisor)
+	function entry(e, id) {
+		var page = state.content[e.url] || {}
+		return html`
+			<a href="${page.url}" class="1 db fl p1 nbb bb ${id == 0 ? 'bt' : ''}">
+				<div class="1/2 dib fl">
+					${page.name} → ${page.description}
+				</div>
+				<div class="1/2 dib fl">
+					${page.dates}
+				</div>
+			</a>
+		`
+	}
+
+
 
   return html`
     <main class="db 1 fl">
@@ -31,7 +44,6 @@ function projects (state, emit) {
 	  <div class="1 db">
 	    ${entries.map(row)}
 	  </div>
-	  ${footer()}
     </main>
   `
 
