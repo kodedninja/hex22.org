@@ -110,8 +110,18 @@ function navigation (state, emit) {
 function loading() {
 	return html`
 		<main>
-			<div class="fl 1 db pfeed">
-				<div class="fl db 1 f1 tac">hex22</div>
+			<div class="fl 1 db">
+				<div class="1 fl db p0-5 px1 bb mb4 header collapsed">
+					<div class="1 db fl mb1">
+						<span class="nbb">Hunor Karamán</span>
+						<span class="nbb fr">...</span>
+					</div>
+				</div>
+				<div class="1 db p1 mb4">
+					<div class="1/3 mxa m-1">
+						...
+					</div>
+				</div>
 			</div>
 		</main>
 	`

@@ -364,7 +364,7 @@
     "info": "Hello. I’m a developer working mostly on experimental projects with small footprint.\n\"I really enjoy making tools.\" ― Callil Capuozzo\n\n[Github](https://github.com/kodedninja) ― [Are.na](https://are.na/hunor-karaman)\n[karamanhunor@protonmail.com](mailto:karamanhunor@protonmail.com)\n\nI'm your <u>peer</u>.",
     "currently": "◦ Freelance developer & designer\n◦ Engineer of [Peer-to-Peer tools](/p2p)",
     "previously": "◦ [Pictogon](https://pictogon.com)",
-    "text": "<span style=\"color: red;\">You won't see world-changing blockchain projects here!</span> Those can be seen on television or in newspapers. I'm interested in the <span class=\"f6 dib\">small</span>, [in “What’s After Now”, the alternative form, A New Spirit of Computation](https://newcomputers.group).\n\nI think small, design small, build small ― small is useful, adoptable, personal & __can grow__.\n\nSmall tools can solve big problems. Small is not a compromise, it's a possibility.\n\n---\n\n<u>Interests</u>\n\nFuture ― Solarpunk\nDecentralization ― Peer-to-Peer\nMachine Learning\nFunctional Design\n\n---\n\n<u>Opinion</u>\n\nI think the __future__ will be decentralized, solar-powered, encrypted and owned by the people.",
+    "text": "<span style=\"color: red;\">You won't see world-changing blockchain projects here!</span> I'm interested in the <span class=\"f6 dib\">small</span>, [in “What’s After Now”, the alternative form, A New Spirit of Computation](https://newcomputers.group).\n\nI think small, design small, build small ― small is useful, adoptable, personal & __small can grow__.\n\nSmall tools can solve big problems. Small is not a compromise, it's a possibility.\n\n---\n\n<u>Interests</u>\n\nFuture ― Solarpunk\nDecentralization ― Peer-to-Peer\nMachine Learning \nBioinformatics\nFunctional Design\n\n---\n\n<u>Opinion</u>\n\nI think the __future__ will be decentralized, solar-powered, encrypted and owned by the people.\n\n---\n\n<p class=\"brw\">\n\tdat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/\n</p>",
     "name": "content",
     "path": "/content",
     "url": "/",
@@ -419,108 +419,6 @@
         "source": "/content/0x22"
       }
     }
-  },
-  "/0x22/glacio": {
-    "title": "glacio",
-    "view": "album",
-    "released": "2017-12-14",
-    "tracks": [
-      "December",
-      "I don't know my feelings"
-    ],
-    "text": "[Bandcamp](https://0x22.bandcamp.com/album/glacio)\n\ni love winter\\\nand the cold and the snow\\\nand i love the sound of the ice\\\nbreaking itself on the stone\n\n\"December\" was written in December, 2017.\\\n\"I don't know my feelings\" was written in February, 2017 (found the file now).",
-    "name": "glacio",
-    "path": "/content/0x22/glacio",
-    "url": "/0x22/glacio",
-    "files": {
-      "cover.jpg": {
-        "name": "cover",
-        "path": "/content/0x22/glacio/cover.jpg",
-        "url": "/0x22/glacio/cover.jpg",
-        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/0x22/glacio/cover.jpg",
-        "extension": ".jpg",
-        "filename": "cover.jpg",
-        "type": "image"
-      }
-    },
-    "pages": {}
-  },
-  "/0x22/it-was-dawn-when-the-old-man-died": {
-    "title": "It was dawn when the old man died",
-    "view": "album",
-    "released": "2017-10-01",
-    "tracks": [
-      "It was dawn when the old man died I.",
-      "It was dawn when the old man died II."
-    ],
-    "text": "[Bandcamp](https://0x22.bandcamp.com/album/it-was-dawn-when-the-old-man-died)\n\nAt dawn warmer waves arrive to the surface of Earth. They break up into millions of other waves, then return into the atmosphere. These waves are the reason that life exists on Earth. These waves our the reason why we die.\n\n\"It was dawn when the old man died I.\" presents 3 perspectives of a dawn. Is just a simple dawn the same for a dying man, for a couple or for a child? Is it the same for you and me?\n\n\"It was dawn when the old man died II.\" is an experimental slowed down version of the first track. Doesn't sure which one describes more the concept.",
-    "name": "it-was-dawn-when-the-old-man-died",
-    "path": "/content/0x22/it-was-dawn-when-the-old-man-died",
-    "url": "/0x22/it-was-dawn-when-the-old-man-died",
-    "files": {
-      "itwasdawn.png": {
-        "name": "itwasdawn",
-        "path": "/content/0x22/it-was-dawn-when-the-old-man-died/itwasdawn.png",
-        "url": "/0x22/it-was-dawn-when-the-old-man-died/itwasdawn.png",
-        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/0x22/it-was-dawn-when-the-old-man-died/itwasdawn.png",
-        "extension": ".png",
-        "filename": "itwasdawn.png",
-        "type": "image"
-      }
-    },
-    "pages": {}
-  },
-  "/0x22/metaphases": {
-    "title": "Metaphases",
-    "view": "album",
-    "released": "2017-12-23",
-    "tracks": [
-      "Metaphases"
-    ],
-    "text": "[Bandcamp](https://0x22.bandcamp.com/album/metaphases)\n\nRecorded in December 2017. All music by 0x22.",
-    "name": "metaphases",
-    "path": "/content/0x22/metaphases",
-    "url": "/0x22/metaphases",
-    "files": {
-      "covermountinas.jpg": {
-        "name": "covermountinas",
-        "path": "/content/0x22/metaphases/covermountinas.jpg",
-        "url": "/0x22/metaphases/covermountinas.jpg",
-        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/0x22/metaphases/covermountinas.jpg",
-        "extension": ".jpg",
-        "filename": "covermountinas.jpg",
-        "type": "image"
-      }
-    },
-    "pages": {}
-  },
-  "/0x22/with-love-from-very-small-places": {
-    "title": "With love from very small places",
-    "view": "album",
-    "released": "2017-11-14",
-    "tracks": [
-      "Moon Shadow",
-      "Silhouettes",
-      "Spaces",
-      "Hearts and Magnets",
-      "Sun Light"
-    ],
-    "text": "[Bandcamp](https://0x22.bandcamp.com/album/with-love-from-very-small-places)\n\nIn life sometimes we stuck into small places, places that make us feel closed and paralysed. Will a hand help you out from there?\n\n\"With love from very small places\" is a concept album, written for my girlfriend for our anniversary. It's a journey to the surface from somewhere below. From a very small place.",
-    "name": "with-love-from-very-small-places",
-    "path": "/content/0x22/with-love-from-very-small-places",
-    "url": "/0x22/with-love-from-very-small-places",
-    "files": {
-      "smallplaces.png": {
-        "name": "smallplaces",
-        "path": "/content/0x22/with-love-from-very-small-places/smallplaces.png",
-        "url": "/0x22/with-love-from-very-small-places/smallplaces.png",
-        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/0x22/with-love-from-very-small-places/smallplaces.png",
-        "extension": ".png",
-        "filename": "smallplaces.png",
-        "type": "image"
-      }
-    },
-    "pages": {}
   },
   "/writing/p2p-myself": {
     "title": "Peer-to-peer myself",
@@ -793,6 +691,108 @@
         "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/projects/solo/soloedit.png",
         "extension": ".png",
         "filename": "soloedit.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/0x22/glacio": {
+    "title": "glacio",
+    "view": "album",
+    "released": "2017-12-14",
+    "tracks": [
+      "December",
+      "I don't know my feelings"
+    ],
+    "text": "[Bandcamp](https://0x22.bandcamp.com/album/glacio)\n\ni love winter\\\nand the cold and the snow\\\nand i love the sound of the ice\\\nbreaking itself on the stone\n\n\"December\" was written in December, 2017.\\\n\"I don't know my feelings\" was written in February, 2017 (found the file now).",
+    "name": "glacio",
+    "path": "/content/0x22/glacio",
+    "url": "/0x22/glacio",
+    "files": {
+      "cover.jpg": {
+        "name": "cover",
+        "path": "/content/0x22/glacio/cover.jpg",
+        "url": "/0x22/glacio/cover.jpg",
+        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/0x22/glacio/cover.jpg",
+        "extension": ".jpg",
+        "filename": "cover.jpg",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/0x22/it-was-dawn-when-the-old-man-died": {
+    "title": "It was dawn when the old man died",
+    "view": "album",
+    "released": "2017-10-01",
+    "tracks": [
+      "It was dawn when the old man died I.",
+      "It was dawn when the old man died II."
+    ],
+    "text": "[Bandcamp](https://0x22.bandcamp.com/album/it-was-dawn-when-the-old-man-died)\n\nAt dawn warmer waves arrive to the surface of Earth. They break up into millions of other waves, then return into the atmosphere. These waves are the reason that life exists on Earth. These waves our the reason why we die.\n\n\"It was dawn when the old man died I.\" presents 3 perspectives of a dawn. Is just a simple dawn the same for a dying man, for a couple or for a child? Is it the same for you and me?\n\n\"It was dawn when the old man died II.\" is an experimental slowed down version of the first track. Doesn't sure which one describes more the concept.",
+    "name": "it-was-dawn-when-the-old-man-died",
+    "path": "/content/0x22/it-was-dawn-when-the-old-man-died",
+    "url": "/0x22/it-was-dawn-when-the-old-man-died",
+    "files": {
+      "itwasdawn.png": {
+        "name": "itwasdawn",
+        "path": "/content/0x22/it-was-dawn-when-the-old-man-died/itwasdawn.png",
+        "url": "/0x22/it-was-dawn-when-the-old-man-died/itwasdawn.png",
+        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/0x22/it-was-dawn-when-the-old-man-died/itwasdawn.png",
+        "extension": ".png",
+        "filename": "itwasdawn.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/0x22/metaphases": {
+    "title": "Metaphases",
+    "view": "album",
+    "released": "2017-12-23",
+    "tracks": [
+      "Metaphases"
+    ],
+    "text": "[Bandcamp](https://0x22.bandcamp.com/album/metaphases)\n\nRecorded in December 2017. All music by 0x22.",
+    "name": "metaphases",
+    "path": "/content/0x22/metaphases",
+    "url": "/0x22/metaphases",
+    "files": {
+      "covermountinas.jpg": {
+        "name": "covermountinas",
+        "path": "/content/0x22/metaphases/covermountinas.jpg",
+        "url": "/0x22/metaphases/covermountinas.jpg",
+        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/0x22/metaphases/covermountinas.jpg",
+        "extension": ".jpg",
+        "filename": "covermountinas.jpg",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/0x22/with-love-from-very-small-places": {
+    "title": "With love from very small places",
+    "view": "album",
+    "released": "2017-11-14",
+    "tracks": [
+      "Moon Shadow",
+      "Silhouettes",
+      "Spaces",
+      "Hearts and Magnets",
+      "Sun Light"
+    ],
+    "text": "[Bandcamp](https://0x22.bandcamp.com/album/with-love-from-very-small-places)\n\nIn life sometimes we stuck into small places, places that make us feel closed and paralysed. Will a hand help you out from there?\n\n\"With love from very small places\" is a concept album, written for my girlfriend for our anniversary. It's a journey to the surface from somewhere below. From a very small place.",
+    "name": "with-love-from-very-small-places",
+    "path": "/content/0x22/with-love-from-very-small-places",
+    "url": "/0x22/with-love-from-very-small-places",
+    "files": {
+      "smallplaces.png": {
+        "name": "smallplaces",
+        "path": "/content/0x22/with-love-from-very-small-places/smallplaces.png",
+        "url": "/0x22/with-love-from-very-small-places/smallplaces.png",
+        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/0x22/with-love-from-very-small-places/smallplaces.png",
+        "extension": ".png",
+        "filename": "smallplaces.png",
         "type": "image"
       }
     },

@@ -1,25 +1,19 @@
 (function(){function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s}return e})()({1:[function(require,module,exports){
 var html = require('choo/html');
 
-var nav = [{ title: 'Projects', url: '/projects' }, { title: 'Peer-to-Peer', url: '/p2p' }, { title: 'Writing', url: '/writing' }, { title: 'Music', url: '/0x22' }];
+var nav = [{ title: 'Projects', url: '/projects' }, { title: 'Writing', url: '/writing' }, { title: 'Music', url: '/0x22' }];
 
 module.exports = function (state, emit) {
 	return function () {
 
 		var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
-		var bel3 = document.createElement("div");
-		bel3.setAttribute("class", "p0-5 px1 1 pf b0 bt footer");
-		var bel0 = document.createElement("div");
-		bel0.setAttribute("class", "fl 1/2 dib m-1");
-		ac(bel0, ["\n\t\t\t\t", arguments[0], "\n\t\t\t"]);
-		var bel2 = document.createElement("div");
-		bel2.setAttribute("class", "fl 1/2 dib m-1");
 		var bel1 = document.createElement("div");
-		bel1.setAttribute("class", "brw");
-		ac(bel1, ["dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/"]);
-		ac(bel2, ["\n\t\t\t\t", bel1, "\n\t\t\t"]);
-		ac(bel3, ["\n\t\t\t", bel0, "\n\t\t\t", bel2, "\n\t\t"]);
-		return bel3;
+		bel1.setAttribute("class", "p0-5 px1 1 pf b0 bt footer");
+		var bel0 = document.createElement("div");
+		bel0.setAttribute("class", "fl 1 dib m-1");
+		ac(bel0, ["\n\t\t\t\t", arguments[0], "\n\t\t\t"]);
+		ac(bel1, ["\n\t\t\t", bel0, "\n\t\t"]);
+		return bel1;
 	}(nav.map(link));
 
 	function link(page, id) {
@@ -27,14 +21,15 @@ module.exports = function (state, emit) {
 		return function () {
 
 			var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
-			var bel1 = document.createElement("span");
+			var bel1 = document.createElement("div");
+			bel1.setAttribute("class", "1/" + arguments[3] + " tac dib");
 			var bel0 = document.createElement("a");
 			bel0.setAttribute("href", arguments[0]);
 			bel0.setAttribute("class", "nbb " + arguments[1]);
 			ac(bel0, [arguments[2]]);
-			ac(bel1, ["\n\t\t\t\t", arguments[3], " ", bel0, "\n\t\t\t"]);
+			ac(bel1, ["\n\t\t\t\t", bel0, "\n\t\t\t"]);
 			return bel1;
-		}(page.url, active ? 'bb' : '', page.title, id != 0 ? ' + ' : '');
+		}(page.url, active ? 'bb' : '', page.title, nav.length);
 
 		function isActive() {
 			return state.href.split('/').indexOf(page.url.replace('/', '')) != -1;
@@ -22413,18 +22408,21 @@ function projects(state, emit) {
     return function () {
 
       var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
-      var bel2 = document.createElement("a");
-      bel2.setAttribute("href", arguments[3]);
-      bel2.setAttribute("class", "1 db fl p1 nbb bb " + arguments[4]);
-      var bel0 = document.createElement("div");
-      bel0.setAttribute("class", "1/2 dib fl");
-      ac(bel0, ["\n\t\t\t\t\t", arguments[0], " ― ", arguments[1], "\n\t\t\t\t"]);
+      var bel3 = document.createElement("a");
+      bel3.setAttribute("href", arguments[3]);
+      bel3.setAttribute("class", "1 db fl p1 nbb bb " + arguments[4]);
       var bel1 = document.createElement("div");
       bel1.setAttribute("class", "1/2 dib fl");
-      ac(bel1, ["\n\t\t\t\t\t", arguments[2], "\n\t\t\t\t"]);
-      ac(bel2, ["\n\t\t\t\t", bel0, "\n\t\t\t\t", bel1, "\n\t\t\t"]);
-      return bel2;
-    }(page.title, page.description, page.dates, page.url, id == 0 ? 'bt' : '');
+      var bel0 = document.createElement("span");
+      bel0.setAttribute("class", "bb");
+      ac(bel0, [arguments[0]]);
+      ac(bel1, ["\n\t\t\t\t\t", arguments[1], " ― ", bel0, "\n\t\t\t\t"]);
+      var bel2 = document.createElement("div");
+      bel2.setAttribute("class", "1/2 dib fl");
+      ac(bel2, ["\n\t\t\t\t\t", arguments[2], "\n\t\t\t\t"]);
+      ac(bel3, ["\n\t\t\t\t", bel1, "\n\t\t\t\t", bel2, "\n\t\t\t"]);
+      return bel3;
+    }(page.description, page.title, page.dates, page.url, id == 0 ? 'bt' : '');
   }
 
   return function () {
@@ -22682,15 +22680,30 @@ function loading() {
   return function () {
 
     var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
-    var bel2 = document.createElement("main");
-    var bel1 = document.createElement("div");
-    bel1.setAttribute("class", "fl 1 db pfeed");
-    var bel0 = document.createElement("div");
-    bel0.setAttribute("class", "fl db 1 f1 tac");
-    ac(bel0, ["hex22"]);
-    ac(bel1, ["\n\t\t\t\t", bel0, "\n\t\t\t"]);
-    ac(bel2, ["\n\t\t\t", bel1, "\n\t\t"]);
-    return bel2;
+    var bel7 = document.createElement("main");
+    var bel6 = document.createElement("div");
+    bel6.setAttribute("class", "fl 1 db");
+    var bel3 = document.createElement("div");
+    bel3.setAttribute("class", "1 fl db p0-5 px1 bb mb4 header collapsed");
+    var bel2 = document.createElement("div");
+    bel2.setAttribute("class", "1 db fl mb1");
+    var bel0 = document.createElement("span");
+    bel0.setAttribute("class", "nbb");
+    ac(bel0, ["Hunor Karamán"]);
+    var bel1 = document.createElement("span");
+    bel1.setAttribute("class", "nbb fr");
+    ac(bel1, ["..."]);
+    ac(bel2, ["\n\t\t\t\t\t\t", bel0, "\n\t\t\t\t\t\t", bel1, "\n\t\t\t\t\t"]);
+    ac(bel3, ["\n\t\t\t\t\t", bel2, "\n\t\t\t\t"]);
+    var bel5 = document.createElement("div");
+    bel5.setAttribute("class", "1 db p1 mb4");
+    var bel4 = document.createElement("div");
+    bel4.setAttribute("class", "1/3 mxa m-1");
+    ac(bel4, ["\n\t\t\t\t\t\t...\n\t\t\t\t\t"]);
+    ac(bel5, ["\n\t\t\t\t\t", bel4, "\n\t\t\t\t"]);
+    ac(bel6, ["\n\t\t\t\t", bel3, "\n\t\t\t\t", bel5, "\n\t\t\t"]);
+    ac(bel7, ["\n\t\t\t", bel6, "\n\t\t"]);
+    return bel7;
   }();
 }
 
