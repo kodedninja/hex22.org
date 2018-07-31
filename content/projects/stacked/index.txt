@@ -1,0 +1,15 @@
+title: stacked
+----
+view: project
+----
+priority: 10
+----
+description: A distraction-free project management tool
+----
+github: https://github.com/kodedninja/stacked
+----
+text: If you hate using a service that depends on your connectivity for project management ("todo-listing") and you think sticky-notes aren't eco-friendly + too physical, you're like me and you'll like Stacked.
+
+Stacked is a project management tool based on [Beaker Browser](https://beakerbrowser.com) and [DAT](https://datproject.org), meaning that you own all your data and you don't depend on the cloud (which in many cases isn't available).
+----
+dates: July 2018 ― present

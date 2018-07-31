@@ -138,6 +138,41 @@
     "files": {},
     "pages": {}
   },
+  "/0x22": {
+    "title": "0x22",
+    "view": "default",
+    "text": "<u>An ambient music project</u>\n\n[Bandcamp](https://0x22.bandcamp.com)\n\nSince 2015, after bands and instrumental music projects, [I](/karaman-hunor)'ve started composing electronical music. It started with making noises for a progressive metal album, but later I've found the long sine waves and fell in love with the ambient / drone sounding.\n\nI'm inspired by feelings and the music of talented musicians like Nils Frahm, Celer or Ólafur Arnalds.\n\n---\n\n<u>Releases</u>\n\n+ [Metaphases](/0x22/metaphases) - 2017 December\\\n+ [glacio](/0x22/glacio) - 2017 December\\\n+ [With love from very small places](/0x22/with-love-from-very-small-places) - 2017 November\\\n+ [It was dawn when the old man died](/0x22/it-was-dawn-when-the-old-man-died) - 2017 October\\\n+ [Nothingness EP (early works under the moniker Shiip)](https://0x22.bandcamp.com/album/nothingness-ep) - 2017 February",
+    "name": "0x22",
+    "path": "/content/0x22",
+    "url": "/0x22",
+    "files": {},
+    "pages": {
+      "glacio": {
+        "name": "glacio",
+        "path": "/content/0x22/glacio",
+        "url": "/0x22/glacio",
+        "source": "/content/0x22/glacio"
+      },
+      "it-was-dawn-when-the-old-man-died": {
+        "name": "it-was-dawn-when-the-old-man-died",
+        "path": "/content/0x22/it-was-dawn-when-the-old-man-died",
+        "url": "/0x22/it-was-dawn-when-the-old-man-died",
+        "source": "/content/0x22/it-was-dawn-when-the-old-man-died"
+      },
+      "metaphases": {
+        "name": "metaphases",
+        "path": "/content/0x22/metaphases",
+        "url": "/0x22/metaphases",
+        "source": "/content/0x22/metaphases"
+      },
+      "with-love-from-very-small-places": {
+        "name": "with-love-from-very-small-places",
+        "path": "/content/0x22/with-love-from-very-small-places",
+        "url": "/0x22/with-love-from-very-small-places",
+        "source": "/content/0x22/with-love-from-very-small-places"
+      }
+    }
+  },
   "/writing": {
     "title": "Writing",
     "view": "blog",
@@ -147,23 +182,11 @@
     "url": "/writing",
     "files": {},
     "pages": {
-      "p2p-myself": {
-        "name": "p2p-myself",
-        "path": "/content/writing/p2p-myself",
-        "url": "/writing/p2p-myself",
-        "source": "/content/writing/p2p-myself"
-      },
       "later-here": {
         "name": "later-here",
         "path": "/content/writing/later-here",
         "url": "/writing/later-here",
         "source": "/content/writing/later-here"
-      },
-      "random": {
-        "name": "random",
-        "path": "/content/writing/random",
-        "url": "/writing/random",
-        "source": "/content/writing/random"
       },
       "design-question-response": {
         "name": "design-question-response",
@@ -236,82 +259,25 @@
         "url": "/projects/ridder",
         "source": "/content/projects/ridder"
       },
-      "seeder": {
-        "name": "seeder",
-        "path": "/content/projects/seeder",
-        "url": "/projects/seeder",
-        "source": "/content/projects/seeder"
-      },
       "solo": {
         "name": "solo",
         "path": "/content/projects/solo",
         "url": "/projects/solo",
         "source": "/content/projects/solo"
+      },
+      "stacked": {
+        "name": "stacked",
+        "path": "/content/projects/stacked",
+        "url": "/projects/stacked",
+        "source": "/content/projects/stacked"
+      },
+      "seeder": {
+        "name": "seeder",
+        "path": "/content/projects/seeder",
+        "url": "/projects/seeder",
+        "source": "/content/projects/seeder"
       }
     }
-  },
-  "/0x22": {
-    "title": "0x22",
-    "view": "default",
-    "text": "<u>An ambient music project</u>\n\n[Bandcamp](https://0x22.bandcamp.com)\n\nSince 2015, after bands and instrumental music projects, [I](/karaman-hunor)'ve started composing electronical music. It started with making noises for a progressive metal album, but later I've found the long sine waves and fell in love with the ambient / drone sounding.\n\nI'm inspired by feelings and the music of talented musicians like Nils Frahm, Celer or Ólafur Arnalds.\n\n---\n\n<u>Releases</u>\n\n+ [Metaphases](/0x22/metaphases) - 2017 December\\\n+ [glacio](/0x22/glacio) - 2017 December\\\n+ [With love from very small places](/0x22/with-love-from-very-small-places) - 2017 November\\\n+ [It was dawn when the old man died](/0x22/it-was-dawn-when-the-old-man-died) - 2017 October\\\n+ [Nothingness EP (early works under the moniker Shiip)](https://0x22.bandcamp.com/album/nothingness-ep) - 2017 February",
-    "name": "0x22",
-    "path": "/content/0x22",
-    "url": "/0x22",
-    "files": {},
-    "pages": {
-      "glacio": {
-        "name": "glacio",
-        "path": "/content/0x22/glacio",
-        "url": "/0x22/glacio",
-        "source": "/content/0x22/glacio"
-      },
-      "it-was-dawn-when-the-old-man-died": {
-        "name": "it-was-dawn-when-the-old-man-died",
-        "path": "/content/0x22/it-was-dawn-when-the-old-man-died",
-        "url": "/0x22/it-was-dawn-when-the-old-man-died",
-        "source": "/content/0x22/it-was-dawn-when-the-old-man-died"
-      },
-      "metaphases": {
-        "name": "metaphases",
-        "path": "/content/0x22/metaphases",
-        "url": "/0x22/metaphases",
-        "source": "/content/0x22/metaphases"
-      },
-      "with-love-from-very-small-places": {
-        "name": "with-love-from-very-small-places",
-        "path": "/content/0x22/with-love-from-very-small-places",
-        "url": "/0x22/with-love-from-very-small-places",
-        "source": "/content/0x22/with-love-from-very-small-places"
-      }
-    }
-  },
-  "/writing/random": {
-    "title": "We are random",
-    "view": "entry",
-    "date": "2018-04-17",
-    "location": "Home",
-    "excerpt": "My philosophy on how the world and life was formed.",
-    "text": "*A journey that wasn't like this, but it might has been.*\n\nIn the beginning there was nothing, at least something that's the closest to nothing in our sense. Like a lake, the calm water of a lake without movement and changes, for an unrealizable time.\n\nBut due to a random force and the mirror-like surface of the lake started to move and get noisy. We were lucky and one \"*thing*\" hit another \"*thing*\" and these two \"*things*\" started to form what we today call the existence.\n\nIt's a bit abstract, but something like the formation of life must be abstract and unreal.\n\nAfter many billions or trillions of these random happenings we're here. We were lucky! It's possible that this whole process has happened a thousand times, but with different output. \n\nIt was random how nucleons, electrons appeared and then somehow (by random) these started to form atoms and then molecules. Even when two cells met and started changing their internals was random. And so on...\n\nThe outcome might have been different. How our brain works, how we look, what Earth is. We could be gas fields in the universe or signals in an unknown system. But we're not. Because random choices formed us like this.\n\n---\n\n- [A more exact explanation of how the world was formed.](https://www.youtube.com/watch?v=ZL4yYHdDSWs)",
-    "visible": true,
-    "name": "random",
-    "path": "/content/writing/random",
-    "url": "/writing/random",
-    "files": {},
-    "pages": {}
-  },
-  "/writing/design-question-response": {
-    "title": "Design: Question ― Response",
-    "view": "entry",
-    "date": "2018-04-25",
-    "location": "Home",
-    "excerpt": "When I was a child my guitar teacher taught me a simple way to think about music composition.",
-    "text": "He said that a piece is like a **conversation** between two egos in the music. One of them asks a question and the other one responds. For the composer this compiles to: **Asking a question with a melody and responding to that with another one**.\n\nIn reality this isn't that simple because a melody can be a question somewhere in the piece and a response somewhere else ― or the response can be the question itself. *Like a person's role in a conversation changes from emitter to receiver and vice-versa.* Basically these variations make music unpredictable.\n\nThe point is that this very simple structure makes a flow in the listening and in the writing process. The listener never receives a response without a question (the part where a theme is introduced) and the whole piece won't feel chaotic and disoriented. \n\nI think about this system in interface design too.\n\nWhat you want in design is a predictable **conversation**. A learnable **conversation**, where you learn the personality of the interface and know the answers before questioning.\n\nOn a good interface you don't have to find a question to respond to or the question to your possible response (for example searching for the login field or button). A good interface asks the right questions at the right time and these can be answered without much thinking. *In our society clicking, scrolling, tapping work subcounciously, anyways.*\n\nA designer's job is to know what questions might be in the user's head at a given time and give him the biggest possible \"*question mark*\" on that part of the interface. Asking the right questions about a problem is what design's about. A question can be the content, a button, a link or the urge to scroll, etc...\n\nSo, before including something into an interface and before thinking hours on its location, I try to find the question that element should respond to. \n\nThe question and the context give the properties (position, size, content) of the element . \n\nThe result is a natural **conversation** between interface and user. **An information flow between computer and human.**\n\n[WIP]",
-    "visible": true,
-    "name": "design-question-response",
-    "path": "/content/writing/design-question-response",
-    "url": "/writing/design-question-response",
-    "files": {},
-    "pages": {}
   },
   "/projects/bik": {
     "title": "bik",
@@ -358,6 +324,34 @@
     "files": {},
     "pages": {}
   },
+  "/projects/stacked": {
+    "title": "stacked",
+    "view": "project",
+    "priority": "10",
+    "description": "A distraction-free project management tool",
+    "github": "https://github.com/kodedninja/stacked",
+    "text": "If you hate using a service that depends on your connectivity for project management (\"todo-listing\") and you think sticky-notes aren't eco-friendly + too physical, you're like me and you'll like Stacked.\n\nStacked is a project management tool based on [Beaker Browser](https://beakerbrowser.com) and [DAT](https://datproject.org), meaning that you own all your data and you don't depend on the cloud (which in many cases isn't available).",
+    "dates": "July 2018 ― present",
+    "name": "stacked",
+    "path": "/content/projects/stacked",
+    "url": "/projects/stacked",
+    "files": {},
+    "pages": {}
+  },
+  "/writing/design-question-response": {
+    "title": "Design: Question ― Response",
+    "view": "entry",
+    "date": "2018-04-25",
+    "location": "Home",
+    "excerpt": "When I was a child my guitar teacher taught me a simple way to think about music composition.",
+    "text": "He said that a piece is like a **conversation** between two egos in the music. One of them asks a question and the other one responds. For the composer this compiles to: **Asking a question with a melody and responding to that with another one**.\n\nIn reality this isn't that simple because a melody can be a question somewhere in the piece and a response somewhere else ― or the response can be the question itself. *Like a person's role in a conversation changes from emitter to receiver and vice-versa.* Basically these variations make music unpredictable.\n\nThe point is that this very simple structure makes a flow in the listening and in the writing process. The listener never receives a response without a question (the part where a theme is introduced) and the whole piece won't feel chaotic and disoriented. \n\nI think about this system in interface design too.\n\nWhat you want in design is a predictable **conversation**. A learnable **conversation**, where you learn the personality of the interface and know the answers before questioning.\n\nOn a good interface you don't have to find a question to respond to or the question to your possible response (for example searching for the login field or button). A good interface asks the right questions at the right time and these can be answered without much thinking. *In our society clicking, scrolling, tapping work subcounciously, anyways.*\n\nA designer's job is to know what questions might be in the user's head at a given time and give him the biggest possible \"*question mark*\" on that part of the interface. Asking the right questions about a problem is what design's about. A question can be the content, a button, a link or the urge to scroll, etc...\n\nSo, before including something into an interface and before thinking hours on its location, I try to find the question that element should respond to. \n\nThe question and the context give the properties (position, size, content) of the element . \n\nThe result is a natural **conversation** between interface and user. **An information flow between computer and human.**\n\n[WIP]",
+    "visible": true,
+    "name": "design-question-response",
+    "path": "/content/writing/design-question-response",
+    "url": "/writing/design-question-response",
+    "files": {},
+    "pages": {}
+  },
   "/": {
     "title": "Hunor Karamán",
     "view": "home",
@@ -400,6 +394,12 @@
         "url": "/thanks",
         "source": "/content/thanks"
       },
+      "0x22": {
+        "name": "0x22",
+        "path": "/content/0x22",
+        "url": "/0x22",
+        "source": "/content/0x22"
+      },
       "writing": {
         "name": "writing",
         "path": "/content/writing",
@@ -411,71 +411,8 @@
         "path": "/content/projects",
         "url": "/projects",
         "source": "/content/projects"
-      },
-      "0x22": {
-        "name": "0x22",
-        "path": "/content/0x22",
-        "url": "/0x22",
-        "source": "/content/0x22"
       }
     }
-  },
-  "/writing/p2p-myself": {
-    "title": "Peer-to-peer myself",
-    "view": "entry",
-    "date": "2018-03-27",
-    "location": "Home",
-    "excerpt": "Since I've started digging into the peer-to-peer internet I wanted to move my site onto it. Today I found the way that perfectly fits into my workflow.",
-    "text": "[![Peer-to-peer Day Image](/content/writing/p2p-myself/lines.png)](dat://peer-to-peer-web.com)\n\nI've moved the site off of Github Pages and onto a combo of [now.sh](https://now.sh) and [Hashbase](https://hashbase.io). Finally I'm able to use magical subdomains of hex22.org on Dat.\n\n### The core of the site: Enoki\n[Enoki](https://enoki.site) is an \"An experimental ~~platform~~ tool for peer-to-peer publishing\" ― simply a CMS on the [Dat](https://dat-project.org) protocol.\n\nThe site was based on the pre-alpha version of it (a static-site generator with a CMS page) and I wasn't able to move it to the Beta version, because that's a \"peer-to-peer first\" tool. Today this changed too, because I rewrote it to use the Panel and I'm amazed by the feeling of it. It's the best writing / CMS tool I've ever used. Everything feels so natural and *in the flow*. Thumbs up, [Jon Kyle](https://jon-kyle.com).\n\n### Hashbase\nHashbase is a seeding service by the developers of the [Beaker Browser](https://beakerbrowser.com). Although peer-to-peer sites are powered by their users, it's good to have a constant peer. I try to use Hashbase as little as possible, because using for everything would break the peer-to-peer side of the sites. Also, I seed every Dat site I've visited and liked.\n\nCurrently I have a free account on Hashbase, but I'm on the edge of the 100 MB free limit. I'm planning to upgrade and have 15 GB of space. That's a lot!\n\n### HTTP version\nCommand line tools have a warm place in my heart. That's why I've started using [now](https://now.sh) and used it for a few projects. More complex tasks are done in a few keystrokes (ie: buying domain names, DNS settings, SSL certs.).\n\nThe ```hex22.org``` domain was bought with *now* too. One thing I didn't know is that custom domains aren't supported in the OSS (free) plan. That's why until now the site was on Github Pages, but for the Dat URL I needed an ```https``` certificate.\n\nCustom domains on Dat work like this: Beaker checks for a ```https://your-domain.com/.well-known/dat``` file and gets the raw dat URL from that.\n\nSince my SSL certificate was valid only on ```now.sh``` servers I've decided to move the HTTP version to *now* and change my plan from OSS to On-Demand, which means I pay only for what I use. For a small project like this it's a very good price.\n\n---\n\nThis means that currently I pay less than 2$ per month for this site, but when I upgrade my Hashbase plan there will be a **+7$/n** per month, where **n** is the number of projects hosted on Hashbase.\n\nIn the future I can do the same for subdomains for a +1.5$/domain.\n\n### Inspirations\n[How I publish taravancil.com](https://taravancil.com/blog/how-i-publish-taravancil-com/) by Tara Vancil\\\n[Distributed now](https://jon-kyle.com/entries/2017-08-01-distributed-now/) by Jon Kyle",
-    "visible": true,
-    "name": "p2p-myself",
-    "path": "/content/writing/p2p-myself",
-    "url": "/writing/p2p-myself",
-    "files": {
-      "lines.png": {
-        "name": "lines",
-        "path": "/content/writing/p2p-myself/lines.png",
-        "url": "/writing/p2p-myself/lines.png",
-        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/writing/p2p-myself/lines.png",
-        "extension": ".png",
-        "filename": "lines.png",
-        "type": "image"
-      }
-    },
-    "pages": {}
-  },
-  "/writing/later-here": {
-    "title": "Later, Here...",
-    "view": "entry",
-    "date": "2018-03-05",
-    "location": "Home",
-    "excerpt": "Just a note about systems / tools I want to mention in later entries.",
-    "text": "Most of them are newcomers to my life, but they changed my workflow and day-to-day life significantly. Probably I forgot a few, but will edit this entry later.\n\nIt's also an all-around description of these tools and the reason I use them.\n\n---\n\n[Log](https://joshavanier.itch.io/log) was the first tool I've started using late last year. Inspired by [Devine](https://wiki.xxiivv.com) I wanted to write my own time-tracker, but then I've found Josh's and it was a perfect fit. I don't use it for prediction (yet), but mostly to review my productive output.\n\n![Log screenshot](https://img.itch.zone/aW1hZ2UvMTg3ODI5LzEwMDM4ODQucG5n/original/Yvd0oU.png)\n\n[Are.na](https://are.na). Oh, Are.na. It's one of the best tools I've found in my whole life. I'm not sure why, but I love it so much it's not describable. A perfect example of functional design. I'm very new there, but [I use it a lot](https://are.na/hunor-karaman/index). \"Social media that helps you think\"? Yes, please. My one-word description of Are.na is *quality*. Quality people, quality content, quality website.\n\n![Are.na screenshot](/content/writing/later-here/arena-screenshot.png)\n\n[Beaker Browser](https://beakerbrowser.com) is a bit different than the others, but I must write about it because it changed the way I think about the internet. I feel 100% better browsing on the peer-to-peer web, enjoying the beauty of 64 characters long urls, seeding and forking sites. Making personal tools based on it like [orkl](/projects/orkl) or [ntain](/projects/ntain). Or using what other people made like Dropout.\n\n[Dropout](https://dropout.jon-kyle.com) is a tool that *\"saves a url as static html/json for later offline access and personal archive\"*. It was made by Jon Kyle, whose work inspire me a lot. Three tools from this list were made by him. He's a good guy. I mostly use Dropout to save documentations for offline access, as I try to reduce my internet usage.\n\n![Dropout screenshot](https://camo.githubusercontent.com/33131061d30a2b6e36109cf7efc3797d84ffe3f0/687474703a2f2f64726f702e6a6f6e2d6b796c652e636f6d2f6d6f64756c65732f64726f706f75742d6265616b65722d322e706e67)\n\nAnother one from Jon. [Enoki](https://enoki.site) is *\"an experimental ~~platform~~ tool for peer-to-peer publishing\"*. It's basically a static-site generator with a simple CMS. Exactly what I was looking for. This site uses the \"original\" version ([enoki-starterkit](https://github.com/enokidotsite/starterkit)), but Jon's currently working on a new Enoki.\n\n*Update: The site now uses the [Enoki Panel](https://panel.enoki.site).*\n\n[Hardly Everything](https://hardlyeverything.com) is the last tool in the list that's by Jon. It supplies you with an \"anti-feed\". You can read more about it [here](https://github.com/jondashkyle/hardly-everything). The way I use it is that I save different sites and a set a \"pace\" for them. There are pages that I usually check too often, even if they have new content only once a while, so I put them into Hardly Everything and access them only from there. This isn't a rule, but I try to act like it would be. I'm much more organized, because in the morning I go through my feed and then I don't check them again for a day.\\\n(*Note: I've realized that I used the term \"put them into\" and it sounds a bit weird, but I do think about Hardly Everything as a grinder machine that destroys the low-quality time spent on these websites \"unintentionally\".*)\n\n![Hardly Everything screeshot](/content/writing/later-here/hardly-everything.png)\n\nI also want to write about how I use my phone. It has changed much in the past month. It's more ambient and less distracting.\n\n> \"Yeah, I think phones have failed us.\" - Edouerd Urcades\n\n---\nUpdate: I've came across Alex Singh's blog and found [this entry](https://alexsingh.svbtle.com/ambient-interventions-for-2018). He pretty much talks about the same tools as me, with better writing skills. I follow [Alex's channel](https://www.are.na/alex-singh/ambient-product-design) on Are.na and it makes me happy that he too is amazed by these tools.",
-    "visible": true,
-    "name": "later-here",
-    "path": "/content/writing/later-here",
-    "url": "/writing/later-here",
-    "files": {
-      "arena-screenshot.png": {
-        "name": "arena-screenshot",
-        "path": "/content/writing/later-here/arena-screenshot.png",
-        "url": "/writing/later-here/arena-screenshot.png",
-        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/writing/later-here/arena-screenshot.png",
-        "extension": ".png",
-        "filename": "arena-screenshot.png",
-        "type": "image"
-      },
-      "hardly-everything.png": {
-        "name": "hardly-everything",
-        "path": "/content/writing/later-here/hardly-everything.png",
-        "url": "/writing/later-here/hardly-everything.png",
-        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/writing/later-here/hardly-everything.png",
-        "extension": ".png",
-        "filename": "hardly-everything.png",
-        "type": "image"
-      }
-    },
-    "pages": {}
   },
   "/projects/freemium": {
     "title": "freemium",
@@ -634,34 +571,6 @@
     },
     "pages": {}
   },
-  "/projects/seeder": {
-    "title": "seeder",
-    "view": "project",
-    "description": "Raspberry Pi DAT seeder",
-    "dates": "April 2018 ― present",
-    "priority": "9",
-    "text": "This project is in a very early development stage and it's developed together with other guys in the [New Computer Working Group](https://newcomputers.group).\n\nThe documentation is on Github.",
-    "tags": [
-      "selected"
-    ],
-    "github": "https://github.com/new-computers/seeder",
-    "website": "https://newcomputers.group/seeder",
-    "name": "seeder",
-    "path": "/content/projects/seeder",
-    "url": "/projects/seeder",
-    "files": {
-      "image.png": {
-        "name": "image",
-        "path": "/content/projects/seeder/image.png",
-        "url": "/projects/seeder/image.png",
-        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/projects/seeder/image.png",
-        "extension": ".png",
-        "filename": "image.png",
-        "type": "image"
-      }
-    },
-    "pages": {}
-  },
   "/projects/solo": {
     "title": "solo",
     "view": "project",
@@ -691,6 +600,34 @@
         "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/projects/solo/soloedit.png",
         "extension": ".png",
         "filename": "soloedit.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/projects/seeder": {
+    "title": "seeder",
+    "view": "project",
+    "description": "Raspberry Pi DAT seeder",
+    "dates": "April 2018 ― present",
+    "priority": "9",
+    "text": "There are 2 problems with the availability of sites on the **dat://** protocol: 1.) if you turn off your computer and nobody's seeding it, it'll be unaccessible 2.) if everyone solves this with a seeding service ([Hashbase](https://hashbase.io)) the whole network will start to become more centralized.\n\nAn alternative is setting up a seeding service for yourself. A [Raspberry Pi](https://raspberrypi.org) runs super power-efficiently and it's powerful enough to seed DAT archives. \n\n**Seeder** tries to be a plug-and-play, ready-to-use DAT seeder service. With a 1-command installer and frontend designed for non-tech people it's the simplest personal seeding service.\n\nDeveloped as part of the [New Computer Working Group](https://newcomputers.group).",
+    "tags": [
+      "selected"
+    ],
+    "github": "https://github.com/new-computers/seeder",
+    "website": "https://newcomputers.group/seeder",
+    "name": "seeder",
+    "path": "/content/projects/seeder",
+    "url": "/projects/seeder",
+    "files": {
+      "image.png": {
+        "name": "image",
+        "path": "/content/projects/seeder/image.png",
+        "url": "/projects/seeder/image.png",
+        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/projects/seeder/image.png",
+        "extension": ".png",
+        "filename": "image.png",
         "type": "image"
       }
     },
@@ -793,6 +730,39 @@
         "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/0x22/with-love-from-very-small-places/smallplaces.png",
         "extension": ".png",
         "filename": "smallplaces.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/writing/later-here": {
+    "title": "Later, Here...",
+    "view": "entry",
+    "date": "2018-03-05",
+    "location": "Home",
+    "excerpt": "Just a note about systems / tools I want to mention in later entries.",
+    "text": "Most of them are newcomers to my life, but they changed my workflow and day-to-day life significantly. Probably I forgot a few, but will edit this entry later.\n\nIt's also an all-around description of these tools and the reason I use them.\n\n---\n\n[Log](https://joshavanier.itch.io/log) was the first tool I've started using late last year. Inspired by [Devine](https://wiki.xxiivv.com) I wanted to write my own time-tracker, but then I've found Josh's and it was a perfect fit. I don't use it for prediction (yet), but mostly to review my productive output.\n\n![Log screenshot](https://img.itch.zone/aW1hZ2UvMTg3ODI5LzEwMDM4ODQucG5n/original/Yvd0oU.png)\n\n[Are.na](https://are.na). Oh, Are.na. It's one of the best tools I've found in my whole life. I'm not sure why, but I love it so much it's not describable. A perfect example of functional design. I'm very new there, but [I use it a lot](https://are.na/hunor-karaman/index). \"Social media that helps you think\"? Yes, please. My one-word description of Are.na is *quality*. Quality people, quality content, quality website.\n\n![Are.na screenshot](/content/writing/later-here/arena-screenshot.png)\n\n[Beaker Browser](https://beakerbrowser.com) is a bit different than the others, but I must write about it because it changed the way I think about the internet. I feel 100% better browsing on the peer-to-peer web, enjoying the beauty of 64 characters long urls, seeding and forking sites. Making personal tools based on it like [orkl](/projects/orkl) or [ntain](/projects/ntain). Or using what other people made like Dropout.\n\n[Dropout](https://dropout.jon-kyle.com) is a tool that *\"saves a url as static html/json for later offline access and personal archive\"*. It was made by Jon Kyle, whose work inspire me a lot. Three tools from this list were made by him. He's a good guy. I mostly use Dropout to save documentations for offline access, as I try to reduce my internet usage.\n\n![Dropout screenshot](https://camo.githubusercontent.com/33131061d30a2b6e36109cf7efc3797d84ffe3f0/687474703a2f2f64726f702e6a6f6e2d6b796c652e636f6d2f6d6f64756c65732f64726f706f75742d6265616b65722d322e706e67)\n\nAnother one from Jon. [Enoki](https://enoki.site) is *\"an experimental ~~platform~~ tool for peer-to-peer publishing\"*. It's basically a static-site generator with a simple CMS. Exactly what I was looking for. This site uses the \"original\" version ([enoki-starterkit](https://github.com/enokidotsite/starterkit)), but Jon's currently working on a new Enoki.\n\n*Update: The site now uses the [Enoki Panel](https://panel.enoki.site).*\n\n[Hardly Everything](https://hardlyeverything.com) is the last tool in the list that's by Jon. It supplies you with an \"anti-feed\". You can read more about it [here](https://github.com/jondashkyle/hardly-everything). The way I use it is that I save different sites and a set a \"pace\" for them. There are pages that I usually check too often, even if they have new content only once a while, so I put them into Hardly Everything and access them only from there. This isn't a rule, but I try to act like it would be. I'm much more organized, because in the morning I go through my feed and then I don't check them again for a day.\\\n(*Note: I've realized that I used the term \"put them into\" and it sounds a bit weird, but I do think about Hardly Everything as a grinder machine that destroys the low-quality time spent on these websites \"unintentionally\".*)\n\n![Hardly Everything screeshot](/content/writing/later-here/hardly-everything.png)\n\nI also want to write about how I use my phone. It has changed much in the past month. It's more ambient and less distracting.\n\n> \"Yeah, I think phones have failed us.\" - Edouerd Urcades\n\n---\nUpdate: I've came across Alex Singh's blog and found [this entry](https://alexsingh.svbtle.com/ambient-interventions-for-2018). He pretty much talks about the same tools as me, with better writing skills. I follow [Alex's channel](https://www.are.na/alex-singh/ambient-product-design) on Are.na and it makes me happy that he too is amazed by these tools.",
+    "visible": true,
+    "name": "later-here",
+    "path": "/content/writing/later-here",
+    "url": "/writing/later-here",
+    "files": {
+      "arena-screenshot.png": {
+        "name": "arena-screenshot",
+        "path": "/content/writing/later-here/arena-screenshot.png",
+        "url": "/writing/later-here/arena-screenshot.png",
+        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/writing/later-here/arena-screenshot.png",
+        "extension": ".png",
+        "filename": "arena-screenshot.png",
+        "type": "image"
+      },
+      "hardly-everything.png": {
+        "name": "hardly-everything",
+        "path": "/content/writing/later-here/hardly-everything.png",
+        "url": "/writing/later-here/hardly-everything.png",
+        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/writing/later-here/hardly-everything.png",
+        "extension": ".png",
+        "filename": "hardly-everything.png",
         "type": "image"
       }
     },

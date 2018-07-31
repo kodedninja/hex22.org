@@ -8,9 +8,13 @@ dates: April 2018 ― present
 ----
 priority: 9
 ----
-text: This project is in a very early development stage and it's developed together with other guys in the [New Computer Working Group](https://newcomputers.group).
+text: There are 2 problems with the availability of sites on the **dat://** protocol: 1.) if you turn off your computer and nobody's seeding it, it'll be unaccessible 2.) if everyone solves this with a seeding service ([Hashbase](https://hashbase.io)) the whole network will start to become more centralized.
 
-The documentation is on Github.
+An alternative is setting up a seeding service for yourself. A [Raspberry Pi](https://raspberrypi.org) runs super power-efficiently and it's powerful enough to seed DAT archives. 
+
+**Seeder** tries to be a plug-and-play, ready-to-use DAT seeder service. With a 1-command installer and frontend designed for non-tech people it's the simplest personal seeding service.
+
+Developed as part of the [New Computer Working Group](https://newcomputers.group).
 ----
 tags:
   - selected
