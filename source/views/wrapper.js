@@ -8,8 +8,6 @@ var format = require('../components/format')
 
 module.exports = wrapper
 
-var header_open = false
-
 function wrapper (state, emit) {
 	state.page = state.content[state.href || '/'] || {}
 
@@ -31,7 +29,7 @@ function wrapper (state, emit) {
 
 	function header() {
 		return html`
-			<div class="1 fl db p0-5 px1 bb mb4 header ${!header_open ? 'collapsed' : ''}">
+			<div class="1 fl db p0-5 px1 bb mb4 header ${!state.header_open ? 'collapsed' : ''}">
 				<div class="1 db fl mb1">
 					<a href="/" class="nbb">${state.content['/'].title}</a>
 					<a href="#" class="nbb fr" onclick="${click}">Info ↓</a>
@@ -54,7 +52,7 @@ function wrapper (state, emit) {
 
 		function click(e) {
 			e.preventDefault()
-			if (!header_open) {
+			if (!state.header_open) {
 				e.target.parentNode.parentNode.classList.remove('collapsed')
 				e.target.innerHTML = 'Info ↑'
 			} else {
@@ -62,7 +60,7 @@ function wrapper (state, emit) {
 				e.target.innerHTML = 'Info ↓'
 			}
 
-			header_open = !header_open
+			state.header_open = !state.header_open
 		}
 	}
 }

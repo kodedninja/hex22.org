@@ -6,11 +6,11 @@ info: Hello. I’m a developer working mostly on experimental projects with smal
 "I really enjoy making tools." ― Callil Capuozzo
 
 [Github](https://github.com/kodedninja) ― [Are.na](https://are.na/hunor-karaman)
-[karamanhunor@protonmail.com](mailto:karamanhunor@protonmail.com)
+[hunix94@gmail.com](mailto:hunix94@gmail.com)
 
 I'm your <u>peer</u>.
 ----
-currently: ◦ Freelance developer & designer
+currently: ◦ Developer at [GeoGebra](https://geogebra.org)
 ◦ Engineer of [Peer-to-Peer tools](/p2p)
 ----
 previously: ◦ [Pictogon](https://pictogon.com)

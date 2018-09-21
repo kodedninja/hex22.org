@@ -7,11 +7,17 @@
     },
 	"currently": {
       "label": "Currently",
-      "type": "textarea"
+      "type": "textarea",
+      "width": "1/2"
     },
 	"previously": {
       "label": "Previously",
-      "type": "textarea"
+      "type": "textarea",
+      "width": "1/2"
+    },
+    "info": {
+	"label": "Info",
+	"type": "textarea"
     },
     "text": {
       "label": "Text",
