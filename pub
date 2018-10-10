@@ -1,5 +1,7 @@
 #!/bin/bash
 
-cp ~/mem/log/data ./assets/log.json
-now
-now alias
+DATE=`date +%Y%m%d`
+
+g a
+g co "$DATE"
+g sh

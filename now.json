@@ -1,9 +1,0 @@
-{
-	"alias": "hex22.org",
-	"static": {
-    	"rewrites": [{
-      		"source": "**",
-      		"destination": "/index.html"
-    	}]
-  	}
-}
