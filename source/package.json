@@ -25,7 +25,7 @@
     "randomatic": "^3.1.0",
     "require-globify": "^1.4.1",
     "tags-input": "^1.1.1",
-    "xhr": "^2.4.0",
+    "xhr": "^2.5.0",
     "xtend": "^4.0.1",
     "yo-yoify": "^3.7.3"
   },
