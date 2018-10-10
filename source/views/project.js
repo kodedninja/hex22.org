@@ -15,16 +15,14 @@ function project (state, emit) {
 			<div class="db 3/5 mxa m-1">
 				<div class="1/2 dib fl m-1">
 					<p>${state.page.title}</p>
-					<p>
-						${links()}
-					</p>
+					<p>${links()}</p>
 				</div>
 				<div class="1/2 dib fl m-1">
 					<p><span class="bb">${state.page.description}</span></p>
 					${format(state.page.text)}
 				</div>
 				<div class="fl 1 db bt my2">
-					${images ? images.map(image) : ''}
+					${(images && images.length > 0) ? images.map(image) : html`<div class="tac tcgrey my2">There are no images for this project.</div>`}
 				</div>
 			</div>
 		</div>

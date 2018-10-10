@@ -2,18 +2,22 @@ title: Thanks!
 ----
 view: default
 ----
-text: # This site is based on the following technologies and projects.
+text: <u>Technologies</u>
 
 - [Enoki](https://enoki.site/), an experimental ~~platform~~ tool for peer-to-peer publishing.
 - [Choo](https://choo.io/), a front-end framework that loves you.
 - [Inter UI](https://rsms.me/inter), the most legible typeface on computer screens.
 - [Beaker Browser](https://beakerbrowser.com/), the web-browser of freedom.
-- [Dat Protocol](https://datproject.org/), the hidden force in this whole.
+- [Dat Protocol](https://datproject.org/), the hidden force in this _whole_.
 
-# Shoutouts to the following people who shape my creative individuality
-[Jon-Kyle](https;//jon-kyle.com) ↔ [Devine](https://xxiivv.com) ↔ [Callil](https://callil.com) ↔ [Alex](https://alexsingh.com) ↔ [Edouard](https://edouard.us)
+---
 
-# You should check out
-[New Computer Working Group](https://new-computers.group), [Peer-to-Peer Day](https://peer-to-peer-web.com), [minimal.gallery](https://minimal.gallery), [Are.na](https://are.na)
+<u>Shoutouts</u>
 
-Thanks to [Gavin Atkinson](https://gav.space) whose site inspired me in this design.
+[Jon-Kyle](https://jon-kyle.com) ↔ [Devine](https://xxiivv.com) ↔ [Callil](https://callil.com) ↔ [Alex](https://alexsingh.com) ↔ [Edouard](https://edouard.us) ↔ [Fransys](https://frnsys.com)
+
+---
+
+<u>You should check out</u>
+
+[New Computer Working Group](https://new-computers.group), [Peer-to-Peer Day](https://peer-to-peer-web.com), [The Creative Independent](https://thecreativeindependent.com), [LOW←TECH MAGAZINE](https://solar.lowtechmagazine.com), [Are.na](https://are.na)

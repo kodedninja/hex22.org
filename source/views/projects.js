@@ -11,8 +11,13 @@ function projects (state, emit) {
 	})
 
 	return html`
-		<div class="1 db p1 mb4 fl">
-			${entries.map(entry)}
+		<div>
+			<div class="1 db p1">
+				${state.content[state.page.url].text}
+			</div>
+			<div class="1 db p1 mb4 fl">
+				${entries.map(entry)}
+			</div>
 		</div>
 	`
 

@@ -12,11 +12,12 @@ text: I love [choo](https://github.com/choojs/coo), but sometimes it's too much.
 
 Uses [nanomorph](https://github.com/choojs/nanomorph) under the hood.
 
-### installation
+<u>installation</u>
 
 `npm i -S bik`
 
-### documentation
+<u>documentation</u>
+
 On Github.
 ----
 github: https://github.com/kodedninja/bik

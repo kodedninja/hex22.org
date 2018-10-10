@@ -57,8 +57,4 @@ blockquote {
     .sector {
         width: 50% !important;
     }
-
-	.header.collapsed {
-		max-height: 40px;
-	}
 }

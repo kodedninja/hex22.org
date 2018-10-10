@@ -6,7 +6,7 @@ info: Hello. I’m a developer working mostly on experimental projects with smal
 "I really enjoy making tools." ― Callil Capuozzo
 
 [Github](https://github.com/kodedninja) ― [Are.na](https://are.na/hunor-karaman)
-[hunix94@gmail.com](mailto:hunix94@gmail.com)
+[hunordotkaraman@gmail.com](mailto:hunordotkaraman@gmail.com)
 
 I'm your <u>peer</u>.
 ----
@@ -15,11 +15,9 @@ currently: ◦ Developer at [GeoGebra](https://geogebra.org)
 ----
 previously: ◦ [Pictogon](https://pictogon.com)
 ----
-text: <span style="color: red;">You won't see world-changing blockchain projects here!</span> I'm interested in the <span class="f6 dib">small</span>, [in “What’s After Now”, the alternative form, A New Spirit of Computation](https://newcomputers.group).
+text: I'm interested in the <span class="f6 dib">small</span>, [in “What’s After Now”, the alternative form, A New Spirit of Computation](https://newcomputers.group).
 
-I think small, design small, build small ― small is useful, adoptable, personal & __small can grow__.
-
-Small tools can solve big problems. Small is not a compromise, it's a possibility.
+I think, design and build small ― small is not a compromise, it's a possibility.
 
 ---
 

@@ -12,7 +12,10 @@ text: I wanted to build a peer-to-peer only blog; kind of like the p2p child of 
 
 orkl is also 100% dynamic, so it's basically just a bunch of ```txt``` files (using [smarkt](https://github.com/jondashkyle/smarkt)) = no site generation or building.
 
-### Usage
+---
+
+<u>Usage</u>
+
 The magic of Beaker Browser is the possibility to fork a site. To get started you can fork any orkl site, but for the sake of simplicity we will use an empty site I've made.
 
 - Download [Beaker Browser](https://beakerbrowser.com)

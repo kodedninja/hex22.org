@@ -15,6 +15,7 @@ body, pre {
 	font-feature-settings:"onum" 1, "pnum" 1, "kern" 1, "ss01" 1;
 	font-kerning: normal;
 	overflow-x: hidden;
+	background: white;
 }
 
 a {
@@ -142,6 +143,7 @@ code {
 .px1 { padding-left: 1.5rem; padding-right: 1.5rem; }
 .px2 { padding-left: 3rem; padding-right: 3rem; }
 .py1 { padding-top: 1.5rem; padding-bottom: 1.5rem; }
+.py2 { padding-top: 3rem; padding-bottom: 3rem; }
 .pt1 { padding-top: 1.5rem }
 .pb1 { padding-bottom: 1.5rem }
 .pb0 { padding-bottom: 0 }
@@ -201,19 +203,4 @@ hr {
 
 	h1, .f1 { font-size: 2.25rem; }
 	h2, .f2 { font-size: 2.0rem; }
-
-	p, ul, ol { margin: 0.75rem 0 }
-
-    .p0-5 { padding: 0.5rem }
-    .p1 { padding: 0.75rem }
-    .p2 { padding: 1.5rem }
-	.pfeed { padding: 5rem 1.5rem }
-    .pt1 { padding-top: 1rem }
-    .px1 { padding-left: 0.75rem; padding-right: 0.75rem; }
-	.px2 { padding-left: 1.5rem; padding-right: 1.5rem; }
-	.pb2 { padding-bottom: 1.5rem; }
-    .m0 { margin: 0 }
-    .my2 { margin: 1.5rem 0 }
-    .mt2 { margin-top: 1.5rem }
-    .mt3 { margin-top: 2rem }
 }

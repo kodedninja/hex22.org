@@ -118,30 +118,33 @@
       }
     }
   },
-  "/p2p": {
-    "title": "Peer-to-Peer",
-    "view": "default",
-    "text": "These are the peer-to-peer projects I was / am working on in chronological order:\n\n1. [ntain](/projects/ntain) ― Peer-to-Peer file sharing site → 2017\n2. [orkl](/projects/orkl) ― Super simple peer-to-peer blogging site → 2018\n3. [solo](/projects/solo) ― The simplest publication tool → 2018\n4. [forkup](/projects/forkup) ― Updater for forked Beaker sites → 2018\n5. [ridder](/projects/ridder) ― An RSS reader that you own → 2018\n6. [seeder](/projects/seeder) ― Plug-and-play Raspberry Pi DAT seeder → 2018\n\n---\n\nIf you're new to the peer-to-peer web check out:\n\n1. [What does peer-to-peer mean?](https://en.wikipedia.org/wiki/Peer-to-peer)\n2. [Peer-to-Peer Day](https://peer-to-peer-web.com)\n3. [Beaker Browser](https://beakerbrowser.com)\n4. [Guides by NCWG](https://guides.newcomputers.group)\n5. [Secrets](https://lhs.nu/archive#dat)\n\n---\n\nStory: \n\nI've been attracted by the peer-to-peer web from a young age ― before I knew what it does mean. I remember standing next to a friend and sending a message to him over the internet (I think it was Facebook), when I realized how wrong it is that this message has to travel thousands of kilometers to arrive to him. \n\nSince then I'm planning and trying to built peer-to-peer networks, but then one day I've found the [Beaker Browser](https://beakerbrowser.com) and [Dat](https://datproject.org).",
-    "name": "p2p",
-    "path": "/content/p2p",
-    "url": "/p2p",
+  "/writing": {
+    "title": "Writing",
+    "view": "blog",
+    "text": "About tools, systems ― what I see, what I think.",
+    "name": "writing",
+    "path": "/content/writing",
+    "url": "/writing",
     "files": {},
-    "pages": {}
-  },
-  "/thanks": {
-    "title": "Thanks!",
-    "view": "default",
-    "text": "# This site is based on the following technologies and projects.\n\n- [Enoki](https://enoki.site/), an experimental ~~platform~~ tool for peer-to-peer publishing.\n- [Choo](https://choo.io/), a front-end framework that loves you.\n- [Inter UI](https://rsms.me/inter), the most legible typeface on computer screens.\n- [Beaker Browser](https://beakerbrowser.com/), the web-browser of freedom.\n- [Dat Protocol](https://datproject.org/), the hidden force in this whole.\n\n# Shoutouts to the following people who shape my creative individuality\n[Jon-Kyle](https;//jon-kyle.com) ↔ [Devine](https://xxiivv.com) ↔ [Callil](https://callil.com) ↔ [Alex](https://alexsingh.com) ↔ [Edouard](https://edouard.us)\n\n# You should check out\n[New Computer Working Group](https://new-computers.group), [Peer-to-Peer Day](https://peer-to-peer-web.com), [minimal.gallery](https://minimal.gallery), [Are.na](https://are.na)\n\nThanks to [Gavin Atkinson](https://gav.space) whose site inspired me in this design.",
-    "name": "thanks",
-    "path": "/content/thanks",
-    "url": "/thanks",
-    "files": {},
-    "pages": {}
+    "pages": {
+      "later-here": {
+        "name": "later-here",
+        "path": "/content/writing/later-here",
+        "url": "/writing/later-here",
+        "source": "/content/writing/later-here"
+      },
+      "design-question-response": {
+        "name": "design-question-response",
+        "path": "/content/writing/design-question-response",
+        "url": "/writing/design-question-response",
+        "source": "/content/writing/design-question-response"
+      }
+    }
   },
   "/0x22": {
     "title": "0x22",
     "view": "default",
-    "text": "<u>An ambient music project</u>\n\n[Bandcamp](https://0x22.bandcamp.com)\n\nSince 2015, after bands and instrumental music projects, [I](/karaman-hunor)'ve started composing electronical music. It started with making noises for a progressive metal album, but later I've found the long sine waves and fell in love with the ambient / drone sounding.\n\nI'm inspired by feelings and the music of talented musicians like Nils Frahm, Celer or Ólafur Arnalds.\n\n---\n\n<u>Releases</u>\n\n+ [Metaphases](/0x22/metaphases) - 2017 December\\\n+ [glacio](/0x22/glacio) - 2017 December\\\n+ [With love from very small places](/0x22/with-love-from-very-small-places) - 2017 November\\\n+ [It was dawn when the old man died](/0x22/it-was-dawn-when-the-old-man-died) - 2017 October\\\n+ [Nothingness EP (early works under the moniker Shiip)](https://0x22.bandcamp.com/album/nothingness-ep) - 2017 February",
+    "text": "<u>An ambient music project</u>\n\n[Bandcamp](https://0x22.bandcamp.com)\n\nSince 2015, after bands and instrumental music projects, [I](/karaman-hunor)'ve started composing electronical music. It started with making noises for a progressive metal album, but later I've found long sine waves and fell in love with the ambient / drone sounding.\n\nI'm inspired by feelings and the music of talented musicians like Nils Frahm, Celer or Ólafur Arnalds.\n\n---\n\n<u>Releases</u>\n\n+ [Metaphases](/0x22/metaphases) - 2017 December\\\n+ [glacio](/0x22/glacio) - 2017 December\\\n+ [With love from very small places](/0x22/with-love-from-very-small-places) - 2017 November\\\n+ [It was dawn when the old man died](/0x22/it-was-dawn-when-the-old-man-died) - 2017 October\\\n+ [Nothingness EP (early works under the moniker Shiip)](https://0x22.bandcamp.com/album/nothingness-ep) - 2017 February",
     "name": "0x22",
     "path": "/content/0x22",
     "url": "/0x22",
@@ -173,28 +176,25 @@
       }
     }
   },
-  "/writing": {
-    "title": "Writing",
-    "view": "blog",
-    "text": "About tools, systems ― what I see, what I think.",
-    "name": "writing",
-    "path": "/content/writing",
-    "url": "/writing",
+  "/thanks": {
+    "title": "Thanks!",
+    "view": "default",
+    "text": "<u>Technologies</u>\n\n- [Enoki](https://enoki.site/), an experimental ~~platform~~ tool for peer-to-peer publishing.\n- [Choo](https://choo.io/), a front-end framework that loves you.\n- [Inter UI](https://rsms.me/inter), the most legible typeface on computer screens.\n- [Beaker Browser](https://beakerbrowser.com/), the web-browser of freedom.\n- [Dat Protocol](https://datproject.org/), the hidden force in this _whole_.\n\n---\n\n<u>Shoutouts</u>\n\n[Jon-Kyle](https://jon-kyle.com) ↔ [Devine](https://xxiivv.com) ↔ [Callil](https://callil.com) ↔ [Alex](https://alexsingh.com) ↔ [Edouard](https://edouard.us) ↔ [Fransys](https://frnsys.com)\n\n---\n\n<u>You should check out</u>\n\n[New Computer Working Group](https://new-computers.group), [Peer-to-Peer Day](https://peer-to-peer-web.com), [The Creative Independent](https://thecreativeindependent.com), [LOW←TECH MAGAZINE](https://solar.lowtechmagazine.com), [Are.na](https://are.na)",
+    "name": "thanks",
+    "path": "/content/thanks",
+    "url": "/thanks",
     "files": {},
-    "pages": {
-      "later-here": {
-        "name": "later-here",
-        "path": "/content/writing/later-here",
-        "url": "/writing/later-here",
-        "source": "/content/writing/later-here"
-      },
-      "design-question-response": {
-        "name": "design-question-response",
-        "path": "/content/writing/design-question-response",
-        "url": "/writing/design-question-response",
-        "source": "/content/writing/design-question-response"
-      }
-    }
+    "pages": {}
+  },
+  "/p2p": {
+    "title": "Peer-to-Peer",
+    "view": "default",
+    "text": "These are the peer-to-peer projects I was / am working on in chronological order:\n\n1. [ntain](/projects/ntain) ― Peer-to-Peer file sharing site → 2017\n2. [orkl](/projects/orkl) ― Super simple peer-to-peer blogging site → 2018\n3. [solo](/projects/solo) ― The simplest publication tool → 2018\n4. [forkup](/projects/forkup) ― Updater for forked Beaker sites → 2018\n5. [ridder](/projects/ridder) ― An RSS reader that you own → 2018\n6. [seeder](/projects/seeder) ― Plug-and-play Raspberry Pi DAT seeder → 2018\n\n---\n\nIf you're new to the peer-to-peer web check out:\n\n1. [What does peer-to-peer mean?](https://en.wikipedia.org/wiki/Peer-to-peer)\n2. [Peer-to-Peer Day](https://peer-to-peer-web.com)\n3. [Beaker Browser](https://beakerbrowser.com)\n4. [Guides by NCWG](https://guides.newcomputers.group)\n5. [Secrets](https://lhs.nu/archive#dat)\n\n---\n\nStory: \n\nI've been attracted by the peer-to-peer web from a young age ― before I knew actually exists. I remember standing next to a friend and sending a message to him over the internet (I think it was Facebook), when I realized how wrong it is that this message has to travel thousands of kilometers to arrive to him. \n\nSince then I was planning and trying to build peer-to-peer networks, but then one day I've found the [Beaker Browser](https://beakerbrowser.com) and [Dat](https://datproject.org).",
+    "name": "p2p",
+    "path": "/content/p2p",
+    "url": "/p2p",
+    "files": {},
+    "pages": {}
   },
   "/projects": {
     "title": "Projects",
@@ -205,12 +205,6 @@
     "url": "/projects",
     "files": {},
     "pages": {
-      "bik": {
-        "name": "bik",
-        "path": "/content/projects/bik",
-        "url": "/projects/bik",
-        "source": "/content/projects/bik"
-      },
       "cereal": {
         "name": "cereal",
         "path": "/content/projects/cereal",
@@ -223,12 +217,6 @@
         "url": "/projects/freemium",
         "source": "/content/projects/freemium"
       },
-      "microne": {
-        "name": "microne",
-        "path": "/content/projects/microne",
-        "url": "/projects/microne",
-        "source": "/content/projects/microne"
-      },
       "ntain": {
         "name": "ntain",
         "path": "/content/projects/ntain",
@@ -240,12 +228,6 @@
         "path": "/content/projects/odot",
         "url": "/projects/odot",
         "source": "/content/projects/odot"
-      },
-      "orkl": {
-        "name": "orkl",
-        "path": "/content/projects/orkl",
-        "url": "/projects/orkl",
-        "source": "/content/projects/orkl"
       },
       "pictogon": {
         "name": "pictogon",
@@ -276,37 +258,26 @@
         "path": "/content/projects/seeder",
         "url": "/projects/seeder",
         "source": "/content/projects/seeder"
+      },
+      "orkl": {
+        "name": "orkl",
+        "path": "/content/projects/orkl",
+        "url": "/projects/orkl",
+        "source": "/content/projects/orkl"
+      },
+      "microne": {
+        "name": "microne",
+        "path": "/content/projects/microne",
+        "url": "/projects/microne",
+        "source": "/content/projects/microne"
+      },
+      "bik": {
+        "name": "bik",
+        "path": "/content/projects/bik",
+        "url": "/projects/bik",
+        "source": "/content/projects/bik"
       }
     }
-  },
-  "/writing/design-question-response": {
-    "title": "Design: Question ― Response",
-    "view": "entry",
-    "date": "2018-04-25",
-    "location": "Home",
-    "excerpt": "When I was a child my guitar teacher taught me a simple way to think about music composition.",
-    "text": "He said that a piece is like a **conversation** between two egos in the music. One of them asks a question and the other one responds. For the composer this compiles to: **Asking a question with a melody and responding to that with another one**.\n\nIn reality this isn't that simple because a melody can be a question somewhere in the piece and a response somewhere else ― or the response can be the question itself. *Like a person's role in a conversation changes from emitter to receiver and vice-versa.* Basically these variations make music unpredictable.\n\nThe point is that this very simple structure makes a flow in the listening and in the writing process. The listener never receives a response without a question (the part where a theme is introduced) and the whole piece won't feel chaotic and disoriented. \n\nI think about this system in interface design too.\n\nWhat you want in design is a predictable **conversation**. A learnable **conversation**, where you learn the personality of the interface and know the answers before questioning.\n\nOn a good interface you don't have to find a question to respond to or the question to your possible response (for example searching for the login field or button). A good interface asks the right questions at the right time and these can be answered without much thinking. *In our society clicking, scrolling, tapping work subcounciously, anyways.*\n\nA designer's job is to know what questions might be in the user's head at a given time and give him the biggest possible \"*question mark*\" on that part of the interface. Asking the right questions about a problem is what design's about. A question can be the content, a button, a link or the urge to scroll, etc...\n\nSo, before including something into an interface and before thinking hours on its location, I try to find the question that element should respond to. \n\nThe question and the context give the properties (position, size, content) of the element . \n\nThe result is a natural **conversation** between interface and user. **An information flow between computer and human.**\n\n[WIP]",
-    "visible": true,
-    "name": "design-question-response",
-    "path": "/content/writing/design-question-response",
-    "url": "/writing/design-question-response",
-    "files": {},
-    "pages": {}
-  },
-  "/projects/bik": {
-    "title": "bik",
-    "view": "project",
-    "description": "Tiny library for isolated web components",
-    "dates": "April 2018",
-    "priority": "7",
-    "text": "I love [choo](https://github.com/choojs/coo), but sometimes it's too much. For example when I want to use a simple component in a static site. I was too lazy to find a module for that so I've built one.\n\nUses [nanomorph](https://github.com/choojs/nanomorph) under the hood.\n\n### installation\n\n`npm i -S bik`\n\n### documentation\nOn Github.",
-    "github": "https://github.com/kodedninja/bik",
-    "npm": "https://npmjs.com/package/bik",
-    "name": "bik",
-    "path": "/content/projects/bik",
-    "url": "/projects/bik",
-    "files": {},
-    "pages": {}
   },
   "/projects/cereal": {
     "title": "cereal",
@@ -352,13 +323,42 @@
     "files": {},
     "pages": {}
   },
+  "/projects/bik": {
+    "title": "bik",
+    "view": "project",
+    "description": "Tiny library for isolated web components",
+    "dates": "April 2018",
+    "priority": "7",
+    "text": "I love [choo](https://github.com/choojs/coo), but sometimes it's too much. For example when I want to use a simple component in a static site. I was too lazy to find a module for that so I've built one.\n\nUses [nanomorph](https://github.com/choojs/nanomorph) under the hood.\n\n<u>installation</u>\n\n`npm i -S bik`\n\n<u>documentation</u>\n\nOn Github.",
+    "github": "https://github.com/kodedninja/bik",
+    "npm": "https://npmjs.com/package/bik",
+    "name": "bik",
+    "path": "/content/projects/bik",
+    "url": "/projects/bik",
+    "files": {},
+    "pages": {}
+  },
+  "/writing/design-question-response": {
+    "title": "Design: Question ― Response",
+    "view": "entry",
+    "date": "2018-04-25",
+    "location": "Home",
+    "excerpt": "When I was a child my guitar teacher taught me a simple way to think about music composition.",
+    "text": "He said that a piece is like a **conversation** between two egos in the music. One of them asks a question and the other one responds. For the composer this compiles to: **Asking a question with a melody and responding to that with another one**.\n\nIn reality this isn't that simple because a melody can be a question somewhere in the piece and a response somewhere else ― or the response can be the question itself. *Like a person's role in a conversation changes from emitter to receiver and vice-versa.* Basically these variations make music unpredictable.\n\nThe point is that this very simple structure makes a flow in the listening and in the writing process. The listener never receives a response without a question (the part where a theme is introduced) and the whole piece won't feel chaotic and disoriented. \n\nI think about this system in interface design too.\n\nWhat you want in design is a predictable **conversation**. A learnable **conversation**, where you learn the personality of the interface and know the answers before questioning.\n\nOn a good interface you don't have to find a question to respond to or the question to your possible response (for example searching for the login field or button). A good interface asks the right questions at the right time and these can be answered without much thinking. *In our society clicking, scrolling, tapping work subcounciously, anyways.*\n\nA designer's job is to know what questions might be in the user's head at a given time and give him the biggest possible \"*question mark*\" on that part of the interface. Asking the right questions about a problem is what design's about. A question can be the content, a button, a link or the urge to scroll, etc...\n\nSo, before including something into an interface and before thinking hours on its location, I try to find the question that element should respond to. \n\nThe question and the context give the properties (position, size, content) of the element . \n\nThe result is a natural **conversation** between interface and user. **An information flow between computer and human.**\n\n[WIP]",
+    "visible": true,
+    "name": "design-question-response",
+    "path": "/content/writing/design-question-response",
+    "url": "/writing/design-question-response",
+    "files": {},
+    "pages": {}
+  },
   "/": {
     "title": "Hunor Karamán",
     "view": "home",
-    "info": "Hello. I’m a developer working mostly on experimental projects with small footprint.\n\"I really enjoy making tools.\" ― Callil Capuozzo\n\n[Github](https://github.com/kodedninja) ― [Are.na](https://are.na/hunor-karaman)\n[hunix94@gmail.com](mailto:hunix94@gmail.com)\n\nI'm your <u>peer</u>.",
+    "info": "Hello. I’m a developer working mostly on experimental projects with small footprint.\n\"I really enjoy making tools.\" ― Callil Capuozzo\n\n[Github](https://github.com/kodedninja) ― [Are.na](https://are.na/hunor-karaman)\n[hunordotkaraman@gmail.com](mailto:hunordotkaraman@gmail.com)\n\nI'm your <u>peer</u>.",
     "currently": "◦ Developer at [GeoGebra](https://geogebra.org)\n◦ Engineer of [Peer-to-Peer tools](/p2p)",
     "previously": "◦ [Pictogon](https://pictogon.com)",
-    "text": "<span style=\"color: red;\">You won't see world-changing blockchain projects here!</span> I'm interested in the <span class=\"f6 dib\">small</span>, [in “What’s After Now”, the alternative form, A New Spirit of Computation](https://newcomputers.group).\n\nI think small, design small, build small ― small is useful, adoptable, personal & __small can grow__.\n\nSmall tools can solve big problems. Small is not a compromise, it's a possibility.\n\n---\n\n<u>Interests</u>\n\nFuture ― Solarpunk\nDecentralization ― Peer-to-Peer\nMachine Learning \nBioinformatics\nFunctional Design\n\n---\n\n<u>Opinion</u>\n\nI think the __future__ will be decentralized, solar-powered, encrypted and owned by the people.\n\n---\n\n<p class=\"brw\">\n\tdat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/\n</p>",
+    "text": "I'm interested in the <span class=\"f6 dib\">small</span>, [in “What’s After Now”, the alternative form, A New Spirit of Computation](https://newcomputers.group).\n\nI think, design and build small ― small is not a compromise, it's a possibility.\n\n---\n\n<u>Interests</u>\n\nFuture ― Solarpunk\nDecentralization ― Peer-to-Peer\nMachine Learning \nBioinformatics\nFunctional Design\n\n---\n\n<u>Opinion</u>\n\nI think the __future__ will be decentralized, solar-powered, encrypted and owned by the people.\n\n---\n\n<p class=\"brw\">\n\tdat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/\n</p>",
     "name": "content",
     "path": "/content",
     "url": "/",
@@ -382,17 +382,11 @@
         "url": "/plore",
         "source": "/content/plore"
       },
-      "p2p": {
-        "name": "p2p",
-        "path": "/content/p2p",
-        "url": "/p2p",
-        "source": "/content/p2p"
-      },
-      "thanks": {
-        "name": "thanks",
-        "path": "/content/thanks",
-        "url": "/thanks",
-        "source": "/content/thanks"
+      "writing": {
+        "name": "writing",
+        "path": "/content/writing",
+        "url": "/writing",
+        "source": "/content/writing"
       },
       "0x22": {
         "name": "0x22",
@@ -400,11 +394,17 @@
         "url": "/0x22",
         "source": "/content/0x22"
       },
-      "writing": {
-        "name": "writing",
-        "path": "/content/writing",
-        "url": "/writing",
-        "source": "/content/writing"
+      "thanks": {
+        "name": "thanks",
+        "path": "/content/thanks",
+        "url": "/thanks",
+        "source": "/content/thanks"
+      },
+      "p2p": {
+        "name": "p2p",
+        "path": "/content/p2p",
+        "url": "/p2p",
+        "source": "/content/p2p"
       },
       "projects": {
         "name": "projects",
@@ -413,141 +413,6 @@
         "source": "/content/projects"
       }
     }
-  },
-  "/0x22/glacio": {
-    "title": "glacio",
-    "view": "album",
-    "released": "2017-12-14",
-    "tracks": [
-      "December",
-      "I don't know my feelings"
-    ],
-    "text": "[Bandcamp](https://0x22.bandcamp.com/album/glacio)\n\ni love winter\\\nand the cold and the snow\\\nand i love the sound of the ice\\\nbreaking itself on the stone\n\n\"December\" was written in December, 2017.\\\n\"I don't know my feelings\" was written in February, 2017 (found the file now).",
-    "name": "glacio",
-    "path": "/content/0x22/glacio",
-    "url": "/0x22/glacio",
-    "files": {
-      "cover.jpg": {
-        "name": "cover",
-        "path": "/content/0x22/glacio/cover.jpg",
-        "url": "/0x22/glacio/cover.jpg",
-        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/0x22/glacio/cover.jpg",
-        "extension": ".jpg",
-        "filename": "cover.jpg",
-        "type": "image"
-      }
-    },
-    "pages": {}
-  },
-  "/0x22/it-was-dawn-when-the-old-man-died": {
-    "title": "It was dawn when the old man died",
-    "view": "album",
-    "released": "2017-10-01",
-    "tracks": [
-      "It was dawn when the old man died I.",
-      "It was dawn when the old man died II."
-    ],
-    "text": "[Bandcamp](https://0x22.bandcamp.com/album/it-was-dawn-when-the-old-man-died)\n\nAt dawn warmer waves arrive to the surface of Earth. They break up into millions of other waves, then return into the atmosphere. These waves are the reason that life exists on Earth. These waves our the reason why we die.\n\n\"It was dawn when the old man died I.\" presents 3 perspectives of a dawn. Is just a simple dawn the same for a dying man, for a couple or for a child? Is it the same for you and me?\n\n\"It was dawn when the old man died II.\" is an experimental slowed down version of the first track. Doesn't sure which one describes more the concept.",
-    "name": "it-was-dawn-when-the-old-man-died",
-    "path": "/content/0x22/it-was-dawn-when-the-old-man-died",
-    "url": "/0x22/it-was-dawn-when-the-old-man-died",
-    "files": {
-      "itwasdawn.png": {
-        "name": "itwasdawn",
-        "path": "/content/0x22/it-was-dawn-when-the-old-man-died/itwasdawn.png",
-        "url": "/0x22/it-was-dawn-when-the-old-man-died/itwasdawn.png",
-        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/0x22/it-was-dawn-when-the-old-man-died/itwasdawn.png",
-        "extension": ".png",
-        "filename": "itwasdawn.png",
-        "type": "image"
-      }
-    },
-    "pages": {}
-  },
-  "/0x22/metaphases": {
-    "title": "Metaphases",
-    "view": "album",
-    "released": "2017-12-23",
-    "tracks": [
-      "Metaphases"
-    ],
-    "text": "[Bandcamp](https://0x22.bandcamp.com/album/metaphases)\n\nRecorded in December 2017. All music by 0x22.",
-    "name": "metaphases",
-    "path": "/content/0x22/metaphases",
-    "url": "/0x22/metaphases",
-    "files": {
-      "covermountinas.jpg": {
-        "name": "covermountinas",
-        "path": "/content/0x22/metaphases/covermountinas.jpg",
-        "url": "/0x22/metaphases/covermountinas.jpg",
-        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/0x22/metaphases/covermountinas.jpg",
-        "extension": ".jpg",
-        "filename": "covermountinas.jpg",
-        "type": "image"
-      }
-    },
-    "pages": {}
-  },
-  "/0x22/with-love-from-very-small-places": {
-    "title": "With love from very small places",
-    "view": "album",
-    "released": "2017-11-14",
-    "tracks": [
-      "Moon Shadow",
-      "Silhouettes",
-      "Spaces",
-      "Hearts and Magnets",
-      "Sun Light"
-    ],
-    "text": "[Bandcamp](https://0x22.bandcamp.com/album/with-love-from-very-small-places)\n\nIn life sometimes we stuck into small places, places that make us feel closed and paralysed. Will a hand help you out from there?\n\n\"With love from very small places\" is a concept album, written for my girlfriend for our anniversary. It's a journey to the surface from somewhere below. From a very small place.",
-    "name": "with-love-from-very-small-places",
-    "path": "/content/0x22/with-love-from-very-small-places",
-    "url": "/0x22/with-love-from-very-small-places",
-    "files": {
-      "smallplaces.png": {
-        "name": "smallplaces",
-        "path": "/content/0x22/with-love-from-very-small-places/smallplaces.png",
-        "url": "/0x22/with-love-from-very-small-places/smallplaces.png",
-        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/0x22/with-love-from-very-small-places/smallplaces.png",
-        "extension": ".png",
-        "filename": "smallplaces.png",
-        "type": "image"
-      }
-    },
-    "pages": {}
-  },
-  "/writing/later-here": {
-    "title": "Later, Here...",
-    "view": "entry",
-    "date": "2018-03-05",
-    "location": "Home",
-    "excerpt": "Just a note about systems / tools I want to mention in later entries.",
-    "text": "Most of them are newcomers to my life, but they changed my workflow and day-to-day life significantly. Probably I forgot a few, but will edit this entry later.\n\nIt's also an all-around description of these tools and the reason I use them.\n\n---\n\n[Log](https://joshavanier.itch.io/log) was the first tool I've started using late last year. Inspired by [Devine](https://wiki.xxiivv.com) I wanted to write my own time-tracker, but then I've found Josh's and it was a perfect fit. I don't use it for prediction (yet), but mostly to review my productive output.\n\n![Log screenshot](https://img.itch.zone/aW1hZ2UvMTg3ODI5LzEwMDM4ODQucG5n/original/Yvd0oU.png)\n\n[Are.na](https://are.na). Oh, Are.na. It's one of the best tools I've found in my whole life. I'm not sure why, but I love it so much it's not describable. A perfect example of functional design. I'm very new there, but [I use it a lot](https://are.na/hunor-karaman/index). \"Social media that helps you think\"? Yes, please. My one-word description of Are.na is *quality*. Quality people, quality content, quality website.\n\n![Are.na screenshot](/content/writing/later-here/arena-screenshot.png)\n\n[Beaker Browser](https://beakerbrowser.com) is a bit different than the others, but I must write about it because it changed the way I think about the internet. I feel 100% better browsing on the peer-to-peer web, enjoying the beauty of 64 characters long urls, seeding and forking sites. Making personal tools based on it like [orkl](/projects/orkl) or [ntain](/projects/ntain). Or using what other people made like Dropout.\n\n[Dropout](https://dropout.jon-kyle.com) is a tool that *\"saves a url as static html/json for later offline access and personal archive\"*. It was made by Jon Kyle, whose work inspire me a lot. Three tools from this list were made by him. He's a good guy. I mostly use Dropout to save documentations for offline access, as I try to reduce my internet usage.\n\n![Dropout screenshot](https://camo.githubusercontent.com/33131061d30a2b6e36109cf7efc3797d84ffe3f0/687474703a2f2f64726f702e6a6f6e2d6b796c652e636f6d2f6d6f64756c65732f64726f706f75742d6265616b65722d322e706e67)\n\nAnother one from Jon. [Enoki](https://enoki.site) is *\"an experimental ~~platform~~ tool for peer-to-peer publishing\"*. It's basically a static-site generator with a simple CMS. Exactly what I was looking for. This site uses the \"original\" version ([enoki-starterkit](https://github.com/enokidotsite/starterkit)), but Jon's currently working on a new Enoki.\n\n*Update: The site now uses the [Enoki Panel](https://panel.enoki.site).*\n\n[Hardly Everything](https://hardlyeverything.com) is the last tool in the list that's by Jon. It supplies you with an \"anti-feed\". You can read more about it [here](https://github.com/jondashkyle/hardly-everything). The way I use it is that I save different sites and a set a \"pace\" for them. There are pages that I usually check too often, even if they have new content only once a while, so I put them into Hardly Everything and access them only from there. This isn't a rule, but I try to act like it would be. I'm much more organized, because in the morning I go through my feed and then I don't check them again for a day.\\\n(*Note: I've realized that I used the term \"put them into\" and it sounds a bit weird, but I do think about Hardly Everything as a grinder machine that destroys the low-quality time spent on these websites \"unintentionally\".*)\n\n![Hardly Everything screeshot](/content/writing/later-here/hardly-everything.png)\n\nI also want to write about how I use my phone. It has changed much in the past month. It's more ambient and less distracting.\n\n> \"Yeah, I think phones have failed us.\" - Edouerd Urcades\n\n---\nUpdate: I've came across Alex Singh's blog and found [this entry](https://alexsingh.svbtle.com/ambient-interventions-for-2018). He pretty much talks about the same tools as me, with better writing skills. I follow [Alex's channel](https://www.are.na/alex-singh/ambient-product-design) on Are.na and it makes me happy that he too is amazed by these tools.",
-    "visible": true,
-    "name": "later-here",
-    "path": "/content/writing/later-here",
-    "url": "/writing/later-here",
-    "files": {
-      "arena-screenshot.png": {
-        "name": "arena-screenshot",
-        "path": "/content/writing/later-here/arena-screenshot.png",
-        "url": "/writing/later-here/arena-screenshot.png",
-        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/writing/later-here/arena-screenshot.png",
-        "extension": ".png",
-        "filename": "arena-screenshot.png",
-        "type": "image"
-      },
-      "hardly-everything.png": {
-        "name": "hardly-everything",
-        "path": "/content/writing/later-here/hardly-everything.png",
-        "url": "/writing/later-here/hardly-everything.png",
-        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/writing/later-here/hardly-everything.png",
-        "extension": ".png",
-        "filename": "hardly-everything.png",
-        "type": "image"
-      }
-    },
-    "pages": {}
   },
   "/projects/freemium": {
     "title": "freemium",
@@ -573,31 +438,6 @@
     },
     "pages": {}
   },
-  "/projects/microne": {
-    "title": "MICRONE",
-    "view": "project",
-    "dates": "March 2018",
-    "priority": "5",
-    "description": "A tiny, minimalistic JS music player",
-    "text": "A tiny, minimalistic JS music player. It's around **2 kilobytes** and it's **super beautiful**.\n\n[See more](https://github.com/kodedninja/microne)",
-    "github": "https://github.com/kodedninja/microne",
-    "website": "https://microne.now.sh",
-    "name": "microne",
-    "path": "/content/projects/microne",
-    "url": "/projects/microne",
-    "files": {
-      "microne-screenshot.png": {
-        "name": "microne-screenshot",
-        "path": "/content/projects/microne/microne-screenshot.png",
-        "url": "/projects/microne/microne-screenshot.png",
-        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/projects/microne/microne-screenshot.png",
-        "extension": ".png",
-        "filename": "microne-screenshot.png",
-        "type": "image"
-      }
-    },
-    "pages": {}
-  },
   "/projects/ntain": {
     "title": "ntain",
     "view": "project",
@@ -618,40 +458,6 @@
         "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/projects/ntain/ntain.png",
         "extension": ".png",
         "filename": "ntain.png",
-        "type": "image"
-      }
-    },
-    "pages": {}
-  },
-  "/projects/orkl": {
-    "title": "orkl",
-    "view": "project",
-    "dates": "April 2018 ― present",
-    "priority": "8",
-    "description": "Super simple peer-to-peer blogging site",
-    "text": "I wanted to build a peer-to-peer only blog; kind of like the p2p child of Svbtle and Telegra.ph. Fell in love with the idea of a site, which feels the same for the writer and the reader. The only difference is that the writer can change the content and the reader can't. Thanks to [Dat](https://datproject.org/), we can easily decide if a computer is the owner or not of a site.\n\norkl is also 100% dynamic, so it's basically just a bunch of ```txt``` files (using [smarkt](https://github.com/jondashkyle/smarkt)) = no site generation or building.\n\n### Usage\nThe magic of Beaker Browser is the possibility to fork a site. To get started you can fork any orkl site, but for the sake of simplicity we will use an empty site I've made.\n\n- Download [Beaker Browser](https://beakerbrowser.com)\n- Navigate to [dat://orkl-kodedninja.hashbase.io](dat://orkl-kodedninja.hashbase.io)\n- Find the \"Fork this site\" button, click it and fill out with your information\n- Navigate to your site\n- Edit the site's dat.json, adding `\"fallback_page\": \"index.html\"`\n- Read the \"How to use orkl?\" entry",
-    "github": "https://github.com/kodedninja/orkl",
-    "website": "https://orkl-kodedninja.hashbase.io",
-    "name": "orkl",
-    "path": "/content/projects/orkl",
-    "url": "/projects/orkl",
-    "files": {
-      "Screenshot from 2018-03-02 23-22-37.png": {
-        "name": "Screenshot from 2018-03-02 23-22-37",
-        "path": "/content/projects/orkl/Screenshot from 2018-03-02 23-22-37.png",
-        "url": "/projects/orkl/Screenshot from 2018-03-02 23-22-37.png",
-        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/projects/orkl/Screenshot from 2018-03-02 23-22-37.png",
-        "extension": ".png",
-        "filename": "Screenshot from 2018-03-02 23-22-37.png",
-        "type": "image"
-      },
-      "Screenshot from 2018-03-02 23-26-04.png": {
-        "name": "Screenshot from 2018-03-02 23-26-04",
-        "path": "/content/projects/orkl/Screenshot from 2018-03-02 23-26-04.png",
-        "url": "/projects/orkl/Screenshot from 2018-03-02 23-26-04.png",
-        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/projects/orkl/Screenshot from 2018-03-02 23-26-04.png",
-        "extension": ".png",
-        "filename": "Screenshot from 2018-03-02 23-26-04.png",
         "type": "image"
       }
     },
@@ -763,6 +569,200 @@
         "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/projects/seeder/image.png",
         "extension": ".png",
         "filename": "image.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/projects/orkl": {
+    "title": "orkl",
+    "view": "project",
+    "dates": "April 2018 ― present",
+    "priority": "8",
+    "description": "Super simple peer-to-peer blogging site",
+    "text": "I wanted to build a peer-to-peer only blog; kind of like the p2p child of Svbtle and Telegra.ph. Fell in love with the idea of a site, which feels the same for the writer and the reader. The only difference is that the writer can change the content and the reader can't. Thanks to [Dat](https://datproject.org/), we can easily decide if a computer is the owner or not of a site.\n\norkl is also 100% dynamic, so it's basically just a bunch of ```txt``` files (using [smarkt](https://github.com/jondashkyle/smarkt)) = no site generation or building.\n\n---\n\n<u>Usage</u>\n\nThe magic of Beaker Browser is the possibility to fork a site. To get started you can fork any orkl site, but for the sake of simplicity we will use an empty site I've made.\n\n- Download [Beaker Browser](https://beakerbrowser.com)\n- Navigate to [dat://orkl-kodedninja.hashbase.io](dat://orkl-kodedninja.hashbase.io)\n- Find the \"Fork this site\" button, click it and fill out with your information\n- Navigate to your site\n- Edit the site's dat.json, adding `\"fallback_page\": \"index.html\"`\n- Read the \"How to use orkl?\" entry",
+    "github": "https://github.com/kodedninja/orkl",
+    "website": "https://orkl-kodedninja.hashbase.io",
+    "name": "orkl",
+    "path": "/content/projects/orkl",
+    "url": "/projects/orkl",
+    "files": {
+      "Screenshot from 2018-03-02 23-22-37.png": {
+        "name": "Screenshot from 2018-03-02 23-22-37",
+        "path": "/content/projects/orkl/Screenshot from 2018-03-02 23-22-37.png",
+        "url": "/projects/orkl/Screenshot from 2018-03-02 23-22-37.png",
+        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/projects/orkl/Screenshot from 2018-03-02 23-22-37.png",
+        "extension": ".png",
+        "filename": "Screenshot from 2018-03-02 23-22-37.png",
+        "type": "image"
+      },
+      "Screenshot from 2018-03-02 23-26-04.png": {
+        "name": "Screenshot from 2018-03-02 23-26-04",
+        "path": "/content/projects/orkl/Screenshot from 2018-03-02 23-26-04.png",
+        "url": "/projects/orkl/Screenshot from 2018-03-02 23-26-04.png",
+        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/projects/orkl/Screenshot from 2018-03-02 23-26-04.png",
+        "extension": ".png",
+        "filename": "Screenshot from 2018-03-02 23-26-04.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/projects/microne": {
+    "title": "MICRONE",
+    "view": "project",
+    "dates": "March 2018",
+    "priority": "5",
+    "description": "A tiny, minimalistic JS music player",
+    "text": "A tiny, minimalistic JS music player. It's around **2 kilobytes** and it's **xx beautiful**.\n\n[See more](https://github.com/kodedninja/microne)",
+    "github": "https://github.com/kodedninja/microne",
+    "website": "https://microne.now.sh",
+    "name": "microne",
+    "path": "/content/projects/microne",
+    "url": "/projects/microne",
+    "files": {
+      "microne-screenshot.png": {
+        "name": "microne-screenshot",
+        "path": "/content/projects/microne/microne-screenshot.png",
+        "url": "/projects/microne/microne-screenshot.png",
+        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/projects/microne/microne-screenshot.png",
+        "extension": ".png",
+        "filename": "microne-screenshot.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/writing/later-here": {
+    "title": "Later, Here...",
+    "view": "entry",
+    "date": "2018-03-05",
+    "location": "Home",
+    "excerpt": "Just a note about systems / tools I want to mention in later entries.",
+    "text": "Most of them are newcomers to my life, but they changed my workflow and day-to-day life significantly. Probably I forgot a few, but will edit this entry later.\n\nIt's also an all-around description of these tools and the reason I use them.\n\n---\n\n[Log](https://joshavanier.itch.io/log) was the first tool I've started using late last year. Inspired by [Devine](https://wiki.xxiivv.com) I wanted to write my own time-tracker, but then I've found Josh's and it was a perfect fit. I don't use it for prediction (yet), but mostly to review my productive output.\n\n![Log screenshot](https://img.itch.zone/aW1hZ2UvMTg3ODI5LzEwMDM4ODQucG5n/original/Yvd0oU.png)\n\n[Are.na](https://are.na). Oh, Are.na. It's one of the best tools I've found in my whole life. I'm not sure why, but I love it so much it's not describable. A perfect example of functional design. I'm very new there, but [I use it a lot](https://are.na/hunor-karaman/index). \"Social media that helps you think\"? Yes, please. My one-word description of Are.na is *quality*. Quality people, quality content, quality website.\n\n![Are.na screenshot](/content/writing/later-here/arena-screenshot.png)\n\n[Beaker Browser](https://beakerbrowser.com) is a bit different than the others, but I must write about it because it changed the way I think about the internet. I feel 100% better browsing on the peer-to-peer web, enjoying the beauty of 64 characters long urls, seeding and forking sites. Making personal tools based on it like [orkl](/projects/orkl) or [ntain](/projects/ntain). Or using what other people made like Dropout.\n\n[Dropout](https://dropout.jon-kyle.com) is a tool that *\"saves a url as static html/json for later offline access and personal archive\"*. It was made by Jon Kyle, whose work inspire me a lot. Three tools from this list were made by him. He's a good guy. I mostly use Dropout to save documentations for offline access, as I try to reduce my internet usage.\n\n![Dropout screenshot](https://camo.githubusercontent.com/33131061d30a2b6e36109cf7efc3797d84ffe3f0/687474703a2f2f64726f702e6a6f6e2d6b796c652e636f6d2f6d6f64756c65732f64726f706f75742d6265616b65722d322e706e67)\n\nAnother one from Jon. [Enoki](https://enoki.site) is *\"an experimental ~~platform~~ tool for peer-to-peer publishing\"*. It's basically a static-site generator with a simple CMS. Exactly what I was looking for. This site uses the \"original\" version ([enoki-starterkit](https://github.com/enokidotsite/starterkit)), but Jon's currently working on a new Enoki.\n\n*Update: The site now uses the [Enoki Panel](https://panel.enoki.site).*\n\n[Hardly Everything](https://hardlyeverything.com) is the last tool in the list that's by Jon. It supplies you with an \"anti-feed\". You can read more about it [here](https://github.com/jondashkyle/hardly-everything). The way I use it is that I save different sites and a set a \"pace\" for them. There are pages that I usually check too often, even if they have new content only once a while, so I put them into Hardly Everything and access them only from there. This isn't a rule, but I try to act like it would be. I'm much more organized, because in the morning I go through my feed and then I don't check them again for a day.\\\n(*Note: I've realized that I used the term \"put them into\" and it sounds a bit weird, but I do think about Hardly Everything as a grinder machine that destroys the low-quality time spent on these websites \"unintentionally\".*)\n\n![Hardly Everything screeshot](/content/writing/later-here/hardly-everything.png)\n\nI also want to write about how I use my phone. It has changed much in the past month. It's more ambient and less distracting.\n\n> \"Yeah, I think phones have failed us.\" - Edouerd Urcades\n\n---\nUpdate: I've came across Alex Singh's blog and found [this entry](https://alexsingh.svbtle.com/ambient-interventions-for-2018). He pretty much talks about the same tools as me, with better writing skills. I follow [Alex's channel](https://www.are.na/alex-singh/ambient-product-design) on Are.na and it makes me happy that he too is amazed by these tools.",
+    "visible": true,
+    "name": "later-here",
+    "path": "/content/writing/later-here",
+    "url": "/writing/later-here",
+    "files": {
+      "arena-screenshot.png": {
+        "name": "arena-screenshot",
+        "path": "/content/writing/later-here/arena-screenshot.png",
+        "url": "/writing/later-here/arena-screenshot.png",
+        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/writing/later-here/arena-screenshot.png",
+        "extension": ".png",
+        "filename": "arena-screenshot.png",
+        "type": "image"
+      },
+      "hardly-everything.png": {
+        "name": "hardly-everything",
+        "path": "/content/writing/later-here/hardly-everything.png",
+        "url": "/writing/later-here/hardly-everything.png",
+        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/writing/later-here/hardly-everything.png",
+        "extension": ".png",
+        "filename": "hardly-everything.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/0x22/glacio": {
+    "title": "glacio",
+    "view": "album",
+    "released": "2017-12-14",
+    "tracks": [
+      "December",
+      "I don't know my feelings"
+    ],
+    "text": "[Bandcamp](https://0x22.bandcamp.com/album/glacio)\n\ni love winter\\\nand the cold and the snow\\\nand i love the sound of the ice\\\nbreaking itself on the stone\n\n\"December\" was written in December, 2017.\\\n\"I don't know my feelings\" was written in February, 2017 (found the file now).",
+    "name": "glacio",
+    "path": "/content/0x22/glacio",
+    "url": "/0x22/glacio",
+    "files": {
+      "cover.jpg": {
+        "name": "cover",
+        "path": "/content/0x22/glacio/cover.jpg",
+        "url": "/0x22/glacio/cover.jpg",
+        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/0x22/glacio/cover.jpg",
+        "extension": ".jpg",
+        "filename": "cover.jpg",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/0x22/it-was-dawn-when-the-old-man-died": {
+    "title": "It was dawn when the old man died",
+    "view": "album",
+    "released": "2017-10-01",
+    "tracks": [
+      "It was dawn when the old man died I.",
+      "It was dawn when the old man died II."
+    ],
+    "text": "[Bandcamp](https://0x22.bandcamp.com/album/it-was-dawn-when-the-old-man-died)\n\nAt dawn warmer waves arrive to the surface of Earth. They break up into millions of other waves, then return into the atmosphere. These waves are the reason that life exists on Earth. These waves our the reason why we die.\n\n\"It was dawn when the old man died I.\" presents 3 perspectives of a dawn. Is just a simple dawn the same for a dying man, for a couple or for a child? Is it the same for you and me?\n\n\"It was dawn when the old man died II.\" is an experimental slowed down version of the first track. Doesn't sure which one describes more the concept.",
+    "name": "it-was-dawn-when-the-old-man-died",
+    "path": "/content/0x22/it-was-dawn-when-the-old-man-died",
+    "url": "/0x22/it-was-dawn-when-the-old-man-died",
+    "files": {
+      "itwasdawn.png": {
+        "name": "itwasdawn",
+        "path": "/content/0x22/it-was-dawn-when-the-old-man-died/itwasdawn.png",
+        "url": "/0x22/it-was-dawn-when-the-old-man-died/itwasdawn.png",
+        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/0x22/it-was-dawn-when-the-old-man-died/itwasdawn.png",
+        "extension": ".png",
+        "filename": "itwasdawn.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/0x22/metaphases": {
+    "title": "Metaphases",
+    "view": "album",
+    "released": "2017-12-23",
+    "tracks": [
+      "Metaphases"
+    ],
+    "text": "[Bandcamp](https://0x22.bandcamp.com/album/metaphases)\n\nRecorded in December 2017. All music by 0x22.",
+    "name": "metaphases",
+    "path": "/content/0x22/metaphases",
+    "url": "/0x22/metaphases",
+    "files": {
+      "covermountinas.jpg": {
+        "name": "covermountinas",
+        "path": "/content/0x22/metaphases/covermountinas.jpg",
+        "url": "/0x22/metaphases/covermountinas.jpg",
+        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/0x22/metaphases/covermountinas.jpg",
+        "extension": ".jpg",
+        "filename": "covermountinas.jpg",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/0x22/with-love-from-very-small-places": {
+    "title": "With love from very small places",
+    "view": "album",
+    "released": "2017-11-14",
+    "tracks": [
+      "Moon Shadow",
+      "Silhouettes",
+      "Spaces",
+      "Hearts and Magnets",
+      "Sun Light"
+    ],
+    "text": "[Bandcamp](https://0x22.bandcamp.com/album/with-love-from-very-small-places)\n\nIn life sometimes we stuck into small places, places that make us feel closed and paralysed. Will a hand help you out from there?\n\n\"With love from very small places\" is a concept album, written for my girlfriend for our anniversary. It's a journey to the surface from somewhere below. From a very small place.",
+    "name": "with-love-from-very-small-places",
+    "path": "/content/0x22/with-love-from-very-small-places",
+    "url": "/0x22/with-love-from-very-small-places",
+    "files": {
+      "smallplaces.png": {
+        "name": "smallplaces",
+        "path": "/content/0x22/with-love-from-very-small-places/smallplaces.png",
+        "url": "/0x22/with-love-from-very-small-places/smallplaces.png",
+        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/0x22/with-love-from-very-small-places/smallplaces.png",
+        "extension": ".png",
+        "filename": "smallplaces.png",
         "type": "image"
       }
     },

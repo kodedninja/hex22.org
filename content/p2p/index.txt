@@ -25,6 +25,6 @@ If you're new to the peer-to-peer web check out:
 
 Story: 
 
-I've been attracted by the peer-to-peer web from a young age ― before I knew what it does mean. I remember standing next to a friend and sending a message to him over the internet (I think it was Facebook), when I realized how wrong it is that this message has to travel thousands of kilometers to arrive to him. 
+I've been attracted by the peer-to-peer web from a young age ― before I knew actually exists. I remember standing next to a friend and sending a message to him over the internet (I think it was Facebook), when I realized how wrong it is that this message has to travel thousands of kilometers to arrive to him. 
 
-Since then I'm planning and trying to built peer-to-peer networks, but then one day I've found the [Beaker Browser](https://beakerbrowser.com) and [Dat](https://datproject.org).
+Since then I was planning and trying to build peer-to-peer networks, but then one day I've found the [Beaker Browser](https://beakerbrowser.com) and [Dat](https://datproject.org).
