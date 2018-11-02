@@ -4,7 +4,7 @@ view: project
 ----
 description: Raspberry Pi DAT seeder
 ----
-dates: April 2018 ― present
+dates: April ― July 2018
 ----
 priority: 9
 ----

@@ -5,10 +5,8 @@ module.exports = view
 
 function view (state, emit) {
 	return html`
-		<div class="1 db p1 mb4">
-	  		<div class="1 db">
-	  			404
-	  		</div>
+		<div class="1 db">
+	  		Not Found
 		</div>
   `
 }

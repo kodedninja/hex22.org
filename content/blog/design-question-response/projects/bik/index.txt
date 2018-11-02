@@ -1,0 +1,25 @@
+title: bik
+----
+view: project
+----
+description: Tiny library for isolated web components
+----
+dates: April 2018
+----
+priority: 7
+----
+text: I love [choo](https://github.com/choojs/coo), but sometimes it's too much. For example when I want to use a simple component in a static site. I was too lazy to find a module for that so I've built one.
+
+Uses [nanomorph](https://github.com/choojs/nanomorph) under the hood.
+
+<u>installation</u>
+
+`npm i -S bik`
+
+<u>documentation</u>
+
+On Github.
+----
+github: https://github.com/kodedninja/bik
+----
+npm: https://npmjs.com/package/bik
