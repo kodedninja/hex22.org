@@ -24,13 +24,11 @@ a {
 }
 
 a:not(.nbb) {
-	font-weight: bold;
-
+	border-bottom: 1px solid #aaa;
+	padding-bottom: 0.1em;
 }
 
 a:not(.nbb):hover {
-	padding-bottom: 0.1em;
-	border-bottom: 1px solid #000;
 }
 
 /* Typography */
@@ -73,7 +71,7 @@ h5, .f5 { font-size: 1rem; }
 
 code {
     background-color: #eee;
-    padding: 2px;
+    padding: 4px;
 }
 
 blockquote {
