@@ -1,5 +1,0 @@
-title: Writing
-----
-view: blog
-----
-text: About tools, systems ― what I see, what I think.

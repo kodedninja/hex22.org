@@ -18,6 +18,8 @@ text: I'm interested in the <span class="f6 dib">small</span>, [in “What’s A
 
 I think, design and build small ― small is not a compromise, it's a possibility.
 
+---
+
 <u>Interests</u>
 
 Future ― Solarpunk
@@ -25,6 +27,8 @@ Decentralization ― Peer-to-Peer
 Machine Learning 
 Bioinformatics
 Functional Design
+
+---
 
 <p class="brw">
 	dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/

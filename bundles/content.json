@@ -294,7 +294,7 @@
   "/about": {
     "title": "About",
     "view": "default",
-    "text": "Hi. \n\nI’m a developer, working (mostly) on experimental projects with small footprint.\n\n**Currently:**\n\n- Developer at GeoGebra\n- Experimenting with peer-to-peer tools\n\n**Previously:**\n\n- Co-Made Pictogon\n\n*\"I really enjoy making tools.\" - Callil Capuozzo*\n\nHunor Karaman,\na peer.",
+    "text": "Hi. \n\nI’m a developer, working (mostly) on experimental projects with small footprint.\n\nI'm present on [GitHub](https://github.com/kodedninja), [Are.na](https://are.na/hunor-karaman). [Mastodon](https://sunbeam.city/@kodedninja) and [VSCO](https://vsco.co/karamanhunor).<br>You can contact me via [email](mailto:hunix94@gmail.com).\n\n---\n\n**Currently:**\n\n- Developer at GeoGebra\n- Experimenting with peer-to-peer tools\n\n---\n\n**Previously:**\n\n- Co-Made Pictogon\n\n---\n\n*\"I really enjoy making tools.\" - Callil Capuozzo*\n\nHunor Karaman,\na peer.",
     "name": "about",
     "path": "/content/about",
     "url": "/about",
@@ -406,7 +406,7 @@
     "info": "Hello. I’m a developer working mostly on experimental projects with small footprint.\n\"I really enjoy making tools.\" ― Callil Capuozzo\n\n[Github](https://github.com/kodedninja) ― [Are.na](https://are.na/hunor-karaman) ― [Mastodon](https://sunbeam.city/@kodedninja)\n[hunordotkaraman@gmail.com](mailto:hunordotkaraman@gmail.com)\n\nI'm your <u>peer</u>.",
     "currently": "",
     "previously": "",
-    "text": "I'm interested in the <span class=\"f6 dib\">small</span>, [in “What’s After Now”, the alternative form, A New Spirit of Computation](https://newcomputers.group).\n\nI think, design and build small ― small is not a compromise, it's a possibility.\n\n<u>Interests</u>\n\nFuture ― Solarpunk\nDecentralization ― Peer-to-Peer\nMachine Learning \nBioinformatics\nFunctional Design\n\n<p class=\"brw\">\n\tdat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/\n</p>",
+    "text": "I'm interested in the <span class=\"f6 dib\">small</span>, [in “What’s After Now”, the alternative form, A New Spirit of Computation](https://newcomputers.group).\n\nI think, design and build small ― small is not a compromise, it's a possibility.\n\n---\n\n<u>Interests</u>\n\nFuture ― Solarpunk\nDecentralization ― Peer-to-Peer\nMachine Learning \nBioinformatics\nFunctional Design\n\n---\n\n<p class=\"brw\">\n\tdat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/\n</p>",
     "name": "content",
     "path": "/content",
     "url": "/",

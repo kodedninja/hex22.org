@@ -5,6 +5,10 @@
       "label": "Title",
       "type": "text"
     },
+	"banner": {
+	  "label": "Show Title",
+	  "type": "checkbox"
+	},
     "text": {
       "label": "Text",
       "type": "textarea"
