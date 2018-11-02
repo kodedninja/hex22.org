@@ -12,4 +12,4 @@ text: If you hate using a service that depends on your connectivity for project 
 
 Stacked is a project management tool based on [Beaker Browser](https://beakerbrowser.com) and [DAT](https://datproject.org), meaning that you own all your data and you don't depend on the cloud (which in many cases isn't available).
 ----
-dates: July 2018 ― present
+dates: July 2018

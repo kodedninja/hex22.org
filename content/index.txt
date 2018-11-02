@@ -5,7 +5,7 @@ view: home
 info: Hello. I’m a developer working mostly on experimental projects with small footprint.
 "I really enjoy making tools." ― Callil Capuozzo
 
-[Github](https://github.com/kodedninja) ― [Are.na](https://are.na/hunor-karaman)
+[Github](https://github.com/kodedninja) ― [Are.na](https://are.na/hunor-karaman) ― [Mastodon](https://sunbeam.city/@kodedninja)
 [hunordotkaraman@gmail.com](mailto:hunordotkaraman@gmail.com)
 
 I'm your <u>peer</u>.
