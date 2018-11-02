@@ -1,0 +1,11 @@
+title: Redefining image maps
+----
+view: entry
+----
+date: 2017-09-20
+----
+location: Odorheiu Secuiesc
+----
+excerpt: Once upon a time images appeared on websites with clickable areas inside. They were called _image maps_.
+----
+text: todo

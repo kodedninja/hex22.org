@@ -2,7 +2,7 @@ title: Are you the owner?
 ----
 view: entry
 ----
-date: 2018-04-20
+date: 2018-03-20
 ----
 excerpt: I wanted to build a peer-to-peer only blog; kind of like the p2p child of Svbtle and Telegra.ph. Fell in love with the idea of a site, which feels the same for the writer and the reader. The only difference is that the writer can change the content and the reader can't. Thanks to Dat, we can easily decide if a computer is the owner or not of a site.
 ----

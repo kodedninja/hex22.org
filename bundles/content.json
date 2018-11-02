@@ -1,113 +1,4 @@
 {
-  "/plore/anonymous": {
-    "name": "anonymous",
-    "path": "/content/plore/anonymous",
-    "url": "/plore/anonymous",
-    "files": {
-      "default.txt": {
-        "name": "default",
-        "path": "/content/plore/anonymous/default.txt",
-        "url": "/plore/anonymous/default.txt",
-        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/plore/anonymous/default.txt",
-        "extension": ".txt",
-        "filename": "default.txt"
-      }
-    },
-    "pages": {}
-  },
-  "/plore/cyclios": {
-    "name": "cyclios",
-    "path": "/content/plore/cyclios",
-    "url": "/plore/cyclios",
-    "files": {
-      "default.txt": {
-        "name": "default",
-        "path": "/content/plore/cyclios/default.txt",
-        "url": "/plore/cyclios/default.txt",
-        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/plore/cyclios/default.txt",
-        "extension": ".txt",
-        "filename": "default.txt"
-      }
-    },
-    "pages": {}
-  },
-  "/plore/nh00": {
-    "name": "nh00",
-    "path": "/content/plore/nh00",
-    "url": "/plore/nh00",
-    "files": {
-      "default.txt": {
-        "name": "default",
-        "path": "/content/plore/nh00/default.txt",
-        "url": "/plore/nh00/default.txt",
-        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/plore/nh00/default.txt",
-        "extension": ".txt",
-        "filename": "default.txt"
-      }
-    },
-    "pages": {}
-  },
-  "/plore/romantics": {
-    "name": "romantics",
-    "path": "/content/plore/romantics",
-    "url": "/plore/romantics",
-    "files": {
-      "default.txt": {
-        "name": "default",
-        "path": "/content/plore/romantics/default.txt",
-        "url": "/plore/romantics/default.txt",
-        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/plore/romantics/default.txt",
-        "extension": ".txt",
-        "filename": "default.txt"
-      }
-    },
-    "pages": {}
-  },
-  "/programmer-goals": {
-    "title": "Programmer Goals",
-    "view": "default",
-    "text": "[  ] A language that compiles to Javascript\\\n[  ] An interpreted language\\\n[  ] A language that compiles to byte-code\\\n[  ] A virtual machine\\\n[  ] A released game\\\n[  ] An instrument\\\n[  ] A phone\\\n[  ] A spacecraft",
-    "name": "programmer-goals",
-    "path": "/content/programmer-goals",
-    "url": "/programmer-goals",
-    "files": {},
-    "pages": {}
-  },
-  "/plore": {
-    "title": "Plore is an archive of travels in possible or impossible presents and futures.",
-    "view": "default",
-    "text": "### Locations\n[Cyclios](plore/cyclios)\n\n### Characters\n[Anonymous](plore/anonymous)\\\n[NH00](plore/nh00)",
-    "name": "plore",
-    "path": "/content/plore",
-    "url": "/plore",
-    "files": {},
-    "pages": {
-      "anonymous": {
-        "name": "anonymous",
-        "path": "/content/plore/anonymous",
-        "url": "/plore/anonymous",
-        "source": "/content/plore/anonymous"
-      },
-      "cyclios": {
-        "name": "cyclios",
-        "path": "/content/plore/cyclios",
-        "url": "/plore/cyclios",
-        "source": "/content/plore/cyclios"
-      },
-      "nh00": {
-        "name": "nh00",
-        "path": "/content/plore/nh00",
-        "url": "/plore/nh00",
-        "source": "/content/plore/nh00"
-      },
-      "romantics": {
-        "name": "romantics",
-        "path": "/content/plore/romantics",
-        "url": "/plore/romantics",
-        "source": "/content/plore/romantics"
-      }
-    }
-  },
   "/writing": {
     "title": "Writing",
     "view": "blog",
@@ -269,28 +160,6 @@
       }
     }
   },
-  "/blog": {
-    "title": "Timeline",
-    "view": "blog",
-    "name": "blog",
-    "path": "/content/blog",
-    "url": "/blog",
-    "files": {},
-    "pages": {
-      "are-you-the-owner": {
-        "name": "are-you-the-owner",
-        "path": "/content/blog/are-you-the-owner",
-        "url": "/blog/are-you-the-owner",
-        "source": "/content/blog/are-you-the-owner"
-      },
-      "keeping-sites-alive": {
-        "name": "keeping-sites-alive",
-        "path": "/content/blog/keeping-sites-alive",
-        "url": "/blog/keeping-sites-alive",
-        "source": "/content/blog/keeping-sites-alive"
-      }
-    }
-  },
   "/about": {
     "title": "About",
     "view": "default",
@@ -301,10 +170,89 @@
     "files": {},
     "pages": {}
   },
+  "/blog": {
+    "title": "Timeline",
+    "view": "blog",
+    "name": "blog",
+    "path": "/content/blog",
+    "url": "/blog",
+    "files": {},
+    "pages": {
+      "pictogon": {
+        "name": "pictogon",
+        "path": "/content/blog/pictogon",
+        "url": "/blog/pictogon",
+        "source": "/content/blog/pictogon"
+      },
+      "ntain": {
+        "name": "ntain",
+        "path": "/content/blog/ntain",
+        "url": "/blog/ntain",
+        "source": "/content/blog/ntain"
+      },
+      "keeping-sites-alive": {
+        "name": "keeping-sites-alive",
+        "path": "/content/blog/keeping-sites-alive",
+        "url": "/blog/keeping-sites-alive",
+        "source": "/content/blog/keeping-sites-alive"
+      },
+      "are-you-the-owner": {
+        "name": "are-you-the-owner",
+        "path": "/content/blog/are-you-the-owner",
+        "url": "/blog/are-you-the-owner",
+        "source": "/content/blog/are-you-the-owner"
+      },
+      "ridder": {
+        "name": "ridder",
+        "path": "/content/blog/ridder",
+        "url": "/blog/ridder",
+        "source": "/content/blog/ridder"
+      }
+    }
+  },
+  "/blog/pictogon": {
+    "title": "Redefining image maps",
+    "view": "entry",
+    "date": "2017-09-20",
+    "location": "Odorheiu Secuiesc",
+    "excerpt": "Once upon a time images appeared on websites with clickable areas inside. They were called _image maps_.",
+    "text": "todo",
+    "name": "pictogon",
+    "path": "/content/blog/pictogon",
+    "url": "/blog/pictogon",
+    "files": {},
+    "pages": {}
+  },
+  "/blog/ntain": {
+    "title": "ntain ― a peer-to-peer file sharing site",
+    "view": "entry",
+    "date": "2017-11-10",
+    "location": "Odorheiu Secuiesc",
+    "excerpt": "My first try at building a peer-to-peer application based on [Beaker Browser](https://beakerbrowser.com).",
+    "text": "todo",
+    "name": "ntain",
+    "path": "/content/blog/ntain",
+    "url": "/blog/ntain",
+    "files": {},
+    "pages": {}
+  },
+  "/blog/keeping-sites-alive": {
+    "title": "Seeder ― keeping sites alive on dat://",
+    "view": "entry",
+    "date": "2018-04-21",
+    "location": "Odorheiu Secuiesc",
+    "excerpt": "There are 2 problems with the availability of sites on the dat:// protocol: 1.) if you turn off your computer and nobody's seeding it, it'll be unaccessible 2.) if everyone solves this with a seeding service (Hashbase) the whole network will start to become more centralized.",
+    "text": "a",
+    "name": "keeping-sites-alive",
+    "path": "/content/blog/keeping-sites-alive",
+    "url": "/blog/keeping-sites-alive",
+    "files": {},
+    "pages": {}
+  },
   "/blog/are-you-the-owner": {
     "title": "Are you the owner?",
     "view": "entry",
-    "date": "2018-04-20",
+    "date": "2018-03-20",
     "excerpt": "I wanted to build a peer-to-peer only blog; kind of like the p2p child of Svbtle and Telegra.ph. Fell in love with the idea of a site, which feels the same for the writer and the reader. The only difference is that the writer can change the content and the reader can't. Thanks to Dat, we can easily decide if a computer is the owner or not of a site.",
     "location": "Odorheiu Secuiesc",
     "visible": true,
@@ -314,16 +262,16 @@
     "files": {},
     "pages": {}
   },
-  "/blog/keeping-sites-alive": {
-    "title": "Keeping sites alive and loving them",
+  "/blog/ridder": {
+    "title": "Ridder ― taking back control with RSS",
     "view": "entry",
-    "date": "2018-04-21",
+    "date": "2018-04-29",
     "location": "Odorheiu Secuiesc",
-    "excerpt": "There are 2 problems with the availability of sites on the dat:// protocol: 1.) if you turn off your computer and nobody's seeding it, it'll be unaccessible 2.) if everyone solves this with a seeding service (Hashbase) the whole network will start to become more centralized.",
-    "text": "a",
-    "name": "keeping-sites-alive",
-    "path": "/content/blog/keeping-sites-alive",
-    "url": "/blog/keeping-sites-alive",
+    "excerpt": "Ridder was made to make content reading transparent and controllable.",
+    "text": "It's an RSS reader completely owned and run by you, there's no server in the cloud to connect to.\n\nThere's no middleman to filter or track what you read.",
+    "name": "ridder",
+    "path": "/content/blog/ridder",
+    "url": "/blog/ridder",
     "files": {},
     "pages": {}
   },
@@ -412,18 +360,6 @@
     "url": "/",
     "files": {},
     "pages": {
-      "programmer-goals": {
-        "name": "programmer-goals",
-        "path": "/content/programmer-goals",
-        "url": "/programmer-goals",
-        "source": "/content/programmer-goals"
-      },
-      "plore": {
-        "name": "plore",
-        "path": "/content/plore",
-        "url": "/plore",
-        "source": "/content/plore"
-      },
       "writing": {
         "name": "writing",
         "path": "/content/writing",
@@ -454,17 +390,17 @@
         "url": "/projects",
         "source": "/content/projects"
       },
-      "blog": {
-        "name": "blog",
-        "path": "/content/blog",
-        "url": "/blog",
-        "source": "/content/blog"
-      },
       "about": {
         "name": "about",
         "path": "/content/about",
         "url": "/about",
         "source": "/content/about"
+      },
+      "blog": {
+        "name": "blog",
+        "path": "/content/blog",
+        "url": "/blog",
+        "source": "/content/blog"
       }
     }
   },

@@ -1,0 +1,11 @@
+title: ntain ― a peer-to-peer file sharing site
+----
+view: entry
+----
+date: 2017-11-10
+----
+location: Odorheiu Secuiesc
+----
+excerpt: My first try at building a peer-to-peer application based on [Beaker Browser](https://beakerbrowser.com).
+----
+text: todo

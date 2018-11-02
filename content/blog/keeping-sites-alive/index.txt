@@ -1,4 +1,4 @@
-title: Keeping sites alive and loving them
+title: Seeder ― keeping sites alive on dat://
 ----
 view: entry
 ----
