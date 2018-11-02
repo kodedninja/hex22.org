@@ -152,7 +152,7 @@ function thumbnail(state, emit) {
 },{"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":201,"choo/html":11,"object-values":157}],4:[function(require,module,exports){
 var choo = require('choo');
 var resize = require('choo-resize');
-var css = 0;(require('sheetify/insert')("* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\n::-moz-selection { color: #fff; background: #000; }\n::selection { color: #fff; background: #000; }\n\nhtml { font-size: 15px }\n\nbody, pre {\n\tfont-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n\tline-height: 1.6;\n\tfont-size: 1rem;\n\tfont-feature-settings:\"onum\" 1, \"pnum\" 1, \"kern\" 1, \"ss01\" 1;\n\tfont-kerning: normal;\n\toverflow-x: hidden;\n\tbackground: white;\n}\n\na {\n  color: #000;\n  text-decoration: none;\n}\n\na:not(.nbb) {\n  border-bottom: 1px solid #ddd;\n  padding-bottom: 0.1em;\n}\n\n/* Typography */\n\nh1, h2, h3, h4, h5, h6, .f1, .f2, .f3 {\n\tfont-family: 'Inter UI', 'arial', 'helvetica neue', sans-serif;\n\tfont-weight: inherit;\n}\n\n.fgiant { font-size: 10rem; }\nh1, .f1 { font-size: 2.5rem; }\nh2, .f2 { font-size: 2.25rem; }\nh3, .f3 { font-size: 1.75rem; }\nh4, .f4 { font-size: 1.25rem; }\nh5, .f5 { font-size: 1rem; }\n.f6 { font-size: .825rem; }\n\n.i { font-style: italic; }\n.b { font-weight: bold; }\n.underline {text-decoration: underline; }\n.strike { text-decoration: line-through; }\n.ttc { text-transform: capitalize; }\n.ttu { text-transform: uppercase; }\n.tac { text-align: center }\n.tal { text-align: left }\n.tar { text-align: right }\n.brw { word-wrap: break-word; }\n.bra { word-wrap: break-all; }\n\n.ffmono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace }\n.ffi { font-family: 'Inter UI', 'arial', 'helvetica neue', sans-serif }\n\n.fwb { font-weight: bold; }\n.fwn { font-weight: normal; }\n\n.tcgrey, .tcgrey a { color: #999 }\n.tcwhite, .tcwhite a { color: #fff }\n.tcblack, .tcblack a { color: #000 }\n\n.lh1 { line-height: 1.2 }\n\np, ul, ol { margin: 1.5rem 0 }\n\nul, ol { margin-left: 1em }\n\nli {\n\tmargin: 0.5rem 0;\n}\n\ncode {\n    background-color: #eee;\n    padding: 2px;\n}\n\n/* Blocks */\n\n.db { display: block; }\n.dib { display: inline-block; }\n.dn { display: none; }\n\n.ofh { overflow: hidden; }\n\n.pst { position: sticky; position: -webkit-sticky; }\n.pa { position: absolute; }\n.pr { position: relative; }\n.pf { position: fixed};\n.t0 { top: 0; }\n.l0 { left: 0; }\n.b0 { bottom: 0; }\n\n.fl { float: left; }\n.fr { float: right; }\n.fn { float: none; }\n\n/* https://github.com/CreoOne/x001F */\n.\\31{width:100.000%}\n.\\31 \\2f 1{width:100.000%}\n.\\31 \\2f 2{width:50.000%}\n.\\31 \\2f 3{width:33.333%}\n.\\31 \\2f 4{width:25.000%}\n.\\31 \\2f 5{width:20.000%}\n.\\31 \\2f 6{width:16.667%}\n.\\32 \\2f 3{width:66.667%}\n.\\32 \\2f 5{width:40.000%}\n.\\33 \\2f 4{width:75.000%}\n.\\33 \\2f 5{width:60.000%}\n.\\34 \\2f 5{width:80.000%}\n.\\35 \\2f 6{width:83.333%}\n.auto { width: auto; }\n\n.mw { max-width: 1000px }\n\n.ba { border-style: solid; border-width: 1px; }\n.bt { border-top-style: solid; border-top-width: 1px; }\n.br { border-right-style: solid; border-right-width: 1px; }\n.bb { border-bottom-style: solid; border-bottom-width: 1px; }\n.bl { border-left-style: solid; border-left-width: 1px; }\n.bn { border-style: none; border-width: 0; }\n\n.br0 { border-radius: 0; }\n.br1 { border-radius: .125rem; }\n.br2 { border-radius: .25rem; }\n.br3 { border-radius: .5rem; }\n.br4 { border-radius: 1rem; }\n.br100 { border-radius: 100%; }\n.brpill { border-radius: 9999px; }\n\n.p0-5 { padding: 0.75rem }\n.p1 { padding: 1.5rem }\n.p2 { padding: 3rem }\n.px1 { padding-left: 1.5rem; padding-right: 1.5rem; }\n.px2 { padding-left: 3rem; padding-right: 3rem; }\n.py1 { padding-top: 1.5rem; padding-bottom: 1.5rem; }\n.py2 { padding-top: 3rem; padding-bottom: 3rem; }\n.pt1 { padding-top: 1.5rem }\n.pb1 { padding-bottom: 1.5rem }\n.pb0 { padding-bottom: 0 }\n.pb2 { padding-bottom: 3rem }\n\n.pfeed { padding: 10rem 3rem }\n\n.m0 { margin: 0 }\n.my0-5 { margin: 0.75rem 0 }\n.my1 { margin: 1.5rem 0 }\n.mr1 { margin-right: 1.5rem }\n.mt1 { margin-top: 1.5rem }\n.mb1 { margin-bottom: 1.5rem }\n.my2 { margin: 3rem 0 }\n.mr2 { margin-right: 3rem }\n.mt2 { margin-top: 3rem }\n.mt3 { margin-top: 4rem }\n.mb2 { margin-bottom: 3rem }\n.mb4 { margin-bottom: 6rem }\n.mxa { margin-left: auto; margin-right: auto; }\n\n.mt50 { margin-top: 50% }\n.ml50 { margin-left: 50% }\n.trans-y50 { transform: translateY(-50%) }\n.trans-x50 { transform: translateX(-50%) }\n\nimg {\n\twidth: 100%;\n}\n\np > img {\n    display: block;\n\tmargin: 4rem 0;\n}\n\nh4 > img {\n\twidth: 50%;\n    display: block;\n\tmargin: 4rem 0;\n    margin-left: auto;\n    margin-right: auto;\n}\n\nhr {\n\tborder: none;\n\tborder-bottom: 1px solid #000;\n}\n\n.entry p,\n.entry li {\n\tfont-size: 1.15rem;\n}\n\n/* Media query customs */\n\n@media (max-width: 900px) {\n\t.m-\\31{ width:100.000% }\n\n\th1, .f1 { font-size: 2.25rem; }\n\th2, .f2 { font-size: 2.0rem; }\n}") || true) && "_2a186f83";(require('sheetify/insert')(".content { min-height: calc(100vh - 140px); }\n\nh4 a { margin-right: 8px; }\n\nblockquote {\n    border-left: 4px solid #ddd;\n    padding-left: 30px;\n    color: #999;\n}\n\n.log #sectors h3,\n.log #projects h3 {\n\tfont-size: 1.5rem !important;\n}\n\n.header {\n\theight: auto;\n\tmax-height: 700px;\n\ttransition: max-height 0.5s;\n\toverflow-y: hidden;\n}\n\n.header.collapsed {\n\tmax-height: 46px;\n}\n\n.footer {\n\tbackground: white;\n}\n\n/**\n * loading\n */\n\n.loading {\n  margin: -1rem;\n  height: 2rem;\n  width: 2rem;\n  border-radius: 50rem;\n  position: fixed;\n  top: 50%;\n  left: 50%;\n  border: 3px solid #fff;\n  border-top: 3px solid #000;\n  border-left: 3px solid #000;\n  animation: spin 1s linear infinite;\n}\n\n@keyframes spin {\n  0% { transform: rotate(0deg) }\n  100% { transform: rotate(360deg) }\n}\n\n/* Media query customs */\n\n@media (max-width: 900px) {\n    .sector {\n        width: 50% !important;\n    }\n}") || true) && "_5507f2da";
+var css = 0;(require('sheetify/insert')("* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\n::-moz-selection { color: #fff; background: #000; }\n::selection { color: #fff; background: #000; }\n\nhtml { font-size: 14px }\n\nbody, pre {\n\tfont-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n\tline-height: 1.6;\n\tfont-size: 1rem;\n\tfont-feature-settings:\"onum\" 1, \"pnum\" 1, \"kern\" 1, \"ss01\" 1;\n\tfont-kerning: normal;\n\toverflow-x: hidden;\n\tbackground: white;\n}\n\na {\n  color: #000;\n  text-decoration: none;\n}\n\na:not(.nbb) {\n  border-bottom: 1px solid #ddd;\n  padding-bottom: 0.1em;\n}\n\n/* Typography */\n\nh1, h2, h3, h4, h5, h6, .f1, .f2, .f3 {\n\tfont-family: 'Inter UI', 'arial', 'helvetica neue', sans-serif;\n\tfont-weight: inherit;\n}\n\nh1, .f1 { font-size: 5rem }\nh2, .f2 { font-size: 2.25rem; }\nh3, .f3 { font-size: 1.75rem; }\nh4, .f4 { font-size: 1.25rem; }\nh5, .f5 { font-size: 1rem; }\n.f6 { font-size: .825rem; }\n\n.i { font-style: italic; }\n.b { font-weight: bold; }\n.underline {text-decoration: underline; }\n.strike { text-decoration: line-through; }\n.ttc { text-transform: capitalize; }\n.ttu { text-transform: uppercase; }\n.tac { text-align: center }\n.tal { text-align: left }\n.tar { text-align: right }\n.brw { word-wrap: break-word; }\n.bra { word-wrap: break-all; }\n\n.ffmono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace }\n.ffi { font-family: 'Inter UI', 'arial', 'helvetica neue', sans-serif }\n\n.fwb { font-weight: bold; }\n.fwn { font-weight: normal; }\n\n.tcgrey, .tcgrey a { color: #999 }\n.tcwhite, .tcwhite a { color: #fff }\n.tcblack, .tcblack a { color: #000 }\n\n.lh1 { line-height: 1.2 }\n\np, ul, ol { margin: 1.5rem 0 }\n\nul, ol { margin-left: 1em }\n\nli {\n\tmargin: 0.5rem 0;\n}\n\ncode {\n    background-color: #eee;\n    padding: 2px;\n}\n\n/* Blocks */\n\n.db { display: block; }\n.dib { display: inline-block; }\n.dn { display: none; }\n\n.ofh { overflow: hidden; }\n\n.pst { position: sticky; position: -webkit-sticky; }\n.pa { position: absolute; }\n.pr { position: relative; }\n.pf { position: fixed};\n.t0 { top: 0; }\n.l0 { left: 0; }\n.b0 { bottom: 0; }\n\n.fl { float: left; }\n.fr { float: right; }\n.fn { float: none; }\n\n/* https://github.com/CreoOne/x001F */\n.\\31{width:100.000%}\n.\\31 \\2f 1{width:100.000%}\n.\\31 \\2f 2{width:50.000%}\n.\\31 \\2f 3{width:33.333%}\n.\\31 \\2f 4{width:25.000%}\n.\\31 \\2f 5{width:20.000%}\n.\\31 \\2f 6{width:16.667%}\n.\\32 \\2f 3{width:66.667%}\n.\\32 \\2f 5{width:40.000%}\n.\\33 \\2f 4{width:75.000%}\n.\\33 \\2f 5{width:60.000%}\n.\\34 \\2f 5{width:80.000%}\n.\\35 \\2f 6{width:83.333%}\n.auto { width: auto; }\n\n.mw { max-width: 800px }\n\n.ba { border-style: solid; border-width: 1px; }\n.bt { border-top-style: solid; border-top-width: 1px; }\n.br { border-right-style: solid; border-right-width: 1px; }\n.bb { border-bottom-style: solid; border-bottom-width: 1px; }\n.bl { border-left-style: solid; border-left-width: 1px; }\n.bn { border-style: none; border-width: 0; }\n\n.p0-5 { padding: 0.75rem }\n.p1 { padding: 1.5rem }\n.p2 { padding: 3rem }\n.px1 { padding-left: 1.5rem; padding-right: 1.5rem; }\n.px2 { padding-left: 3rem; padding-right: 3rem; }\n.py1 { padding-top: 1.5rem; padding-bottom: 1.5rem; }\n.py2 { padding-top: 3rem; padding-bottom: 3rem; }\n.pt1 { padding-top: 1.5rem }\n.pb1 { padding-bottom: 1.5rem }\n.pb0 { padding-bottom: 0 }\n.pb2 { padding-bottom: 3rem }\n\n.m0 { margin: 0 }\n.my0-5 { margin: 0.75rem 0 }\n.my1 { margin: 1.5rem 0 }\n.mr1 { margin-right: 1.5rem }\n.mt1 { margin-top: 1.5rem }\n.mb1 { margin-bottom: 1.5rem }\n.my2 { margin: 3rem 0 }\n.ml2 { margin-left: 3rem }\n.mt2 { margin-top: 3rem }\n.mt3 { margin-top: 4rem }\n.mb2 { margin-bottom: 3rem }\n.mb3 { margin-bottom: 4.5rem }\n.mxa { margin-left: auto; margin-right: auto; }\n\n.mt50 { margin-top: 50% }\n.ml50 { margin-left: 50% }\n.trans-y50 { transform: translateY(-50%) }\n.trans-x50 { transform: translateX(-50%) }\n\nimg {\n\twidth: 100%;\n}\n\np > img {\n    display: block;\n\tmargin: 4rem 0;\n}\n\nh4 > img {\n\twidth: 50%;\n    display: block;\n\tmargin: 4rem 0;\n    margin-left: auto;\n    margin-right: auto;\n}\n\nhr {\n\tborder: none;\n\tborder-bottom: 1px solid #000;\n}\n\n.entry p,\n.entry li {\n\tfont-size: 1.15rem;\n}\n\n/* Media query customs */\n\n@media (max-width: 900px) {\n\t.m-\\31{ width:100.000% }\n\n\th1, .f1 { font-size: 2.25rem; }\n\th2, .f2 { font-size: 2.0rem; }\n}") || true) && "_26e01692";(require('sheetify/insert')(".content { min-height: calc(100vh - 140px); }\n\nh4 a { margin-right: 8px; }\n\nblockquote {\n    border-left: 4px solid #ddd;\n    padding-left: 30px;\n    color: #999;\n}\n\n.log #sectors h3,\n.log #projects h3 {\n\tfont-size: 1.5rem !important;\n}\n\n.header {\n\theight: auto;\n\tmax-height: 700px;\n\ttransition: max-height 0.5s;\n\toverflow-y: hidden;\n}\n\n.header.collapsed {\n\tmax-height: 46px;\n}\n\n.footer {\n\tbackground: white;\n}\n\n/**\n * loading\n */\n\n.loading {\n  margin: -1rem;\n  height: 2rem;\n  width: 2rem;\n  border-radius: 50rem;\n  position: fixed;\n  top: 50%;\n  left: 50%;\n  border: 3px solid #fff;\n  border-top: 3px solid #000;\n  border-left: 3px solid #000;\n  animation: spin 1s linear infinite;\n}\n\n@keyframes spin {\n  0% { transform: rotate(0deg) }\n  100% { transform: rotate(360deg) }\n}\n\n/* Media query customs */\n\n@media (max-width: 900px) {\n    .sector {\n        width: 50% !important;\n    }\n}") || true) && "_5507f2da";
 
 // our app
 var app = choo();
@@ -23076,42 +23076,52 @@ var format = require('../components/format');
 module.exports = blog;
 
 function blog(state, emit) {
-      var entries = ov(state.page.pages);
+	var entries = state.page().children().toArray();
 
-      return function () {
+	return function () {
 
-            var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
-            var bel1 = document.createElement("div");
-            bel1.setAttribute("class", "1 db p1 mb4");
-            var bel0 = document.createElement("div");
-            bel0.setAttribute("class", "2/5 mxa m-1");
-            ac(bel0, ["\n\t\t\t\t", arguments[0], "\n\t\t\t"]);
-            ac(bel1, ["\n\t\t\t", bel0, "\n\t\t"]);
-            return bel1;
-      }(entries.sort(function (a, b) {
-            return state.content[a.url].date > state.content[b.url].date ? 1 : state.content[b.url].date > state.content[a.url].date ? -1 : 0;
-      }).reverse().filter(function (entry) {
-            return state.site.info && state.site.info.isOwner || state.content[entry.url].visible == true;
-      }).map(entry));
+		var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
+		var bel0 = document.createElement("div");
+		bel0.setAttribute("class", "1 db");
+		ac(bel0, ["\n\t\t\t", arguments[0], "\n\t\t"]);
+		return bel0;
+	}(entries.sort(function (a, b) {
+		return state.content[a.url].date > state.content[b.url].date ? 1 : state.content[b.url].date > state.content[a.url].date ? -1 : 0;
+	}).reverse().filter(function (entry) {
+		return state.site.info && state.site.info.isOwner || state.content[entry.url].visible == true;
+	}).map(entry));
 
-      function entry(page, id) {
-            page = state.content[page.url];
-            return function () {
+	function entry(page) {
+		page = state.page(page.url);
+		return function () {
 
-                  var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
-                  var bel2 = document.createElement("a");
-                  bel2.setAttribute("href", arguments[2]);
-                  bel2.setAttribute("class", "dib nbb p2 1 bb " + arguments[3]);
-                  var bel0 = document.createElement("div");
-                  bel0.setAttribute("class", "fl");
-                  ac(bel0, ["\n\t\t\t\t\t", arguments[0], "\n\t\t\t\t"]);
-                  var bel1 = document.createElement("div");
-                  bel1.setAttribute("class", "fr tcgrey");
-                  ac(bel1, [arguments[1]]);
-                  ac(bel2, ["\n\t\t\t\t", bel0, "\n\t\t\t\t", bel1, "\n      \t\t"]);
-                  return bel2;
-            }(page.title, page.date, page.url, id == 0 ? 'bt' : '');
-      }
+			var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
+			var bel4 = document.createElement("a");
+			bel4.setAttribute("href", arguments[3]);
+			bel4.setAttribute("class", "dib nbb 1 mb2");
+			var bel2 = document.createElement("div");
+			bel2.setAttribute("class", "1 db mb2");
+			var bel0 = document.createElement("div");
+			bel0.setAttribute("class", "ffi fwb dib f3");
+			ac(bel0, ["\n\t\t\t\t\t\t", arguments[0], "\n\t\t\t\t\t"]);
+			var bel1 = document.createElement("div");
+			bel1.setAttribute("class", "fr tcgrey dib");
+			ac(bel1, ["\n\t\t\t\t\t\t", arguments[1], "\n\t\t\t\t\t"]);
+			ac(bel2, ["\n\t\t\t\t\t", bel0, "\n\t\t\t\t\t", bel1, "\n\t\t\t\t"]);
+			var bel3 = document.createElement("div");
+			bel3.setAttribute("class", "1 db");
+			ac(bel3, ["\n\t\t\t\t\t", arguments[2], "\n\t\t\t\t"]);
+			ac(bel4, ["\n\t\t\t\t", bel2, "\n\t\t\t\t", bel3, "\n      \t\t"]);
+			return bel4;
+		}(page.v('title'), datify(page.v('date')), format(page.v('excerpt')), page.v('url'));
+
+		// 2018-03-10 to March 2018
+		function datify(str) {
+			var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+			var parts = str.split('-');
+			return months[parseInt(parts[1]) - 1] + ' ' + parts[0];
+		}
+	}
 }
 },{"../components/format":2,"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":201,"choo/html":11,"object-values":157}],206:[function(require,module,exports){
 var html = require('choo/html');
@@ -23123,20 +23133,11 @@ function view(state, emit) {
      return function () {
 
           var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
-          var bel3 = document.createElement("div");
-          bel3.setAttribute("class", "1 db p1 mb4");
-          var bel2 = document.createElement("div");
-          bel2.setAttribute("class", "1/3 mxa m-1");
           var bel0 = document.createElement("div");
-          bel0.setAttribute("class", "mb4 tac");
-          ac(bel0, [arguments[0]]);
-          var bel1 = document.createElement("div");
-          bel1.setAttribute("class", "1 db");
-          ac(bel1, ["\n\t\t\t\t\t", arguments[1], "\n\t\t\t\t"]);
-          ac(bel2, ["\n\t\t\t\t", bel0, "\n\t\t\t\t", bel1, "\n\t\t\t"]);
-          ac(bel3, ["\n\t\t\t", bel2, "\n\t\t"]);
-          return bel3;
-     }(state.page.title, format(state.page.text));
+          bel0.setAttribute("class", "1 db");
+          ac(bel0, ["\n\t\t\t", arguments[0], "\n\t\t"]);
+          return bel0;
+     }(format(state.page().v('text')));
 }
 },{"../components/format":2,"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":201,"choo/html":11}],207:[function(require,module,exports){
 var html = require('choo/html');
@@ -23145,26 +23146,52 @@ var format = require('../components/format');
 module.exports = view;
 
 function view(state, emit) {
-     return function () {
 
-          var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
-          var bel4 = document.createElement("div");
-          bel4.setAttribute("class", "1 db p1 mb4");
-          var bel3 = document.createElement("div");
-          bel3.setAttribute("class", "1/3 mxa m-1");
-          var bel1 = document.createElement("div");
-          bel1.setAttribute("class", "mb4");
-          var bel0 = document.createElement("span");
-          bel0.setAttribute("class", "fr tcgrey");
-          ac(bel0, [arguments[0]]);
-          ac(bel1, [arguments[1], " ", bel0]);
-          var bel2 = document.createElement("div");
-          bel2.setAttribute("class", "1 db");
-          ac(bel2, ["\n\t\t\t\t\t", arguments[2], "\n\t\t\t\t\t", arguments[3], "\n\t\t\t\t"]);
-          ac(bel3, ["\n\t\t\t\t", bel1, "\n\t\t\t\t", bel2, "\n\t\t\t"]);
-          ac(bel4, ["\n\t\t\t", bel3, "\n\t\t"]);
-          return bel4;
-     }(state.page.date ? state.page.date : '', state.page.title, format(state.page.excerpt), format(state.page.text));
+  return function () {
+
+    var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
+    var bel3 = document.createElement("div");
+    bel3.setAttribute("class", "1 db");
+    var bel0 = document.createElement("div");
+    bel0.setAttribute("class", "1 db fwb f1 mb1 lh1");
+    ac(bel0, ["\n\t\t\t\t", arguments[0], "\n\t\t\t"]);
+    var bel1 = document.createElement("div");
+    bel1.setAttribute("class", "1 db mb2");
+    ac(bel1, ["\n\t\t\t\t", arguments[1], "\n\t\t\t"]);
+    var bel2 = document.createElement("div");
+    bel2.setAttribute("class", "1 db");
+    ac(bel2, ["\n\t\t\t\t", arguments[2], "\n\t\t\t\t", arguments[3], "\n\t\t\t"]);
+    ac(bel3, ["\n\t\t\t", bel0, "\n\t\t\t", bel1, "\n\t\t\t", bel2, "\n\t\t"]);
+    return bel3;
+  }(state.page().v('title'), state.page().v('date') ? datify(state.page().v('date')) : '', format(state.page().v('excerpt')), format(state.page().v('text')));
+
+  return function () {
+
+    var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
+    var bel4 = document.createElement("div");
+    bel4.setAttribute("class", "1 db p1 mb4");
+    var bel3 = document.createElement("div");
+    bel3.setAttribute("class", "1/3 mxa m-1");
+    var bel1 = document.createElement("div");
+    bel1.setAttribute("class", "mb4");
+    var bel0 = document.createElement("span");
+    bel0.setAttribute("class", "fr tcgrey");
+    ac(bel0, [arguments[0]]);
+    ac(bel1, [arguments[1], " ", bel0]);
+    var bel2 = document.createElement("div");
+    bel2.setAttribute("class", "1 db");
+    ac(bel2, ["\n\t\t\t\t\t", arguments[2], "\n\t\t\t\t\t", arguments[3], "\n\t\t\t\t"]);
+    ac(bel3, ["\n\t\t\t\t", bel1, "\n\t\t\t\t", bel2, "\n\t\t\t"]);
+    ac(bel4, ["\n\t\t\t", bel3, "\n\t\t"]);
+    return bel4;
+  }(state.page.date ? state.page.date : '', state.page.title, format(state.page.excerpt), format(state.page.text));
+
+  // 2018-03-10 to March 2018
+  function datify(str) {
+    var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    var parts = str.split('-');
+    return months[parseInt(parts[1]) - 1] + ' ' + parts[0];
+  }
 }
 },{"../components/format":2,"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":201,"choo/html":11}],208:[function(require,module,exports){
 var html = require('choo/html');
@@ -23234,14 +23261,17 @@ function home(state, emit) {
     return function () {
 
         var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
-        var bel1 = document.createElement("div");
-        bel1.setAttribute("class", "1 db p1 mb4");
+        var bel2 = document.createElement("div");
+        bel2.setAttribute("class", "1 db");
         var bel0 = document.createElement("div");
-        bel0.setAttribute("class", "1/3 mxa m-1");
+        bel0.setAttribute("class", "f1 fwb mb3 lh1");
         ac(bel0, ["\n\t\t\t\t", arguments[0], "\n\t\t\t"]);
-        ac(bel1, ["\n\t\t\t", bel0, "\n\t\t"]);
-        return bel1;
-    }(format(state.page.text));
+        var bel1 = document.createElement("div");
+        bel1.setAttribute("class", "1 db");
+        ac(bel1, ["\n\t\t\t\t", arguments[1], "\n\t\t\t"]);
+        ac(bel2, ["\n\t\t\t", bel0, "\n\t\t\t", bel1, "\n\t\t"]);
+        return bel2;
+    }(state.page().v('banner'), format(state.page().v('text')));
 }
 },{"../components/footer":1,"../components/format":2,"../components/thumbnail":3,"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":201,"choo/html":11,"object-values":157}],210:[function(require,module,exports){
 module.exports = {
@@ -23690,25 +23720,25 @@ function wrapper(state, emit) {
   if (!state.site.loaded) return loading();
   var view = views[state.page().v('view')] || views.notfound;
 
-  emit('DOMTitleChange', 'Hunor Karamán | ' + state.page().v('title'));
+  emit('DOMTitleChange', 'hex22 | ' + state.page().v('title'));
 
   return function () {
 
     var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
     var bel1 = document.createElement("body");
     var bel0 = document.createElement("div");
-    bel0.setAttribute("class", "1 db mw mxa p2");
-    ac(bel0, ["\n\t\t\t", arguments[0], "\n\t\t"]);
-    ac(bel1, ["\n\t  \t", bel0, "\n      "]);
+    bel0.setAttribute("class", "1 db mw mxa p2 mb2");
+    ac(bel0, ["\n\t\t\t\t", arguments[0], "\n\t\t\t\t", arguments[1], "\n\t\t\t"]);
+    ac(bel1, ["\n\t\t\t", bel0, "\n\t\t"]);
     return bel1;
-  }(header());
+  }(header(), view(state, emit));
 
   function header() {
     return function () {
 
       var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
       var bel3 = document.createElement("div");
-      bel3.setAttribute("class", "1 db py2");
+      bel3.setAttribute("class", "1 db py2 mb2");
       var bel2 = document.createElement("div");
       bel2.setAttribute("class", "1 db fl mb1");
       var bel1 = document.createElement("div");
@@ -23743,7 +23773,7 @@ function wrapper(state, emit) {
           var bel0 = document.createElement("a");
           bel0.setAttribute("href", arguments[0]);
           bel0.setAttribute("title", arguments[1]);
-          bel0.setAttribute("class", arguments[2] + " nbb mr2");
+          bel0.setAttribute("class", arguments[2] + " nbb ml2");
           ac(bel0, [arguments[3]]);
           ac(bel1, ["\n\t\t\t\t\t\t", bel0, "\n\t\t\t\t\t"]);
           return bel1;

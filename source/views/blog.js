@@ -5,28 +5,40 @@ var format = require('../components/format')
 module.exports = blog
 
 function blog (state, emit) {
-	var entries = ov(state.page.pages)
+	var entries = state.page().children().toArray()
 
 	return html`
-		<div class="1 db p1 mb4">
-			<div class="2/5 mxa m-1">
-				${entries.sort((a, b) => (state.content[a.url].date > state.content[b.url].date ? 1 : (state.content[b.url].date > state.content[a.url].date ? -1 : 0)))
-				  .reverse()
-				  .filter((entry) => (state.site.info && state.site.info.isOwner) || state.content[entry.url].visible == true)
-				  .map(entry)}
-			</div>
+		<div class="1 db">
+			${entries.sort((a, b) => (state.content[a.url].date > state.content[b.url].date ? 1 : (state.content[b.url].date > state.content[a.url].date ? -1 : 0)))
+				.reverse()
+				.filter((entry) => (state.site.info && state.site.info.isOwner) || state.content[entry.url].visible == true)
+				.map(entry)}
 		</div>
 	`
 
-  	function entry (page, id) {
-		page = state.content[page.url]
+  	function entry (page) {
+		page = state.page(page.url)
 		return html`
-			<a href="${page.url}" class="dib nbb p2 1 bb ${id == 0 ? 'bt' : ''}">
-				<div class="fl">
-					${page.title}
+			<a href="${page.v('url')}" class="dib nbb 1 mb2">
+				<div class="1 db mb2">
+					<div class="ffi fwb dib f3">
+						${page.v('title')}
+					</div>
+					<div class="fr tcgrey dib">
+						${datify(page.v('date'))}
+					</div>
 				</div>
-				<div class="fr tcgrey">${page.date}</div>
+				<div class="1 db">
+					${format(page.v('excerpt'))}
+				</div>
       		</a>
     	`
+
+		// 2018-03-10 to March 2018
+		function datify(str) {
+			var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+			var parts = str.split('-')
+			return months[parseInt(parts[1]) - 1] + ' ' + parts[0]
+		}
   	}
 }

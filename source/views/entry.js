@@ -4,6 +4,22 @@ var format = require('../components/format')
 module.exports = view
 
 function view (state, emit) {
+
+	return html`
+		<div class="1 db">
+			<div class="1 db fwb f1 mb1 lh1">
+				${state.page().v('title')}
+			</div>
+			<div class="1 db mb2">
+				${state.page().v('date') ? datify(state.page().v('date')) : ''}
+			</div>
+			<div class="1 db">
+				${format(state.page().v('excerpt'))}
+				${format(state.page().v('text'))}
+			</div>
+		</div>
+	`
+
 	return html`
 		<div class="1 db p1 mb4">
 			<div class="1/3 mxa m-1">
@@ -15,4 +31,11 @@ function view (state, emit) {
 			</div>
 		</div>
 	`
+
+	// 2018-03-10 to March 2018
+	function datify(str) {
+		var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+		var parts = str.split('-')
+		return months[parseInt(parts[1]) - 1] + ' ' + parts[0]
+	}
 }

@@ -1,10 +1,18 @@
 {
-  "title": "Home",
-  "fields": {
-    "title": {
-      "label": "Title",
-      "type": "text"
-    },
+	"title": "Home",
+	"fields": {
+		"title": {
+			"label": "Title",
+			"type": "text"
+		},
+		"text": {
+			"label": "Text",
+			"type": "textarea"
+		},
+		"banner": {
+			"label": "Banner",
+			"type": "text"
+		},
 	"currently": {
       "label": "Currently",
       "type": "textarea",
@@ -16,12 +24,8 @@
       "width": "1/2"
     },
     "info": {
-	"label": "Info",
-	"type": "textarea"
-    },
-    "text": {
-      "label": "Text",
-      "type": "textarea"
+		"label": "Info",
+		"type": "textarea"
     }
   }
 }

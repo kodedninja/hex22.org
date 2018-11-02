@@ -6,7 +6,7 @@
 ::-moz-selection { color: #fff; background: #000; }
 ::selection { color: #fff; background: #000; }
 
-html { font-size: 15px }
+html { font-size: 14px }
 
 body, pre {
 	font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
@@ -35,8 +35,7 @@ h1, h2, h3, h4, h5, h6, .f1, .f2, .f3 {
 	font-weight: inherit;
 }
 
-.fgiant { font-size: 10rem; }
-h1, .f1 { font-size: 2.5rem; }
+h1, .f1 { font-size: 5rem }
 h2, .f2 { font-size: 2.25rem; }
 h3, .f3 { font-size: 1.75rem; }
 h4, .f4 { font-size: 1.25rem; }
@@ -116,7 +115,7 @@ code {
 .\35 \2f 6{width:83.333%}
 .auto { width: auto; }
 
-.mw { max-width: 1000px }
+.mw { max-width: 800px }
 
 .ba { border-style: solid; border-width: 1px; }
 .bt { border-top-style: solid; border-top-width: 1px; }
@@ -124,14 +123,6 @@ code {
 .bb { border-bottom-style: solid; border-bottom-width: 1px; }
 .bl { border-left-style: solid; border-left-width: 1px; }
 .bn { border-style: none; border-width: 0; }
-
-.br0 { border-radius: 0; }
-.br1 { border-radius: .125rem; }
-.br2 { border-radius: .25rem; }
-.br3 { border-radius: .5rem; }
-.br4 { border-radius: 1rem; }
-.br100 { border-radius: 100%; }
-.brpill { border-radius: 9999px; }
 
 .p0-5 { padding: 0.75rem }
 .p1 { padding: 1.5rem }
@@ -145,8 +136,6 @@ code {
 .pb0 { padding-bottom: 0 }
 .pb2 { padding-bottom: 3rem }
 
-.pfeed { padding: 10rem 3rem }
-
 .m0 { margin: 0 }
 .my0-5 { margin: 0.75rem 0 }
 .my1 { margin: 1.5rem 0 }
@@ -154,11 +143,11 @@ code {
 .mt1 { margin-top: 1.5rem }
 .mb1 { margin-bottom: 1.5rem }
 .my2 { margin: 3rem 0 }
-.mr2 { margin-right: 3rem }
+.ml2 { margin-left: 3rem }
 .mt2 { margin-top: 3rem }
 .mt3 { margin-top: 4rem }
 .mb2 { margin-bottom: 3rem }
-.mb4 { margin-bottom: 6rem }
+.mb3 { margin-bottom: 4.5rem }
 .mxa { margin-left: auto; margin-right: auto; }
 
 .mt50 { margin-top: 50% }

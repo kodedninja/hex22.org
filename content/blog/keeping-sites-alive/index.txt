@@ -1,0 +1,11 @@
+title: Keeping sites alive and loving them
+----
+view: entry
+----
+date: 2018-04-21
+----
+location: Odorheiu Secuiesc
+----
+excerpt: There are 2 problems with the availability of sites on the dat:// protocol: 1.) if you turn off your computer and nobody's seeding it, it'll be unaccessible 2.) if everyone solves this with a seeding service (Hashbase) the whole network will start to become more centralized.
+----
+text: a

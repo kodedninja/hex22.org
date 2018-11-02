@@ -1,3 +1,21 @@
 title: About
 ----
 view: default
+----
+text: Hi. 
+
+I’m a developer, working (mostly) on experimental projects with small footprint.
+
+**Currently:**
+
+- Developer at GeoGebra
+- Experimenting with peer-to-peer tools
+
+**Previously:**
+
+- Co-Made Pictogon
+
+*"I really enjoy making tools." - Callil Capuozzo*
+
+Hunor Karaman,
+a peer.

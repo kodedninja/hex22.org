@@ -10,16 +10,13 @@ info: Hello. I’m a developer working mostly on experimental projects with smal
 
 I'm your <u>peer</u>.
 ----
-currently: ◦ Developer at [GeoGebra](https://geogebra.org)
-◦ Engineer of [Peer-to-Peer tools](/p2p)
+currently:
 ----
-previously: ◦ [Pictogon](https://pictogon.com)
+previously:
 ----
 text: I'm interested in the <span class="f6 dib">small</span>, [in “What’s After Now”, the alternative form, A New Spirit of Computation](https://newcomputers.group).
 
 I think, design and build small ― small is not a compromise, it's a possibility.
-
----
 
 <u>Interests</u>
 
@@ -28,14 +25,6 @@ Decentralization ― Peer-to-Peer
 Machine Learning 
 Bioinformatics
 Functional Design
-
----
-
-<u>Opinion</u>
-
-I think the __future__ will be decentralized, solar-powered, encrypted and owned by the people.
-
----
 
 <p class="brw">
 	dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/

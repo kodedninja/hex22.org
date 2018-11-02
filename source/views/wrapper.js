@@ -12,19 +12,20 @@ function wrapper (state, emit) {
 	if (!state.site.loaded) return loading()
 	var view = views[state.page().v('view')] || views.notfound
 
-	emit('DOMTitleChange', 'Hunor Karamán | ' + state.page().v('title'))
+	emit('DOMTitleChange', 'hex22 | ' + state.page().v('title'))
 
     return html`
-      <body>
-	  	<div class="1 db mw mxa p2">
-			${header()}
-		</div>
-      </body>
+    	<body>
+			<div class="1 db mw mxa p2 mb2">
+				${header()}
+				${view(state, emit)}
+			</div>
+		</body>
     `
 
 	function header() {
 		return html`
-			<div class="1 db py2">
+			<div class="1 db py2 mb2">
 				<div class="1 db fl mb1">
 					<div class="dib">
 						<a href="/" class="nbb">${state.page('/').v('title')}</a>
@@ -45,7 +46,7 @@ function wrapper (state, emit) {
 				var activeClass = isActive(link.v('url')) ? '' : 'tcgrey'
 				return html`
 					<div class="dib">
-						<a href="${link.v('url')}" title="${link.v('title')}" class="${activeClass} nbb mr2">${link.v('title')}</a>
+						<a href="${link.v('url')}" title="${link.v('title')}" class="${activeClass} nbb ml2">${link.v('title')}</a>
 					</div>
 				`
 			 }

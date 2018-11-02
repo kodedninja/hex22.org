@@ -237,18 +237,6 @@
         "url": "/projects/solo",
         "source": "/content/projects/solo"
       },
-      "stacked": {
-        "name": "stacked",
-        "path": "/content/projects/stacked",
-        "url": "/projects/stacked",
-        "source": "/content/projects/stacked"
-      },
-      "seeder": {
-        "name": "seeder",
-        "path": "/content/projects/seeder",
-        "url": "/projects/seeder",
-        "source": "/content/projects/seeder"
-      },
       "orkl": {
         "name": "orkl",
         "path": "/content/projects/orkl",
@@ -266,8 +254,78 @@
         "path": "/content/projects/bik",
         "url": "/projects/bik",
         "source": "/content/projects/bik"
+      },
+      "stacked": {
+        "name": "stacked",
+        "path": "/content/projects/stacked",
+        "url": "/projects/stacked",
+        "source": "/content/projects/stacked"
+      },
+      "seeder": {
+        "name": "seeder",
+        "path": "/content/projects/seeder",
+        "url": "/projects/seeder",
+        "source": "/content/projects/seeder"
       }
     }
+  },
+  "/blog": {
+    "title": "Timeline",
+    "view": "blog",
+    "name": "blog",
+    "path": "/content/blog",
+    "url": "/blog",
+    "files": {},
+    "pages": {
+      "are-you-the-owner": {
+        "name": "are-you-the-owner",
+        "path": "/content/blog/are-you-the-owner",
+        "url": "/blog/are-you-the-owner",
+        "source": "/content/blog/are-you-the-owner"
+      },
+      "keeping-sites-alive": {
+        "name": "keeping-sites-alive",
+        "path": "/content/blog/keeping-sites-alive",
+        "url": "/blog/keeping-sites-alive",
+        "source": "/content/blog/keeping-sites-alive"
+      }
+    }
+  },
+  "/about": {
+    "title": "About",
+    "view": "default",
+    "text": "Hi. \n\nI’m a developer, working (mostly) on experimental projects with small footprint.\n\n**Currently:**\n\n- Developer at GeoGebra\n- Experimenting with peer-to-peer tools\n\n**Previously:**\n\n- Co-Made Pictogon\n\n*\"I really enjoy making tools.\" - Callil Capuozzo*\n\nHunor Karaman,\na peer.",
+    "name": "about",
+    "path": "/content/about",
+    "url": "/about",
+    "files": {},
+    "pages": {}
+  },
+  "/blog/are-you-the-owner": {
+    "title": "Are you the owner?",
+    "view": "entry",
+    "date": "2018-04-20",
+    "excerpt": "I wanted to build a peer-to-peer only blog; kind of like the p2p child of Svbtle and Telegra.ph. Fell in love with the idea of a site, which feels the same for the writer and the reader. The only difference is that the writer can change the content and the reader can't. Thanks to Dat, we can easily decide if a computer is the owner or not of a site.",
+    "location": "Odorheiu Secuiesc",
+    "visible": true,
+    "name": "are-you-the-owner",
+    "path": "/content/blog/are-you-the-owner",
+    "url": "/blog/are-you-the-owner",
+    "files": {},
+    "pages": {}
+  },
+  "/blog/keeping-sites-alive": {
+    "title": "Keeping sites alive and loving them",
+    "view": "entry",
+    "date": "2018-04-21",
+    "location": "Odorheiu Secuiesc",
+    "excerpt": "There are 2 problems with the availability of sites on the dat:// protocol: 1.) if you turn off your computer and nobody's seeding it, it'll be unaccessible 2.) if everyone solves this with a seeding service (Hashbase) the whole network will start to become more centralized.",
+    "text": "a",
+    "name": "keeping-sites-alive",
+    "path": "/content/blog/keeping-sites-alive",
+    "url": "/blog/keeping-sites-alive",
+    "files": {},
+    "pages": {}
   },
   "/writing/design-question-response": {
     "title": "Design: Question ― Response",
@@ -313,20 +371,6 @@
     "files": {},
     "pages": {}
   },
-  "/projects/stacked": {
-    "title": "stacked",
-    "view": "project",
-    "priority": "10",
-    "description": "A distraction-free project management tool",
-    "github": "https://github.com/kodedninja/stacked",
-    "text": "If you hate using a service that depends on your connectivity for project management (\"todo-listing\") and you think sticky-notes aren't eco-friendly + too physical, you're like me and you'll like Stacked.\n\nStacked is a project management tool based on [Beaker Browser](https://beakerbrowser.com) and [DAT](https://datproject.org), meaning that you own all your data and you don't depend on the cloud (which in many cases isn't available).",
-    "dates": "July 2018 ― present",
-    "name": "stacked",
-    "path": "/content/projects/stacked",
-    "url": "/projects/stacked",
-    "files": {},
-    "pages": {}
-  },
   "/projects/bik": {
     "title": "bik",
     "view": "project",
@@ -342,13 +386,27 @@
     "files": {},
     "pages": {}
   },
+  "/projects/stacked": {
+    "title": "stacked",
+    "view": "project",
+    "priority": "10",
+    "description": "A distraction-free project management tool",
+    "github": "https://github.com/kodedninja/stacked",
+    "text": "If you hate using a service that depends on your connectivity for project management (\"todo-listing\") and you think sticky-notes aren't eco-friendly + too physical, you're like me and you'll like Stacked.\n\nStacked is a project management tool based on [Beaker Browser](https://beakerbrowser.com) and [DAT](https://datproject.org), meaning that you own all your data and you don't depend on the cloud (which in many cases isn't available).",
+    "dates": "July 2018",
+    "name": "stacked",
+    "path": "/content/projects/stacked",
+    "url": "/projects/stacked",
+    "files": {},
+    "pages": {}
+  },
   "/": {
     "title": "Hunor Karamán",
     "view": "home",
     "info": "Hello. I’m a developer working mostly on experimental projects with small footprint.\n\"I really enjoy making tools.\" ― Callil Capuozzo\n\n[Github](https://github.com/kodedninja) ― [Are.na](https://are.na/hunor-karaman) ― [Mastodon](https://sunbeam.city/@kodedninja)\n[hunordotkaraman@gmail.com](mailto:hunordotkaraman@gmail.com)\n\nI'm your <u>peer</u>.",
-    "currently": "◦ Developer at [GeoGebra](https://geogebra.org)\n◦ Engineer of [Peer-to-Peer tools](/p2p)",
-    "previously": "◦ [Pictogon](https://pictogon.com)",
-    "text": "I'm interested in the <span class=\"f6 dib\">small</span>, [in “What’s After Now”, the alternative form, A New Spirit of Computation](https://newcomputers.group).\n\nI think, design and build small ― small is not a compromise, it's a possibility.\n\n---\n\n<u>Interests</u>\n\nFuture ― Solarpunk\nDecentralization ― Peer-to-Peer\nMachine Learning \nBioinformatics\nFunctional Design\n\n---\n\n<u>Opinion</u>\n\nI think the __future__ will be decentralized, solar-powered, encrypted and owned by the people.\n\n---\n\n<p class=\"brw\">\n\tdat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/\n</p>",
+    "currently": "",
+    "previously": "",
+    "text": "I'm interested in the <span class=\"f6 dib\">small</span>, [in “What’s After Now”, the alternative form, A New Spirit of Computation](https://newcomputers.group).\n\nI think, design and build small ― small is not a compromise, it's a possibility.\n\n<u>Interests</u>\n\nFuture ― Solarpunk\nDecentralization ― Peer-to-Peer\nMachine Learning \nBioinformatics\nFunctional Design\n\n<p class=\"brw\">\n\tdat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/\n</p>",
     "name": "content",
     "path": "/content",
     "url": "/",
@@ -395,6 +453,18 @@
         "path": "/content/projects",
         "url": "/projects",
         "source": "/content/projects"
+      },
+      "blog": {
+        "name": "blog",
+        "path": "/content/blog",
+        "url": "/blog",
+        "source": "/content/blog"
+      },
+      "about": {
+        "name": "about",
+        "path": "/content/about",
+        "url": "/about",
+        "source": "/content/about"
       }
     }
   },
@@ -665,34 +735,6 @@
     },
     "pages": {}
   },
-  "/projects/seeder": {
-    "title": "seeder",
-    "view": "project",
-    "description": "Raspberry Pi DAT seeder",
-    "dates": "April 2018 ― present",
-    "priority": "9",
-    "text": "There are 2 problems with the availability of sites on the **dat://** protocol: 1.) if you turn off your computer and nobody's seeding it, it'll be unaccessible 2.) if everyone solves this with a seeding service ([Hashbase](https://hashbase.io)) the whole network will start to become more centralized.\n\nAn alternative is setting up a seeding service for yourself. A [Raspberry Pi](https://raspberrypi.org) runs super power-efficiently and it's powerful enough to seed DAT archives. \n\n**Seeder** tries to be a plug-and-play, ready-to-use DAT seeder service. With a 1-command installer and frontend designed for non-tech people it's the simplest personal seeding service.\n\nDeveloped as part of the [New Computer Working Group](https://newcomputers.group).",
-    "tags": [
-      "selected"
-    ],
-    "github": "https://github.com/new-computers/seeder",
-    "website": "https://newcomputers.group/seeder",
-    "name": "seeder",
-    "path": "/content/projects/seeder",
-    "url": "/projects/seeder",
-    "files": {
-      "image.png": {
-        "name": "image",
-        "path": "/content/projects/seeder/image.png",
-        "url": "/projects/seeder/image.png",
-        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/projects/seeder/image.png",
-        "extension": ".png",
-        "filename": "image.png",
-        "type": "image"
-      }
-    },
-    "pages": {}
-  },
   "/projects/orkl": {
     "title": "orkl",
     "view": "project",
@@ -747,6 +789,34 @@
         "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/projects/microne/microne-screenshot.png",
         "extension": ".png",
         "filename": "microne-screenshot.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/projects/seeder": {
+    "title": "seeder",
+    "view": "project",
+    "description": "Raspberry Pi DAT seeder",
+    "dates": "April ― July 2018",
+    "priority": "9",
+    "text": "There are 2 problems with the availability of sites on the **dat://** protocol: 1.) if you turn off your computer and nobody's seeding it, it'll be unaccessible 2.) if everyone solves this with a seeding service ([Hashbase](https://hashbase.io)) the whole network will start to become more centralized.\n\nAn alternative is setting up a seeding service for yourself. A [Raspberry Pi](https://raspberrypi.org) runs super power-efficiently and it's powerful enough to seed DAT archives. \n\n**Seeder** tries to be a plug-and-play, ready-to-use DAT seeder service. With a 1-command installer and frontend designed for non-tech people it's the simplest personal seeding service.\n\nDeveloped as part of the [New Computer Working Group](https://newcomputers.group).",
+    "tags": [
+      "selected"
+    ],
+    "github": "https://github.com/new-computers/seeder",
+    "website": "https://newcomputers.group/seeder",
+    "name": "seeder",
+    "path": "/content/projects/seeder",
+    "url": "/projects/seeder",
+    "files": {
+      "image.png": {
+        "name": "image",
+        "path": "/content/projects/seeder/image.png",
+        "url": "/projects/seeder/image.png",
+        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/projects/seeder/image.png",
+        "extension": ".png",
+        "filename": "image.png",
         "type": "image"
       }
     },

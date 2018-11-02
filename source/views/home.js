@@ -9,9 +9,12 @@ module.exports = home
 
 function home (state, emit) {
   	return html`
-		<div class="1 db p1 mb4">
-			<div class="1/3 mxa m-1">
-				${format(state.page.text)}
+		<div class="1 db">
+			<div class="f1 fwb mb3 lh1">
+				${state.page().v('banner')}
+			</div>
+			<div class="1 db">
+				${format(state.page().v('text'))}
 			</div>
 		</div>
 	`
