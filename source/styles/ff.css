@@ -172,6 +172,7 @@ p:last-child, ul:last-child, ol:last-child { margin-bottom: 0 }
 
 @media (max-width: 900px) {
 	.m-\31 { width:100.000% }
+	.m-fl { float: left }
 
 	h1, .f1 { font-size: 4rem; }
 	h2, .f2 { font-size: 2.0rem; }

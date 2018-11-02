@@ -8,4 +8,4 @@ excerpt: I wanted to build a peer-to-peer only blog; kind of like the p2p child 
 ----
 location: Odorheiu Secuiesc
 ----
-visible: true
+visible: false

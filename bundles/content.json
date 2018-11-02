@@ -161,12 +161,6 @@
         "url": "/blog/keeping-sites-alive",
         "source": "/content/blog/keeping-sites-alive"
       },
-      "are-you-the-owner": {
-        "name": "are-you-the-owner",
-        "path": "/content/blog/are-you-the-owner",
-        "url": "/blog/are-you-the-owner",
-        "source": "/content/blog/are-you-the-owner"
-      },
       "ridder": {
         "name": "ridder",
         "path": "/content/blog/ridder",
@@ -184,6 +178,12 @@
         "path": "/content/blog/ntain",
         "url": "/blog/ntain",
         "source": "/content/blog/ntain"
+      },
+      "are-you-the-owner": {
+        "name": "are-you-the-owner",
+        "path": "/content/blog/are-you-the-owner",
+        "url": "/blog/are-you-the-owner",
+        "source": "/content/blog/are-you-the-owner"
       }
     }
   },
@@ -197,19 +197,6 @@
     "name": "keeping-sites-alive",
     "path": "/content/blog/keeping-sites-alive",
     "url": "/blog/keeping-sites-alive",
-    "files": {},
-    "pages": {}
-  },
-  "/blog/are-you-the-owner": {
-    "title": "Are you the owner?",
-    "view": "entry",
-    "date": "2018-03-20",
-    "excerpt": "I wanted to build a peer-to-peer only blog; kind of like the p2p child of Svbtle and Telegra.ph. Fell in love with the idea of a site, which feels the same for the writer and the reader. The only difference is that the writer can change the content and the reader can't. Thanks to Dat, we can easily decide if a computer is the owner or not of a site.",
-    "location": "Odorheiu Secuiesc",
-    "visible": true,
-    "name": "are-you-the-owner",
-    "path": "/content/blog/are-you-the-owner",
-    "url": "/blog/are-you-the-owner",
     "files": {},
     "pages": {}
   },
@@ -251,6 +238,19 @@
     "name": "ntain",
     "path": "/content/blog/ntain",
     "url": "/blog/ntain",
+    "files": {},
+    "pages": {}
+  },
+  "/blog/are-you-the-owner": {
+    "title": "Are you the owner?",
+    "view": "entry",
+    "date": "2018-03-20",
+    "excerpt": "I wanted to build a peer-to-peer only blog; kind of like the p2p child of Svbtle and Telegra.ph. Fell in love with the idea of a site, which feels the same for the writer and the reader. The only difference is that the writer can change the content and the reader can't. Thanks to Dat, we can easily decide if a computer is the owner or not of a site.",
+    "location": "Odorheiu Secuiesc",
+    "visible": false,
+    "name": "are-you-the-owner",
+    "path": "/content/blog/are-you-the-owner",
+    "url": "/blog/are-you-the-owner",
     "files": {},
     "pages": {}
   },

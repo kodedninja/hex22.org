@@ -20,15 +20,15 @@ function blog (state, emit) {
 		page = state.page(page.url)
 		return html`
 			<a href="${page.v('url')}" class="dib nbb 1 mb2">
-				<div class="1 db mb2">
-					<div class="ffi fwb dib f3">
+				<div class="1 db mb1">
+					<div class="ffi fwb dib f2 m-1">
 						${page.v('title')}
 					</div>
-					<div class="fr tcgrey dib">
+					<div class="fr m-fl tcgrey dib my0-5">
 						${datify(page.v('date'))}
 					</div>
 				</div>
-				<div class="1 db">
+				<div class="1 db fl">
 					${format(page.v('excerpt'))}
 				</div>
       		</a>
