@@ -1,9 +1,6 @@
 var html = require('choo/html')
 var ov = require('object-values')
 var format = require('../components/format')
-var thumbnail = require('../components/thumbnail')
-
-var footer = require('../components/footer')
 
 module.exports = home
 

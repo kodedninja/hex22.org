@@ -3,7 +3,6 @@ var ov = require('object-values')
 var path = require('path')
 
 var views = require('./')
-var footer = require('../components/footer')
 var format = require('../components/format')
 
 module.exports = wrapper
@@ -63,8 +62,14 @@ function wrapper (state, emit) {
 function loading() {
 	return html`
 		<body>
-			<div class="1 db">
-				:)
+			<div class="1 db mw mxa p2 mb2">
+				<div class="1 db py2 mb2">
+					<div class="1 db fl mb1">
+						<div class="dib">
+							<a href="/" class="nbb">Loading</a>
+						</div>
+					</div>
+				</div>
 			</div>
 		</body>
 	`

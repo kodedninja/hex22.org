@@ -64,19 +64,17 @@ h5, .f5 { font-size: 1rem; }
 .tcwhite, .tcwhite a { color: #fff }
 .tcblack, .tcblack a { color: #000 }
 
-.lh1 { line-height: 1.2 }
-
-p, ul, ol { margin: 1.5rem 0 }
-
-ul, ol { margin-left: 1em }
-
-li {
-	margin: 0.5rem 0;
-}
+.lh1 { line-height: 1.1 }
 
 code {
     background-color: #eee;
     padding: 2px;
+}
+
+blockquote {
+    border-left: 4px solid #ddd;
+    padding-left: 30px;
+    color: #999;
 }
 
 /* Blocks */
@@ -155,38 +153,24 @@ code {
 .trans-y50 { transform: translateY(-50%) }
 .trans-x50 { transform: translateX(-50%) }
 
-img {
-	width: 100%;
-}
-
-p > img {
-    display: block;
-	margin: 4rem 0;
-}
-
-h4 > img {
-	width: 50%;
-    display: block;
-	margin: 4rem 0;
-    margin-left: auto;
-    margin-right: auto;
-}
+img { width: 100% }
 
 hr {
 	border: none;
 	border-bottom: 1px solid #fff;
 }
 
-.entry p,
-.entry li {
-	font-size: 1.15rem;
-}
+p, ul, ol { margin: 1.5rem 0 }
+p:first-child, ul:first-child, ol:first-child { margin-top: 0 }
+p:last-child, ul:last-child, ol:last-child { margin-bottom: 0 }
+ul, ol { margin-left: 1em }
+li { margin: 0.5rem 0; }
 
 /* Media query customs */
 
 @media (max-width: 900px) {
-	.m-\31{ width:100.000% }
+	.m-\31 { width:100.000% }
 
-	h1, .f1 { font-size: 2.25rem; }
+	h1, .f1 { font-size: 4rem; }
 	h2, .f2 { font-size: 2.0rem; }
 }
