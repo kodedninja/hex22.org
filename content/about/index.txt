@@ -4,7 +4,7 @@ view: default
 ----
 text: Hi. 
 
-I’m a developer, working (mostly) on experimental projects with small footprint.
+I’m a developer, working (mostly) on experimental projects with small footprint to help in the re-decentralizing the web. 
 
 I'm present on [GitHub](https://github.com/kodedninja), [Are.na](https://are.na/hunor-karaman). [Mastodon](https://sunbeam.city/@kodedninja) and [VSCO](https://vsco.co/karamanhunor).<br>You can contact me via [email](mailto:hunix94@gmail.com).
 
@@ -12,18 +12,18 @@ I'm present on [GitHub](https://github.com/kodedninja), [Are.na](https://are.na/
 
 **Currently:**
 
-- Developer at GeoGebra
-- Experimenting with peer-to-peer tools
+- Developer at [GeoGebra](https://geogebra.org)
+- Experimenting with [peer-to-peer tools](/p2p)
 
 ---
 
 **Previously:**
 
-- Co-Made Pictogon
+- Co-Made [Pictogon](https://pictogon.com)
 
 ---
 
-*"I really enjoy making tools." - Callil Capuozzo*
+<span class="tcgrey">*"I really enjoy making tools." - Callil Capuozzo*</span>
 
 Hunor Karaman,
 a peer.

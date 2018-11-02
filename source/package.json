@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "enoki ../content && browserify index.js -o ../bundles/bundle.js -t sheetify -t yo-yoify -t es2040",
-    "start": "enoki ../content && watchify index.js -o ../bundles/bundle.js-t sheetify -t yo-yoify -t es2040"
+    "start": "enoki ../content && watchify index.js -o ../bundles/bundle.js -t sheetify -t yo-yoify -t es2040"
   },
   "keywords": [],
   "author": "kodedninja",

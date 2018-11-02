@@ -15,7 +15,7 @@ function view (state, emit) {
 
 	function title() {
 		if (state.page().v('banner') == true) return html`
-			<div class="1 db fwb f1 mb2 lh1">
+			<div class="1 db fwb f1 mb4 lh1">
 				${state.page().v('title')}
 			</div>
 		`

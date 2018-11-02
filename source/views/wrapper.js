@@ -24,7 +24,7 @@ function wrapper (state, emit) {
 
 	function header() {
 		return html`
-			<div class="1 db py2 mb2">
+			<div class="1 db py2 mb3">
 				<div class="1 db fl mb1">
 					<div class="dib">
 						<a href="/" class="nbb">${state.page('/').v('title')}</a>

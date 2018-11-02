@@ -13,19 +13,5 @@
 			"label": "Banner",
 			"type": "text"
 		},
-	"currently": {
-      "label": "Currently",
-      "type": "textarea",
-      "width": "1/2"
-    },
-	"previously": {
-      "label": "Previously",
-      "type": "textarea",
-      "width": "1/2"
-    },
-    "info": {
-		"label": "Info",
-		"type": "textarea"
-    }
-  }
+	}
 }

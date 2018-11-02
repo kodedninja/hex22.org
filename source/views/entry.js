@@ -7,7 +7,7 @@ function view (state, emit) {
 
 	return html`
 		<div class="1 db">
-			<div class="1 db fwb f1 mb1 lh1">
+			<div class="1 db fwb f1 mb2 lh1">
 				${state.page().v('title')}
 			</div>
 			<div class="1 db mb2">
