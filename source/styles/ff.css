@@ -9,7 +9,7 @@
 html { font-size: 15px }
 
 body, pre {
-	font-family: 'Inter UI', 'arial', 'helvetica neue', helvetica, sans-serif;
+	font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
 	line-height: 1.6;
 	font-size: 1rem;
 	font-feature-settings:"onum" 1, "pnum" 1, "kern" 1, "ss01" 1;
@@ -55,9 +55,8 @@ h5, .f5 { font-size: 1rem; }
 .brw { word-wrap: break-word; }
 .bra { word-wrap: break-all; }
 
-.ffh { font-family: 'helvetica neue', helvetica, sans-serif; }
-.ffmono { font-family: monospace }
-.ffg { font-family: 'georgia', serif }
+.ffmono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace }
+.ffi { font-family: 'Inter UI', 'arial', 'helvetica neue', sans-serif }
 
 .fwb { font-weight: bold; }
 .fwn { font-weight: normal; }
@@ -117,10 +116,7 @@ code {
 .\35 \2f 6{width:83.333%}
 .auto { width: auto; }
 
-.mw800 { max-width: 800px }
-.mw1000 { max-width: 1000px }
-.mw1200 { max-width: 1200px }
-.mw1600 { max-width: 1600px }
+.mw { max-width: 1000px }
 
 .ba { border-style: solid; border-width: 1px; }
 .bt { border-top-style: solid; border-top-width: 1px; }
@@ -158,6 +154,7 @@ code {
 .mt1 { margin-top: 1.5rem }
 .mb1 { margin-bottom: 1.5rem }
 .my2 { margin: 3rem 0 }
+.mr2 { margin-right: 3rem }
 .mt2 { margin-top: 3rem }
 .mt3 { margin-top: 4rem }
 .mb2 { margin-bottom: 3rem }

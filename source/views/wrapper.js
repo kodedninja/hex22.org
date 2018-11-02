@@ -9,127 +9,62 @@ var format = require('../components/format')
 module.exports = wrapper
 
 function wrapper (state, emit) {
-	state.page = state.content[state.href || '/'] || {}
-
 	if (!state.site.loaded) return loading()
-	var view = views[state.page.view] || views.notfound
+	var view = views[state.page().v('view')] || views.notfound
 
-	emit('DOMTitleChange', 'Hunor Karamán | ' + state.page.title)
+	emit('DOMTitleChange', 'Hunor Karamán | ' + state.page().v('title'))
 
-	// ${view(state, emit)}
     return html`
-      <main>
-	  	<div class="1 db fl">
+      <body>
+	  	<div class="1 db mw mxa p2">
 			${header()}
-			${view(state, emit)}
-			${footer(state, emit)}
 		</div>
-      </main>
+      </body>
     `
 
 	function header() {
 		return html`
-			<div class="1 fl db p0-5 px1 bb mb4 header ${!state.header_open ? 'collapsed' : ''}">
+			<div class="1 db py2">
 				<div class="1 db fl mb1">
-					<a href="/" class="nbb">${state.content['/'].title}</a>
-					<a href="#" class="nbb fr" onclick="${click}">Info ↓</a>
-				</div>
-				<div class="1 fl db">
-					<div class="1/2 m-1 dib fl">
-						${format(state.content['/'].info)}
+					<div class="dib">
+						<a href="/" class="nbb">${state.page('/').v('title')}</a>
 					</div>
-					<div class="1/4 m-1 dib fl">
-						<p>Currently:</p>
-						${format(state.content['/'].currently)}
-					</div>
-					<div class="1/4 m-1 dib fl">
-						<p>Previously:</p>
-						${format(state.content['/'].previously)}
-					</div>
+					${navigation()}
 				</div>
 			</div>
 		`
 
-		function click(e) {
-			e.preventDefault()
-			if (!state.header_open) {
-				e.target.parentNode.parentNode.classList.remove('collapsed')
-				e.target.innerHTML = 'Info ↑'
-			} else {
-				e.target.parentNode.parentNode.classList.add('collapsed')
-				e.target.innerHTML = 'Info ↓'
-			}
+		function navigation () {
+			return html`
+				<div class="dib fr">
+					${[state.page('/blog'), state.page('/about')].map(link)}
+				</div>
+			`
 
-			state.header_open = !state.header_open
+			function link (link) {
+				var activeClass = isActive(link.v('url')) ? '' : 'tcgrey'
+				return html`
+					<div class="dib">
+						<a href="${link.v('url')}" title="${link.v('title')}" class="${activeClass} nbb mr2">${link.v('title')}</a>
+					</div>
+				`
+			 }
+
+			 function isActive (pathLink) {
+				 return state.href
+				 	.split(path.sep)
+					.filter(str => str)[0] === path.basename(pathLink)
+			 }
 		}
 	}
 }
 
-
-function title (state, emit) {
-  return html`
-    <div class="1/2 p1 dib f4 fl title">
-      <a href="/" class="nbb">${state.title}</a>
-    </div>
-  `
-}
-
-function navigation (state, emit) {
-  var active = state.active || ''
-  return html`
-    <div class="p1 dib 1/2 fl">
-      <div class="fr f4">
-		<div class="dib">
-		  ${link(state.links['/projects'])}
-		</div>
-      </div>
-    </div>
-  `
-
-  function link (link) {
-    if (link.url == '/projects') {
-        var activeClass = isActive(link.dirname) ? 'nbb' : ''
-        return html`
-        <div class="dib">
-        	<a href="${link.url}" title="${link.title || link.dirname}" class="${activeClass}">${link.title || link.dirname}</a>
-        </div>
-        `
-    }
-  }
-
-  function isActive (pathLink) {
-    return active
-      .split(path.sep)
-      .filter(str => str)[0] ===
-      path.basename(pathLink)
-  }
-}
-
 function loading() {
 	return html`
-		<main>
-			<div class="fl 1 db">
-				<div class="1 fl db p0-5 px1 bb mb4 header collapsed">
-					<div class="1 db fl mb1">
-						<span class="nbb">Hunor Karamán</span>
-						<span class="nbb fr">...</span>
-					</div>
-				</div>
-				<div class="1 db p1 mb4">
-					<div class="1/3 mxa m-1">
-						...
-					</div>
-				</div>
+		<body>
+			<div class="1 db">
+				:)
 			</div>
-		</main>
+		</body>
 	`
-}
-
-function getTitle (state) {
-  var siteTitle = state.content['/'].title
-  var pageTitle = state.page.title
-
-  return siteTitle !== pageTitle
-    ? siteTitle + ' | ' + pageTitle
-    : siteTitle
 }

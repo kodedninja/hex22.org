@@ -1,0 +1,3 @@
+title: About
+----
+view: default

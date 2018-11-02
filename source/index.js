@@ -1,5 +1,9 @@
 var choo = require('choo')
 var resize = require('choo-resize')
+var css = require('sheetify')
+
+css('./styles/ff.css')
+css('./styles/style.css')
 
 // our app
 var app = choo()
@@ -11,5 +15,5 @@ app.use(resize(true))
 app.route('*', require('./views/wrapper'))
 
 // start
-if (!module.parent) app.mount('main')
+if (!module.parent) app.mount('body')
 else module.exports = app
