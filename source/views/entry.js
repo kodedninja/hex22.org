@@ -1,10 +1,12 @@
 var html = require('choo/html')
 var format = require('../components/format')
+var Content = require('../components/content')
+
+var content = new Content()
 
 module.exports = view
 
 function view (state, emit) {
-
 	return html`
 		<div class="1 db">
 			<div class="1 db fwb f1 mb2 lh1">
@@ -14,8 +16,7 @@ function view (state, emit) {
 				${state.page().v('date') ? datify(state.page().v('date')) : ''}
 			</div>
 			<div class="1 db">
-				${format(state.page().v('excerpt'))}
-				${format(state.page().v('text'))}
+				${content.render(state.page().v('excerpt') + '\n\n' + state.page().v('text'))}
 			</div>
 		</div>
 	`

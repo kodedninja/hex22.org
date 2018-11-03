@@ -63,10 +63,10 @@ function loading() {
 	return html`
 		<body>
 			<div class="1 db mw mxa p2 mb2">
-				<div class="1 db py2 mb2">
+				<div class="1 db py2 mb3">
 					<div class="1 db fl mb1">
 						<div class="dib">
-							<a href="/" class="nbb">Loading</a>
+							<a href="/" class="nbb">Hunor Karamán</a>
 						</div>
 					</div>
 				</div>

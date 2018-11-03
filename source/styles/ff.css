@@ -171,6 +171,10 @@ p:last-child, ul:last-child, ol:last-child { margin-bottom: 0 }
 /* Media query customs */
 
 @media (max-width: 900px) {
+	html {
+		font-size: 12px;
+	}
+
 	.m-\31 { width:100.000% }
 	.m-fl { float: left }
 
