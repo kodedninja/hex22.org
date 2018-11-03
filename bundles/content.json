@@ -44,10 +44,21 @@
     "files": {},
     "pages": {}
   },
+  "/about": {
+    "title": "About",
+    "view": "default",
+    "text": "Hi. \n\nI’m a developer, working (mostly) on experimental projects with small footprint to help in the re-decentralizing the web. \n\nI'm present on [GitHub](https://github.com/kodedninja), [Are.na](https://are.na/hunor-karaman). [Mastodon](https://sunbeam.city/@kodedninja) and [VSCO](https://vsco.co/karamanhunor).<br>You can contact me via [email](mailto:hunix94@gmail.com).\n\n---\n\n**Currently:**\n\n- Developer at [GeoGebra](https://geogebra.org)\n- Experimenting with [peer-to-peer tools](/p2p)\n\n---\n\n**Previously:**\n\n- Co-Made [Pictogon](https://pictogon.com)\n\n---\n\n<span class=\"tcgrey\">*\"I really enjoy making tools.\" - Callil Capuozzo*</span>\n\nHunor Karaman,\na peer.",
+    "name": "about",
+    "path": "/content/about",
+    "url": "/about",
+    "files": {},
+    "pages": {}
+  },
   "/p2p": {
     "title": "Peer-to-Peer",
     "view": "default",
-    "text": "These are the peer-to-peer projects I was / am working on in chronological order:\n\n1. [ntain](/projects/ntain) ― Peer-to-Peer file sharing site → 2017\n2. [orkl](/projects/orkl) ― Super simple peer-to-peer blogging site → 2018\n3. [solo](/projects/solo) ― The simplest publication tool → 2018\n4. [forkup](/projects/forkup) ― Updater for forked Beaker sites → 2018\n5. [ridder](/projects/ridder) ― An RSS reader that you own → 2018\n6. [seeder](/projects/seeder) ― Plug-and-play Raspberry Pi DAT seeder → 2018\n\n---\n\nIf you're new to the peer-to-peer web check out:\n\n1. [What does peer-to-peer mean?](https://en.wikipedia.org/wiki/Peer-to-peer)\n2. [Peer-to-Peer Day](https://peer-to-peer-web.com)\n3. [Beaker Browser](https://beakerbrowser.com)\n4. [Guides by NCWG](https://guides.newcomputers.group)\n5. [Secrets](https://lhs.nu/archive#dat)\n\n---\n\nStory: \n\nI've been attracted by the peer-to-peer web from a young age ― before I knew actually exists. I remember standing next to a friend and sending a message to him over the internet (I think it was Facebook), when I realized how wrong it is that this message has to travel thousands of kilometers to arrive to him. \n\nSince then I was planning and trying to build peer-to-peer networks, but then one day I've found the [Beaker Browser](https://beakerbrowser.com) and [Dat](https://datproject.org).",
+    "banner": true,
+    "text": "These are the peer-to-peer projects I was / am working on in chronological order:\n\n1. [ntain](/projects/ntain) ― Peer-to-Peer file sharing site → 2017\n2. [orkl](/projects/orkl) ― Super simple peer-to-peer blogging site → 2018\n3. [solo](/projects/solo) ― The simplest publication tool → 2018\n4. [forkup](/projects/forkup) ― Updater for forked Beaker sites → 2018\n5. [ridder](/projects/ridder) ― An RSS reader that you own → 2018\n6. [seeder](/projects/seeder) ― Plug-and-play Raspberry Pi DAT seeder → 2018\n\n---\n\nIf you're new to the peer-to-peer web check out:\n\n1. [What does peer-to-peer mean?](https://en.wikipedia.org/wiki/Peer-to-peer)\n2. [Peer-to-Peer Day](https://peer-to-peer-web.com)\n3. [Beaker Browser](https://beakerbrowser.com)\n4. [Guides by NCWG](https://guides.newcomputers.group)\n5. [Secrets](https://lhs.nu/archive#dat)\n\n---\n\nStory:\n\nI've been attracted by the peer-to-peer web from a young age ― before I knew actually exists. I remember standing next to a friend and sending a message to him over the internet (I think it was Facebook), when I realized how wrong it is that this message has to travel thousands of kilometers to arrive to him.\n\nSince then I was planning and trying to build peer-to-peer networks, but then one day I've found the [Beaker Browser](https://beakerbrowser.com) and [Dat](https://datproject.org).",
     "name": "p2p",
     "path": "/content/p2p",
     "url": "/p2p",
@@ -74,12 +85,6 @@
         "path": "/content/projects/freemium",
         "url": "/projects/freemium",
         "source": "/content/projects/freemium"
-      },
-      "ntain": {
-        "name": "ntain",
-        "path": "/content/projects/ntain",
-        "url": "/projects/ntain",
-        "source": "/content/projects/ntain"
       },
       "odot": {
         "name": "odot",
@@ -123,29 +128,25 @@
         "url": "/projects/bik",
         "source": "/content/projects/bik"
       },
-      "stacked": {
-        "name": "stacked",
-        "path": "/content/projects/stacked",
-        "url": "/projects/stacked",
-        "source": "/content/projects/stacked"
+      "ntain": {
+        "name": "ntain",
+        "path": "/content/projects/ntain",
+        "url": "/projects/ntain",
+        "source": "/content/projects/ntain"
       },
       "seeder": {
         "name": "seeder",
         "path": "/content/projects/seeder",
         "url": "/projects/seeder",
         "source": "/content/projects/seeder"
+      },
+      "stacked": {
+        "name": "stacked",
+        "path": "/content/projects/stacked",
+        "url": "/projects/stacked",
+        "source": "/content/projects/stacked"
       }
     }
-  },
-  "/about": {
-    "title": "About",
-    "view": "default",
-    "text": "Hi. \n\nI’m a developer, working (mostly) on experimental projects with small footprint to help in the re-decentralizing the web. \n\nI'm present on [GitHub](https://github.com/kodedninja), [Are.na](https://are.na/hunor-karaman). [Mastodon](https://sunbeam.city/@kodedninja) and [VSCO](https://vsco.co/karamanhunor).<br>You can contact me via [email](mailto:hunix94@gmail.com).\n\n---\n\n**Currently:**\n\n- Developer at [GeoGebra](https://geogebra.org)\n- Experimenting with [peer-to-peer tools](/p2p)\n\n---\n\n**Previously:**\n\n- Co-Made [Pictogon](https://pictogon.com)\n\n---\n\n<span class=\"tcgrey\">*\"I really enjoy making tools.\" - Callil Capuozzo*</span>\n\nHunor Karaman,\na peer.",
-    "name": "about",
-    "path": "/content/about",
-    "url": "/about",
-    "files": {},
-    "pages": {}
   },
   "/blog": {
     "title": "Timeline",
@@ -167,11 +168,11 @@
         "url": "/blog/ridder",
         "source": "/content/blog/ridder"
       },
-      "pictogon": {
-        "name": "pictogon",
-        "path": "/content/blog/pictogon",
-        "url": "/blog/pictogon",
-        "source": "/content/blog/pictogon"
+      "are-you-the-owner": {
+        "name": "are-you-the-owner",
+        "path": "/content/blog/are-you-the-owner",
+        "url": "/blog/are-you-the-owner",
+        "source": "/content/blog/are-you-the-owner"
       },
       "ntain": {
         "name": "ntain",
@@ -179,80 +180,19 @@
         "url": "/blog/ntain",
         "source": "/content/blog/ntain"
       },
-      "are-you-the-owner": {
-        "name": "are-you-the-owner",
-        "path": "/content/blog/are-you-the-owner",
-        "url": "/blog/are-you-the-owner",
-        "source": "/content/blog/are-you-the-owner"
+      "pictogon": {
+        "name": "pictogon",
+        "path": "/content/blog/pictogon",
+        "url": "/blog/pictogon",
+        "source": "/content/blog/pictogon"
+      },
+      "design-question-response": {
+        "name": "design-question-response",
+        "path": "/content/blog/design-question-response",
+        "url": "/blog/design-question-response",
+        "source": "/content/blog/design-question-response"
       }
     }
-  },
-  "/blog/keeping-sites-alive": {
-    "title": "Seeder ― keeping sites alive on dat://",
-    "view": "entry",
-    "date": "2018-04-21",
-    "location": "Odorheiu Secuiesc",
-    "excerpt": "There are 2 problems with the availability of sites on the dat:// protocol: 1.) if you turn off your computer and nobody's seeding it, it'll be unaccessible 2.) if everyone solves this with a seeding service (Hashbase) the whole network will start to become more centralized.",
-    "text": "a",
-    "name": "keeping-sites-alive",
-    "path": "/content/blog/keeping-sites-alive",
-    "url": "/blog/keeping-sites-alive",
-    "files": {},
-    "pages": {}
-  },
-  "/blog/ridder": {
-    "title": "Ridder ― taking back control with RSS",
-    "view": "entry",
-    "date": "2018-04-29",
-    "location": "Odorheiu Secuiesc",
-    "excerpt": "Ridder was made to make content reading transparent and controllable.",
-    "text": "It's an RSS reader completely owned and run by you, there's no server in the cloud to connect to.\n\nThere's no middleman to filter or track what you read.",
-    "name": "ridder",
-    "path": "/content/blog/ridder",
-    "url": "/blog/ridder",
-    "files": {},
-    "pages": {}
-  },
-  "/blog/pictogon": {
-    "title": "Redefining image maps",
-    "view": "entry",
-    "date": "2017-10-20",
-    "location": "Odorheiu Secuiesc",
-    "excerpt": "Once upon a time images appeared on websites with interactive areas inside. They were called _image maps_.",
-    "text": "\"In HTML and XHTML, an image map is a list of coordinates relating to a specific image, created in order to hyperlink areas of the image to different destinations (as opposed to a normal image link, in which the entire area of the image links to a single destination).\" ― [Wikipedia](https://en.wikipedia.org/wiki/Image_map)\n\nI think image maps actualized a desire many of us have: to make something eternally static (object, image) interactive and alive. Sadly, they didn't spread out on the web and searching for clickable areas on an image isn't a habbit. The reason behind these might be the timing and the tools of the age. If you check the [\"Creation and use section\"](https://en.wikipedia.org/wiki/Image_map#Creation_and_use) of the Wikipedia article, you'll see that the recommended programs for image map creation are Dreamweaver, KDE and GIMP (with a plugin). Tools that aren't used anymore or took a turn in an other direction.\n\nDuring the summer of 2017, together with my friend and mentor [Csaba](https://codecanyon.net/user/sekler) we've created [Pictogon](https://pictogon.com) ― a modern image map editor.\n\n![A screenshot of the Pictogon interface](/content/blog/pictogon/Pictogon.png)\n\nIt was fun not only because we built a finished product from scratch in a relatively short period of time, but also because it was the first larger-scale project I've worked on (as for most 18 years olds). As it was just a secondary project for Csaba, I designed the whole infrastructure, built the backend and a part of the front-end, while he designed and coordinated everything with precision. I even built a working recurring billing system!\n\nWe tried to keep everything as simple as possible. An image map editor shouldn't be complicated anyways. You have an image → draw some polygons on it → set their content → save → get the embed code or download → put it onto your website.\n\nWe've also experimented with alternative solutions for the upcoming problems (some of them worked out, some of the didn't). For example we didn't want to spend energy, money and computing power on hosting images. They're large and there are enough hosting services on the web (most users have a website with its own storage, why would they also pay for storing images somewhere else?). So you can only input the URL of an image as a starting point. Pictogon will never store the file, it's just a middle layer, between an image and the frontend, that turns the former into an interactive object.\n\nWe decided to let users download the result and handle the embedding part by themselves. **It's a tool, not a platform.**\n\nWe've released Pictogon (into the wild) on 5. October via [Product Hunt](https://www.producthunt.com/posts/pictogon) (which is the only marketing we've done) and luckily people liked it. So much that it became \"Product of the Day\" and \"#3 Product of the Week\".\n\n<u>Technical details</u>\n\nThe image maps are `<svg>` elements with the image, a bunch of polygons and a script inside.\n\nThe frontend was built with [jQuery](https://jquery.com) (I know, it wasn't my decision), the editor was built by us from the ground up. The backend is vanilla PHP.\n\n---\n\n<u>Update</u> \n\nAs of today ― November 02, 2018 ― Pictogon is a settling puddle in our hearts. After its successful launch we were motivated for a few months, but we've started to neglect and don't care. Maybe, it wasn't fully finished at the release and we were tired of it to finish afterwards. I also started digging into building for the peer-to-peer web around that time (and haven't stopped since then). I love this product and hope that someday I can, maybe, rebuild it and relaunch it. Pictogon 2.0, sometime, maybe.",
-    "visible": true,
-    "name": "pictogon",
-    "path": "/content/blog/pictogon",
-    "url": "/blog/pictogon",
-    "files": {},
-    "pages": {}
-  },
-  "/blog/ntain": {
-    "title": "ntain ― a peer-to-peer file sharing site",
-    "view": "entry",
-    "date": "2017-11-10",
-    "location": "Odorheiu Secuiesc",
-    "excerpt": "My first try at building a peer-to-peer application based on [Beaker Browser](https://beakerbrowser.com) ― a retrospection.",
-    "text": "_This entry was written one year after the events, as it's a very important period and I missed it from my timeline._\n\nOne night I've found many #rotonde tweets with beautiful 64 characters long URL-ish texts in my feed. A few minutes later I've found out that it's a little, \"underground\" social-network. It was peer-to-peer, something I've been interested in for a while, so I've downloaded [Beaker Browser](https://beakerbrowser.com) in an instant and made my profile. It was a slightly abstract way of joining a social-network, love at first sight.\n\nAnd then there were features to build, bugs to fix ― so I've cloned the [repo on GitHub](https://github.com/rotonde) and started contributing. They weren't important, core features, just little \"fine-tunes\", but they made me feel happy and curious.\n\n_It was the time just before the rise of the peer-to-peer web, there were only a few applications and personal sites started to appear on the **dat://** protocol._\n\nSomehow I've hacked together a little site, using the `DatArchive` API that lets you share files easily and beautifully. Honestly, its design was the reason why I've made it. Basically it's just an interface that renders the content of a directory and an event callback for `ondrop` that \"uploads\" the file to the archive. The whole thing made with jQuery.\n\n![Screenshot of the interface of ntain](/content/blog/ntain/ntain.png)\n\nBut (and this is a very important \"but\"), it felt like some yet hidden power on the internet. I was there in my room, launching a modern file-sharing application without the need of a server and buying a domain name. Instantly, the feeling of \"we're building a new internet, just like in the '90s\" rushed through me.\n\nI've shared it on Twitter and people actually liked and used it.\n\n_If ntain were a baby, then everything I've made since then for the peer-to-peer web would be its periods of growing up. It had a determinate role to my current life._\n\n---\n\n[Repository](https://github.com/kodedninja/ntain)\n\n[dat://ntain-kodedninja.hashbase.io](dat://ntain-kodedninja.hashbase.io)",
-    "visible": true,
-    "name": "ntain",
-    "path": "/content/blog/ntain",
-    "url": "/blog/ntain",
-    "files": {},
-    "pages": {}
-  },
-  "/blog/are-you-the-owner": {
-    "title": "Are you the owner?",
-    "view": "entry",
-    "date": "2018-03-20",
-    "excerpt": "I wanted to build a peer-to-peer only blog; kind of like the p2p child of Svbtle and Telegra.ph. Fell in love with the idea of a site, which feels the same for the writer and the reader. The only difference is that the writer can change the content and the reader can't. Thanks to Dat, we can easily decide if a computer is the owner or not of a site.",
-    "location": "Odorheiu Secuiesc",
-    "visible": false,
-    "name": "are-you-the-owner",
-    "path": "/content/blog/are-you-the-owner",
-    "url": "/blog/are-you-the-owner",
-    "files": {},
-    "pages": {}
   },
   "/projects/cereal": {
     "title": "cereal",
@@ -299,7 +239,81 @@
     "files": {},
     "pages": {}
   },
+  "/projects/ntain": {
+    "title": "ntain",
+    "view": "project",
+    "dates": "November ― December 2017",
+    "priority": "2",
+    "description": "A peer-to-peer file sharing application based on Beaker",
+    "text": "Ntain was my first try in making a peer-to-peer application based on Beaker Browser. I love it's design, but it misses many functionalities.\n\nYou can use it by forking ```dat://ntain-kodedninja.hashbase.io``` in [Beaker](https://beakerbrowser.com).",
+    "github": "https://github.com/kodedninja/ntain",
+    "website": "dat://ntain-kodedninja.hashbase.io",
+    "name": "ntain",
+    "path": "/content/projects/ntain",
+    "url": "/projects/ntain",
+    "files": {},
+    "pages": {}
+  },
   "/projects/stacked": {
+    "title": "stacked",
+    "view": "project",
+    "priority": "10",
+    "description": "A distraction-free project management tool",
+    "github": "https://github.com/kodedninja/stacked",
+    "text": "If you hate using a service that depends on your connectivity for project management (\"todo-listing\") and you think sticky-notes aren't eco-friendly + too physical, you're like me and you'll like Stacked.\n\nStacked is a project management tool based on [Beaker Browser](https://beakerbrowser.com) and [DAT](https://datproject.org), meaning that you own all your data and you don't depend on the cloud (which in many cases isn't available).",
+    "dates": "July 2018 ― present",
+    "name": "stacked",
+    "path": "/content/projects/stacked",
+    "url": "/projects/stacked",
+    "files": {},
+    "pages": {}
+  },
+  "/blog/design-question-response/projects/bik": {
+    "title": "bik",
+    "view": "project",
+    "description": "Tiny library for isolated web components",
+    "dates": "April 2018",
+    "priority": "7",
+    "text": "I love [choo](https://github.com/choojs/coo), but sometimes it's too much. For example when I want to use a simple component in a static site. I was too lazy to find a module for that so I've built one.\n\nUses [nanomorph](https://github.com/choojs/nanomorph) under the hood.\n\n<u>installation</u>\n\n`npm i -S bik`\n\n<u>documentation</u>\n\nOn Github.",
+    "github": "https://github.com/kodedninja/bik",
+    "npm": "https://npmjs.com/package/bik",
+    "name": "bik",
+    "path": "/content/blog/design-question-response/projects/bik",
+    "url": "/blog/design-question-response/projects/bik",
+    "files": {},
+    "pages": {}
+  },
+  "/blog/design-question-response/projects/cereal": {
+    "title": "cereal",
+    "view": "project",
+    "description": "A context-based encryption scheme",
+    "dates": "January 2018",
+    "priority": "3",
+    "text": "Cereal is an encryption scheme based on the AES256 symmetric algorithm.\\\nThe keys never leave the two instances and they always change.\n\n[More details](https://github.com/kodedninja/cereal)",
+    "github": "https://github.com/kodedninja/cereal",
+    "npm": "https://www.npmjs.com/package/crl",
+    "name": "cereal",
+    "path": "/content/blog/design-question-response/projects/cereal",
+    "url": "/blog/design-question-response/projects/cereal",
+    "files": {},
+    "pages": {}
+  },
+  "/blog/design-question-response/projects/odot": {
+    "title": "odot",
+    "view": "project",
+    "description": "A CLI to-do list tool",
+    "dates": "May ― November 2017",
+    "priority": "0",
+    "text": "odot is a really simple checklist command line tool. It's pretty dumb, but I'll work on it. It makes todoing very comfortable through short commands.\n\n#### Installation: ```npm install -g odotlist```\n\n[Usage documentation](https://github.com/kodedninja/odot/blob/master/README.md)",
+    "github": "https://github.com/kodedninja/odot",
+    "npm": "https://www.npmjs.com/package/odotlist",
+    "name": "odot",
+    "path": "/content/blog/design-question-response/projects/odot",
+    "url": "/blog/design-question-response/projects/odot",
+    "files": {},
+    "pages": {}
+  },
+  "/blog/design-question-response/projects/stacked": {
     "title": "stacked",
     "view": "project",
     "priority": "10",
@@ -308,10 +322,153 @@
     "text": "If you hate using a service that depends on your connectivity for project management (\"todo-listing\") and you think sticky-notes aren't eco-friendly + too physical, you're like me and you'll like Stacked.\n\nStacked is a project management tool based on [Beaker Browser](https://beakerbrowser.com) and [DAT](https://datproject.org), meaning that you own all your data and you don't depend on the cloud (which in many cases isn't available).",
     "dates": "July 2018",
     "name": "stacked",
-    "path": "/content/projects/stacked",
-    "url": "/projects/stacked",
+    "path": "/content/blog/design-question-response/projects/stacked",
+    "url": "/blog/design-question-response/projects/stacked",
     "files": {},
     "pages": {}
+  },
+  "/blog/design-question-response/projects": {
+    "title": "Projects",
+    "view": "projects",
+    "text": "",
+    "name": "projects",
+    "path": "/content/blog/design-question-response/projects",
+    "url": "/blog/design-question-response/projects",
+    "files": {},
+    "pages": {
+      "bik": {
+        "name": "bik",
+        "path": "/content/blog/design-question-response/projects/bik",
+        "url": "/blog/design-question-response/projects/bik",
+        "source": "/content/blog/design-question-response/projects/bik"
+      },
+      "cereal": {
+        "name": "cereal",
+        "path": "/content/blog/design-question-response/projects/cereal",
+        "url": "/blog/design-question-response/projects/cereal",
+        "source": "/content/blog/design-question-response/projects/cereal"
+      },
+      "freemium": {
+        "name": "freemium",
+        "path": "/content/blog/design-question-response/projects/freemium",
+        "url": "/blog/design-question-response/projects/freemium",
+        "source": "/content/blog/design-question-response/projects/freemium"
+      },
+      "microne": {
+        "name": "microne",
+        "path": "/content/blog/design-question-response/projects/microne",
+        "url": "/blog/design-question-response/projects/microne",
+        "source": "/content/blog/design-question-response/projects/microne"
+      },
+      "ntain": {
+        "name": "ntain",
+        "path": "/content/blog/design-question-response/projects/ntain",
+        "url": "/blog/design-question-response/projects/ntain",
+        "source": "/content/blog/design-question-response/projects/ntain"
+      },
+      "odot": {
+        "name": "odot",
+        "path": "/content/blog/design-question-response/projects/odot",
+        "url": "/blog/design-question-response/projects/odot",
+        "source": "/content/blog/design-question-response/projects/odot"
+      },
+      "orkl": {
+        "name": "orkl",
+        "path": "/content/blog/design-question-response/projects/orkl",
+        "url": "/blog/design-question-response/projects/orkl",
+        "source": "/content/blog/design-question-response/projects/orkl"
+      },
+      "pictogon": {
+        "name": "pictogon",
+        "path": "/content/blog/design-question-response/projects/pictogon",
+        "url": "/blog/design-question-response/projects/pictogon",
+        "source": "/content/blog/design-question-response/projects/pictogon"
+      },
+      "ridder": {
+        "name": "ridder",
+        "path": "/content/blog/design-question-response/projects/ridder",
+        "url": "/blog/design-question-response/projects/ridder",
+        "source": "/content/blog/design-question-response/projects/ridder"
+      },
+      "seeder": {
+        "name": "seeder",
+        "path": "/content/blog/design-question-response/projects/seeder",
+        "url": "/blog/design-question-response/projects/seeder",
+        "source": "/content/blog/design-question-response/projects/seeder"
+      },
+      "solo": {
+        "name": "solo",
+        "path": "/content/blog/design-question-response/projects/solo",
+        "url": "/blog/design-question-response/projects/solo",
+        "source": "/content/blog/design-question-response/projects/solo"
+      },
+      "stacked": {
+        "name": "stacked",
+        "path": "/content/blog/design-question-response/projects/stacked",
+        "url": "/blog/design-question-response/projects/stacked",
+        "source": "/content/blog/design-question-response/projects/stacked"
+      }
+    }
+  },
+  "/blog/keeping-sites-alive": {
+    "title": "Seeder ― keeping sites alive on dat://",
+    "view": "entry",
+    "date": "2018-04-21",
+    "location": "Odorheiu Secuiesc",
+    "excerpt": "There are 2 problems with the availability of sites on the dat:// protocol: 1.) if you turn off your computer and nobody's seeding it, it'll be unaccessible 2.) if everyone solves this with a seeding service (Hashbase) the whole network will start to become more centralized.",
+    "text": "a",
+    "name": "keeping-sites-alive",
+    "path": "/content/blog/keeping-sites-alive",
+    "url": "/blog/keeping-sites-alive",
+    "files": {},
+    "pages": {}
+  },
+  "/blog/ridder": {
+    "title": "Ridder ― taking back control with RSS",
+    "view": "entry",
+    "date": "2018-04-29",
+    "location": "Odorheiu Secuiesc",
+    "excerpt": "Ridder was made to make content reading transparent and controllable.",
+    "text": "It's an RSS reader completely owned and run by you, there's no server in the cloud to connect to.\n\nThere's no middleman to filter or track what you read.",
+    "name": "ridder",
+    "path": "/content/blog/ridder",
+    "url": "/blog/ridder",
+    "files": {},
+    "pages": {}
+  },
+  "/blog/are-you-the-owner": {
+    "title": "Are you the owner?",
+    "view": "entry",
+    "date": "2018-03-20",
+    "excerpt": "I wanted to build a peer-to-peer only blog; kind of like the p2p child of Svbtle and Telegra.ph. Fell in love with the idea of a site, which feels the same for the writer and the reader. The only difference is that the writer can change the content and the reader can't. Thanks to Dat, we can easily decide if a computer is the owner or not of a site.",
+    "location": "Odorheiu Secuiesc",
+    "visible": false,
+    "name": "are-you-the-owner",
+    "path": "/content/blog/are-you-the-owner",
+    "url": "/blog/are-you-the-owner",
+    "files": {},
+    "pages": {}
+  },
+  "/blog/design-question-response": {
+    "title": "Design: Question ― Response",
+    "view": "entry",
+    "date": "2018-04-25",
+    "location": "Home",
+    "excerpt": "When I was a child my guitar teacher taught me a simple way to think about music composition.",
+    "text": "He said that a piece is like a **conversation** between two egos in the music. One of them asks a question and the other one responds. For the composer this compiles to: **Asking a question with a melody and responding to that with another one**.\n\nIn reality this isn't that simple because a melody can be a question somewhere in the piece and a response somewhere else ― or the response can be the question itself. *Like a person's role in a conversation changes from emitter to receiver and vice-versa.* Basically these variations make music unpredictable.\n\nThe point is that this very simple structure makes a flow in the listening and in the writing process. The listener never receives a response without a question (the part where a theme is introduced) and the whole piece won't feel chaotic and disoriented. \n\nI think about this system in interface design too.\n\nWhat you want in design is a predictable **conversation**. A learnable **conversation**, where you learn the personality of the interface and know the answers before questioning.\n\nOn a good interface you don't have to find a question to respond to or the question to your possible response (for example searching for the login field or button). A good interface asks the right questions at the right time and these can be answered without much thinking. *In our society clicking, scrolling, tapping work subcounciously, anyways.*\n\nA designer's job is to know what questions might be in the user's head at a given time and give him the biggest possible \"*question mark*\" on that part of the interface. Asking the right questions about a problem is what design's about. A question can be the content, a button, a link or the urge to scroll, etc...\n\nSo, before including something into an interface and before thinking hours on its location, I try to find the question that element should respond to. \n\nThe question and the context give the properties (position, size, content) of the element . \n\nThe result is a natural **conversation** between interface and user. **An information flow between computer and human.**\n\n[WIP]",
+    "visible": true,
+    "name": "design-question-response",
+    "path": "/content/blog/design-question-response",
+    "url": "/blog/design-question-response",
+    "files": {},
+    "pages": {
+      "projects": {
+        "name": "projects",
+        "path": "/content/blog/design-question-response/projects",
+        "url": "/blog/design-question-response/projects",
+        "source": "/content/blog/design-question-response/projects"
+      }
+    }
   },
   "/": {
     "title": "Hunor Karamán",
@@ -320,6 +477,8 @@
     "currently": "",
     "previously": "",
     "text": "I'm interested in the <span class=\"f6 dib\">small</span>, [in “What’s After Now”, the alternative form, A New Spirit of Computation](https://newcomputers.group).\n\nI think, design and build small.\n\n---\n\n<u>Interests</u>\n\nFuture ― Solarpunk\nDecentralization ― Peer-to-Peer\nMachine Learning \nBioinformatics\nFunctional Design\n\n---\n\n<p class=\"brw\">\n\tdat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/\n</p>",
+    "banner": "",
+    "bannerurl": "",
     "name": "content",
     "path": "/content",
     "url": "/",
@@ -337,6 +496,12 @@
         "url": "/thanks",
         "source": "/content/thanks"
       },
+      "about": {
+        "name": "about",
+        "path": "/content/about",
+        "url": "/about",
+        "source": "/content/about"
+      },
       "p2p": {
         "name": "p2p",
         "path": "/content/p2p",
@@ -348,12 +513,6 @@
         "path": "/content/projects",
         "url": "/projects",
         "source": "/content/projects"
-      },
-      "about": {
-        "name": "about",
-        "path": "/content/about",
-        "url": "/about",
-        "source": "/content/about"
       },
       "blog": {
         "name": "blog",
@@ -484,31 +643,6 @@
         "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/projects/freemium/Screenshot-2017-12-19 Medium – Read, write and share stories that matter.png",
         "extension": ".png",
         "filename": "Screenshot-2017-12-19 Medium – Read, write and share stories that matter.png",
-        "type": "image"
-      }
-    },
-    "pages": {}
-  },
-  "/projects/ntain": {
-    "title": "ntain",
-    "view": "project",
-    "dates": "November ― December 2017",
-    "priority": "2",
-    "description": "A peer-to-peer file sharing application based on Beaker",
-    "text": "Ntain was my first try in making a peer-to-peer application based on Beaker Browser. I love it's design, but it misses many functionalities.\n\nYou can use it by forking ```dat://ntain-kodedninja.hashbase.io``` in [Beaker](https://beakerbrowser.com).",
-    "github": "https://github.com/kodedninja/ntain",
-    "website": "dat://ntain-kodedninja.hashbase.io",
-    "name": "ntain",
-    "path": "/content/projects/ntain",
-    "url": "/projects/ntain",
-    "files": {
-      "ntain.png": {
-        "name": "ntain",
-        "path": "/content/projects/ntain/ntain.png",
-        "url": "/projects/ntain/ntain.png",
-        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/projects/ntain/ntain.png",
-        "extension": ".png",
-        "filename": "ntain.png",
         "type": "image"
       }
     },
@@ -660,7 +794,7 @@
     "title": "seeder",
     "view": "project",
     "description": "Raspberry Pi DAT seeder",
-    "dates": "April ― July 2018",
+    "dates": "April 2018 ― present",
     "priority": "9",
     "text": "There are 2 problems with the availability of sites on the **dat://** protocol: 1.) if you turn off your computer and nobody's seeding it, it'll be unaccessible 2.) if everyone solves this with a seeding service ([Hashbase](https://hashbase.io)) the whole network will start to become more centralized.\n\nAn alternative is setting up a seeding service for yourself. A [Raspberry Pi](https://raspberrypi.org) runs super power-efficiently and it's powerful enough to seed DAT archives. \n\n**Seeder** tries to be a plug-and-play, ready-to-use DAT seeder service. With a 1-command installer and frontend designed for non-tech people it's the simplest personal seeding service.\n\nDeveloped as part of the [New Computer Working Group](https://newcomputers.group).",
     "tags": [
@@ -679,6 +813,273 @@
         "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/projects/seeder/image.png",
         "extension": ".png",
         "filename": "image.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/blog/design-question-response/projects/freemium": {
+    "title": "freemium",
+    "view": "project",
+    "dates": "January 2018",
+    "priority": "4",
+    "description": "Firefox and Chrome addon that removes premium articles from Medium",
+    "text": "Freemium replaces premium articles with nice and beautiful whitespace.\n\n[Add to Mozilla](https://addons.mozilla.org/en-US/firefox/addon/freemium/)",
+    "github": "https://github.com/kodedninja/freemium",
+    "name": "freemium",
+    "path": "/content/blog/design-question-response/projects/freemium",
+    "url": "/blog/design-question-response/projects/freemium",
+    "files": {
+      "Screenshot-2017-12-19 Medium – Read, write and share stories that matter.png": {
+        "name": "Screenshot-2017-12-19 Medium – Read, write and share stories that matter",
+        "path": "/content/blog/design-question-response/projects/freemium/Screenshot-2017-12-19 Medium – Read, write and share stories that matter.png",
+        "url": "/blog/design-question-response/projects/freemium/Screenshot-2017-12-19 Medium – Read, write and share stories that matter.png",
+        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/blog/design-question-response/projects/freemium/Screenshot-2017-12-19 Medium – Read, write and share stories that matter.png",
+        "extension": ".png",
+        "filename": "Screenshot-2017-12-19 Medium – Read, write and share stories that matter.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/blog/design-question-response/projects/microne": {
+    "title": "MICRONE",
+    "view": "project",
+    "dates": "March 2018",
+    "priority": "5",
+    "description": "A tiny, minimalistic JS music player",
+    "text": "A tiny, minimalistic JS music player. It's around **2 kilobytes** and it's **xx beautiful**.\n\n[See more](https://github.com/kodedninja/microne)",
+    "github": "https://github.com/kodedninja/microne",
+    "website": "https://microne.now.sh",
+    "name": "microne",
+    "path": "/content/blog/design-question-response/projects/microne",
+    "url": "/blog/design-question-response/projects/microne",
+    "files": {
+      "microne-screenshot.png": {
+        "name": "microne-screenshot",
+        "path": "/content/blog/design-question-response/projects/microne/microne-screenshot.png",
+        "url": "/blog/design-question-response/projects/microne/microne-screenshot.png",
+        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/blog/design-question-response/projects/microne/microne-screenshot.png",
+        "extension": ".png",
+        "filename": "microne-screenshot.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/blog/design-question-response/projects/ntain": {
+    "title": "ntain",
+    "view": "project",
+    "dates": "November ― December 2017",
+    "priority": "2",
+    "description": "A peer-to-peer file sharing application based on Beaker",
+    "text": "Ntain was my first try in making a peer-to-peer application based on Beaker Browser. I love it's design, but it misses many functionalities.\n\nYou can use it by forking ```dat://ntain-kodedninja.hashbase.io``` in [Beaker](https://beakerbrowser.com).",
+    "github": "https://github.com/kodedninja/ntain",
+    "website": "dat://ntain-kodedninja.hashbase.io",
+    "name": "ntain",
+    "path": "/content/blog/design-question-response/projects/ntain",
+    "url": "/blog/design-question-response/projects/ntain",
+    "files": {
+      "ntain.png": {
+        "name": "ntain",
+        "path": "/content/blog/design-question-response/projects/ntain/ntain.png",
+        "url": "/blog/design-question-response/projects/ntain/ntain.png",
+        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/blog/design-question-response/projects/ntain/ntain.png",
+        "extension": ".png",
+        "filename": "ntain.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/blog/design-question-response/projects/orkl": {
+    "title": "orkl",
+    "view": "project",
+    "dates": "April 2018 ― present",
+    "priority": "8",
+    "description": "Super simple peer-to-peer blogging site",
+    "text": "I wanted to build a peer-to-peer only blog; kind of like the p2p child of Svbtle and Telegra.ph. Fell in love with the idea of a site, which feels the same for the writer and the reader. The only difference is that the writer can change the content and the reader can't. Thanks to [Dat](https://datproject.org/), we can easily decide if a computer is the owner or not of a site.\n\norkl is also 100% dynamic, so it's basically just a bunch of ```txt``` files (using [smarkt](https://github.com/jondashkyle/smarkt)) = no site generation or building.\n\n---\n\n<u>Usage</u>\n\nThe magic of Beaker Browser is the possibility to fork a site. To get started you can fork any orkl site, but for the sake of simplicity we will use an empty site I've made.\n\n- Download [Beaker Browser](https://beakerbrowser.com)\n- Navigate to [dat://orkl-kodedninja.hashbase.io](dat://orkl-kodedninja.hashbase.io)\n- Find the \"Fork this site\" button, click it and fill out with your information\n- Navigate to your site\n- Edit the site's dat.json, adding `\"fallback_page\": \"index.html\"`\n- Read the \"How to use orkl?\" entry",
+    "github": "https://github.com/kodedninja/orkl",
+    "website": "https://orkl-kodedninja.hashbase.io",
+    "name": "orkl",
+    "path": "/content/blog/design-question-response/projects/orkl",
+    "url": "/blog/design-question-response/projects/orkl",
+    "files": {
+      "Screenshot from 2018-03-02 23-22-37.png": {
+        "name": "Screenshot from 2018-03-02 23-22-37",
+        "path": "/content/blog/design-question-response/projects/orkl/Screenshot from 2018-03-02 23-22-37.png",
+        "url": "/blog/design-question-response/projects/orkl/Screenshot from 2018-03-02 23-22-37.png",
+        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/blog/design-question-response/projects/orkl/Screenshot from 2018-03-02 23-22-37.png",
+        "extension": ".png",
+        "filename": "Screenshot from 2018-03-02 23-22-37.png",
+        "type": "image"
+      },
+      "Screenshot from 2018-03-02 23-26-04.png": {
+        "name": "Screenshot from 2018-03-02 23-26-04",
+        "path": "/content/blog/design-question-response/projects/orkl/Screenshot from 2018-03-02 23-26-04.png",
+        "url": "/blog/design-question-response/projects/orkl/Screenshot from 2018-03-02 23-26-04.png",
+        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/blog/design-question-response/projects/orkl/Screenshot from 2018-03-02 23-26-04.png",
+        "extension": ".png",
+        "filename": "Screenshot from 2018-03-02 23-26-04.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/blog/design-question-response/projects/pictogon": {
+    "title": "Pictogon",
+    "view": "project",
+    "dates": "June ― September 2017",
+    "priority": "1",
+    "description": "A modern image map editor",
+    "text": "Pictogon is a simple solution to make interactive images and embed them into webpages.\n\nI've built the back-end and a part of the front-end editor. It's a small, yet functional tool and building it was an unforgettable experience. You think differently when you write code that thousands of people will use and you must be safe about payments and about a whole infrastructure.\n\nI co-create it with Csaba, the creator of [Mapplic](http://www.mapplic.com), my good friend and mentor.",
+    "website": "https://pictogon.com",
+    "name": "pictogon",
+    "path": "/content/blog/design-question-response/projects/pictogon",
+    "url": "/blog/design-question-response/projects/pictogon",
+    "files": {
+      "Screenshot-2018-3-2 Pictogon.png": {
+        "name": "Screenshot-2018-3-2 Pictogon",
+        "path": "/content/blog/design-question-response/projects/pictogon/Screenshot-2018-3-2 Pictogon.png",
+        "url": "/blog/design-question-response/projects/pictogon/Screenshot-2018-3-2 Pictogon.png",
+        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/blog/design-question-response/projects/pictogon/Screenshot-2018-3-2 Pictogon.png",
+        "extension": ".png",
+        "filename": "Screenshot-2018-3-2 Pictogon.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/blog/design-question-response/projects/ridder": {
+    "title": "ridder",
+    "view": "project",
+    "dates": "April ― May 2018",
+    "priority": "6",
+    "description": "An RSS reader that you own",
+    "text": "Ridder was made to make content reading transparent and controllable. It's an RSS reader completely owned and run by you, there's no server in the cloud to connect to.\n\nThere's no middleman to filter or track what you read.\n\nCurrently in pre-alpha.",
+    "github": "https://github.com/kodedninja/ridder",
+    "website": "https://ridder-kodedninja.hashbase.io",
+    "name": "ridder",
+    "path": "/content/blog/design-question-response/projects/ridder",
+    "url": "/blog/design-question-response/projects/ridder",
+    "files": {
+      "Screenshot from 2018-04-05 16-29-36.png": {
+        "name": "Screenshot from 2018-04-05 16-29-36",
+        "path": "/content/blog/design-question-response/projects/ridder/Screenshot from 2018-04-05 16-29-36.png",
+        "url": "/blog/design-question-response/projects/ridder/Screenshot from 2018-04-05 16-29-36.png",
+        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/blog/design-question-response/projects/ridder/Screenshot from 2018-04-05 16-29-36.png",
+        "extension": ".png",
+        "filename": "Screenshot from 2018-04-05 16-29-36.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/blog/design-question-response/projects/seeder": {
+    "title": "seeder",
+    "view": "project",
+    "description": "Raspberry Pi DAT seeder",
+    "dates": "April ― July 2018",
+    "priority": "9",
+    "text": "There are 2 problems with the availability of sites on the **dat://** protocol: 1.) if you turn off your computer and nobody's seeding it, it'll be unaccessible 2.) if everyone solves this with a seeding service ([Hashbase](https://hashbase.io)) the whole network will start to become more centralized.\n\nAn alternative is setting up a seeding service for yourself. A [Raspberry Pi](https://raspberrypi.org) runs super power-efficiently and it's powerful enough to seed DAT archives. \n\n**Seeder** tries to be a plug-and-play, ready-to-use DAT seeder service. With a 1-command installer and frontend designed for non-tech people it's the simplest personal seeding service.\n\nDeveloped as part of the [New Computer Working Group](https://newcomputers.group).",
+    "tags": [
+      "selected"
+    ],
+    "github": "https://github.com/new-computers/seeder",
+    "website": "https://newcomputers.group/seeder",
+    "name": "seeder",
+    "path": "/content/blog/design-question-response/projects/seeder",
+    "url": "/blog/design-question-response/projects/seeder",
+    "files": {
+      "image.png": {
+        "name": "image",
+        "path": "/content/blog/design-question-response/projects/seeder/image.png",
+        "url": "/blog/design-question-response/projects/seeder/image.png",
+        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/blog/design-question-response/projects/seeder/image.png",
+        "extension": ".png",
+        "filename": "image.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/blog/design-question-response/projects/solo": {
+    "title": "solo",
+    "view": "project",
+    "dates": "March ― April 2018",
+    "priority": "5",
+    "description": "The simplest publishing tool",
+    "text": "Solo is a publishing tool based on the [Beaker Browser](https://beakerbrowser.com) and the Dat protocol.\n\nThe main inspiration was [Telegra.ph](http://telegra.ph). Every entry is under a different Dat URL and there's no index page like on blogs or publishing platforms.\n\nOnly *disconnected texts* that centralize in the author's mind.\n\nSolo is a simplified version of [orkl](/projects/orkl).",
+    "github": "https://github.com/kodedninja/solo",
+    "website": "https://solo-kodedninja.hashbase.io",
+    "name": "solo",
+    "path": "/content/blog/design-question-response/projects/solo",
+    "url": "/blog/design-question-response/projects/solo",
+    "files": {
+      "Screenshot-2018-3-25 solo.png": {
+        "name": "Screenshot-2018-3-25 solo",
+        "path": "/content/blog/design-question-response/projects/solo/Screenshot-2018-3-25 solo.png",
+        "url": "/blog/design-question-response/projects/solo/Screenshot-2018-3-25 solo.png",
+        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/blog/design-question-response/projects/solo/Screenshot-2018-3-25 solo.png",
+        "extension": ".png",
+        "filename": "Screenshot-2018-3-25 solo.png",
+        "type": "image"
+      },
+      "soloedit.png": {
+        "name": "soloedit",
+        "path": "/content/blog/design-question-response/projects/solo/soloedit.png",
+        "url": "/blog/design-question-response/projects/solo/soloedit.png",
+        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/blog/design-question-response/projects/solo/soloedit.png",
+        "extension": ".png",
+        "filename": "soloedit.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/blog/ntain": {
+    "title": "ntain ― a peer-to-peer file sharing site",
+    "view": "entry",
+    "date": "2017-11-10",
+    "location": "Odorheiu Secuiesc",
+    "excerpt": "My first try at building a peer-to-peer application based on [Beaker Browser](https://beakerbrowser.com) ― a retrospection.",
+    "text": "_This entry was written one year after the events, as it's a very important period and I missed it from my timeline._\n\nOne night I've found many #rotonde tweets with beautiful 64 characters long URL-ish texts in my feed. A few minutes later I've found out that it's a little, \"underground\" social-network. It was peer-to-peer, something I've been interested in for a while, so I've downloaded [Beaker Browser](https://beakerbrowser.com) in an instant and made my profile. It was a slightly abstract way of joining a social-network, love at first sight.\n\nAnd then there were features to build, bugs to fix ― so I've cloned the [repo on GitHub](https://github.com/rotonde) and started contributing. They weren't important, core features, just little \"fine-tunes\", but they made me feel happy and curious.\n\n_It was the time just before the rise of the peer-to-peer web, there were only a few applications and personal sites started to appear on the **dat://** protocol._\n\nSomehow I've hacked together a little site, using the `DatArchive` API that lets you share files easily and beautifully. Honestly, its design was the reason why I've made it. Basically it's just an interface that renders the content of a directory and an event callback for `ondrop` that \"uploads\" the file to the archive. The whole thing made with jQuery.\n\n![Screenshot of the interface of ntain](/content/blog/ntain/ntain.png)\n\nBut (and this is a very important \"but\"), it felt like some yet hidden power on the internet. I was there in my room, launching a modern file-sharing application without the need of a server and buying a domain name. Instantly, the feeling of \"we're building a new internet, just like in the '90s\" rushed through me.\n\nI've shared it on Twitter and people actually liked and used it.\n\n_If ntain were a baby, then everything I've made since then for the peer-to-peer web would be its periods of growing up. It had a determinate role to my current life._\n\n---\n\n[Repository](https://github.com/kodedninja/ntain)\n\n[dat://ntain-kodedninja.hashbase.io](dat://ntain-kodedninja.hashbase.io)",
+    "visible": true,
+    "name": "ntain",
+    "path": "/content/blog/ntain",
+    "url": "/blog/ntain",
+    "files": {
+      "ntain.png": {
+        "name": "ntain",
+        "path": "/content/blog/ntain/ntain.png",
+        "url": "/blog/ntain/ntain.png",
+        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/blog/ntain/ntain.png",
+        "extension": ".png",
+        "filename": "ntain.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/blog/pictogon": {
+    "title": "Redefining image maps",
+    "view": "entry",
+    "date": "2017-10-20",
+    "location": "Odorheiu Secuiesc",
+    "excerpt": "Once upon a time images appeared on websites with interactive areas inside. They were called _image maps_.",
+    "text": "\"In HTML and XHTML, an image map is a list of coordinates relating to a specific image, created in order to hyperlink areas of the image to different destinations (as opposed to a normal image link, in which the entire area of the image links to a single destination).\" ― [Wikipedia](https://en.wikipedia.org/wiki/Image_map)\n\nI think image maps actualized a desire many of us have: to make something eternally static (object, image) interactive and alive. Sadly, they didn't spread out on the web and searching for clickable areas on an image isn't a habbit. The reason behind these might be the timing and the tools of the age. If you check the [\"Creation and use section\"](https://en.wikipedia.org/wiki/Image_map#Creation_and_use) of the Wikipedia article, you'll see that the recommended programs for image map creation are Dreamweaver, KDE and GIMP (with a plugin). Tools that aren't used anymore or took a turn in an other direction.\n\nDuring the summer of 2017, together with my friend and mentor [Csaba](https://codecanyon.net/user/sekler) we've created [Pictogon](https://pictogon.com) ― a modern image map editor.\n\n![A screenshot of the Pictogon interface](/content/blog/pictogon/Pictogon.png)\n\nIt was fun not only because we built a finished product from scratch in a relatively short period of time, but also because it was the first larger-scale project I've worked on (as for most 18 years olds). As it was just a secondary project for Csaba, I designed the whole infrastructure, built the backend and a part of the front-end, while he designed and coordinated everything with precision. I even built a working recurring billing system!\n\nWe tried to keep everything as simple as possible. An image map editor shouldn't be complicated anyways. You have an image → draw some polygons on it → set their content → save → get the embed code or download → put it onto your website.\n\nWe've also experimented with alternative solutions for the upcoming problems (some of them worked out, some of the didn't). For example we didn't want to spend energy, money and computing power on hosting images. They're large and there are enough hosting services on the web (most users have a website with its own storage, why would they also pay for storing images somewhere else?). So you can only input the URL of an image as a starting point. Pictogon will never store the file, it's just a middle layer, between an image and the frontend, that turns the former into an interactive object.\n\nWe decided to let users download the result and handle the embedding part by themselves. **It's a tool, not a platform.**\n\nWe've released Pictogon (into the wild) on 5. October via [Product Hunt](https://www.producthunt.com/posts/pictogon) (which is the only marketing we've done) and luckily people liked it. So much that it became \"Product of the Day\" and \"#3 Product of the Week\".\n\n<u>Technical details</u>\n\nThe image maps are `<svg>` elements with the image, a bunch of polygons and a script inside.\n\nThe frontend was built with [jQuery](https://jquery.com) (I know, it wasn't my decision), the editor was built by us from the ground up. The backend is vanilla PHP.\n\n---\n\n<u>Update</u> \n\nAs of today ― November 02, 2018 ― Pictogon is a settling puddle in our hearts. After its successful launch we were motivated for a few months, but we've started to neglect and don't care. Maybe, it wasn't fully finished at the release and we were tired of it to finish afterwards. I also started digging into building for the peer-to-peer web around that time (and haven't stopped since then). I love this product and hope that someday I can, maybe, rebuild it and relaunch it. Pictogon 2.0, sometime, maybe.",
+    "visible": true,
+    "name": "pictogon",
+    "path": "/content/blog/pictogon",
+    "url": "/blog/pictogon",
+    "files": {
+      "Pictogon.png": {
+        "name": "Pictogon",
+        "path": "/content/blog/pictogon/Pictogon.png",
+        "url": "/blog/pictogon/Pictogon.png",
+        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/blog/pictogon/Pictogon.png",
+        "extension": ".png",
+        "filename": "Pictogon.png",
         "type": "image"
       }
     },

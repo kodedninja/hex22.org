@@ -66,9 +66,17 @@ function loading() {
 				<div class="1 db py2 mb3">
 					<div class="1 db fl mb1">
 						<div class="dib">
-							<a href="/" class="nbb">Hunor Karamán</a>
+							<a href="/" class="nbb">(name)</a>
+						</div>
+						<div class="dib fr">
+							<a class="nbb ml2 tcgrey">(navigation)</a>
 						</div>
 					</div>
+				</div>
+				<div class="1 db">
+					<a class="1 db nbb ba p1 py2 tac mb2">
+						(advertised content)
+					</a>
 				</div>
 			</div>
 		</body>

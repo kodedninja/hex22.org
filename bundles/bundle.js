@@ -23348,15 +23348,16 @@ function home(state, emit) {
         var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
         var bel2 = document.createElement("div");
         bel2.setAttribute("class", "1 db");
-        var bel0 = document.createElement("div");
-        bel0.setAttribute("class", "f1 fwb mb3 lh1");
-        ac(bel0, ["\n\t\t\t\t", arguments[0], "\n\t\t\t"]);
+        var bel0 = document.createElement("a");
+        bel0.setAttribute("href", arguments[0]);
+        bel0.setAttribute("class", "1 db nbb " + arguments[1]);
+        ac(bel0, ["\n\t\t\t\t", arguments[2], "\n\t\t\t"]);
         var bel1 = document.createElement("div");
         bel1.setAttribute("class", "1 db");
-        ac(bel1, ["\n\t\t\t\t", arguments[1], "\n\t\t\t"]);
+        ac(bel1, ["\n\t\t\t\t", arguments[3], "\n\t\t\t"]);
         ac(bel2, ["\n\t\t\t", bel0, "\n\t\t\t", bel1, "\n\t\t"]);
         return bel2;
-    }(state.page().v('banner'), format(state.page().v('text')));
+    }(state.page().v('bannerurl'), state.page().v('banner') ? 'ba p1 py2 tac mb2' : '', state.page().v('banner'), format(state.page().v('text')));
 }
 },{"../components/format":2,"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":204,"choo/html":10,"object-values":159}],210:[function(require,module,exports){
 module.exports = {
@@ -23469,25 +23470,37 @@ function loading() {
   return function () {
 
     var ac = require('/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
-    var bel5 = document.createElement("body");
+    var bel9 = document.createElement("body");
+    var bel8 = document.createElement("div");
+    bel8.setAttribute("class", "1 db mw mxa p2 mb2");
+    var bel5 = document.createElement("div");
+    bel5.setAttribute("class", "1 db py2 mb3");
     var bel4 = document.createElement("div");
-    bel4.setAttribute("class", "1 db mw mxa p2 mb2");
-    var bel3 = document.createElement("div");
-    bel3.setAttribute("class", "1 db py2 mb3");
-    var bel2 = document.createElement("div");
-    bel2.setAttribute("class", "1 db fl mb1");
+    bel4.setAttribute("class", "1 db fl mb1");
     var bel1 = document.createElement("div");
     bel1.setAttribute("class", "dib");
     var bel0 = document.createElement("a");
     bel0.setAttribute("href", "/");
     bel0.setAttribute("class", "nbb");
-    ac(bel0, ["Hunor Karamán"]);
+    ac(bel0, ["(name)"]);
     ac(bel1, ["\n\t\t\t\t\t\t\t", bel0, "\n\t\t\t\t\t\t"]);
-    ac(bel2, ["\n\t\t\t\t\t\t", bel1, "\n\t\t\t\t\t"]);
-    ac(bel3, ["\n\t\t\t\t\t", bel2, "\n\t\t\t\t"]);
-    ac(bel4, ["\n\t\t\t\t", bel3, "\n\t\t\t"]);
-    ac(bel5, ["\n\t\t\t", bel4, "\n\t\t"]);
-    return bel5;
+    var bel3 = document.createElement("div");
+    bel3.setAttribute("class", "dib fr");
+    var bel2 = document.createElement("a");
+    bel2.setAttribute("class", "nbb ml2 tcgrey");
+    ac(bel2, ["(navigation)"]);
+    ac(bel3, ["\n\t\t\t\t\t\t\t", bel2, "\n\t\t\t\t\t\t"]);
+    ac(bel4, ["\n\t\t\t\t\t\t", bel1, "\n\t\t\t\t\t\t", bel3, "\n\t\t\t\t\t"]);
+    ac(bel5, ["\n\t\t\t\t\t", bel4, "\n\t\t\t\t"]);
+    var bel7 = document.createElement("div");
+    bel7.setAttribute("class", "1 db");
+    var bel6 = document.createElement("a");
+    bel6.setAttribute("class", "1 db nbb ba p1 py2 tac mb2");
+    ac(bel6, ["\n\t\t\t\t\t\t(advertised content)\n\t\t\t\t\t"]);
+    ac(bel7, ["\n\t\t\t\t\t", bel6, "\n\t\t\t\t"]);
+    ac(bel8, ["\n\t\t\t\t", bel5, "\n\t\t\t\t", bel7, "\n\t\t\t"]);
+    ac(bel9, ["\n\t\t\t", bel8, "\n\t\t"]);
+    return bel9;
   }();
 }
 },{"../components/format":2,"./":210,"/home/kh/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":204,"choo/html":10,"object-values":159,"path":164}]},{},[3]);

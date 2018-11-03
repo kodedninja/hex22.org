@@ -7,9 +7,9 @@ module.exports = home
 function home (state, emit) {
   	return html`
 		<div class="1 db">
-			<div class="f1 fwb mb3 lh1">
+			<a href="${state.page().v('bannerurl')}" class="1 db nbb ${state.page().v('banner') ? 'ba p1 py2 tac mb2' : ''}">
 				${state.page().v('banner')}
-			</div>
+			</a>
 			<div class="1 db">
 				${format(state.page().v('text'))}
 			</div>
