@@ -23,7 +23,8 @@ module.exports = class Content extends Component {
 		var images = [...element.querySelectorAll('img')].forEach(function (image) {
 			if (image.parentNode.nodeName !== 'A') {
 				medium_zoom(image, {
-					background: 'rgba(0, 0, 0, 1)',
+					margin: 60,
+					background: '#fff',
 					container: element
 				})
 			}

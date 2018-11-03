@@ -168,12 +168,6 @@
         "url": "/blog/ridder",
         "source": "/content/blog/ridder"
       },
-      "are-you-the-owner": {
-        "name": "are-you-the-owner",
-        "path": "/content/blog/are-you-the-owner",
-        "url": "/blog/are-you-the-owner",
-        "source": "/content/blog/are-you-the-owner"
-      },
       "ntain": {
         "name": "ntain",
         "path": "/content/blog/ntain",
@@ -191,6 +185,12 @@
         "path": "/content/blog/design-question-response",
         "url": "/blog/design-question-response",
         "source": "/content/blog/design-question-response"
+      },
+      "are-you-the-owner": {
+        "name": "are-you-the-owner",
+        "path": "/content/blog/are-you-the-owner",
+        "url": "/blog/are-you-the-owner",
+        "source": "/content/blog/are-you-the-owner"
       }
     }
   },
@@ -436,19 +436,6 @@
     "files": {},
     "pages": {}
   },
-  "/blog/are-you-the-owner": {
-    "title": "Are you the owner?",
-    "view": "entry",
-    "date": "2018-03-20",
-    "excerpt": "I wanted to build a peer-to-peer only blog; kind of like the p2p child of Svbtle and Telegra.ph. Fell in love with the idea of a site, which feels the same for the writer and the reader. The only difference is that the writer can change the content and the reader can't. Thanks to Dat, we can easily decide if a computer is the owner or not of a site.",
-    "location": "Odorheiu Secuiesc",
-    "visible": false,
-    "name": "are-you-the-owner",
-    "path": "/content/blog/are-you-the-owner",
-    "url": "/blog/are-you-the-owner",
-    "files": {},
-    "pages": {}
-  },
   "/blog/design-question-response": {
     "title": "Design: Question ― Response",
     "view": "entry",
@@ -467,58 +454,6 @@
         "path": "/content/blog/design-question-response/projects",
         "url": "/blog/design-question-response/projects",
         "source": "/content/blog/design-question-response/projects"
-      }
-    }
-  },
-  "/": {
-    "title": "Hunor Karamán",
-    "view": "home",
-    "info": "",
-    "currently": "",
-    "previously": "",
-    "text": "I'm interested in the <span class=\"f6 dib\">small</span>, [in “What’s After Now”, the alternative form, A New Spirit of Computation](https://newcomputers.group).\n\nI think, design and build small.\n\n---\n\n<u>Interests</u>\n\nFuture ― Solarpunk\nDecentralization ― Peer-to-Peer\nMachine Learning \nBioinformatics\nFunctional Design\n\n---\n\n<p class=\"brw\">\n\tdat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/\n</p>",
-    "banner": "",
-    "bannerurl": "",
-    "name": "content",
-    "path": "/content",
-    "url": "/",
-    "files": {},
-    "pages": {
-      "0x22": {
-        "name": "0x22",
-        "path": "/content/0x22",
-        "url": "/0x22",
-        "source": "/content/0x22"
-      },
-      "thanks": {
-        "name": "thanks",
-        "path": "/content/thanks",
-        "url": "/thanks",
-        "source": "/content/thanks"
-      },
-      "about": {
-        "name": "about",
-        "path": "/content/about",
-        "url": "/about",
-        "source": "/content/about"
-      },
-      "p2p": {
-        "name": "p2p",
-        "path": "/content/p2p",
-        "url": "/p2p",
-        "source": "/content/p2p"
-      },
-      "projects": {
-        "name": "projects",
-        "path": "/content/projects",
-        "url": "/projects",
-        "source": "/content/projects"
-      },
-      "blog": {
-        "name": "blog",
-        "path": "/content/blog",
-        "url": "/blog",
-        "source": "/content/blog"
       }
     }
   },
@@ -892,6 +827,58 @@
     },
     "pages": {}
   },
+  "/": {
+    "title": "Hunor Karamán",
+    "view": "home",
+    "info": "",
+    "currently": "",
+    "previously": "",
+    "text": "I'm interested in the <span class=\"f6 dib\">small</span>, [in “What’s After Now”, the alternative form, A New Spirit of Computation](https://newcomputers.group).\n\nI think, design and build small.\n\n---\n\n<u>Interests</u>\n\nFuture ― Solarpunk\nDecentralization ― Peer-to-Peer\nMachine Learning \nBioinformatics\nFunctional Design\n\n---\n\n<p class=\"brw\">\n\tdat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/\n</p>",
+    "banner": "",
+    "bannerurl": "",
+    "name": "content",
+    "path": "/content",
+    "url": "/",
+    "files": {},
+    "pages": {
+      "0x22": {
+        "name": "0x22",
+        "path": "/content/0x22",
+        "url": "/0x22",
+        "source": "/content/0x22"
+      },
+      "thanks": {
+        "name": "thanks",
+        "path": "/content/thanks",
+        "url": "/thanks",
+        "source": "/content/thanks"
+      },
+      "about": {
+        "name": "about",
+        "path": "/content/about",
+        "url": "/about",
+        "source": "/content/about"
+      },
+      "p2p": {
+        "name": "p2p",
+        "path": "/content/p2p",
+        "url": "/p2p",
+        "source": "/content/p2p"
+      },
+      "projects": {
+        "name": "projects",
+        "path": "/content/projects",
+        "url": "/projects",
+        "source": "/content/projects"
+      },
+      "blog": {
+        "name": "blog",
+        "path": "/content/blog",
+        "url": "/blog",
+        "source": "/content/blog"
+      }
+    }
+  },
   "/blog/design-question-response/projects/orkl": {
     "title": "orkl",
     "view": "project",
@@ -1080,6 +1067,30 @@
         "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/blog/pictogon/Pictogon.png",
         "extension": ".png",
         "filename": "Pictogon.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/blog/are-you-the-owner": {
+    "title": "Are you the owner?",
+    "view": "entry",
+    "date": "2018-03-20",
+    "excerpt": "About publishing on the peer-to-peer web.",
+    "location": "Odorheiu Secuiesc",
+    "visible": false,
+    "text": "I wanted to build a peer-to-peer only blog; kind of like the p2p child of Svbtle and Telegra.ph. Fell in love with the idea of a site, which feels the same for the writer and the reader. The only difference is that the writer can change the content and the reader can't. Thanks to Dat, we can easily decide if a computer is the owner or not of a site.",
+    "name": "are-you-the-owner",
+    "path": "/content/blog/are-you-the-owner",
+    "url": "/blog/are-you-the-owner",
+    "files": {
+      "mountain.jpg": {
+        "name": "mountain",
+        "path": "/content/blog/are-you-the-owner/mountain.jpg",
+        "url": "/blog/are-you-the-owner/mountain.jpg",
+        "source": "dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/content/blog/are-you-the-owner/mountain.jpg",
+        "extension": ".jpg",
+        "filename": "mountain.jpg",
         "type": "image"
       }
     },
