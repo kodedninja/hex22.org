@@ -10,16 +10,12 @@ previously:
 ----
 text: I'm interested in the <span class="f6 dib">small</span>, [in “What’s After Now”, the alternative form, A New Spirit of Computation](https://newcomputers.group).
 
-I think, design and build small.
-
 ---
 
 <u>Interests</u>
 
 Future ― Solarpunk
 Decentralization ― Peer-to-Peer
-Machine Learning 
-Bioinformatics
 Functional Design
 
 ---
@@ -28,6 +24,6 @@ Functional Design
 	dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/
 </p>
 ----
-banner:
+banner: I'll give a talk at Reclaim the web, Brussels!
 ----
-bannerurl:
+bannerurl: http://imal.org/en/event/p2p-web

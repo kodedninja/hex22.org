@@ -5,6 +5,8 @@ var md = new MarkdownIt({
 	breaks: true
 })
 
+md.use(require('markdown-it-sup'))
+
 module.exports = format
 
 function format (str) {
