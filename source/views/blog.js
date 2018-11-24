@@ -18,6 +18,7 @@ function blog (state, emit) {
 
   	function entry (page) {
 		page = state.page(page.url)
+    console.log(page)
 		return html`
 			<a href="${page.v('url')}" class="dib nbb 1 mb2">
 				<div class="1 db mb1">
