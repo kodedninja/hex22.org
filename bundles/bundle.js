@@ -23577,10 +23577,10 @@ function loading() {
     ac(bel5, ["\n\t\t\t\t\t", bel4, "\n\t\t\t\t"]);
     var bel7 = document.createElement("div");
     bel7.setAttribute("class", "1 db");
-    var bel6 = document.createElement("a");
-    bel6.setAttribute("class", "1 db nbb ba p1 py2 tac mb2");
-    ac(bel6, ["\n\t\t\t\t\t\t(advertised content)\n\t\t\t\t\t"]);
-    ac(bel7, ["\n\t\t\t\t\t", bel6, "\n\t\t\t\t"]);
+    var bel6 = document.createElement("div");
+    bel6.setAttribute("class", "1 db fwb f1 mb4 lh1");
+    ac(bel6, ["\n            *\n          "]);
+    ac(bel7, ["\n          ", bel6, "\n\t\t\t\t"]);
     ac(bel8, ["\n\t\t\t\t", bel5, "\n\t\t\t\t", bel7, "\n\t\t\t"]);
     ac(bel9, ["\n\t\t\t", bel8, "\n\t\t"]);
     return bel9;

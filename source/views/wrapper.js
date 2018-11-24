@@ -74,9 +74,9 @@ function loading() {
 					</div>
 				</div>
 				<div class="1 db">
-					<a class="1 db nbb ba p1 py2 tac mb2">
-						(advertised content)
-					</a>
+          <div class="1 db fwb f1 mb4 lh1">
+            *
+          </div>
 				</div>
 			</div>
 		</body>
