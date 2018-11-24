@@ -8,7 +8,7 @@ I’m a developer, working (mostly) on experimental projects with small footprin
 
 Since a very young age the web is my school, library, gallery and playground. As it's moving in a wrong direction, where your data is just *data about you* and not yours, I make tools that let users stay on the *right path*.
 
-With everything I make, I try to meet the criterias in my [manifesto](/manifesto).
+With everything I make, I try to meet the criterias of my [manifesto](/manifesto).
 
 I'm present on [GitHub](https://github.com/kodedninja), [Are.na](https://are.na/hunor-karaman),  [Mastodon](https://sunbeam.city/@kodedninja) and [VSCO](https://vsco.co/karamanhunor).<br>You can contact me via [email](mailto:karamanhunor@pm.com).
 

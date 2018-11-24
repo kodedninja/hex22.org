@@ -8,15 +8,19 @@ currently:
 ----
 previously:
 ----
-text: I'm interested in the <span class="f6 dib">small</span>, [in “What’s After Now”, the alternative form, A New Spirit of Computation](https://newcomputers.group).
+text: I want you to spend a few instants thinking about how did you access this site.
 
----
+If you used the domain name **hex22.org**, first a request to a DNS resolver was sent, that returned the IP address of a Github Pages server (on **https://**) or a Dat URL (seen below).
 
-<u>Interests</u>
+With the IP address, a connection with that server is made, which returns the [**index.html**](https://github.com/kodedninja/kodedninja.github.io/blob/master/index.html).
 
-Future ― Solarpunk
-Decentralization ― Peer-to-Peer
-Functional Design
+Using a Dat key, the Dat module under the hood of [Beaker Browser](https://beakerbrowser.com) connects to the closest peer seeding the site. The same **index.html** is returned. If there are no available peers, my personal Hashbase instance (running in a [DO](https://digitalocean.com) droplet) will act as a seeder. If you're already seeding the site, it's loaded from your machine.
+
+The HTML file is rendered in your browser and a few other requests travel back-and-forth to the same location to get font files, the main Javascript file and the content (via [Enoki](https://enoki.site)).
+
+The site is built using [choo](https://choo.io) with [Enoki](https://enoki.site).
+
+No trackers, cookies or external sources are used.
 
 ---
 
@@ -24,6 +28,6 @@ Functional Design
 	dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/
 </p>
 ----
-banner: Developer on the peer-to-peer web.
+banner: *
 ----
-bannerurl: http://imal.org/en/event/p2p-web
+bannerurl:

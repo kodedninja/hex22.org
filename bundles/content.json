@@ -138,6 +138,17 @@
     "files": {},
     "pages": {}
   },
+  "/manifesto": {
+    "title": "Manifesto",
+    "view": "default",
+    "banner": true,
+    "text": "1. **Everything should be a tool.** A tool transforms your data without adding to its original limitations. It returns an output for a given input. A platform can also be a tool, but only under the same restrictions and if it offers a platform specific functionality. \n2. **Data should be reusable, text-editable, human-readable.**\n3. **Tools should be lightweight, available and timeless.** Computing power or internet speed shouldn't be the limitation for most tasks. It works in the past and in the future.\n4. **Tools should be adaptable, changeable and personalisable**. If a tool does not perfectly fit your needs, you should be able to change, mix or remove its parts.\n5. **A great tool is [ambient](https://are.na/alex-singh/ambient-product-design).** It should disappear and flow through your actions. You should never need it because it's always at your hands. You should never ignore it because it's never in your way.\n\n> \"Only through open sources, open standards, human-readable formats and their independencies, might they survive this fleeting age of self-destructing informatics.\" ― Devine Lu Linvega",
+    "name": "manifesto",
+    "path": "/content/manifesto",
+    "url": "/manifesto",
+    "files": {},
+    "pages": {}
+  },
   "/blog": {
     "title": "Timeline",
     "view": "blog",
@@ -146,12 +157,6 @@
     "url": "/blog",
     "files": {},
     "pages": {
-      "ridder": {
-        "name": "ridder",
-        "path": "/content/blog/ridder",
-        "url": "/blog/ridder",
-        "source": "/content/blog/ridder"
-      },
       "ntain": {
         "name": "ntain",
         "path": "/content/blog/ntain",
@@ -175,22 +180,11 @@
   "/about": {
     "title": "About",
     "view": "default",
-    "text": "Hi. \n\nI’m a developer, working (mostly) on experimental projects with small footprint to help in the re-decentralization of the web.\n\nSince a very young age the web is my school, library, gallery and playground. As it's moving in a wrong direction, where your data is just *data about you* and not yours, I make tools that let users stay on the *right path*.\n\nWith everything I make, I try to meet the criterias in my [manifesto](/manifesto).\n\nI'm present on [GitHub](https://github.com/kodedninja), [Are.na](https://are.na/hunor-karaman),  [Mastodon](https://sunbeam.city/@kodedninja) and [VSCO](https://vsco.co/karamanhunor).<br>You can contact me via [email](mailto:karamanhunor@pm.com).\n\n---\n\n**Currently:**\n\n- Developer at [GeoGebra](https://geogebra.org)\n- Experimenting with [peer-to-peer tools](/p2p)\n\n---\n\n**Previously:**\n\n- Co-Made [Pictogon](https://pictogon.com)\n\n---\n\n<span class=\"tcgrey\">*\"I really enjoy making tools.\" - Callil Capuozzo*</span>\n\nHunor Karamán,\na peer.",
+    "text": "Hi. \n\nI’m a developer, working (mostly) on experimental projects with small footprint to help in the re-decentralization of the web.\n\nSince a very young age the web is my school, library, gallery and playground. As it's moving in a wrong direction, where your data is just *data about you* and not yours, I make tools that let users stay on the *right path*.\n\nWith everything I make, I try to meet the criterias of my [manifesto](/manifesto).\n\nI'm present on [GitHub](https://github.com/kodedninja), [Are.na](https://are.na/hunor-karaman),  [Mastodon](https://sunbeam.city/@kodedninja) and [VSCO](https://vsco.co/karamanhunor).<br>You can contact me via [email](mailto:karamanhunor@pm.com).\n\n---\n\n**Currently:**\n\n- Developer at [GeoGebra](https://geogebra.org)\n- Experimenting with [peer-to-peer tools](/p2p)\n\n---\n\n**Previously:**\n\n- Co-Made [Pictogon](https://pictogon.com)\n\n---\n\n<span class=\"tcgrey\">*\"I really enjoy making tools.\" - Callil Capuozzo*</span>\n\nHunor Karamán,\na peer.",
     "banner": false,
     "name": "about",
     "path": "/content/about",
     "url": "/about",
-    "files": {},
-    "pages": {}
-  },
-  "/manifesto": {
-    "title": "Manifesto",
-    "view": "default",
-    "banner": true,
-    "text": "1. **Everything should be a tool.** A tool transforms your data without adding to its original limitations. It returns an output for a given input. A platform can also be a tool, but only under the same restrictions and if it offers a platform specific functionality. \n2. **Data should be reusable, text-editable, human-readable.**\n3. **Tools should be lightweight, available and timeless.** Computing power or internet speed shouldn't be the limitation for most tasks. It works in the past and in the future.\n4. **Tools should be adaptable, changeable and personalisable**. If a tool does not perfectly fit your needs, you should be able to change, mix or remove its parts.\n5. **A great tool is [ambient](https://are.na/alex-singh/ambient-product-design).** It should disappear and flow through your actions. You should never need it because it's always at your hands. You should never ignore it because it's never in your way.\n\n> \"Only through open sources, open standards, human-readable formats and their independencies, might they survive this fleeting age of self-destructing informatics.\" ― Devine Lu Linvega",
-    "name": "manifesto",
-    "path": "/content/manifesto",
-    "url": "/manifesto",
     "files": {},
     "pages": {}
   },
@@ -268,19 +262,6 @@
     "files": {},
     "pages": {}
   },
-  "/blog/ridder": {
-    "title": "Ridder ― taking back control with RSS",
-    "view": "entry",
-    "date": "2018-04-29",
-    "location": "Odorheiu Secuiesc",
-    "excerpt": "Ridder was made to make content reading transparent and controllable.",
-    "text": "It's an RSS reader completely owned and run by you, there's no server in the cloud to connect to.\n\nThere's no middleman to filter or track what you read.",
-    "name": "ridder",
-    "path": "/content/blog/ridder",
-    "url": "/blog/ridder",
-    "files": {},
-    "pages": {}
-  },
   "/blog/are-you-the-owner": {
     "title": "Are you the owner?",
     "view": "entry",
@@ -301,9 +282,9 @@
     "info": "",
     "currently": "",
     "previously": "",
-    "text": "I'm interested in the <span class=\"f6 dib\">small</span>, [in “What’s After Now”, the alternative form, A New Spirit of Computation](https://newcomputers.group).\n\n---\n\n<u>Interests</u>\n\nFuture ― Solarpunk\nDecentralization ― Peer-to-Peer\nFunctional Design\n\n---\n\n<p class=\"brw\">\n\tdat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/\n</p>",
-    "banner": "Developer on the peer-to-peer web.",
-    "bannerurl": "http://imal.org/en/event/p2p-web",
+    "text": "I want you to spend a few instants thinking about how did you access this site.\n\nIf you used the domain name **hex22.org**, first a request to a DNS resolver was sent, that returned the IP address of a Github Pages server (on **https://**) or a Dat URL (seen below).\n\nWith the IP address, a connection with that server is made, which returns the [**index.html**](https://github.com/kodedninja/kodedninja.github.io/blob/master/index.html).\n\nUsing a Dat key, the Dat module under the hood of [Beaker Browser](https://beakerbrowser.com) connects to the closest peer seeding the site. The same **index.html** is returned. If there are no available peers, my personal Hashbase instance (running in a [DO](https://digitalocean.com) droplet) will act as a seeder. If you're already seeding the site, it's loaded from your machine.\n\nThe HTML file is rendered in your browser and a few other requests travel back-and-forth to the same location to get font files, the main Javascript file and the content (via [Enoki](https://enoki.site)).\n\nThe site is built using [choo](https://choo.io) with [Enoki](https://enoki.site).\n\nNo trackers, cookies or external sources are used.\n\n---\n\n<p class=\"brw\">\n\tdat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/\n</p>",
+    "banner": "*",
+    "bannerurl": "",
     "name": "content",
     "path": "/content",
     "url": "/",
@@ -333,6 +314,12 @@
         "url": "/p2p",
         "source": "/content/p2p"
       },
+      "manifesto": {
+        "name": "manifesto",
+        "path": "/content/manifesto",
+        "url": "/manifesto",
+        "source": "/content/manifesto"
+      },
       "blog": {
         "name": "blog",
         "path": "/content/blog",
@@ -344,12 +331,6 @@
         "path": "/content/about",
         "url": "/about",
         "source": "/content/about"
-      },
-      "manifesto": {
-        "name": "manifesto",
-        "path": "/content/manifesto",
-        "url": "/manifesto",
-        "source": "/content/manifesto"
       }
     }
   },

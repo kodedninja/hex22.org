@@ -21,12 +21,12 @@ function blog (state, emit) {
     console.log(page)
 		return html`
 			<a href="${page.v('url')}" class="dib nbb 1 mb2">
-				<div class="1 db mb1">
-					<div class="ffi fwb dib f2 m-1">
+				<div class="1 db mb1 clear">
+          <div class="fl tar m-fl tcgrey db 1">
+            ${datify(page.v('date'))}
+          </div>
+					<div class="ffi lh1 fwb db 1 f2 m-1">
 						${page.v('title')}
-					</div>
-					<div class="fr m-fl tcgrey dib my0-5">
-						${datify(page.v('date'))}
 					</div>
 				</div>
 				<div class="1 db fl">
