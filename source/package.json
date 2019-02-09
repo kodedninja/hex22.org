@@ -4,7 +4,7 @@
   "description": "Personal theme",
   "main": "index.js",
   "scripts": {
-    "build": "enoki ../content && browserify index.js -o ../bundles/bundle.js -t sheetify -t yo-yoify -t es2040",
+    "build": "enoki ../content && browserify index.js -o ../bundles/bundle.js -t sheetify -t yo-yoify -g es2040 -p tinyify",
     "start": "enoki ../content && watchify index.js -o ../bundles/bundle.js -t sheetify -t yo-yoify -t es2040"
   },
   "keywords": [],
@@ -24,6 +24,7 @@
     "browserify": "^14.4.0",
     "es2040": "^1.2.6",
     "sheetify": "^7.3.3",
+    "tinyify": "^2.5.0",
     "watchify": "^3.11.0",
     "yo-yoify": "^3.7.3"
   }
