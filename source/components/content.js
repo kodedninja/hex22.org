@@ -1,7 +1,7 @@
 var Component = require('nanocomponent')
 var html = require('choo/html')
 var format = require('./format')
-var medium_zoom = require('medium-zoom')
+var mediumZoom = require('medium-zoom')
 
 module.exports = class Content extends Component {
 	constructor() {
@@ -11,6 +11,7 @@ module.exports = class Content extends Component {
 	}
 
 	createElement(text) {
+		this.text = text
 		return html`
 			<div class="1 db">
 				${format(text)}
@@ -22,7 +23,7 @@ module.exports = class Content extends Component {
 		var element = this.element
 		var images = [...element.querySelectorAll('img')].forEach(function (image) {
 			if (image.parentNode.nodeName !== 'A') {
-				medium_zoom(image, {
+				mediumZoom(image, {
 					margin: 60,
 					background: '#fff',
 					container: element

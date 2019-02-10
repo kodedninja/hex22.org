@@ -9,10 +9,10 @@ module.exports = view
 function view (state, emit) {
 	return html`
 		<div class="1 db">
-			<div class="1 db fwb f1 mb2 lh1">
+			<h1 class="1 db f1 mb0-5">
 				${state.page().v('title')}
-			</div>
-			<div class="1 db mb2">
+			</h1>
+			<div class="1 db mb1 f6">
 				${state.page().v('date') ? datify(state.page().v('date')) : ''}
 			</div>
 			<div class="1 db">

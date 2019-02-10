@@ -1,7 +1,6 @@
 var choo = require('choo')
-var css = require('sheetify')
 
-css('./styles/ff.css')
+require('./design')
 
 // our app
 var app = choo()
