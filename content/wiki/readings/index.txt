@@ -1,0 +1,24 @@
+title: Readings
+----
+view: default
+----
+text: <u>2019</u>
+
+Franz Enzenhofer ― **"Understanding SEO"**
+Yuval Noah Harari ― **"Homo Deus"**
+
+<u>2018</u>
+
+Bartis Attila ― **"A Nyugalom"** _(recommended)_
+Potozky László ― **"Éles"**
+Jean-Paul Sartre ― **"Nausea"** _(recommended)_
+Alain de Botton ― **"Essays on Love"**
+Michel Houellebecq ― **"The Map and the Territory"**
+Arthur Schopenhauer ― **"The Metaphysics of Love"**
+Kurt Vonnegut ― **"Slaughterhouse-Five"**
+Potozky László ― **"Égéstermék"**
+Michel Houellebecq ― **"The Possibility of an Island**" _(recommended)_
+----
+showonwiki: true
+----
+short: Tracking all the books I've read

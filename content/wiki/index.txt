@@ -1,0 +1,5 @@
+title: Wiki
+----
+view: wiki
+----
+text: Collection of additional information, notes, thoughts, logs.

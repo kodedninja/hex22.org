@@ -5,11 +5,15 @@
       "label": "Title",
       "type": "text"
     },
-	"banner": {
-	  "label": "Show Title",
-	  "type": "checkbox"
-	},
-    "text": {
+    "showonwiki": {
+       "label": "Show On Wiki",
+       "type": "checkbox"
+   },
+   "short": {
+     "label": "Short Description",
+     "type": "text"
+   },
+   "text": {
       "label": "Text",
       "type": "textarea"
     }

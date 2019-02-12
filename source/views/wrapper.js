@@ -25,14 +25,14 @@ function wrapper (state, emit) {
   function header() {
 		var isIndex = state.href === '/'
     return html`
-      <div class="1 db py2 mb3">
-        <div class="1 db fl mb1">
-          <div class="dib">
+      <nav class="1 db py2 mb3 clear">
+        <ul class="1 db fl clean mb1">
+          <li class="fl dib clean">
             <a href="/" class="${isIndex ? '' : 'nbb'}">${state.page('/').v('title')}</a>
-          </div>
+          </li>
           ${navigation()}
-        </div>
-      </div>
+        </ul>
+      </nav>
     `
 
     function navigation () {
@@ -45,9 +45,9 @@ function wrapper (state, emit) {
       function link (link) {
         var activeClass = isActive(link.v('url')) ? '' : 'nbb'
         return html`
-          <div class="dib">
+          <li class="dib clean">
             <a href="${link.v('url')}" title="${link.v('title')}" class="${activeClass} ml1">${link.v('title')}</a>
-          </div>
+          </li>
         `
        }
 
@@ -63,7 +63,7 @@ function wrapper (state, emit) {
 function loading() {
   return html`
     <body>
-      todo loading
+      <div class="loading"></div>
     </body>
   `
 }

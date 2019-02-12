@@ -1,7 +1,0 @@
-#!/bin/bash
-
-DATE=`date +%Y%m%d`
-
-g a
-g co "$DATE"
-g sh

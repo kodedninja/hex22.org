@@ -1,0 +1,21 @@
+title: Workstation
+----
+view: default
+----
+short: My primary workbench
+----
+showonwiki: true
+----
+text: I currently use a 2015 Macbook Pro 13" with 8GB of RAM and a 2.7Ghz i5 processor.
+
+### Software
+
+- Browser: [Firefox](https://mozilla.org/firefox) / [Beaker](https://beakerbrowser.com/)
+- Terminal: [Hyper](https://hyper.is/)
+- Text Editor: [Atom](https://atom.io/)
+- Design: [Figma](https://figma.com)
+- Window Manager: [Spectacle](https://www.spectacleapp.com/)
+- Audio Workstation: [Ableton Live](https://ableton.com/live)
+- Music: [Spotify](https://spotify.com/) / [cmus](https://cmus.github.io/)
+- Video Player: [IINA](https://lhc70000.github.io/iina/)
+- Calculator: [Numi](https://numi.io/)

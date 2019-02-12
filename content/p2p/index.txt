@@ -12,21 +12,12 @@ text: These are the peer-to-peer projects I was / am working on in chronological
 4. [forkup](https://github.com/kodedninja/forkop) ― Updater for forked Beaker sites → 2018
 5. [ridder](https://github.com/kodedninja/ridder) ― An RSS reader that you own → 2018
 6. [seeder](https://github.com/new-computers/seeder) ― Plug-and-play Raspberry Pi DAT seeder → 2018
+7. [Pears](https://github.com/as-dr/pears) ― A peer-to-peer, temporary, collaborative playlist. → 2018 - 2019
 
 ---
 
-If you're new to the peer-to-peer web check out:
-
-1. [What does peer-to-peer mean?](https://en.wikipedia.org/wiki/Peer-to-peer)
-2. [Peer-to-Peer Day](https://peer-to-peer-web.com)
-3. [Beaker Browser](https://beakerbrowser.com)
-4. [Guides by NCWG](https://guides.newcomputers.group)
-5. [Secrets](https://lhs.nu/archive#dat)
-
----
-
-Story:
+### Story:
 
 I've been attracted by the peer-to-peer web from a young age ― before I knew actually exists. I remember standing next to a friend and sending a message to him over the internet (I think it was Facebook), when I realized how wrong it is that this message has to travel thousands of kilometers to arrive to him.
 
-Since then I was planning and trying to build peer-to-peer networks, but then one day I've found the [Beaker Browser](https://beakerbrowser.com) and [Dat](https://datproject.org).
+Since then I was planning and trying to build my own peer-to-peer networks / protocols, but then one day I've found the [Beaker Browser](https://beakerbrowser.com) and [Dat](https://datproject.org).
