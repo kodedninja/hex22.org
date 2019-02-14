@@ -2,7 +2,7 @@ title: Hunor Karamán
 ----
 view: home
 ----
-text: I’m a developer working on experimental projects with small footprint,  fast websites & solutions for the peer-to-peer web.
+text: I’m a _digital explorer_ working on experimental projects with small footprint,  fast websites & solutions for the peer-to-peer web.
 
 ---
 
@@ -13,11 +13,11 @@ Experimenting with [peer-to-peer tools](/p2p)
 
 ## Previously
 
-Co-Made Pictogon
+Co-Made [Pictogon](https://pictogon.com)
 
 ---
 
-I'm present on [GitHub](https://github.com/kodedninja), [Are.na](https://are.na/hunor-karaman) and [Mastodon](https://merveilles.town/@kodedninja).
+I'm present on [GitHub](https://github.com/kodedninja), [Are.na](https://are.na/hunor-karaman), [Reading Supply](https://reading.supply/@kodedninja) and [Mastodon](https://merveilles.town/@kodedninja).
 You can contact me via [email](mailto:karamanhunor@pm.me).
 
 Everything I make should pass most of the criterias in my [Manifesto](/manifesto).

@@ -1,171 +1,4 @@
 {
-  "/about": {
-    "title": "About",
-    "view": "default",
-    "text": "Hi. \n\nI’m a developer, working (mostly) on experimental projects with small footprint to help in the re-decentralization of the web.\n\nSince a very young age the web is my school, library, gallery and playground. As it's moving in a wrong direction, where your data is just *data about you* and not yours, I make tools that let users stay on the *right path*.\n\nWith everything I make, I try to meet the criterias of my [manifesto](/manifesto).\n\nI'm present on [GitHub](https://github.com/kodedninja), [Are.na](https://are.na/hunor-karaman),  [Mastodon](https://sunbeam.city/@kodedninja) and [VSCO](https://vsco.co/karamanhunor).<br>You can contact me via [email](mailto:karamanhunor@pm.com).\n\n---\n\n**Currently:**\n\n- Developer at [GeoGebra](https://geogebra.org)\n- Experimenting with [peer-to-peer tools](/p2p)\n\n---\n\n**Previously:**\n\n- Co-Made [Pictogon](https://pictogon.com)\n\n---\n\n<span class=\"tcgrey\">*\"I really enjoy making tools.\" - Callil Capuozzo*</span>\n\nHunor Karamán,\na peer.",
-    "banner": false,
-    "name": "about",
-    "path": "/content/about",
-    "url": "/about",
-    "files": {},
-    "pages": {}
-  },
-  "/thanks": {
-    "title": "Thanks!",
-    "view": "default",
-    "text": "<u>Technologies</u>\n\n- [Enoki](https://enoki.site/), an experimental ~~platform~~ tool for peer-to-peer publishing.\n- [Choo](https://choo.io/), a front-end framework that loves you.\n- [Inter UI](https://rsms.me/inter), the most legible typeface on computer screens.\n- [Beaker Browser](https://beakerbrowser.com/), the web-browser of freedom.\n- [Dat Protocol](https://datproject.org/), the hidden force in this _whole_.\n\n---\n\n<u>Shoutouts</u>\n\n[Jon-Kyle](https://jon-kyle.com) ↔ [Devine](https://xxiivv.com) ↔ [Callil](https://callil.com) ↔ [Alex](https://alexsingh.com) ↔ [Edouard](https://edouard.us) ↔ [Fransys](https://frnsys.com)\n\n---\n\n<u>You should check out</u>\n\n[New Computer Working Group](https://new-computers.group), [Peer-to-Peer Day](https://peer-to-peer-web.com), [The Creative Independent](https://thecreativeindependent.com), [LOW←TECH MAGAZINE](https://solar.lowtechmagazine.com), [Are.na](https://are.na)",
-    "name": "thanks",
-    "path": "/content/thanks",
-    "url": "/thanks",
-    "files": {},
-    "pages": {}
-  },
-  "/0x22": {
-    "title": "0x22",
-    "view": "default",
-    "text": "<u>An ambient music project</u>\n\n[Bandcamp](https://0x22.bandcamp.com)\n\nSince 2015, after bands and instrumental music projects, [I](/karaman-hunor)'ve started composing electronical music. It started with making noises for a progressive metal album, but later I've found long sine waves and fell in love with the ambient / drone sounding.\n\nI'm inspired by feelings and the music of talented musicians like Nils Frahm, Celer or Ólafur Arnalds.\n\n---\n\n<u>Releases</u>\n\n+ [Metaphases](/0x22/metaphases) - 2017 December\\\n+ [glacio](/0x22/glacio) - 2017 December\\\n+ [With love from very small places](/0x22/with-love-from-very-small-places) - 2017 November\\\n+ [It was dawn when the old man died](/0x22/it-was-dawn-when-the-old-man-died) - 2017 October\\\n+ [Nothingness EP (early works under the moniker Shiip)](https://0x22.bandcamp.com/album/nothingness-ep) - 2017 February",
-    "name": "0x22",
-    "path": "/content/0x22",
-    "url": "/0x22",
-    "files": {},
-    "pages": {
-      "glacio": {
-        "name": "glacio",
-        "path": "/content/0x22/glacio",
-        "url": "/0x22/glacio",
-        "source": "/content/0x22/glacio"
-      },
-      "it-was-dawn-when-the-old-man-died": {
-        "name": "it-was-dawn-when-the-old-man-died",
-        "path": "/content/0x22/it-was-dawn-when-the-old-man-died",
-        "url": "/0x22/it-was-dawn-when-the-old-man-died",
-        "source": "/content/0x22/it-was-dawn-when-the-old-man-died"
-      },
-      "metaphases": {
-        "name": "metaphases",
-        "path": "/content/0x22/metaphases",
-        "url": "/0x22/metaphases",
-        "source": "/content/0x22/metaphases"
-      },
-      "with-love-from-very-small-places": {
-        "name": "with-love-from-very-small-places",
-        "path": "/content/0x22/with-love-from-very-small-places",
-        "url": "/0x22/with-love-from-very-small-places",
-        "source": "/content/0x22/with-love-from-very-small-places"
-      }
-    }
-  },
-  "/blog": {
-    "title": "Writings",
-    "view": "blog",
-    "name": "blog",
-    "path": "/content/blog",
-    "url": "/blog",
-    "files": {},
-    "pages": {
-      "are-you-the-owner": {
-        "name": "are-you-the-owner",
-        "path": "/content/blog/are-you-the-owner",
-        "url": "/blog/are-you-the-owner",
-        "source": "/content/blog/are-you-the-owner"
-      },
-      "ntain": {
-        "name": "ntain",
-        "path": "/content/blog/ntain",
-        "url": "/blog/ntain",
-        "source": "/content/blog/ntain"
-      },
-      "pictogon": {
-        "name": "pictogon",
-        "path": "/content/blog/pictogon",
-        "url": "/blog/pictogon",
-        "source": "/content/blog/pictogon"
-      }
-    }
-  },
-  "/projects": {
-    "title": "Projects",
-    "view": "projects",
-    "text": "",
-    "name": "projects",
-    "path": "/content/projects",
-    "url": "/projects",
-    "files": {},
-    "pages": {
-      "bik": {
-        "name": "bik",
-        "path": "/content/projects/bik",
-        "url": "/projects/bik",
-        "source": "/content/projects/bik"
-      },
-      "cereal": {
-        "name": "cereal",
-        "path": "/content/projects/cereal",
-        "url": "/projects/cereal",
-        "source": "/content/projects/cereal"
-      },
-      "freemium": {
-        "name": "freemium",
-        "path": "/content/projects/freemium",
-        "url": "/projects/freemium",
-        "source": "/content/projects/freemium"
-      },
-      "microne": {
-        "name": "microne",
-        "path": "/content/projects/microne",
-        "url": "/projects/microne",
-        "source": "/content/projects/microne"
-      },
-      "ntain": {
-        "name": "ntain",
-        "path": "/content/projects/ntain",
-        "url": "/projects/ntain",
-        "source": "/content/projects/ntain"
-      },
-      "odot": {
-        "name": "odot",
-        "path": "/content/projects/odot",
-        "url": "/projects/odot",
-        "source": "/content/projects/odot"
-      },
-      "orkl": {
-        "name": "orkl",
-        "path": "/content/projects/orkl",
-        "url": "/projects/orkl",
-        "source": "/content/projects/orkl"
-      },
-      "pictogon": {
-        "name": "pictogon",
-        "path": "/content/projects/pictogon",
-        "url": "/projects/pictogon",
-        "source": "/content/projects/pictogon"
-      },
-      "ridder": {
-        "name": "ridder",
-        "path": "/content/projects/ridder",
-        "url": "/projects/ridder",
-        "source": "/content/projects/ridder"
-      },
-      "seeder": {
-        "name": "seeder",
-        "path": "/content/projects/seeder",
-        "url": "/projects/seeder",
-        "source": "/content/projects/seeder"
-      },
-      "solo": {
-        "name": "solo",
-        "path": "/content/projects/solo",
-        "url": "/projects/solo",
-        "source": "/content/projects/solo"
-      },
-      "stacked": {
-        "name": "stacked",
-        "path": "/content/projects/stacked",
-        "url": "/projects/stacked",
-        "source": "/content/projects/stacked"
-      }
-    }
-  },
   "/p2p": {
     "title": "Peer-to-Peer",
     "view": "default",
@@ -174,18 +7,6 @@
     "name": "p2p",
     "path": "/content/p2p",
     "url": "/p2p",
-    "files": {},
-    "pages": {}
-  },
-  "/manifesto": {
-    "title": "Manifesto",
-    "view": "default",
-    "banner": true,
-    "text": "1. **Everything should be a tool.** A tool transforms data without adding to its original limitations. It's a function: returns an output for a given input.\n2. **A great tool is [ambient](https://are.na/alex-singh/ambient-product-design).** It should disappear and flow through your actions. You should never need it because it's always at your hands. You should never ignore it because it's never in your way.\n3. **Tools should be adaptable, changeable and personalisable**. If a tool does not perfectly fit your needs, you should be able to change, mix or remove its parts.\n4. **Data should be reusable, text-editable, human-readable.** Produces a higher chance that (1.) is passed.\n5. **Tools should be lightweight, available and timeless.** Computing power or internet speed shouldn't be the limitation for most tasks. It works in the past and in the future.\n6. **Tools should redound their own redundancy.** Although it's still usable (5.), a tool should result in the disappearing of the problem or in the birth of better tools. A tool should become useless and disappear as fast as possible.\n\n> \"Only through open sources, open standards, human-readable formats and their independencies, might they survive this fleeting age of self-destructing informatics.\" ― Devine Lu Linvega",
-    "showonwiki": true,
-    "name": "manifesto",
-    "path": "/content/manifesto",
-    "url": "/manifesto",
     "files": {},
     "pages": {}
   },
@@ -209,6 +30,46 @@
         "path": "/content/wiki/workstation",
         "url": "/wiki/workstation",
         "source": "/content/wiki/workstation"
+      }
+    }
+  },
+  "/manifesto": {
+    "title": "Manifesto",
+    "view": "default",
+    "banner": true,
+    "text": "1. **Everything should be a tool.** A tool transforms data without adding to its original limitations. It's a function: returns an output for a given input.\n2. **A great tool is [ambient](https://are.na/alex-singh/ambient-product-design).** It should disappear and flow through your actions. You should never need it because it's always at your hands. You should never ignore it because it's never in your way.\n3. **Tools should be adaptable, changeable and personalisable**. If a tool does not perfectly fit your needs, you should be able to change, mix or remove its parts.\n4. **Data should be reusable, text-editable, human-readable.** Produces a higher chance that (1.) is passed.\n5. **Tools should be lightweight, available and timeless.** Computing power or internet speed shouldn't be the limitation for most tasks. It works in the past and in the future.\n6. **Tools should redound to their own redundancy.** Although it's still usable (5.), a tool should redound the total disappearing of the problem or the birth of better tools. A tool should become useless and disappear as fast as possible.\n\n> \"Only through open sources, open standards, human-readable formats and their independencies, might they survive this fleeting age of self-destructing informatics.\" ― Devine Lu Linvega",
+    "showonwiki": true,
+    "name": "manifesto",
+    "path": "/content/manifesto",
+    "url": "/manifesto",
+    "files": {},
+    "pages": {}
+  },
+  "/blog": {
+    "title": "Writings",
+    "view": "blog",
+    "name": "blog",
+    "path": "/content/blog",
+    "url": "/blog",
+    "files": {},
+    "pages": {
+      "ntain": {
+        "name": "ntain",
+        "path": "/content/blog/ntain",
+        "url": "/blog/ntain",
+        "source": "/content/blog/ntain"
+      },
+      "are-you-the-owner": {
+        "name": "are-you-the-owner",
+        "path": "/content/blog/are-you-the-owner",
+        "url": "/blog/are-you-the-owner",
+        "source": "/content/blog/are-you-the-owner"
+      },
+      "pictogon": {
+        "name": "pictogon",
+        "path": "/content/blog/pictogon",
+        "url": "/blog/pictogon",
+        "source": "/content/blog/pictogon"
       }
     }
   },
@@ -243,7 +104,7 @@
     "excerpt": "About peer-to-peer publishing.",
     "location": "Odorheiu Secuiesc",
     "visible": true,
-    "text": "On a free and loosely definable space, like the internet, the whole system's based on ownership. Different locations are owned by countries, corporations and people, just like on the surface of the Earth (though it's much more challening to draw the boundaries of the former).\n\nI have this vision about a utopian system where a piece of land has no owner ― it's free to use by anyone, but the permission is restricted to usage only. People are not allowed to expropriate the land ― that means no fence, no legal ownership. I know: this isn't a system that could be realized for many reasons (stealing, lowering soil quality, etc.), but it's a concept I like to think about. We could all work how much we want and get profit based on our effort (professions are metaphorically limited to agriculture). \n\nWe can also apply this to the context of the web.\n\n**What if no subspaces of the internet would be owned?** What is a *subspace* on the internet, anyway? First of all, it must be something that can be seen (metaphorically) as a space ― it's in \"READY state\"^1^ and its emptiness is its functionality. It also has some metadata in order to help you access and specify it (geolocation, IDs, URLs, ...).\n\nWe can initiate many spaces in a context by using different perspectives. As the web is a gigantic network of computers, I would see these ― the **computers** ― **as subspaces**.\n\n*In the HTTP universe* **1 computer** mostly equals to **1 site** as you can access it by the machine's IP address. This limits you in the number of sites you would like to publish: most hosting services don't sell cheap hosting plans for small and simple sites and it's also some time to setup them.\n\n*On the peer-to-peer web* you can start a site anarchistically, without depending on domain name registrars and cloud storage services. There's no need to own a piece of web-land, you're free to have as many sites as you want without the need to pay for anything ― and you don't need another computer besides your personal one.\n\nI see the peer-to-peer web similar to the utopia of not-owning. \n\n―\n\nThe `DatArchive` API has a brilliant function called `isOwner()`. It's very simple: returns `true` if the visitor is the owner of the site and `false` otherwise.\n\nThis removes the need of authentication.\n\nI've got interested in interfaces that use this powerful function. Most content management systems have an isolated panel / admin page, where through authentication you can get permission to edit the content. There's no need for this on the peer-to-peer web: the same interface ― under same `dat://` URL ― can be used to read and to edit the content, without any action from the user. The interface can automatically react to a visitor and to its owner.\n\nI've made two tools that use this concept: [orkl](https://github.com/kodedninja/orkl) and [solo](https://github.com/kodedninja/solo).\n\n<u>orkl</u>\n\nI wanted to build a peer-to-peer only blog (though, later I've included the `http://` accessibility too). [Orkl](https://orkl-kodedninja.hashbase.io) has a simple, text-focused blog interface. The index page shows all the published entries in a chronological order and that's all it can do. But when you want to start a blog, orkl is in ready state. No setup, no admin registration: just copy the site and you can start publishing.\n\nOther than the few buttons that appear for the owner, it's the same interface for the visitor.\n\n<u>solo</u>\n\n[Solo](https://solo-kodedninja.hashbase.io) is a publication tool for one-page pubications: the entries are not presented in a collective way, like on blogs, magazines. All the entries exist under different `dat://` URLs. When the owner visits the site the editor appears, when it's just a visitor, the formatted version of the text renders.\n\n---\n\n<u id=\"references\">References</u>\n\n1: [New Computers Working Group / Ready to Use](dat://newcomputers.group/ready2use.html)\n\n[Source of Orkl](https://github.com/kodedninja/orkl) | [Source of Solo](https://github.com/kodedninja/solo)",
+    "text": "On a free and loosely definable space, like the internet, the whole system's based on ownership. Different locations are owned by countries, corporations and people, just like on the surface of the Earth (though it's much more challening to draw the boundaries of the former).\n\nI have this vision about a utopian system where a piece of land has no owner ― it's free to use by anyone, but the permission is restricted to usage only. People are not allowed to expropriate the land ― that means no fence, no legal ownership. I know: this isn't a system that could be realized for many reasons (stealing, lowering soil quality, etc.), but it's a concept I like to think about. We could all work how much we want and get profit based on our effort (professions are metaphorically limited to agriculture). \n\nWe can also apply this to the context of the web.\n\n**What if no subspaces of the internet would be owned?** What is a *subspace* on the internet, anyway? First of all, it must be something that can be seen (metaphorically) as a space ― it's in \"READY state\"^1^ and its emptiness is its functionality. It also has some metadata in order to help you access and specify it (geolocation, IDs, URLs, ...).\n\nWe can initiate many spaces in a context by using different perspectives. As the web is a gigantic network of computers, I would see these ― the **computers** ― **as subspaces**.\n\n*In the HTTP universe* **1 computer** mostly equals to **1 site** as you can access it by the machine's IP address. This limits you in the number of sites you would like to publish: most hosting services don't sell cheap hosting plans for small and simple sites and it's also some time to setup them.\n\n*On the peer-to-peer web* you can start a site anarchistically, without depending on domain name registrars and cloud storage services. There's no need to own a piece of web-land, you're free to have as many sites as you want without the need to pay for anything ― and you don't need another computer besides your personal one.\n\nI see the peer-to-peer web similar to the utopia of not-owning. \n\n―\n\nThe `DatArchive` API has a brilliant function called `isOwner()`. It's very simple: returns `true` if the visitor is the owner of the site and `false` otherwise.\n\nThis removes the need of authentication.\n\nI've got interested in interfaces that use this powerful function. Most content management systems have an isolated panel / admin page, where through authentication you can get permission to edit the content. There's no need for this on the peer-to-peer web: the same interface ― under same `dat://` URL ― can be used to read and to edit the content, without any action from the user. The interface can automatically react to a visitor and to its owner.\n\nI've made two tools that use this concept: [orkl](https://github.com/kodedninja/orkl) and [solo](https://github.com/kodedninja/solo).\n\n### orkl\n\nI wanted to build a peer-to-peer only blog (though, later I've included the `http://` accessibility too). [Orkl](https://orkl-kodedninja.hashbase.io) has a simple, text-focused blog interface. The index page shows all the published entries in a chronological order and that's all it can do. But when you want to start a blog, orkl is in ready state. No setup, no admin registration: just copy the site and you can start publishing.\n\nOther than the few buttons that appear for the owner, it's the same interface for the visitor.\n\n### solo\n\n[Solo](https://solo-kodedninja.hashbase.io) is a publication tool for one-page pubications: the entries are not presented in a collective way, like on blogs, magazines. All the entries exist under different `dat://` URLs. When the owner visits the site the editor appears, when it's just a visitor, the formatted version of the text renders.\n\n---\n\n### References\n\n1. [New Computers Working Group / Ready to Use](dat://newcomputers.group/ready2use.html)",
     "name": "are-you-the-owner",
     "path": "/content/blog/are-you-the-owner",
     "url": "/blog/are-you-the-owner",
@@ -253,52 +114,23 @@
   "/": {
     "title": "Hunor Karamán",
     "view": "home",
-    "info": "",
-    "currently": "",
-    "previously": "",
-    "text": "I’m a developer working on experimental projects with small footprint,  fast websites & solutions for the peer-to-peer web.\n\n---\n\n## Currently\n\nWeb-developer at [GeoGebra](https://geogebra.org)\nExperimenting with [peer-to-peer tools](/p2p)\n\n## Previously\n\nCo-Made Pictogon\n\n---\n\nI'm present on [GitHub](https://github.com/kodedninja), [Are.na](https://are.na/hunor-karaman) and [Mastodon](https://merveilles.town/@kodedninja).\nYou can contact me via [email](mailto:karamanhunor@pm.me).\n\nEverything I make should pass most of the criterias in my [Manifesto](/manifesto).\n\nI’m a peer.\n\n---\n\nBuilt with Enoki & Choo.\n\n<span class=\"wwb\">dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/</span>",
-    "banner": "*",
-    "bannerurl": "",
+    "text": "I’m a _digital explorer_ working on experimental projects with small footprint,  fast websites & solutions for the peer-to-peer web.\n\n---\n\n## Currently\n\nWeb-developer at [GeoGebra](https://geogebra.org)\nExperimenting with [peer-to-peer tools](/p2p)\n\n## Previously\n\nCo-Made [Pictogon](https://pictogon.com)\n\n---\n\nI'm present on [GitHub](https://github.com/kodedninja), [Are.na](https://are.na/hunor-karaman), [Reading Supply](https://reading.supply/@kodedninja) and [Mastodon](https://merveilles.town/@kodedninja).\nYou can contact me via [email](mailto:karamanhunor@pm.me).\n\nEverything I make should pass most of the criterias in my [Manifesto](/manifesto).\n\nI’m a peer.\n\n---\n\nBuilt with Enoki & Choo.\n\n<span class=\"wwb\">dat://1b9594143dae9cd607c799db493eab099514923ea4256ac847ed667d23015974/</span>",
     "name": "content",
     "path": "/content",
     "url": "/",
     "files": {},
     "pages": {
-      "about": {
-        "name": "about",
-        "path": "/content/about",
-        "url": "/about",
-        "source": "/content/about"
-      },
-      "thanks": {
-        "name": "thanks",
-        "path": "/content/thanks",
-        "url": "/thanks",
-        "source": "/content/thanks"
-      },
-      "0x22": {
-        "name": "0x22",
-        "path": "/content/0x22",
-        "url": "/0x22",
-        "source": "/content/0x22"
-      },
-      "blog": {
-        "name": "blog",
-        "path": "/content/blog",
-        "url": "/blog",
-        "source": "/content/blog"
-      },
-      "projects": {
-        "name": "projects",
-        "path": "/content/projects",
-        "url": "/projects",
-        "source": "/content/projects"
-      },
       "p2p": {
         "name": "p2p",
         "path": "/content/p2p",
         "url": "/p2p",
         "source": "/content/p2p"
+      },
+      "wiki": {
+        "name": "wiki",
+        "path": "/content/wiki",
+        "url": "/wiki",
+        "source": "/content/wiki"
       },
       "manifesto": {
         "name": "manifesto",
@@ -306,189 +138,13 @@
         "url": "/manifesto",
         "source": "/content/manifesto"
       },
-      "wiki": {
-        "name": "wiki",
-        "path": "/content/wiki",
-        "url": "/wiki",
-        "source": "/content/wiki"
+      "blog": {
+        "name": "blog",
+        "path": "/content/blog",
+        "url": "/blog",
+        "source": "/content/blog"
       }
     }
-  },
-  "/projects/bik": {
-    "title": "bik",
-    "view": "project",
-    "description": "Tiny library for isolated web components",
-    "dates": "April 2018",
-    "priority": "7",
-    "text": "I love [choo](https://github.com/choojs/coo), but sometimes it's too much. For example when I want to use a simple component in a static site. I was too lazy to find a module for that so I've built one.\n\nUses [nanomorph](https://github.com/choojs/nanomorph) under the hood.\n\n<u>installation</u>\n\n`npm i -S bik`\n\n<u>documentation</u>\n\nOn Github.",
-    "github": "https://github.com/kodedninja/bik",
-    "npm": "https://npmjs.com/package/bik",
-    "name": "bik",
-    "path": "/content/projects/bik",
-    "url": "/projects/bik",
-    "files": {},
-    "pages": {}
-  },
-  "/projects/cereal": {
-    "title": "cereal",
-    "view": "project",
-    "description": "A context-based encryption scheme",
-    "dates": "January 2018",
-    "priority": "3",
-    "text": "Cereal is an encryption scheme based on the AES256 symmetric algorithm.\\\nThe keys never leave the two instances and they always change.\n\n[More details](https://github.com/kodedninja/cereal)",
-    "github": "https://github.com/kodedninja/cereal",
-    "npm": "https://www.npmjs.com/package/crl",
-    "name": "cereal",
-    "path": "/content/projects/cereal",
-    "url": "/projects/cereal",
-    "files": {},
-    "pages": {}
-  },
-  "/projects/ntain": {
-    "title": "ntain",
-    "view": "project",
-    "dates": "November ― December 2017",
-    "priority": "2",
-    "description": "A peer-to-peer file sharing application based on Beaker",
-    "text": "Ntain was my first try in making a peer-to-peer application based on Beaker Browser. I love it's design, but it misses many functionalities.\n\nYou can use it by forking ```dat://ntain-kodedninja.hashbase.io``` in [Beaker](https://beakerbrowser.com).",
-    "github": "https://github.com/kodedninja/ntain",
-    "website": "dat://ntain-kodedninja.hashbase.io",
-    "name": "ntain",
-    "path": "/content/projects/ntain",
-    "url": "/projects/ntain",
-    "files": {},
-    "pages": {}
-  },
-  "/projects/odot": {
-    "title": "odot",
-    "view": "project",
-    "description": "A CLI to-do list tool",
-    "dates": "May ― November 2017",
-    "priority": "0",
-    "text": "odot is a really simple checklist command line tool. It's pretty dumb, but I'll work on it. It makes todoing very comfortable through short commands.\n\n#### Installation: ```npm install -g odotlist```\n\n[Usage documentation](https://github.com/kodedninja/odot/blob/master/README.md)",
-    "github": "https://github.com/kodedninja/odot",
-    "npm": "https://www.npmjs.com/package/odotlist",
-    "name": "odot",
-    "path": "/content/projects/odot",
-    "url": "/projects/odot",
-    "files": {},
-    "pages": {}
-  },
-  "/projects/stacked": {
-    "title": "stacked",
-    "view": "project",
-    "priority": "10",
-    "description": "A distraction-free project management tool",
-    "github": "https://github.com/kodedninja/stacked",
-    "text": "If you hate using a service that depends on your connectivity for project management (\"todo-listing\") and you think sticky-notes aren't eco-friendly + too physical, you're like me and you'll like Stacked.\n\nStacked is a project management tool based on [Beaker Browser](https://beakerbrowser.com) and [DAT](https://datproject.org), meaning that you own all your data and you don't depend on the cloud (which in many cases isn't available).",
-    "dates": "July 2018 ― present",
-    "name": "stacked",
-    "path": "/content/projects/stacked",
-    "url": "/projects/stacked",
-    "files": {},
-    "pages": {}
-  },
-  "/0x22/glacio": {
-    "title": "glacio",
-    "view": "album",
-    "released": "2017-12-14",
-    "tracks": [
-      "December",
-      "I don't know my feelings"
-    ],
-    "text": "[Bandcamp](https://0x22.bandcamp.com/album/glacio)\n\ni love winter\\\nand the cold and the snow\\\nand i love the sound of the ice\\\nbreaking itself on the stone\n\n\"December\" was written in December, 2017.\\\n\"I don't know my feelings\" was written in February, 2017 (found the file now).",
-    "name": "glacio",
-    "path": "/content/0x22/glacio",
-    "url": "/0x22/glacio",
-    "files": {
-      "cover.jpg": {
-        "name": "cover",
-        "path": "/content/0x22/glacio/cover.jpg",
-        "url": "/0x22/glacio/cover.jpg",
-        "source": "dat://11f84fe55630f24f51d3ae446de2c26c94a8ecd9eb8a9bfdda37b175cecc0711/content/0x22/glacio/cover.jpg",
-        "extension": ".jpg",
-        "filename": "cover.jpg",
-        "type": "image"
-      }
-    },
-    "pages": {}
-  },
-  "/0x22/it-was-dawn-when-the-old-man-died": {
-    "title": "It was dawn when the old man died",
-    "view": "album",
-    "released": "2017-10-01",
-    "tracks": [
-      "It was dawn when the old man died I.",
-      "It was dawn when the old man died II."
-    ],
-    "text": "[Bandcamp](https://0x22.bandcamp.com/album/it-was-dawn-when-the-old-man-died)\n\nAt dawn warmer waves arrive to the surface of Earth. They break up into millions of other waves, then return into the atmosphere. These waves are the reason that life exists on Earth. These waves our the reason why we die.\n\n\"It was dawn when the old man died I.\" presents 3 perspectives of a dawn. Is just a simple dawn the same for a dying man, for a couple or for a child? Is it the same for you and me?\n\n\"It was dawn when the old man died II.\" is an experimental slowed down version of the first track. Doesn't sure which one describes more the concept.",
-    "name": "it-was-dawn-when-the-old-man-died",
-    "path": "/content/0x22/it-was-dawn-when-the-old-man-died",
-    "url": "/0x22/it-was-dawn-when-the-old-man-died",
-    "files": {
-      "itwasdawn.png": {
-        "name": "itwasdawn",
-        "path": "/content/0x22/it-was-dawn-when-the-old-man-died/itwasdawn.png",
-        "url": "/0x22/it-was-dawn-when-the-old-man-died/itwasdawn.png",
-        "source": "dat://11f84fe55630f24f51d3ae446de2c26c94a8ecd9eb8a9bfdda37b175cecc0711/content/0x22/it-was-dawn-when-the-old-man-died/itwasdawn.png",
-        "extension": ".png",
-        "filename": "itwasdawn.png",
-        "type": "image"
-      }
-    },
-    "pages": {}
-  },
-  "/0x22/metaphases": {
-    "title": "Metaphases",
-    "view": "album",
-    "released": "2017-12-23",
-    "tracks": [
-      "Metaphases"
-    ],
-    "text": "[Bandcamp](https://0x22.bandcamp.com/album/metaphases)\n\nRecorded in December 2017. All music by 0x22.",
-    "name": "metaphases",
-    "path": "/content/0x22/metaphases",
-    "url": "/0x22/metaphases",
-    "files": {
-      "covermountinas.jpg": {
-        "name": "covermountinas",
-        "path": "/content/0x22/metaphases/covermountinas.jpg",
-        "url": "/0x22/metaphases/covermountinas.jpg",
-        "source": "dat://11f84fe55630f24f51d3ae446de2c26c94a8ecd9eb8a9bfdda37b175cecc0711/content/0x22/metaphases/covermountinas.jpg",
-        "extension": ".jpg",
-        "filename": "covermountinas.jpg",
-        "type": "image"
-      }
-    },
-    "pages": {}
-  },
-  "/0x22/with-love-from-very-small-places": {
-    "title": "With love from very small places",
-    "view": "album",
-    "released": "2017-11-14",
-    "tracks": [
-      "Moon Shadow",
-      "Silhouettes",
-      "Spaces",
-      "Hearts and Magnets",
-      "Sun Light"
-    ],
-    "text": "[Bandcamp](https://0x22.bandcamp.com/album/with-love-from-very-small-places)\n\nIn life sometimes we stuck into small places, places that make us feel closed and paralysed. Will a hand help you out from there?\n\n\"With love from very small places\" is a concept album, written for my girlfriend for our anniversary. It's a journey to the surface from somewhere below. From a very small place.",
-    "name": "with-love-from-very-small-places",
-    "path": "/content/0x22/with-love-from-very-small-places",
-    "url": "/0x22/with-love-from-very-small-places",
-    "files": {
-      "smallplaces.png": {
-        "name": "smallplaces",
-        "path": "/content/0x22/with-love-from-very-small-places/smallplaces.png",
-        "url": "/0x22/with-love-from-very-small-places/smallplaces.png",
-        "source": "dat://11f84fe55630f24f51d3ae446de2c26c94a8ecd9eb8a9bfdda37b175cecc0711/content/0x22/with-love-from-very-small-places/smallplaces.png",
-        "extension": ".png",
-        "filename": "smallplaces.png",
-        "type": "image"
-      }
-    },
-    "pages": {}
   },
   "/blog/ntain": {
     "title": "ntain ― a peer-to-peer file sharing site",
@@ -520,7 +176,7 @@
     "date": "2017-10-20",
     "location": "Odorheiu Secuiesc",
     "excerpt": "Once upon a time images appeared on websites with interactive areas inside. They were called _image maps_.",
-    "text": "\"In HTML and XHTML, an image map is a list of coordinates relating to a specific image, created in order to hyperlink areas of the image to different destinations (as opposed to a normal image link, in which the entire area of the image links to a single destination).\" ― [Wikipedia](https://en.wikipedia.org/wiki/Image_map)\n\nI think image maps actualized a desire many of us have: to make something eternally static (object, image) interactive and alive. Sadly, they didn't spread out on the web and searching for clickable areas on an image isn't a habbit. The reason behind these might be the timing and the tools of the age. If you check the [\"Creation and use section\"](https://en.wikipedia.org/wiki/Image_map#Creation_and_use) of the Wikipedia article, you'll see that the recommended programs for image map creation are Dreamweaver, KDE and GIMP (with a plugin). Tools that aren't used anymore or took a turn in an other direction.\n\nDuring the summer of 2017, together with my friend and mentor [Csaba](https://codecanyon.net/user/sekler) we've created [Pictogon](https://pictogon.com) ― a modern image map editor.\n\n![A screenshot of the Pictogon interface](/content/blog/pictogon/Pictogon.png)\n\nIt was fun not only because we built a finished product from scratch in a relatively short period of time, but also because it was the first larger-scale project I've worked on (as for most 18 years olds). As it was just a secondary project for Csaba, I designed the whole infrastructure, built the backend and a part of the front-end, while he designed and coordinated everything with precision. I even built a working recurring billing system!\n\nWe tried to keep everything as simple as possible. An image map editor shouldn't be complicated anyways. You have an image → draw some polygons on it → set their content → save → get the embed code or download → put it onto your website.\n\nWe've also experimented with alternative solutions for the upcoming problems (some of them worked out, some of the didn't). For example we didn't want to spend energy, money and computing power on hosting images. They're large and there are enough hosting services on the web (most users have a website with its own storage, why would they also pay for storing images somewhere else?). So you can only input the URL of an image as a starting point. Pictogon will never store the file, it's just a middle layer, between an image and the frontend, that turns the former into an interactive object.\n\nWe decided to let users download the result and handle the embedding part by themselves. **It's a tool, not a platform.**\n\nWe've released Pictogon (into the wild) on 5. October via [Product Hunt](https://www.producthunt.com/posts/pictogon) (which is the only marketing we've done) and luckily people liked it. So much that it became \"Product of the Day\" and \"#3 Product of the Week\".\n\n<u>Technical details</u>\n\nThe image maps are `<svg>` elements with the image, a bunch of polygons and a script inside.\n\nThe frontend was built with [jQuery](https://jquery.com) (I know, it wasn't my decision), the editor was built by us from the ground up. The backend is vanilla PHP.\n\n---\n\n<u>Update</u> \n\nAs of today ― November 02, 2018 ― Pictogon is a settling puddle in our hearts. After its successful launch we were motivated for a few months, but we've started to neglect and don't care. Maybe, it wasn't fully finished at the release and we were tired of it to finish afterwards. I also started digging into building for the peer-to-peer web around that time (and haven't stopped since then). I love this product and hope that someday I can, maybe, rebuild it and relaunch it. Pictogon 2.0, sometime, maybe.",
+    "text": "\"In HTML and XHTML, an image map is a list of coordinates relating to a specific image, created in order to hyperlink areas of the image to different destinations (as opposed to a normal image link, in which the entire area of the image links to a single destination).\" ― [Wikipedia](https://en.wikipedia.org/wiki/Image_map)\n\nI think image maps actualized a desire many of us have: to make something eternally static (object, image) interactive and alive. Sadly, they didn't spread out on the web and searching for clickable areas on an image isn't a habbit. The reason behind these might be the timing and the tools of the age. If you check the [\"Creation and use section\"](https://en.wikipedia.org/wiki/Image_map#Creation_and_use) of the Wikipedia article, you'll see that the recommended programs for image map creation are Dreamweaver, KDE and GIMP (with a plugin). Tools that aren't used anymore or took a turn in an other direction.\n\nDuring the summer of 2017, together with my friend and mentor [Csaba](https://codecanyon.net/user/sekler) we've created [Pictogon](https://pictogon.com) ― a modern image map editor.\n\n![A screenshot of the Pictogon interface](/content/blog/pictogon/Pictogon.png)\n\nIt was fun not only because we built a finished product from scratch in a relatively short period of time, but also because it was the first larger-scale project I've worked on (as for most 18 years olds). As it was just a secondary project for Csaba, I designed the whole infrastructure, built the backend and a part of the front-end, while he designed and coordinated everything with precision. I even built a working recurring billing system!\n\nWe tried to keep everything as simple as possible. An image map editor shouldn't be complicated anyways. You have an image → draw some polygons on it → set their content → save → get the embed code or download → put it onto your website.\n\nWe've also experimented with alternative solutions for the upcoming problems (some of them worked out, some of the didn't). For example we didn't want to spend energy, money and computing power on hosting images. They're large and there are enough hosting services on the web (most users have a website with its own storage, why would they also pay for storing images somewhere else?). So you can only input the URL of an image as a starting point. Pictogon will never store the file, it's just a middle layer, between an image and the frontend, that turns the former into an interactive object.\n\nWe decided to let users download the result and handle the embedding part by themselves. **It's a tool, not a platform.**\n\nWe've released Pictogon (into the wild) on 5. October via [Product Hunt](https://www.producthunt.com/posts/pictogon) (which is the only marketing we've done) and luckily people liked it. So much that it became \"Product of the Day\" and \"#3 Product of the Week\".\n\n### Technical details\n\nThe image maps are `<svg>` elements with the image, a bunch of polygons and a script inside.\n\nThe frontend was built with [jQuery](https://jquery.com) (I know, it wasn't my decision), the editor was built by us from the ground up. The backend is vanilla PHP.\n\n---\n\n### Update\n\nAs of today ― November 02, 2018 ― Pictogon is a settling puddle in our hearts. After its successful launch we were motivated for a few months, but we've started to neglect and don't care. Maybe, it wasn't fully finished at the release and we were tired of it to finish afterwards. I also started digging into building for the peer-to-peer web around that time (and haven't stopped since then). I love this product and hope that someday I can, maybe, rebuild it and relaunch it. Pictogon 2.0, sometime, maybe.",
     "visible": true,
     "name": "pictogon",
     "path": "/content/blog/pictogon",
@@ -533,200 +189,6 @@
         "source": "dat://11f84fe55630f24f51d3ae446de2c26c94a8ecd9eb8a9bfdda37b175cecc0711/content/blog/pictogon/Pictogon.png",
         "extension": ".png",
         "filename": "Pictogon.png",
-        "type": "image"
-      }
-    },
-    "pages": {}
-  },
-  "/projects/freemium": {
-    "title": "freemium",
-    "view": "project",
-    "dates": "January 2018",
-    "priority": "4",
-    "description": "Firefox and Chrome addon that removes premium articles from Medium",
-    "text": "Freemium replaces premium articles with nice and beautiful whitespace.\n\n[Add to Mozilla](https://addons.mozilla.org/en-US/firefox/addon/freemium/)",
-    "github": "https://github.com/kodedninja/freemium",
-    "name": "freemium",
-    "path": "/content/projects/freemium",
-    "url": "/projects/freemium",
-    "files": {
-      "Screenshot-2017-12-19 Medium – Read, write and share stories that matter.png": {
-        "name": "Screenshot-2017-12-19 Medium – Read, write and share stories that matter",
-        "path": "/content/projects/freemium/Screenshot-2017-12-19 Medium – Read, write and share stories that matter.png",
-        "url": "/projects/freemium/Screenshot-2017-12-19 Medium – Read, write and share stories that matter.png",
-        "source": "dat://11f84fe55630f24f51d3ae446de2c26c94a8ecd9eb8a9bfdda37b175cecc0711/content/projects/freemium/Screenshot-2017-12-19 Medium – Read, write and share stories that matter.png",
-        "extension": ".png",
-        "filename": "Screenshot-2017-12-19 Medium – Read, write and share stories that matter.png",
-        "type": "image"
-      }
-    },
-    "pages": {}
-  },
-  "/projects/microne": {
-    "title": "MICRONE",
-    "view": "project",
-    "dates": "March 2018",
-    "priority": "5",
-    "description": "A tiny, minimalistic JS music player",
-    "text": "A tiny, minimalistic JS music player. It's around **2 kilobytes** and it's **xx beautiful**.\n\n[See more](https://github.com/kodedninja/microne)",
-    "github": "https://github.com/kodedninja/microne",
-    "website": "https://microne.now.sh",
-    "name": "microne",
-    "path": "/content/projects/microne",
-    "url": "/projects/microne",
-    "files": {
-      "microne-screenshot.png": {
-        "name": "microne-screenshot",
-        "path": "/content/projects/microne/microne-screenshot.png",
-        "url": "/projects/microne/microne-screenshot.png",
-        "source": "dat://11f84fe55630f24f51d3ae446de2c26c94a8ecd9eb8a9bfdda37b175cecc0711/content/projects/microne/microne-screenshot.png",
-        "extension": ".png",
-        "filename": "microne-screenshot.png",
-        "type": "image"
-      }
-    },
-    "pages": {}
-  },
-  "/projects/orkl": {
-    "title": "orkl",
-    "view": "project",
-    "dates": "April 2018 ― present",
-    "priority": "8",
-    "description": "Super simple peer-to-peer blogging site",
-    "text": "I wanted to build a peer-to-peer only blog; kind of like the p2p child of Svbtle and Telegra.ph. Fell in love with the idea of a site, which feels the same for the writer and the reader. The only difference is that the writer can change the content and the reader can't. Thanks to [Dat](https://datproject.org/), we can easily decide if a computer is the owner or not of a site.\n\norkl is also 100% dynamic, so it's basically just a bunch of ```txt``` files (using [smarkt](https://github.com/jondashkyle/smarkt)) = no site generation or building.\n\n---\n\n<u>Usage</u>\n\nThe magic of Beaker Browser is the possibility to fork a site. To get started you can fork any orkl site, but for the sake of simplicity we will use an empty site I've made.\n\n- Download [Beaker Browser](https://beakerbrowser.com)\n- Navigate to [dat://orkl-kodedninja.hashbase.io](dat://orkl-kodedninja.hashbase.io)\n- Find the \"Fork this site\" button, click it and fill out with your information\n- Navigate to your site\n- Edit the site's dat.json, adding `\"fallback_page\": \"index.html\"`\n- Read the \"How to use orkl?\" entry",
-    "github": "https://github.com/kodedninja/orkl",
-    "website": "https://orkl-kodedninja.hashbase.io",
-    "name": "orkl",
-    "path": "/content/projects/orkl",
-    "url": "/projects/orkl",
-    "files": {
-      "Screenshot from 2018-03-02 23-22-37.png": {
-        "name": "Screenshot from 2018-03-02 23-22-37",
-        "path": "/content/projects/orkl/Screenshot from 2018-03-02 23-22-37.png",
-        "url": "/projects/orkl/Screenshot from 2018-03-02 23-22-37.png",
-        "source": "dat://11f84fe55630f24f51d3ae446de2c26c94a8ecd9eb8a9bfdda37b175cecc0711/content/projects/orkl/Screenshot from 2018-03-02 23-22-37.png",
-        "extension": ".png",
-        "filename": "Screenshot from 2018-03-02 23-22-37.png",
-        "type": "image"
-      },
-      "Screenshot from 2018-03-02 23-26-04.png": {
-        "name": "Screenshot from 2018-03-02 23-26-04",
-        "path": "/content/projects/orkl/Screenshot from 2018-03-02 23-26-04.png",
-        "url": "/projects/orkl/Screenshot from 2018-03-02 23-26-04.png",
-        "source": "dat://11f84fe55630f24f51d3ae446de2c26c94a8ecd9eb8a9bfdda37b175cecc0711/content/projects/orkl/Screenshot from 2018-03-02 23-26-04.png",
-        "extension": ".png",
-        "filename": "Screenshot from 2018-03-02 23-26-04.png",
-        "type": "image"
-      }
-    },
-    "pages": {}
-  },
-  "/projects/pictogon": {
-    "title": "Pictogon",
-    "view": "project",
-    "dates": "June ― September 2017",
-    "priority": "1",
-    "description": "A modern image map editor",
-    "text": "Pictogon is a simple solution to make interactive images and embed them into webpages.\n\nI've built the back-end and a part of the front-end editor. It's a small, yet functional tool and building it was an unforgettable experience. You think differently when you write code that thousands of people will use and you must be safe about payments and about a whole infrastructure.\n\nI co-create it with Csaba, the creator of [Mapplic](http://www.mapplic.com), my good friend and mentor.",
-    "website": "https://pictogon.com",
-    "name": "pictogon",
-    "path": "/content/projects/pictogon",
-    "url": "/projects/pictogon",
-    "files": {
-      "Screenshot-2018-3-2 Pictogon.png": {
-        "name": "Screenshot-2018-3-2 Pictogon",
-        "path": "/content/projects/pictogon/Screenshot-2018-3-2 Pictogon.png",
-        "url": "/projects/pictogon/Screenshot-2018-3-2 Pictogon.png",
-        "source": "dat://11f84fe55630f24f51d3ae446de2c26c94a8ecd9eb8a9bfdda37b175cecc0711/content/projects/pictogon/Screenshot-2018-3-2 Pictogon.png",
-        "extension": ".png",
-        "filename": "Screenshot-2018-3-2 Pictogon.png",
-        "type": "image"
-      }
-    },
-    "pages": {}
-  },
-  "/projects/ridder": {
-    "title": "ridder",
-    "view": "project",
-    "dates": "April ― May 2018",
-    "priority": "6",
-    "description": "An RSS reader that you own",
-    "text": "Ridder was made to make content reading transparent and controllable. It's an RSS reader completely owned and run by you, there's no server in the cloud to connect to.\n\nThere's no middleman to filter or track what you read.\n\nCurrently in pre-alpha.",
-    "github": "https://github.com/kodedninja/ridder",
-    "website": "https://ridder-kodedninja.hashbase.io",
-    "name": "ridder",
-    "path": "/content/projects/ridder",
-    "url": "/projects/ridder",
-    "files": {
-      "Screenshot from 2018-04-05 16-29-36.png": {
-        "name": "Screenshot from 2018-04-05 16-29-36",
-        "path": "/content/projects/ridder/Screenshot from 2018-04-05 16-29-36.png",
-        "url": "/projects/ridder/Screenshot from 2018-04-05 16-29-36.png",
-        "source": "dat://11f84fe55630f24f51d3ae446de2c26c94a8ecd9eb8a9bfdda37b175cecc0711/content/projects/ridder/Screenshot from 2018-04-05 16-29-36.png",
-        "extension": ".png",
-        "filename": "Screenshot from 2018-04-05 16-29-36.png",
-        "type": "image"
-      }
-    },
-    "pages": {}
-  },
-  "/projects/seeder": {
-    "title": "seeder",
-    "view": "project",
-    "description": "Raspberry Pi DAT seeder",
-    "dates": "April 2018 ― present",
-    "priority": "9",
-    "text": "There are 2 problems with the availability of sites on the **dat://** protocol: 1.) if you turn off your computer and nobody's seeding it, it'll be unaccessible 2.) if everyone solves this with a seeding service ([Hashbase](https://hashbase.io)) the whole network will start to become more centralized.\n\nAn alternative is setting up a seeding service for yourself. A [Raspberry Pi](https://raspberrypi.org) runs super power-efficiently and it's powerful enough to seed DAT archives. \n\n**Seeder** tries to be a plug-and-play, ready-to-use DAT seeder service. With a 1-command installer and frontend designed for non-tech people it's the simplest personal seeding service.\n\nDeveloped as part of the [New Computer Working Group](https://newcomputers.group).",
-    "tags": [
-      "selected"
-    ],
-    "github": "https://github.com/new-computers/seeder",
-    "website": "https://newcomputers.group/seeder",
-    "name": "seeder",
-    "path": "/content/projects/seeder",
-    "url": "/projects/seeder",
-    "files": {
-      "image.png": {
-        "name": "image",
-        "path": "/content/projects/seeder/image.png",
-        "url": "/projects/seeder/image.png",
-        "source": "dat://11f84fe55630f24f51d3ae446de2c26c94a8ecd9eb8a9bfdda37b175cecc0711/content/projects/seeder/image.png",
-        "extension": ".png",
-        "filename": "image.png",
-        "type": "image"
-      }
-    },
-    "pages": {}
-  },
-  "/projects/solo": {
-    "title": "solo",
-    "view": "project",
-    "dates": "March ― April 2018",
-    "priority": "5",
-    "description": "The simplest publishing tool",
-    "text": "Solo is a publishing tool based on the [Beaker Browser](https://beakerbrowser.com) and the Dat protocol.\n\nThe main inspiration was [Telegra.ph](http://telegra.ph). Every entry is under a different Dat URL and there's no index page like on blogs or publishing platforms.\n\nOnly *disconnected texts* that centralize in the author's mind.\n\nSolo is a simplified version of [orkl](/projects/orkl).",
-    "github": "https://github.com/kodedninja/solo",
-    "website": "https://solo-kodedninja.hashbase.io",
-    "name": "solo",
-    "path": "/content/projects/solo",
-    "url": "/projects/solo",
-    "files": {
-      "Screenshot-2018-3-25 solo.png": {
-        "name": "Screenshot-2018-3-25 solo",
-        "path": "/content/projects/solo/Screenshot-2018-3-25 solo.png",
-        "url": "/projects/solo/Screenshot-2018-3-25 solo.png",
-        "source": "dat://11f84fe55630f24f51d3ae446de2c26c94a8ecd9eb8a9bfdda37b175cecc0711/content/projects/solo/Screenshot-2018-3-25 solo.png",
-        "extension": ".png",
-        "filename": "Screenshot-2018-3-25 solo.png",
-        "type": "image"
-      },
-      "soloedit.png": {
-        "name": "soloedit",
-        "path": "/content/projects/solo/soloedit.png",
-        "url": "/projects/solo/soloedit.png",
-        "source": "dat://11f84fe55630f24f51d3ae446de2c26c94a8ecd9eb8a9bfdda37b175cecc0711/content/projects/solo/soloedit.png",
-        "extension": ".png",
-        "filename": "soloedit.png",
         "type": "image"
       }
     },

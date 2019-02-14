@@ -36,20 +36,18 @@ I've got interested in interfaces that use this powerful function. Most content 
 
 I've made two tools that use this concept: [orkl](https://github.com/kodedninja/orkl) and [solo](https://github.com/kodedninja/solo).
 
-<u>orkl</u>
+### orkl
 
 I wanted to build a peer-to-peer only blog (though, later I've included the `http://` accessibility too). [Orkl](https://orkl-kodedninja.hashbase.io) has a simple, text-focused blog interface. The index page shows all the published entries in a chronological order and that's all it can do. But when you want to start a blog, orkl is in ready state. No setup, no admin registration: just copy the site and you can start publishing.
 
 Other than the few buttons that appear for the owner, it's the same interface for the visitor.
 
-<u>solo</u>
+### solo
 
 [Solo](https://solo-kodedninja.hashbase.io) is a publication tool for one-page pubications: the entries are not presented in a collective way, like on blogs, magazines. All the entries exist under different `dat://` URLs. When the owner visits the site the editor appears, when it's just a visitor, the formatted version of the text renders.
 
 ---
 
-<u id="references">References</u>
+### References
 
-1: [New Computers Working Group / Ready to Use](dat://newcomputers.group/ready2use.html)
-
-[Source of Orkl](https://github.com/kodedninja/orkl) | [Source of Solo](https://github.com/kodedninja/solo)
+1. [New Computers Working Group / Ready to Use](dat://newcomputers.group/ready2use.html)

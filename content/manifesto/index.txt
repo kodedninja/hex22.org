@@ -9,7 +9,7 @@ text: 1. **Everything should be a tool.** A tool transforms data without adding 
 3. **Tools should be adaptable, changeable and personalisable**. If a tool does not perfectly fit your needs, you should be able to change, mix or remove its parts.
 4. **Data should be reusable, text-editable, human-readable.** Produces a higher chance that (1.) is passed.
 5. **Tools should be lightweight, available and timeless.** Computing power or internet speed shouldn't be the limitation for most tasks. It works in the past and in the future.
-6. **Tools should redound to their own redundancy.** Although it's still usable (5.), a tool should result in the disappearing of the problem or in the birth of better tools. A tool should become useless and disappear as fast as possible.
+6. **Tools should redound to their own redundancy.** Although it's still usable (5.), a tool should redound the total disappearing of the problem or the birth of better tools. A tool should become useless and disappear as fast as possible.
 
 > "Only through open sources, open standards, human-readable formats and their independencies, might they survive this fleeting age of self-destructing informatics." ― Devine Lu Linvega
 ----

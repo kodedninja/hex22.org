@@ -26,7 +26,7 @@ We decided to let users download the result and handle the embedding part by the
 
 We've released Pictogon (into the wild) on 5. October via [Product Hunt](https://www.producthunt.com/posts/pictogon) (which is the only marketing we've done) and luckily people liked it. So much that it became "Product of the Day" and "#3 Product of the Week".
 
-<u>Technical details</u>
+### Technical details
 
 The image maps are `<svg>` elements with the image, a bunch of polygons and a script inside.
 
@@ -34,7 +34,7 @@ The frontend was built with [jQuery](https://jquery.com) (I know, it wasn't my d
 
 ---
 
-<u>Update</u> 
+### Update
 
 As of today ― November 02, 2018 ― Pictogon is a settling puddle in our hearts. After its successful launch we were motivated for a few months, but we've started to neglect and don't care. Maybe, it wasn't fully finished at the release and we were tired of it to finish afterwards. I also started digging into building for the peer-to-peer web around that time (and haven't stopped since then). I love this product and hope that someday I can, maybe, rebuild it and relaunch it. Pictogon 2.0, sometime, maybe.
 ----
