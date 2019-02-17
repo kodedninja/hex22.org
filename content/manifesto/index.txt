@@ -14,3 +14,5 @@ text: 1. **Everything should be a tool.** A tool transforms data without adding 
 > "Only through open sources, open standards, human-readable formats and their independencies, might they survive this fleeting age of self-destructing informatics." ― Devine Lu Linvega
 ----
 showonwiki: true
+----
+short: Rules to obey while making
