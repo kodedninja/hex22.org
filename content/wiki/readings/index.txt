@@ -2,7 +2,9 @@ title: Readings
 ----
 view: default
 ----
-text: <u>2019</u>
+text: For the books I'm planning to read visit [this channel](https://www.are.na/hunor-karaman/want-to-read-sncwjrjztha) on Are.na.
+
+<u>2019</u>
 
 Haruki Murakami ― **"Hard-Boiled Wonderland and the End Of The World"** _(recommended)_
 Franz Enzenhofer ― **"Understanding SEO"**
