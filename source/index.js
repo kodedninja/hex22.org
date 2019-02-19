@@ -6,6 +6,7 @@ require('./design')
 var app = choo()
 app.use(require('enoki/choo')())
 app.use(require('./plugins/scroll'))
+app.use(require('./plugins/transition'))
 
 app.route('*', require('./views/wrapper'))
 

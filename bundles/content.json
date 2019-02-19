@@ -51,6 +51,29 @@
     "files": {},
     "pages": {}
   },
+  "/wiki": {
+    "title": "Wiki",
+    "view": "wiki",
+    "text": "Collection of additional information, notes, thoughts, logs.",
+    "name": "wiki",
+    "path": "/content/wiki",
+    "url": "/wiki",
+    "files": {},
+    "pages": {
+      "workstation": {
+        "name": "workstation",
+        "path": "/content/wiki/workstation",
+        "url": "/wiki/workstation",
+        "source": "/content/wiki/workstation"
+      },
+      "readings": {
+        "name": "readings",
+        "path": "/content/wiki/readings",
+        "url": "/wiki/readings",
+        "source": "/content/wiki/readings"
+      }
+    }
+  },
   "/wiki/workstation": {
     "title": "Workstation",
     "view": "default",
@@ -60,6 +83,32 @@
     "name": "workstation",
     "path": "/content/wiki/workstation",
     "url": "/wiki/workstation",
+    "files": {},
+    "pages": {}
+  },
+  "/blog/are-you-the-owner": {
+    "title": "Are you the owner?",
+    "view": "entry",
+    "date": "2018-03-20",
+    "excerpt": "About peer-to-peer publishing.",
+    "location": "Odorheiu Secuiesc",
+    "visible": true,
+    "text": "On a free and loosely definable space, like the internet, the whole system's based on ownership. Different locations are owned by countries, corporations and people, just like on the surface of the Earth (though it's much more challening to draw the boundaries of the former).\n\nI have this vision about a utopian system where a piece of land has no owner ― it's free to use by anyone, but the permission is restricted to usage only. People are not allowed to expropriate the land ― that means no fence, no legal ownership. I know: this isn't a system that could be realized for many reasons (stealing, lowering soil quality, etc.), but it's a concept I like to think about. We could all work how much we want and get profit based on our effort (professions are metaphorically limited to agriculture). \n\nWe can also apply this to the context of the web.\n\n**What if no subspaces of the internet would be owned?** What is a *subspace* on the internet, anyway? First of all, it must be something that can be seen (metaphorically) as a space ― it's in \"READY state\"^1^ and its emptiness is its functionality. It also has some metadata in order to help you access and specify it (geolocation, IDs, URLs, ...).\n\nWe can initiate many spaces in a context by using different perspectives. As the web is a gigantic network of computers, I would see these ― the **computers** ― **as subspaces**.\n\n*In the HTTP universe* **1 computer** mostly equals to **1 site** as you can access it by the machine's IP address. This limits you in the number of sites you would like to publish: most hosting services don't sell cheap hosting plans for small and simple sites and it's also some time to setup them.\n\n*On the peer-to-peer web* you can start a site anarchistically, without depending on domain name registrars and cloud storage services. There's no need to own a piece of web-land, you're free to have as many sites as you want without the need to pay for anything ― and you don't need another computer besides your personal one.\n\nI see the peer-to-peer web similar to the utopia of not-owning. \n\n―\n\nThe `DatArchive` API has a brilliant function called `isOwner()`. It's very simple: returns `true` if the visitor is the owner of the site and `false` otherwise.\n\nThis removes the need of authentication.\n\nI've got interested in interfaces that use this powerful function. Most content management systems have an isolated panel / admin page, where through authentication you can get permission to edit the content. There's no need for this on the peer-to-peer web: the same interface ― under same `dat://` URL ― can be used to read and to edit the content, without any action from the user. The interface can automatically react to a visitor and to its owner.\n\nI've made two tools that use this concept: [orkl](https://github.com/kodedninja/orkl) and [solo](https://github.com/kodedninja/solo).\n\n### orkl\n\nI wanted to build a peer-to-peer only blog (though, later I've included the `http://` accessibility too). [Orkl](https://orkl-kodedninja.hashbase.io) has a simple, text-focused blog interface. The index page shows all the published entries in a chronological order and that's all it can do. But when you want to start a blog, orkl is in ready state. No setup, no admin registration: just copy the site and you can start publishing.\n\nOther than the few buttons that appear for the owner, it's the same interface for the visitor.\n\n### solo\n\n[Solo](https://solo-kodedninja.hashbase.io) is a publication tool for one-page pubications: the entries are not presented in a collective way, like on blogs, magazines. All the entries exist under different `dat://` URLs. When the owner visits the site the editor appears, when it's just a visitor, the formatted version of the text renders.\n\n---\n\n### References\n\n1. [New Computers Working Group / Ready to Use](dat://newcomputers.group/ready2use.html)",
+    "name": "are-you-the-owner",
+    "path": "/content/blog/are-you-the-owner",
+    "url": "/blog/are-you-the-owner",
+    "files": {},
+    "pages": {}
+  },
+  "/wiki/readings": {
+    "title": "Readings",
+    "view": "default",
+    "text": "For the books I'm planning to read visit [this channel](https://www.are.na/hunor-karaman/want-to-read-sncwjrjztha) on Are.na.\n\n<u>2019</u>\n\nMartin Heidegger ― **\"The Questioning Concerning Technology\"**\nHaruki Murakami ― **\"Hard-Boiled Wonderland and the End Of The World\"** _(recommended)_\nFranz Enzenhofer ― **\"Understanding SEO\"**\nYuval Noah Harari ― **\"Homo Deus\"**\n\n<u>2018</u>\n\nBartis Attila ― **\"A Nyugalom\"** _(recommended)_\nPotozky László ― **\"Éles\"**\nJean-Paul Sartre ― **\"Nausea\"** _(recommended)_\nAlain de Botton ― **\"Essays on Love\"**\nMichel Houellebecq ― **\"The Map and the Territory\"**\nArthur Schopenhauer ― **\"The Metaphysics of Love\"**\nKurt Vonnegut ― **\"Slaughterhouse-Five\"**\nPotozky László ― **\"Égéstermék\"**\nMichel Houellebecq ― **\"The Possibility of an Island**\" _(recommended)_",
+    "showonwiki": true,
+    "short": "Tracking all the books I've read",
+    "name": "readings",
+    "path": "/content/wiki/readings",
+    "url": "/wiki/readings",
     "files": {},
     "pages": {}
   },
@@ -98,53 +147,28 @@
       }
     }
   },
-  "/blog/are-you-the-owner": {
-    "title": "Are you the owner?",
+  "/blog/ntain": {
+    "title": "ntain ― a peer-to-peer file sharing site",
     "view": "entry",
-    "date": "2018-03-20",
-    "excerpt": "About peer-to-peer publishing.",
+    "date": "2017-11-10",
     "location": "Odorheiu Secuiesc",
+    "excerpt": "My first try at building a peer-to-peer application based on [Beaker Browser](https://beakerbrowser.com) ― a retrospection.",
+    "text": "_This entry was written one year after the events, as it's a very important period and I missed it from my timeline._\n\nOne night I've found many #rotonde tweets with beautiful 64 characters long URL-ish texts in my feed. A few minutes later I've found out that it's a little, \"underground\" social-network. It was peer-to-peer, something I've been interested in for a while, so I've downloaded [Beaker Browser](https://beakerbrowser.com) in an instant and made my profile. It was a slightly abstract way of joining a social-network, love at first sight.\n\nAnd then there were features to build, bugs to fix ― so I've cloned the [repo on GitHub](https://github.com/rotonde) and started contributing. They weren't important, core features, just little \"fine-tunes\", but they made me feel happy and curious.\n\n_It was the time just before the rise of the peer-to-peer web, there were only a few applications and personal sites started to appear on the **dat://** protocol._\n\nSomehow I've hacked together a little site, using the `DatArchive` API that lets you share files easily and beautifully. Honestly, its design was the reason why I've made it. Basically it's just an interface that renders the content of a directory and an event callback for `ondrop` that \"uploads\" the file to the archive. The whole thing made with jQuery.\n\n![Screenshot of the interface of ntain](/content/blog/ntain/ntain.png)\n\nBut (and this is a very important \"but\"), it felt like some yet hidden power on the internet. I was there in my room, launching a modern file-sharing application without the need of a server and buying a domain name. Instantly, the feeling of \"we're building a new internet, just like in the '90s\" rushed through me.\n\nI've shared it on Twitter and people actually liked and used it.\n\n_If ntain were a baby, then everything I've made since then for the peer-to-peer web would be its periods of growing up. It had a determinate role to my current life._\n\n---\n\n[Repository](https://github.com/kodedninja/ntain)\n\n[dat://ntain-kodedninja.hashbase.io](dat://ntain-kodedninja.hashbase.io)",
     "visible": true,
-    "text": "On a free and loosely definable space, like the internet, the whole system's based on ownership. Different locations are owned by countries, corporations and people, just like on the surface of the Earth (though it's much more challening to draw the boundaries of the former).\n\nI have this vision about a utopian system where a piece of land has no owner ― it's free to use by anyone, but the permission is restricted to usage only. People are not allowed to expropriate the land ― that means no fence, no legal ownership. I know: this isn't a system that could be realized for many reasons (stealing, lowering soil quality, etc.), but it's a concept I like to think about. We could all work how much we want and get profit based on our effort (professions are metaphorically limited to agriculture). \n\nWe can also apply this to the context of the web.\n\n**What if no subspaces of the internet would be owned?** What is a *subspace* on the internet, anyway? First of all, it must be something that can be seen (metaphorically) as a space ― it's in \"READY state\"^1^ and its emptiness is its functionality. It also has some metadata in order to help you access and specify it (geolocation, IDs, URLs, ...).\n\nWe can initiate many spaces in a context by using different perspectives. As the web is a gigantic network of computers, I would see these ― the **computers** ― **as subspaces**.\n\n*In the HTTP universe* **1 computer** mostly equals to **1 site** as you can access it by the machine's IP address. This limits you in the number of sites you would like to publish: most hosting services don't sell cheap hosting plans for small and simple sites and it's also some time to setup them.\n\n*On the peer-to-peer web* you can start a site anarchistically, without depending on domain name registrars and cloud storage services. There's no need to own a piece of web-land, you're free to have as many sites as you want without the need to pay for anything ― and you don't need another computer besides your personal one.\n\nI see the peer-to-peer web similar to the utopia of not-owning. \n\n―\n\nThe `DatArchive` API has a brilliant function called `isOwner()`. It's very simple: returns `true` if the visitor is the owner of the site and `false` otherwise.\n\nThis removes the need of authentication.\n\nI've got interested in interfaces that use this powerful function. Most content management systems have an isolated panel / admin page, where through authentication you can get permission to edit the content. There's no need for this on the peer-to-peer web: the same interface ― under same `dat://` URL ― can be used to read and to edit the content, without any action from the user. The interface can automatically react to a visitor and to its owner.\n\nI've made two tools that use this concept: [orkl](https://github.com/kodedninja/orkl) and [solo](https://github.com/kodedninja/solo).\n\n### orkl\n\nI wanted to build a peer-to-peer only blog (though, later I've included the `http://` accessibility too). [Orkl](https://orkl-kodedninja.hashbase.io) has a simple, text-focused blog interface. The index page shows all the published entries in a chronological order and that's all it can do. But when you want to start a blog, orkl is in ready state. No setup, no admin registration: just copy the site and you can start publishing.\n\nOther than the few buttons that appear for the owner, it's the same interface for the visitor.\n\n### solo\n\n[Solo](https://solo-kodedninja.hashbase.io) is a publication tool for one-page pubications: the entries are not presented in a collective way, like on blogs, magazines. All the entries exist under different `dat://` URLs. When the owner visits the site the editor appears, when it's just a visitor, the formatted version of the text renders.\n\n---\n\n### References\n\n1. [New Computers Working Group / Ready to Use](dat://newcomputers.group/ready2use.html)",
-    "name": "are-you-the-owner",
-    "path": "/content/blog/are-you-the-owner",
-    "url": "/blog/are-you-the-owner",
-    "files": {},
-    "pages": {}
-  },
-  "/wiki": {
-    "title": "Wiki",
-    "view": "wiki",
-    "text": "Collection of additional information, notes, thoughts, logs.",
-    "name": "wiki",
-    "path": "/content/wiki",
-    "url": "/wiki",
-    "files": {},
-    "pages": {
-      "workstation": {
-        "name": "workstation",
-        "path": "/content/wiki/workstation",
-        "url": "/wiki/workstation",
-        "source": "/content/wiki/workstation"
-      },
-      "readings": {
-        "name": "readings",
-        "path": "/content/wiki/readings",
-        "url": "/wiki/readings",
-        "source": "/content/wiki/readings"
+    "name": "ntain",
+    "path": "/content/blog/ntain",
+    "url": "/blog/ntain",
+    "files": {
+      "ntain.png": {
+        "name": "ntain",
+        "path": "/content/blog/ntain/ntain.png",
+        "url": "/blog/ntain/ntain.png",
+        "source": "dat://11f84fe55630f24f51d3ae446de2c26c94a8ecd9eb8a9bfdda37b175cecc0711/content/blog/ntain/ntain.png",
+        "extension": ".png",
+        "filename": "ntain.png",
+        "type": "image"
       }
-    }
-  },
-  "/wiki/readings": {
-    "title": "Readings",
-    "view": "default",
-    "text": "For the books I'm planning to read visit [this channel](https://www.are.na/hunor-karaman/want-to-read-sncwjrjztha) on Are.na.\n\n<u>2019</u>\n\nHaruki Murakami ― **\"Hard-Boiled Wonderland and the End Of The World\"** _(recommended)_\nFranz Enzenhofer ― **\"Understanding SEO\"**\nYuval Noah Harari ― **\"Homo Deus\"**\n\n<u>2018</u>\n\nBartis Attila ― **\"A Nyugalom\"** _(recommended)_\nPotozky László ― **\"Éles\"**\nJean-Paul Sartre ― **\"Nausea\"** _(recommended)_\nAlain de Botton ― **\"Essays on Love\"**\nMichel Houellebecq ― **\"The Map and the Territory\"**\nArthur Schopenhauer ― **\"The Metaphysics of Love\"**\nKurt Vonnegut ― **\"Slaughterhouse-Five\"**\nPotozky László ― **\"Égéstermék\"**\nMichel Houellebecq ― **\"The Possibility of an Island**\" _(recommended)_",
-    "showonwiki": true,
-    "short": "Tracking all the books I've read",
-    "name": "readings",
-    "path": "/content/wiki/readings",
-    "url": "/wiki/readings",
-    "files": {},
+    },
     "pages": {}
   },
   "/blog/pictogon": {
@@ -166,30 +190,6 @@
         "source": "dat://11f84fe55630f24f51d3ae446de2c26c94a8ecd9eb8a9bfdda37b175cecc0711/content/blog/pictogon/Pictogon.png",
         "extension": ".png",
         "filename": "Pictogon.png",
-        "type": "image"
-      }
-    },
-    "pages": {}
-  },
-  "/blog/ntain": {
-    "title": "ntain ― a peer-to-peer file sharing site",
-    "view": "entry",
-    "date": "2017-11-10",
-    "location": "Odorheiu Secuiesc",
-    "excerpt": "My first try at building a peer-to-peer application based on [Beaker Browser](https://beakerbrowser.com) ― a retrospection.",
-    "text": "_This entry was written one year after the events, as it's a very important period and I missed it from my timeline._\n\nOne night I've found many #rotonde tweets with beautiful 64 characters long URL-ish texts in my feed. A few minutes later I've found out that it's a little, \"underground\" social-network. It was peer-to-peer, something I've been interested in for a while, so I've downloaded [Beaker Browser](https://beakerbrowser.com) in an instant and made my profile. It was a slightly abstract way of joining a social-network, love at first sight.\n\nAnd then there were features to build, bugs to fix ― so I've cloned the [repo on GitHub](https://github.com/rotonde) and started contributing. They weren't important, core features, just little \"fine-tunes\", but they made me feel happy and curious.\n\n_It was the time just before the rise of the peer-to-peer web, there were only a few applications and personal sites started to appear on the **dat://** protocol._\n\nSomehow I've hacked together a little site, using the `DatArchive` API that lets you share files easily and beautifully. Honestly, its design was the reason why I've made it. Basically it's just an interface that renders the content of a directory and an event callback for `ondrop` that \"uploads\" the file to the archive. The whole thing made with jQuery.\n\n![Screenshot of the interface of ntain](/content/blog/ntain/ntain.png)\n\nBut (and this is a very important \"but\"), it felt like some yet hidden power on the internet. I was there in my room, launching a modern file-sharing application without the need of a server and buying a domain name. Instantly, the feeling of \"we're building a new internet, just like in the '90s\" rushed through me.\n\nI've shared it on Twitter and people actually liked and used it.\n\n_If ntain were a baby, then everything I've made since then for the peer-to-peer web would be its periods of growing up. It had a determinate role to my current life._\n\n---\n\n[Repository](https://github.com/kodedninja/ntain)\n\n[dat://ntain-kodedninja.hashbase.io](dat://ntain-kodedninja.hashbase.io)",
-    "visible": true,
-    "name": "ntain",
-    "path": "/content/blog/ntain",
-    "url": "/blog/ntain",
-    "files": {
-      "ntain.png": {
-        "name": "ntain",
-        "path": "/content/blog/ntain/ntain.png",
-        "url": "/blog/ntain/ntain.png",
-        "source": "dat://11f84fe55630f24f51d3ae446de2c26c94a8ecd9eb8a9bfdda37b175cecc0711/content/blog/ntain/ntain.png",
-        "extension": ".png",
-        "filename": "ntain.png",
         "type": "image"
       }
     },

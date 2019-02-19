@@ -153,6 +153,8 @@ blockquote {
   font-weight: bold;
 }
 
+.transition * {transition: padding .15s}
+
 /* media query customs */
 
 @media (max-width: 900px) {

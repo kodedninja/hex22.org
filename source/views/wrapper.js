@@ -13,8 +13,15 @@ function wrapper (state, emit) {
 
   emit('DOMTitleChange', 'hex22 | ' + state.page().v('title'))
 
+  // I like the smooth transition effect that probably no one experiences
+  if (!state.applyTransition) {
+    setTimeout(function () {
+      emit(state.events.APPLY_TRANSITION)
+    }, 1000)
+  }
+
   return html`
-    <body>
+    <body class="${state.applyTransition ? 'transition' : ''}">
       <div class="1 db mw700 p1 mb1">
         ${header()}
         ${view(state, emit)}
