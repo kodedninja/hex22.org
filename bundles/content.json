@@ -86,6 +86,18 @@
     "files": {},
     "pages": {}
   },
+  "/wiki/readings": {
+    "title": "Readings",
+    "view": "default",
+    "text": "For the books I'm planning to read visit [this channel](https://www.are.na/hunor-karaman/want-to-read-sncwjrjztha) on Are.na.\n\n<u>2019</u>\n\nMartin Heidegger ― **\"The Questioning Concerning Technology\"**\nHaruki Murakami ― **\"Hard-Boiled Wonderland and the End Of The World\"** _(recommended)_\nFranz Enzenhofer ― **\"Understanding SEO\"**\nYuval Noah Harari ― **\"Homo Deus\"**\n\n<u>2018</u>\n\nBartis Attila ― **\"A Nyugalom\"** _(recommended)_\nPotozky László ― **\"Éles\"**\nJean-Paul Sartre ― **\"Nausea\"** _(recommended)_\nAlain de Botton ― **\"Essays on Love\"**\nMichel Houellebecq ― **\"The Map and the Territory\"**\nArthur Schopenhauer ― **\"The Metaphysics of Love\"**\nKurt Vonnegut ― **\"Slaughterhouse-Five\"**\nPotozky László ― **\"Égéstermék\"**\nMichel Houellebecq ― **\"The Possibility of an Island**\" _(recommended)_",
+    "showonwiki": true,
+    "short": "Tracking all the books I've read",
+    "name": "readings",
+    "path": "/content/wiki/readings",
+    "url": "/wiki/readings",
+    "files": {},
+    "pages": {}
+  },
   "/blog/are-you-the-owner": {
     "title": "Are you the owner?",
     "view": "entry",
@@ -100,22 +112,10 @@
     "files": {},
     "pages": {}
   },
-  "/wiki/readings": {
-    "title": "Readings",
-    "view": "default",
-    "text": "For the books I'm planning to read visit [this channel](https://www.are.na/hunor-karaman/want-to-read-sncwjrjztha) on Are.na.\n\n<u>2019</u>\n\nMartin Heidegger ― **\"The Questioning Concerning Technology\"**\nHaruki Murakami ― **\"Hard-Boiled Wonderland and the End Of The World\"** _(recommended)_\nFranz Enzenhofer ― **\"Understanding SEO\"**\nYuval Noah Harari ― **\"Homo Deus\"**\n\n<u>2018</u>\n\nBartis Attila ― **\"A Nyugalom\"** _(recommended)_\nPotozky László ― **\"Éles\"**\nJean-Paul Sartre ― **\"Nausea\"** _(recommended)_\nAlain de Botton ― **\"Essays on Love\"**\nMichel Houellebecq ― **\"The Map and the Territory\"**\nArthur Schopenhauer ― **\"The Metaphysics of Love\"**\nKurt Vonnegut ― **\"Slaughterhouse-Five\"**\nPotozky László ― **\"Égéstermék\"**\nMichel Houellebecq ― **\"The Possibility of an Island**\" _(recommended)_",
-    "showonwiki": true,
-    "short": "Tracking all the books I've read",
-    "name": "readings",
-    "path": "/content/wiki/readings",
-    "url": "/wiki/readings",
-    "files": {},
-    "pages": {}
-  },
   "/": {
     "title": "Hunor Karamán",
     "view": "home",
-    "text": "I’m a _digital explorer_ working on experimental projects with small footprint,  fast websites & solutions for the peer-to-peer web.\n\n---\n\n## Currently\n\nWeb-developer at [GeoGebra](https://geogebra.org)\nExperimenting with [peer-to-peer tools](/p2p)\n\n## Previously\n\nCo-Made [Pictogon](https://pictogon.com)\n\n---\n\nI'm present on [GitHub](https://github.com/kodedninja), [Are.na](https://are.na/hunor-karaman), [Reading Supply](https://reading.supply/@kodedninja) and [Mastodon](https://merveilles.town/@kodedninja).\nYou can contact me via [email](mailto:karamanhunor@pm.me).\n\nEverything I make should pass most of the criterias in my [Manifesto](/manifesto).\n\nI’m a peer.\n\n---\n\nBuilt with Enoki & Choo.\n\n<span class=\"wwb\">dat://11f84fe55630f24f51d3ae446de2c26c94a8ecd9eb8a9bfdda37b175cecc0711/</span>",
+    "text": "I’m a _digital explorer_ working on experimental projects with small footprint,  fast websites & solutions for the peer-to-peer web.\n\n---\n\n## Currently\n\nWeb-developer at [GeoGebra](https://geogebra.org) <span class=\"f3 fr\">(2018 - 2019)</span> \nExperimenting with [peer-to-peer tools](/p2p) <span class=\"f3 fr\">(2017 - 2019)</span> \n\n## Previously\n\nCo-Made [Pictogon](https://pictogon.com) <span class=\"f3 fr\">(2017)</span>\n\n---\n\nI'm present on [GitHub](https://github.com/kodedninja), [Are.na](https://are.na/hunor-karaman), [Reading Supply](https://reading.supply/@kodedninja) and [Mastodon](https://merveilles.town/@kodedninja).\nYou can contact me via [email](mailto:karamanhunor@pm.me).\n\nEverything I make should pass most of the criterias in my [Manifesto](/manifesto).\n\nI’m a peer.\n\n---\n\nBuilt with [Enoki](https://enoki.site/) & [Choo](https://choo.io/).\n\n<span class=\"wwb\">dat://11f84fe55630f24f51d3ae446de2c26c94a8ecd9eb8a9bfdda37b175cecc0711/</span>",
     "name": "content",
     "path": "/content",
     "url": "/",

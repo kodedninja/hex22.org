@@ -25,7 +25,7 @@ function blog (state, emit) {
 							<h3 class="dib fl mr1">
 								${page.v('title')}
 							</h3>
-		          <div class="fr f6 tar lh1 m-fl dib">
+		          <div class="fr f2 tar lh1 m-fl dib">
 		            ${datify(page.v('date'))}
 		          </div>
 						</div>

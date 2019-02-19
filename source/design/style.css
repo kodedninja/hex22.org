@@ -32,7 +32,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .f1 {font-size:1.61803rem}
-.f6 {font-size:0.875rem}
+.f2 {font-size:0.875rem}
+.f3 {font-size:0.61803rem}
 
 .i {font-style: italic}
 .b {font-weight: bold}
@@ -122,6 +123,7 @@ ol li{margin-left:1rem}
 .m0 {margin: 0}
 .mb0-5{margin-bottom:1.5rem}
 .mr0-5{margin-right:1.5rem}
+.ml0-5{margin-left:1.5rem}
 .m1 {margin: 3rem}
 .mx1 {margin-left: 3rem;margin-right: 3rem}
 .my1 {margin-top: 3rem;margin-bottom: 3rem}

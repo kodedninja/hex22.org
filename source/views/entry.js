@@ -12,7 +12,7 @@ function view (state, emit) {
 			<h1 class="1 db f1 mb0-5">
 				${state.page().v('title')}
 			</h1>
-			<div class="1 db mb1 f6">
+			<div class="1 db mb1 f2">
 				${state.page().v('date') ? datify(state.page().v('date')) : ''}
 			</div>
 			<div class="1 db">

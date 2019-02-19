@@ -8,12 +8,12 @@ text: I’m a _digital explorer_ working on experimental projects with small foo
 
 ## Currently
 
-Web-developer at [GeoGebra](https://geogebra.org)
-Experimenting with [peer-to-peer tools](/p2p)
+Web-developer at [GeoGebra](https://geogebra.org) <span class="f3 fr">(2018 - 2019)</span> 
+Experimenting with [peer-to-peer tools](/p2p) <span class="f3 fr">(2017 - 2019)</span> 
 
 ## Previously
 
-Co-Made [Pictogon](https://pictogon.com)
+Co-Made [Pictogon](https://pictogon.com) <span class="f3 fr">(2017)</span>
 
 ---
 
@@ -26,6 +26,6 @@ I’m a peer.
 
 ---
 
-Built with Enoki & Choo.
+Built with [Enoki](https://enoki.site/) & [Choo](https://choo.io/).
 
 <span class="wwb">dat://11f84fe55630f24f51d3ae446de2c26c94a8ecd9eb8a9bfdda37b175cecc0711/</span>
