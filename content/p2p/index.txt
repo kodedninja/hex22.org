@@ -4,20 +4,26 @@ view: default
 ----
 banner: true
 ----
-text: These are the peer-to-peer projects I was / am working on in chronological order:
+text: I try to keep this page updated about my <u>current</u> interests within the peer-to-peer web space.
+
+In the past I've built a few applications that express some of the possibilities of the peer-to-peer web. Although, it was an amazing experience and I'm proud of what I've made, I also see this (focusing so much on making) as a mistake. That's why my current interests have changed from *more building* to *more thinking*.
+
+### I am
+
+- Thinking about what does it mean to be members of these new, peer-to-peer spaces
+- Working on a little site seeder that includes server-side rendering for the `http://` version
+- Still integrating the peer-to-peer web into my life to see what's possible and what should be changed
+
+### Previously I've made
 
 1. [ntain](https://github.com/kodedninja/ntain) ― Peer-to-Peer file sharing site → 2017
 2. [orkl](https://github.com/kodedninja/orkl) ― Super simple peer-to-peer blogging site → 2018
 3. [solo](https://github.com/kodedninja/solo) ― The simplest publication tool → 2018
-4. [forkup](https://github.com/kodedninja/forkop) ― Updater for forked Beaker sites → 2018
-5. [ridder](https://github.com/kodedninja/ridder) ― An RSS reader that you own → 2018
-6. [seeder](https://github.com/new-computers/seeder) ― Plug-and-play Raspberry Pi DAT seeder → 2018
+4. [ridder](https://github.com/kodedninja/ridder) ― An RSS reader that you own → 2018
+5. [seeder](https://github.com/new-computers/seeder) ― Plug-and-play Raspberry Pi DAT seeder → 2018
+6. [present](https://github.com/kodedninja/present) ― Peer-to-Peer text-to-presentation tool → 2018
 7. [Pears](https://github.com/as-dr/pears) ― A peer-to-peer, temporary, collaborative playlist. → 2018 - 2019
-
----
-
-### Story:
-
-I've been attracted by the peer-to-peer web from a young age ― before I knew actually exists. I remember standing next to a friend and sending a message to him over the internet (I think it was Facebook), when I realized how wrong it is that this message has to travel thousands of kilometers to arrive to him.
-
-Since then I was planning and trying to build my own peer-to-peer networks / protocols, but then one day I've found the [Beaker Browser](https://beakerbrowser.com) and [Dat](https://datproject.org).
+----
+short: Keeping track of my work in the peer-to-peer web space
+----
+showonwiki: true

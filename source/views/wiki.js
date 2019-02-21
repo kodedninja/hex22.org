@@ -26,8 +26,8 @@ function view (state, emit) {
 		return html`
 			<li>
 				<a href="${p.url}" class="nbb">
-					<h3 class="dib mr0-5">${page.v('title')}</h3>
-					<div class="dib">${page.v('short')}</div>
+					<h3 class="di mr0-5">${page.v('title')}</h3>
+					<span>${page.v('short')}</span>
 				</a>
 			</li>
 		`
