@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 .ttu {text-transform: uppercase}
 .tac {text-align: center}
 
-.ffmono{font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace}
+code, .ffmono{font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace}
 .ffsans{font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"}
 
 .fwb {font-weight: bold}

@@ -2,4 +2,4 @@ title: Wiki
 ----
 view: wiki
 ----
-text: Collection of additional information, notes, thoughts, logs.
+text: Collection of additional notes, thoughts, logs.

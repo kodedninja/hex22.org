@@ -27,42 +27,6 @@
       }
     }
   },
-  "/manifesto": {
-    "title": "Manifesto",
-    "view": "default",
-    "banner": true,
-    "text": "1. **Everything should be a tool.** A tool transforms data without adding to its original limitations. It's a function: returns an output for a given input.\n2. **A great tool is [ambient](https://are.na/alex-singh/ambient-product-design).** It should disappear and flow through your actions. You should never need it because it's always at your hands. You should never ignore it because it's never in your way.\n3. **Tools should be adaptable, changeable and personalisable**. If a tool does not perfectly fit your needs, you should be able to change, mix or remove its parts.\n4. **Data should be reusable, text-editable, human-readable.** Produces a higher chance that (1.) is passed.\n5. **Tools should be lightweight, available and timeless.** Computing power or internet speed shouldn't be the limitation for most tasks. It works in the past and in the future.\n6. **Tools should redound to their own redundancy.** Although it's still usable (5.), a tool should redound the total disappearing of the problem or the birth of better tools. A tool should become useless and disappear as fast as possible.\n\n> \"Only through open sources, open standards, human-readable formats and their independencies, might they survive this fleeting age of self-destructing informatics.\" ― Devine Lu Linvega",
-    "showonwiki": true,
-    "short": "Rules to obey while making",
-    "name": "manifesto",
-    "path": "/content/manifesto",
-    "url": "/manifesto",
-    "files": {},
-    "pages": {}
-  },
-  "/wiki": {
-    "title": "Wiki",
-    "view": "wiki",
-    "text": "Collection of additional information, notes, thoughts, logs.",
-    "name": "wiki",
-    "path": "/content/wiki",
-    "url": "/wiki",
-    "files": {},
-    "pages": {
-      "workstation": {
-        "name": "workstation",
-        "path": "/content/wiki/workstation",
-        "url": "/wiki/workstation",
-        "source": "/content/wiki/workstation"
-      },
-      "readings": {
-        "name": "readings",
-        "path": "/content/wiki/readings",
-        "url": "/wiki/readings",
-        "source": "/content/wiki/readings"
-      }
-    }
-  },
   "/p2p": {
     "title": "Peer-to-Peer",
     "view": "default",
@@ -76,17 +40,41 @@
     "files": {},
     "pages": {}
   },
-  "/wiki/workstation": {
-    "title": "Workstation",
+  "/manifesto": {
+    "title": "Manifesto",
     "view": "default",
-    "short": "My primary workbench",
+    "banner": true,
+    "text": "1. **Everything should be a tool.** A tool transforms data without adding to its original limitations. It's a function: returns an output for a given input.\n2. **A great tool is [ambient](https://are.na/alex-singh/ambient-product-design).** It should disappear and flow through your actions. You should never need it because it's always at your hands. You should never ignore it because it's never in your way.\n3. **Tools should be adaptable, changeable and personalisable**. If a tool does not perfectly fit your needs, you should be able to change, mix or remove its parts.\n4. **Data should be reusable, text-editable, human-readable.** Produces a higher chance that (1.) is passed.\n5. **Tools should be lightweight, available and timeless.** Computing power or internet speed shouldn't be the limitation for most tasks. It works in the past and in the future.\n6. **Tools should redound to their own redundancy.** Although it's still usable (5.), a tool should redound the total disappearing of the problem or the birth of better tools. A tool should become useless and disappear as fast as possible.\n\n> \"Only through open sources, open standards, human-readable formats and their independencies, might they survive this fleeting age of self-destructing informatics.\" ― Devine Lu Linvega",
     "showonwiki": true,
-    "text": "I currently use a 2015 Macbook Pro 13\" with 8GB of RAM and a 2.7Ghz i5 processor.\n\n### Software\n\n- Browser: [Firefox](https://mozilla.org/firefox) / [Beaker](https://beakerbrowser.com/)\n- Terminal: [Hyper](https://hyper.is/)\n- Text Editor: [Atom](https://atom.io/)\n- Design: [Figma](https://figma.com)\n- Window Manager: [Spectacle](https://www.spectacleapp.com/)\n- Audio Workstation: [Ableton Live](https://ableton.com/live)\n- Music: [Spotify](https://spotify.com/) / [cmus](https://cmus.github.io/)\n- Video Player: [IINA](https://lhc70000.github.io/iina/)\n- Calculator: [Numi](https://numi.io/)",
-    "name": "workstation",
-    "path": "/content/wiki/workstation",
-    "url": "/wiki/workstation",
+    "short": "Rules to follow when making",
+    "name": "manifesto",
+    "path": "/content/manifesto",
+    "url": "/manifesto",
     "files": {},
     "pages": {}
+  },
+  "/wiki": {
+    "title": "Wiki",
+    "view": "wiki",
+    "text": "Collection of additional notes, thoughts, logs.",
+    "name": "wiki",
+    "path": "/content/wiki",
+    "url": "/wiki",
+    "files": {},
+    "pages": {
+      "readings": {
+        "name": "readings",
+        "path": "/content/wiki/readings",
+        "url": "/wiki/readings",
+        "source": "/content/wiki/readings"
+      },
+      "workstation": {
+        "name": "workstation",
+        "path": "/content/wiki/workstation",
+        "url": "/wiki/workstation",
+        "source": "/content/wiki/workstation"
+      }
+    }
   },
   "/wiki/readings": {
     "title": "Readings",
@@ -97,6 +85,18 @@
     "name": "readings",
     "path": "/content/wiki/readings",
     "url": "/wiki/readings",
+    "files": {},
+    "pages": {}
+  },
+  "/wiki/workstation": {
+    "title": "Workstation",
+    "view": "default",
+    "short": "The tools and apps I use",
+    "showonwiki": true,
+    "text": "I currently use a 2015 Macbook Pro 13\" with 8GB of RAM and 2.7Ghz i5 processor.\n\n### GUI\n\n- Browser: [Firefox](https://mozilla.org/firefox) / [Beaker](https://beakerbrowser.com/)\n- Terminal: [Hyper](https://hyper.is/)\n- Text Editor: [Atom](https://atom.io/)\n- Design: [Figma](https://figma.com)\n- Window Manager: [Spectacle](https://www.spectacleapp.com/)\n- Audio Workstation: [Ableton Live](https://ableton.com/live)\n- Music: [Spotify](https://spotify.com/)\n- Video Player: [IINA](https://lhc70000.github.io/iina/)\n- Calculator: [Numi](https://numi.io/)\n- Chat: [Telegram](https://telegram.org)\n\n### CLI\n\n- npm publish: [np](https://github.com/sindresorhus)\n- Git: [aut](https://github.com/kodedninja/aut) / [hub](https://github.com/github/hub)\n- Node Version Manager: [n](https://github.com/tj/n)\n- Music: [cmus](https://cmus.github.io/)\n\n### [Beaker](https://beakerbrowser.com) Apps\n\n- Writing: [Enoki](https://enoki.site) / [orkl](https://github.com/kodedninja/orkl)\n- Reading: [Dropout](https://github.com/jondashkyle/dropout-app)\n- Consuming Feeds: [Hardly Everything](https://hardlyeverything.com)\n\nFor the libraries I usually use, go to [this repo](https://github.com/kodedninja/weapons).",
+    "name": "workstation",
+    "path": "/content/wiki/workstation",
+    "url": "/wiki/workstation",
     "files": {},
     "pages": {}
   },
@@ -129,6 +129,12 @@
         "url": "/blog",
         "source": "/content/blog"
       },
+      "p2p": {
+        "name": "p2p",
+        "path": "/content/p2p",
+        "url": "/p2p",
+        "source": "/content/p2p"
+      },
       "manifesto": {
         "name": "manifesto",
         "path": "/content/manifesto",
@@ -140,12 +146,6 @@
         "path": "/content/wiki",
         "url": "/wiki",
         "source": "/content/wiki"
-      },
-      "p2p": {
-        "name": "p2p",
-        "path": "/content/p2p",
-        "url": "/p2p",
-        "source": "/content/p2p"
       }
     }
   },

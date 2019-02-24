@@ -15,4 +15,4 @@ text: 1. **Everything should be a tool.** A tool transforms data without adding 
 ----
 showonwiki: true
 ----
-short: Rules to obey while making
+short: Rules to follow when making
