@@ -7,6 +7,7 @@ var content = new Content()
 module.exports = view
 
 function view (state, emit) {
+	var excerpt = state.page().v('excerpt') ? (state.page().v('excerpt') + '\n\n') : ''
 	return html`
 		<div class="1 db">
 			<h1 class="1 db f1 mb0-5">
@@ -16,19 +17,7 @@ function view (state, emit) {
 				${state.page().v('date') ? datify(state.page().v('date')) : ''}
 			</div>
 			<div class="1 db">
-				${content.render(state.page().v('excerpt') + '\n\n' + state.page().v('text'))}
-			</div>
-		</div>
-	`
-
-	return html`
-		<div class="1 db p1 mb4">
-			<div class="1/3 mxa m-1">
-				<div class="mb4">${state.page.title} <span class="fr tcgrey">${state.page.date ? state.page.date : ''}</span></div>
-				<div class="1 db">
-					${format(state.page.excerpt)}
-					${format(state.page.text)}
-				</div>
+				${content.render(excerpt + state.page().v('text'))}
 			</div>
 		</div>
 	`

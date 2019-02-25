@@ -1,0 +1,45 @@
+title: Being a Peer: A Peer's Manifesto
+----
+view: entry
+----
+text: Lately, I've been identifying myself as a _peer_. It's a way to communicate my support and interest towards peer\-to\-peer networks, but I always knew that this identity doesn't end here. It deeply includes my attitude towards people, ownership, computers and the web.
+
+Being a _peer_ isn't specific to the context of technological networks, they only act as an accessible interface for _peers _to become, live and interact.
+
+The term _peer_ is defined as "one that is of equal standing with another". I like how being a _peer _obligates equality within its own context. In a shared network everyone must understand the same under their identification as "_peer_" and there's nothing else that binds them together stronger.
+
+A man, already in a bar, walks to someone sitting at a table. "Hello, I'm _your_ _peer_." The other man at the table responds. "Good afternoon\! I am _your_ _peer_ too." They shake hands, then become life\-long friends and maybe, who knows, die in war together.
+
+They both know what does it mean to be _peers_. It's not easy, but it's nonetheless right. 
+
+Being a _peer_ means that I support you and I know that you support me, because we're in this together. Being a _peer_ means that I don't want to win and prove that I'm better than you, because I want _us_ to get along and do _our_ thing. Being a _peer_ means that I don't bind what I have to _myself_, but to the common value _we_ share.
+
+In the context of the web, _we_ is the network / protocol itself. As long as I have a computer and a connection \(local or global\), I'm the same member of that network as everyone else, independent from my own past and future. I'm a part of the network right NOW. I'm free to disconnect and to reconnect, whenever I feel like.
+
+I'm free to read and explore the network AND I'm also free to write to it and change it.
+
+As a _peer_ I can show you my real support and appreciation. Not with "Like" and "Favorite" buttons, but with storage on my computer and bandwidth on my network. I think there's no more appropriate way to express your agreement with someone over the web right now than seeding their site.
+
+As a _peer_ who's also a developer, I make tools that try to give my _peers_ more fluid ways to interact with the others. The tools aren't mine, they only had been until I've shared them with the network. If a _peer_ thinks that something could be done better, the _peer_ takes what _we_ already have, corrects its mistakes, makes it better, then gives it back to _us_.
+
+Seriously, I want my tools to be redundant and outdated. I want you to make something better than what I've made.
+
+One of the hardest things about being a _peer_ is to remain that when we tend to naturally delude our superiority. To give as much as we take and maximise that within our needs and limitations. Being a peer should always be about _us _and not about _me_.
+
+To some extent, we're all _peers_ as members of humanity. Why don't we transform this attitude to the humans we are on the web too?
+
+Maybe all that I wrote is false, rubbish and for sure it cannot be more than my personal opinion. But I can promise: I'm _your peer_ to the greatest extent.
+
+### Further Reading
+
+* ["peer"](https://paper.dropbox.com/doc/peer-oIEm9coe4tCd2L0TyO7p6) by [Callil](https://callil.com/) & friends, a more concrete example and technological point\-of\-view over being a _peer_ and about the future of computing in general
+
+---
+
+*This post was cross-published from [Reading Supply](https://reading.supply/@kodedninja/being-a-peer-a-peers-manifesto-QtJthg)*.
+----
+location: Linz
+----
+date: 2019-02-18
+----
+visible: true

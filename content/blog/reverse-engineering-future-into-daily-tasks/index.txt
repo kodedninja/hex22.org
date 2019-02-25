@@ -1,0 +1,112 @@
+title: Reverse-Engineering Future Into Daily Tasks
+----
+view: entry
+----
+text: I always try to make my tomorrows better, more efficient and don't waste days with stagnation. At the beginning of the year I've introduced a _framework_ into my life. Its purpose is to assist me in working on the tasks and focus on the habits that help me overcome this stagnation. 
+
+The _framework_ is based on [reverse\-engineering](https://en.wikipedia.org/wiki/Reverse_engineering). Your daily tasks are the outcomes of your current definition of the perfect day / perfect life. 
+
+Using the framework makes the question mentioned above redundant.
+
+[Angela Lee Duckworth defines grit](https://www.ted.com/talks/angela_lee_duckworth_grit_the_power_of_passion_and_perseverance) as "passion and perseverance for very long term goals". The framework outputs comprehensible tasks every day and shows your progress to keep you motivated. With grit you can stick to habbits, be more productive and achieve awesome goals.
+
+
+## The Framework
+
+
+As it uses reverse\-engineering, we start from what we want to achieve and deconstruct that into smaller steps. I'll go through the building blocks from top to bottom, from big to smallest.
+
+
+### The Dream Day
+
+
+It's a common technique to take a piece of paper and write down your "dream day" in detail. This helps you see what's important in your life and where should you put more energy. What would you do on the day that you call perfect? Got it? Perfect\! Let's work for it.
+
+Keep in mind that your energy and time is finite in a day — this may help in filtering out a few less important actions.
+
+The goal of this is to find and define a few _hypergoals_, the main pillars of the framework. Theoretically you can subtract your current day from the dream day and based on the difference you should be able to derive the possible _hypergoals_.
+
+`hypergoals = Derivative(dreamDay - currentDay)`
+
+
+### _Hypergoals_
+
+
+_Hypergoals_ are not easy to describe. They're goals in the far future that are always present in your life, but never visible. They're always at the back of your mind, but they never directly manipulate your decisions. 
+
+If a goal is a point, a _hypergoal_ is a line going through that. It's not your destination, but the direction your destination lays.
+
+After you define a few _hypergoals_ in your life, they should assist you at making decisions. They shouldn't put any friction in your life, but guide you in darker times.
+
+
+### Yearly Focuses
+
+
+Afterwards you should define a few areas of focus in the current year \(or throughout an extended period\). These are usually close to your _hypergoals_, but they're achievable and more precise.
+
+Personal Example:
+
+For this year I've set out a single goal: to focus on myself. I want my year to be as  as possible. I've stopped emphasizing the activities that produce output and started focusing on those that move me in the direction of the human I want to be. This should be a year of inputs.
+
+As it's a pretty vague goal, I'll try to achieve it by sticking to three habits:
+
+1. Read at least 2 books each month \(= 24 in the year\)
+2. Focus more on what I eat, spend more time with cooking and change to a vegetarian diet
+3. Bring running back to my life \(after a few months of laziness\)
+
+
+
+### Bullet Journal
+
+
+The next layer of the framework is the [Bullet Jornal](https://bulletjournal.com/) \(BuJo\). This is only my preference and it shouldn't be hard to swap it out with another similar technique.
+
+With following the BuJo system, you define and keep track of your Monthly Goals and Daily Tasks.
+
+
+### Monthly Goals
+
+
+Monthly Goals are well\-defined goals and tasks fixed at the beginning of each month. The [BuJo documentation](https://bulletjournal.com/pages/learn) describes how they work in more detail.
+
+This is the most critical moment\! You must carefully pick your Monthly Goals — the usefulness of your day\-to\-day tasks depends on this. It's the moment of thinking about the bigger picture your Yearly Focuses and _hypergoals_ provide.
+
+After they're fixed, you don't have think about them again. Using the BuJo should make it natural to complete these goals.
+
+
+### Daily Tasks \+ MIT
+
+
+Daily Tasks also follow the general BuJo method with the additional use of the "**M**ost **I**mportant **T**asks" technique. MIT gives you a better perspective to define how to distribute your daily focus.
+
+Every day, define and mark a few tasks that should occupy the major part of your focus. If you complete all of them, the day was successful. One MIT is more important than all non\-marked tasks together.
+
+Doing this has several benefits:
+
+* Always answers the question of "what do I do next?"
+* Ensures that what you've done has a positive impact on your life
+* Keeps track of what you  done \(the paper doesn't forget\)
+* Keeps your mind uncluttered
+
+
+
+### Review & Reiterate
+
+
+You should spend some time at the end of each month with finding possible improvements.
+
+As mentioned many times: this is a framework. You must adapt it to your needs and . 
+
+
+## ✌️
+
+
+*This post was cross-published from [Reading Supply](https://reading.supply/@kodedninja/reverse-engineering-future-into-daily-tasks-V6m9WD).*
+----
+excerpt: Almost every night I go to bed with a question: "did this day contribute to the future I would like to live?".
+----
+location: Linz
+----
+date: 2019-02-14
+----
+visible: true
