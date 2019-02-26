@@ -19,10 +19,10 @@ function blog (state, emit) {
   	function entry (page) {
 			page = state.page(page.url)
 			return html`
-				<li class="mb1 1 db clear fl clean">
+				<li class="mb2 1 db clear fl clean">
 					<a href="${page.v('url')}" class="fl db nbb 1">
 						<div class="1 db fl mb0-5 clear">
-							<h3 class="dib fl mr1">
+							<h3 class="dib fl mr1 fwn ul">
 								${page.v('title')}
 							</h3>
 		          <div class="fr f2 tar lh1 m-fl dib">

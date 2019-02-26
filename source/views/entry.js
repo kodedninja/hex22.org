@@ -12,7 +12,7 @@ function view (state, emit) {
 	var excerpt = state.page().v('excerpt') ? (state.page().v('excerpt') + '\n\n') : ''
 	return html`
 		<div class="1 db">
-			<h1 class="1 db f1 mb0-5">
+			<h1 class="1 db f1 mb0-5 fwn ul">
 				${state.page().v('title')}
 			</h1>
 			<div class="1 db mb1 f2">

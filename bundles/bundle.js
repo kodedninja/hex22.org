@@ -214,7 +214,7 @@ module.exports = class Message extends Component {
   }
 };
 },{"/Users/hunor/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js":226,"assert":6,"choo/html":12,"nanocomponent":161,"xhr":223}],4:[function(require,module,exports){
-var css = 0;(null || true) && "_ce25fec1";
+var css = 0;(null || true) && "_b6482143";
 },{"sheetify/insert":196}],5:[function(require,module,exports){
 var choo = require('choo');
 
@@ -24297,14 +24297,14 @@ function blog(state, emit) {
 
 			var ac = require('/Users/hunor/Sites/hex22/source/node_modules/yo-yoify/lib/appendChild.js');
 			var bel5 = document.createElement("li");
-			bel5.setAttribute("class", "mb1 1 db clear fl clean");
+			bel5.setAttribute("class", "mb2 1 db clear fl clean");
 			var bel4 = document.createElement("a");
 			bel4.setAttribute("href", arguments[3]);
 			bel4.setAttribute("class", "fl db nbb 1");
 			var bel2 = document.createElement("div");
 			bel2.setAttribute("class", "1 db fl mb0-5 clear");
 			var bel0 = document.createElement("h3");
-			bel0.setAttribute("class", "dib fl mr1");
+			bel0.setAttribute("class", "dib fl mr1 fwn ul");
 			ac(bel0, ["\n\t\t\t\t\t\t\t\t", arguments[0], "\n\t\t\t\t\t\t\t"]);
 			var bel1 = document.createElement("div");
 			bel1.setAttribute("class", "fr f2 tar lh1 m-fl dib");
@@ -24339,8 +24339,9 @@ function view(state, emit) {
           var bel3 = document.createElement("div");
           bel3.setAttribute("class", "1 db");
           var bel1 = document.createElement("div");
-          bel1.setAttribute("class", "1 db mb1 f1");
+          bel1.setAttribute("class", "1 db mb1 f1 ul");
           var bel0 = document.createElement("h1");
+          bel0.setAttribute("class", "fwn");
           ac(bel0, [arguments[0]]);
           ac(bel1, ["\n\t\t\t\t", bel0, "\n\t\t\t"]);
           var bel2 = document.createElement("div");
@@ -24369,7 +24370,7 @@ function view(state, emit) {
 		var bel3 = document.createElement("div");
 		bel3.setAttribute("class", "1 db");
 		var bel0 = document.createElement("h1");
-		bel0.setAttribute("class", "1 db f1 mb0-5");
+		bel0.setAttribute("class", "1 db f1 mb0-5 fwn ul");
 		ac(bel0, ["\n\t\t\t\t", arguments[0], "\n\t\t\t"]);
 		var bel1 = document.createElement("div");
 		bel1.setAttribute("class", "1 db mb1 f2");
@@ -24448,8 +24449,9 @@ function view(state, emit) {
     var bel5 = document.createElement("div");
     bel5.setAttribute("class", "1 db");
     var bel1 = document.createElement("div");
-    bel1.setAttribute("class", "1 db mb1 f1");
+    bel1.setAttribute("class", "1 db mb1 f1 ul");
     var bel0 = document.createElement("h1");
+    bel0.setAttribute("class", "fwn");
     ac(bel0, [arguments[0]]);
     ac(bel1, ["\n\t\t\t\t", bel0, "\n\t\t\t"]);
     var bel2 = document.createElement("div");

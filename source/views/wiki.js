@@ -7,8 +7,8 @@ module.exports = view
 function view (state, emit) {
 	return html`
 		<div class="1 db">
-			<div class="1 db mb1 f1">
-				<h1>${state.page().v('title')}</h1>
+			<div class="1 db mb1 f1 ul">
+				<h1 class="fwn">${state.page().v('title')}</h1>
 			</div>
 			<div class="1 db mb1">
 				${format(state.page().v('text'))}

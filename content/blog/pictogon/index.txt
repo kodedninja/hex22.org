@@ -7,12 +7,14 @@ date: 2017-10-20
 location: Odorheiu Secuiesc
 ----
 excerpt: Once upon a time images appeared on websites with interactive areas inside. They were called _image maps_.
+
+During the summer of 2017, together with my friend and mentor [Csaba](https://codecanyon.net/user/sekler) we've created [Pictogon](https://pictogon.com) ― a modern image map editor.
 ----
 text: "In HTML and XHTML, an image map is a list of coordinates relating to a specific image, created in order to hyperlink areas of the image to different destinations (as opposed to a normal image link, in which the entire area of the image links to a single destination)." ― [Wikipedia](https://en.wikipedia.org/wiki/Image_map)
 
 I think image maps actualized a desire many of us have: to make something eternally static (object, image) interactive and alive. Sadly, they didn't spread out on the web and searching for clickable areas on an image isn't a habbit. The reason behind these might be the timing and the tools of the age. If you check the ["Creation and use section"](https://en.wikipedia.org/wiki/Image_map#Creation_and_use) of the Wikipedia article, you'll see that the recommended programs for image map creation are Dreamweaver, KDE and GIMP (with a plugin). Tools that aren't used anymore or took a turn in an other direction.
 
-During the summer of 2017, together with my friend and mentor [Csaba](https://codecanyon.net/user/sekler) we've created [Pictogon](https://pictogon.com) ― a modern image map editor.
+So my good friend Csaba wanted to make a proper, modern, web-based image-map editor and asked me to help with building the stack.
 
 ![A screenshot of the Pictogon interface](/content/blog/pictogon/Pictogon.png)
 

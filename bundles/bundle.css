@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-html {font-size: 18px}
+html {font-size: 16px}
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -26,7 +26,6 @@ a:not(.nbb) {
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
   font-size: inherit;
   font-family:georgia, serif;
 }
@@ -96,7 +95,6 @@ p, ul:not(.clean), ol:not(.clean) {margin-top: 1.5rem;margin-bottom:1.5rem}
 p:first-child, ul:first-child:not(.clean), ol:first-child:not(.clean) {margin-top: 0}
 p:last-child, ul:last-child:not(.clean), ol:last-child:not(.clean) {margin-bottom: 0}
 
-
 img {width: 100%}
 
 ul li:not(.clean), ol li:not(.clean) {
@@ -139,6 +137,7 @@ ul li:not(.clean), ol li:not(.clean) {
 .mr1 {margin-right: 3rem}
 .mb1 {margin-bottom: 3rem}
 .ml1 {margin-left: 3rem}
+.mb2 {margin-bottom: 6rem}
 
 .mxa {margin-left: auto; margin-right: auto}
 
@@ -157,10 +156,10 @@ hr {
 }
 
 blockquote {
-  border-left: 2px solid #000;
-  padding-left: 20px;
-  font-family: georgia, sans;
-  font-weight: bold;
+  border-left: 1px solid #000;
+  padding-left: 1.5rem;
+  margin-left: 1.5rem;
+  max-width: 66.666%;
 }
 
 .input-clean {
@@ -198,4 +197,5 @@ blockquote {
   .mr1 {margin-right: 2rem}
   .mb1 {margin-bottom: 2rem}
   .ml1 {margin-left: 2rem}
+  .mb2 {margin-bottom: 4rem}
 }

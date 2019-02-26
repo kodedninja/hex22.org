@@ -7,10 +7,10 @@ date: 2017-11-10
 location: Odorheiu Secuiesc
 ----
 excerpt: My first try at building a peer-to-peer application based on [Beaker Browser](https://beakerbrowser.com) ― a retrospection.
-----
-text: _This entry was written one year after the events, as it's a very important period and I missed it from my timeline._
 
-One night I've found many #rotonde tweets with beautiful 64 characters long URL-ish texts in my feed. A few minutes later I've found out that it's a little, "underground" social-network. It was peer-to-peer, something I've been interested in for a while, so I've downloaded [Beaker Browser](https://beakerbrowser.com) in an instant and made my profile. It was a slightly abstract way of joining a social-network, love at first sight.
+_This entry was written one year after the events, as it's a very important period and I missed it from my timeline._
+----
+text: One night I've found many #rotonde tweets with beautiful 64 characters long URL-ish texts in my feed. A few minutes later I've found out that it's a little, "underground" social-network. It was peer-to-peer, something I've been interested in for a while, so I've downloaded [Beaker Browser](https://beakerbrowser.com) in an instant and made my profile. It was a slightly abstract way of joining a social-network, love at first sight.
 
 And then there were features to build, bugs to fix ― so I've cloned the [repo on GitHub](https://github.com/rotonde) and started contributing. They weren't important, core features, just little "fine-tunes", but they made me feel happy and curious.
 

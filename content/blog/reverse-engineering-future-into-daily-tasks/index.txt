@@ -95,7 +95,7 @@ Doing this has several benefits:
 
 You should spend some time at the end of each month with finding possible improvements.
 
-As mentioned many times: this is a framework. You must adapt it to your needs and . 
+As mentioned many times: this is a framework. You must adapt it to your needs and not inversely. 
 
 
 ## ✌️
@@ -103,7 +103,9 @@ As mentioned many times: this is a framework. You must adapt it to your needs an
 
 *This post was cross-published from [Reading Supply](https://reading.supply/@kodedninja/reverse-engineering-future-into-daily-tasks-V6m9WD).*
 ----
-excerpt: Almost every night I go to bed with a question: "did this day contribute to the future I would like to live?".
+excerpt: An introduction to the framework I use to work on meaningful tasks every day.
+
+Almost every night I go to bed with a question: "did this day contribute to the future I would like to live?".
 ----
 location: Linz
 ----

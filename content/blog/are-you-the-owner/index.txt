@@ -5,14 +5,14 @@ view: entry
 date: 2018-03-20
 ----
 excerpt: About peer-to-peer publishing.
+
+On a free and loosely definable space, like the internet, the whole system's based on ownership. Different locations are owned by countries, corporations and people, just like on the surface of the Earth (though it's much more challening to draw the boundaries of the former).
 ----
 location: Odorheiu Secuiesc
 ----
 visible: true
 ----
-text: On a free and loosely definable space, like the internet, the whole system's based on ownership. Different locations are owned by countries, corporations and people, just like on the surface of the Earth (though it's much more challening to draw the boundaries of the former).
-
-I have this vision about a utopian system where a piece of land has no owner ― it's free to use by anyone, but the permission is restricted to usage only. People are not allowed to expropriate the land ― that means no fence, no legal ownership. I know: this isn't a system that could be realized for many reasons (stealing, lowering soil quality, etc.), but it's a concept I like to think about. We could all work how much we want and get profit based on our effort (professions are metaphorically limited to agriculture). 
+text: I have this vision about a utopian system where a piece of land has no owner ― it's free to use by anyone, but the permission is restricted to usage only. People are not allowed to expropriate the land ― that means no fence, no legal ownership. I know: this isn't a system that could be realized for many reasons (stealing, lowering soil quality, etc.), but it's a concept I like to think about. We could all work how much we want and get profit based on our effort (professions are metaphorically limited to agriculture). 
 
 We can also apply this to the context of the web.
 

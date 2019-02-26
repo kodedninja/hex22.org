@@ -2,11 +2,9 @@ title: Being a Peer: A Peer's Manifesto
 ----
 view: entry
 ----
-text: Lately, I've been identifying myself as a _peer_. It's a way to communicate my support and interest towards peer\-to\-peer networks, but I always knew that this identity doesn't end here. It deeply includes my attitude towards people, ownership, computers and the web.
+text: Being a _peer_ isn't specific to the context of technological networks, they only act as an accessible interface for _peers_ to become, live and interact.
 
-Being a _peer_ isn't specific to the context of technological networks, they only act as an accessible interface for _peers _to become, live and interact.
-
-The term _peer_ is defined as "one that is of equal standing with another". I like how being a _peer _obligates equality within its own context. In a shared network everyone must understand the same under their identification as "_peer_" and there's nothing else that binds them together stronger.
+The term _peer_ is defined as "one that is of equal standing with another". I like how being a _peer_ obligates equality within its own context. In a shared network everyone must understand the same under their identification as "_peer_" and there's nothing else that binds them together stronger.
 
 A man, already in a bar, walks to someone sitting at a table. "Hello, I'm _your_ _peer_." The other man at the table responds. "Good afternoon\! I am _your_ _peer_ too." They shake hands, then become life\-long friends and maybe, who knows, die in war together.
 
@@ -24,7 +22,7 @@ As a _peer_ who's also a developer, I make tools that try to give my _peers_ mor
 
 Seriously, I want my tools to be redundant and outdated. I want you to make something better than what I've made.
 
-One of the hardest things about being a _peer_ is to remain that when we tend to naturally delude our superiority. To give as much as we take and maximise that within our needs and limitations. Being a peer should always be about _us _and not about _me_.
+One of the hardest things about being a _peer_ is to remain that when we tend to naturally delude our superiority. To give as much as we take and maximise that within our needs and limitations. Being a peer should always be about _us_ and not about _me_.
 
 To some extent, we're all _peers_ as members of humanity. Why don't we transform this attitude to the humans we are on the web too?
 
@@ -43,3 +41,5 @@ location: Linz
 date: 2019-02-18
 ----
 visible: true
+----
+excerpt: Lately, I've been identifying myself as a _peer_. It's a way to communicate my support and interest towards peer\-to\-peer networks, but I always knew that this identity doesn't end here. It deeply includes my attitude towards people, ownership, computers and the web.
