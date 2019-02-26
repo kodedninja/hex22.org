@@ -67,6 +67,8 @@ code, .ffmono{font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo,
 .fr{float:right}
 .fn{float:none}
 
+.fxg {flex-grow:1}
+
 .clear:after {
   clear: both;
   content: "";
@@ -111,6 +113,8 @@ ul li:not(.clean), ol li:not(.clean) {
 .bl {border-left-style: solid; border-left-width: 1px}
 .bn {border-style: none; border-width: 0}
 
+.br50 {border-radius:50px}
+
 .p0 {padding: 0}
 .p1 {padding: 3rem}
 .px1 {padding-left: 3rem;padding-right: 3rem}
@@ -119,6 +123,10 @@ ul li:not(.clean), ol li:not(.clean) {
 .pr1 {padding-right: 3rem}
 .pb1 {padding-bottom: 3rem}
 .pl1 {padding-left: 3rem}
+
+.pinput {padding: .5rem 1rem}
+.prinput {padding-right: 1rem}
+.pyinput {padding-top:.5rem; padding-bottom:.5rem}
 
 .m0 {margin: 0}
 .mb0-5{margin-bottom:1.5rem}
@@ -155,7 +163,14 @@ blockquote {
   font-weight: bold;
 }
 
-.transition * {transition: padding .15s}
+.input-clean {
+  font-family: inherit;
+  background: inherit;
+  outline: none;
+  border: none;
+}
+
+.cp{cursor:pointer}
 
 /* media query customs */
 
