@@ -33,24 +33,6 @@
     "url": "/blog",
     "files": {},
     "pages": {
-      "ntain": {
-        "name": "ntain",
-        "path": "/content/blog/ntain",
-        "url": "/blog/ntain",
-        "source": "/content/blog/ntain"
-      },
-      "are-you-the-owner": {
-        "name": "are-you-the-owner",
-        "path": "/content/blog/are-you-the-owner",
-        "url": "/blog/are-you-the-owner",
-        "source": "/content/blog/are-you-the-owner"
-      },
-      "pictogon": {
-        "name": "pictogon",
-        "path": "/content/blog/pictogon",
-        "url": "/blog/pictogon",
-        "source": "/content/blog/pictogon"
-      },
       "being-a-peer": {
         "name": "being-a-peer",
         "path": "/content/blog/being-a-peer",
@@ -62,6 +44,24 @@
         "path": "/content/blog/reverse-engineering-future-into-daily-tasks",
         "url": "/blog/reverse-engineering-future-into-daily-tasks",
         "source": "/content/blog/reverse-engineering-future-into-daily-tasks"
+      },
+      "pictogon": {
+        "name": "pictogon",
+        "path": "/content/blog/pictogon",
+        "url": "/blog/pictogon",
+        "source": "/content/blog/pictogon"
+      },
+      "ntain": {
+        "name": "ntain",
+        "path": "/content/blog/ntain",
+        "url": "/blog/ntain",
+        "source": "/content/blog/ntain"
+      },
+      "are-you-the-owner": {
+        "name": "are-you-the-owner",
+        "path": "/content/blog/are-you-the-owner",
+        "url": "/blog/are-you-the-owner",
+        "source": "/content/blog/are-you-the-owner"
       }
     }
   },
@@ -87,20 +87,6 @@
         "source": "/content/wiki/workstation"
       }
     }
-  },
-  "/blog/are-you-the-owner": {
-    "title": "Are you the owner?",
-    "view": "entry",
-    "date": "2018-03-20",
-    "excerpt": "About peer-to-peer publishing.\n\nOn a free and loosely definable space, like the internet, the whole system's based on ownership. Different locations are owned by countries, corporations and people, just like on the surface of the Earth (though it's much more challening to draw the boundaries of the former).",
-    "location": "Odorheiu Secuiesc",
-    "visible": true,
-    "text": "I have this vision about a utopian system where a piece of land has no owner ― it's free to use by anyone, but the permission is restricted to usage only. People are not allowed to expropriate the land ― that means no fence, no legal ownership. I know: this isn't a system that could be realized for many reasons (stealing, lowering soil quality, etc.), but it's a concept I like to think about. We could all work how much we want and get profit based on our effort (professions are metaphorically limited to agriculture). \n\nWe can also apply this to the context of the web.\n\n**What if no subspaces of the internet would be owned?** What is a *subspace* on the internet, anyway? First of all, it must be something that can be seen (metaphorically) as a space ― it's in \"READY state\"^1^ and its emptiness is its functionality. It also has some metadata in order to help you access and specify it (geolocation, IDs, URLs, ...).\n\nWe can initiate many spaces in a context by using different perspectives. As the web is a gigantic network of computers, I would see these ― the **computers** ― **as subspaces**.\n\n*In the HTTP universe* **1 computer** mostly equals to **1 site** as you can access it by the machine's IP address. This limits you in the number of sites you would like to publish: most hosting services don't sell cheap hosting plans for small and simple sites and it's also some time to setup them.\n\n*On the peer-to-peer web* you can start a site anarchistically, without depending on domain name registrars and cloud storage services. There's no need to own a piece of web-land, you're free to have as many sites as you want without the need to pay for anything ― and you don't need another computer besides your personal one.\n\nI see the peer-to-peer web similar to the utopia of not-owning. \n\n―\n\nThe `DatArchive` API has a brilliant function called `isOwner()`. It's very simple: returns `true` if the visitor is the owner of the site and `false` otherwise.\n\nThis removes the need of authentication.\n\nI've got interested in interfaces that use this powerful function. Most content management systems have an isolated panel / admin page, where through authentication you can get permission to edit the content. There's no need for this on the peer-to-peer web: the same interface ― under same `dat://` URL ― can be used to read and to edit the content, without any action from the user. The interface can automatically react to a visitor and to its owner.\n\nI've made two tools that use this concept: [orkl](https://github.com/kodedninja/orkl) and [solo](https://github.com/kodedninja/solo).\n\n### orkl\n\nI wanted to build a peer-to-peer only blog (though, later I've included the `http://` accessibility too). [Orkl](https://orkl-kodedninja.hashbase.io) has a simple, text-focused blog interface. The index page shows all the published entries in a chronological order and that's all it can do. But when you want to start a blog, orkl is in ready state. No setup, no admin registration: just copy the site and you can start publishing.\n\nOther than the few buttons that appear for the owner, it's the same interface for the visitor.\n\n### solo\n\n[Solo](https://solo-kodedninja.hashbase.io) is a publication tool for one-page pubications: the entries are not presented in a collective way, like on blogs, magazines. All the entries exist under different `dat://` URLs. When the owner visits the site the editor appears, when it's just a visitor, the formatted version of the text renders.\n\n---\n\n### References\n\n1. [New Computers Working Group / Ready to Use](dat://newcomputers.group/ready2use.html)",
-    "name": "are-you-the-owner",
-    "path": "/content/blog/are-you-the-owner",
-    "url": "/blog/are-you-the-owner",
-    "files": {},
-    "pages": {}
   },
   "/blog/being-a-peer": {
     "title": "Being a Peer: A Peer's Manifesto",
@@ -189,6 +175,30 @@
       }
     }
   },
+  "/blog/pictogon": {
+    "title": "Redefining image maps",
+    "view": "entry",
+    "date": "2017-10-20",
+    "location": "Odorheiu Secuiesc",
+    "excerpt": "Once upon a time images appeared on websites with interactive areas inside. They were called _image maps_.\n\nDuring the summer of 2017, together with my friend and mentor [Csaba](https://codecanyon.net/user/sekler) we've created [Pictogon](https://pictogon.com) ― a modern image map editor.",
+    "text": "\"In HTML and XHTML, an image map is a list of coordinates relating to a specific image, created in order to hyperlink areas of the image to different destinations (as opposed to a normal image link, in which the entire area of the image links to a single destination).\" ― [Wikipedia](https://en.wikipedia.org/wiki/Image_map)\n\nI think image maps actualized a desire many of us have: to make something eternally static (object, image) interactive and alive. Sadly, they didn't spread out on the web and searching for clickable areas on an image isn't a habbit. The reason behind these might be the timing and the tools of the age. If you check the [\"Creation and use section\"](https://en.wikipedia.org/wiki/Image_map#Creation_and_use) of the Wikipedia article, you'll see that the recommended programs for image map creation are Dreamweaver, KDE and GIMP (with a plugin). Tools that aren't used anymore or took a turn in an other direction.\n\nSo my good friend Csaba wanted to make a proper, modern, web-based image-map editor and asked me to help with building the stack.\n\n![A screenshot of the Pictogon interface](/content/blog/pictogon/pictogon.png)\n\nIt was fun not only because we built a finished product from scratch in a relatively short period of time, but also because it was the first larger-scale project I've worked on (as for most 18 years olds). As it was just a secondary project for Csaba, I designed the whole infrastructure, built the backend and a part of the front-end, while he designed and coordinated everything with precision. I even built a working recurring billing system!\n\nWe tried to keep everything as simple as possible. An image map editor shouldn't be complicated anyways. You have an image → draw some polygons on it → set their content → save → get the embed code or download → put it onto your website.\n\nWe've also experimented with alternative solutions for the upcoming problems (some of them worked out, some of the didn't). For example we didn't want to spend energy, money and computing power on hosting images. They're large and there are enough hosting services on the web (most users have a website with its own storage, why would they also pay for storing images somewhere else?). So you can only input the URL of an image as a starting point. Pictogon will never store the file, it's just a middle layer, between an image and the frontend, that turns the former into an interactive object.\n\nWe decided to let users download the result and handle the embedding part by themselves. **It's a tool, not a platform.**\n\nWe've released Pictogon (into the wild) on 5. October via [Product Hunt](https://www.producthunt.com/posts/pictogon) (which is the only marketing we've done) and luckily people liked it. So much that it became \"Product of the Day\" and \"#3 Product of the Week\".\n\n### Technical details\n\nThe image maps are `<svg>` elements with the image, a bunch of polygons and a script inside.\n\nThe frontend was built with [jQuery](https://jquery.com) (I know, it wasn't my decision), the editor was built by us from the ground up. The backend is vanilla PHP.\n\n---\n\n### Update\n\nAs of today ― November 02, 2018 ― Pictogon is a settling puddle in our hearts. After its successful launch we were motivated for a few months, but we've started to neglect and don't care. Maybe, it wasn't fully finished at the release and we were tired of it to finish afterwards. I also started digging into building for the peer-to-peer web around that time (and haven't stopped since then). I love this product and hope that someday I can, maybe, rebuild it and relaunch it. Pictogon 2.0, sometime, maybe.",
+    "visible": true,
+    "name": "pictogon",
+    "path": "/content/blog/pictogon",
+    "url": "/blog/pictogon",
+    "files": {
+      "pictogon.png": {
+        "name": "pictogon",
+        "path": "/content/blog/pictogon/pictogon.png",
+        "url": "/blog/pictogon/pictogon.png",
+        "source": "dat://11f84fe55630f24f51d3ae446de2c26c94a8ecd9eb8a9bfdda37b175cecc0711/content/blog/pictogon/pictogon.png",
+        "extension": ".png",
+        "filename": "pictogon.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
   "/blog/ntain": {
     "title": "ntain ― a peer-to-peer file sharing site",
     "view": "entry",
@@ -213,25 +223,25 @@
     },
     "pages": {}
   },
-  "/blog/pictogon": {
-    "title": "Redefining image maps",
+  "/blog/are-you-the-owner": {
+    "title": "Are you the owner?",
     "view": "entry",
-    "date": "2017-10-20",
+    "date": "2018-03-20",
+    "excerpt": "About peer-to-peer publishing.\n\nOn a free and loosely definable space, like the internet, the whole system's based on ownership. Different locations are owned by countries, corporations and people, just like on the surface of the Earth (though it's much more challening to draw the boundaries of the former).",
     "location": "Odorheiu Secuiesc",
-    "excerpt": "Once upon a time images appeared on websites with interactive areas inside. They were called _image maps_.\n\nDuring the summer of 2017, together with my friend and mentor [Csaba](https://codecanyon.net/user/sekler) we've created [Pictogon](https://pictogon.com) ― a modern image map editor.",
-    "text": "\"In HTML and XHTML, an image map is a list of coordinates relating to a specific image, created in order to hyperlink areas of the image to different destinations (as opposed to a normal image link, in which the entire area of the image links to a single destination).\" ― [Wikipedia](https://en.wikipedia.org/wiki/Image_map)\n\nI think image maps actualized a desire many of us have: to make something eternally static (object, image) interactive and alive. Sadly, they didn't spread out on the web and searching for clickable areas on an image isn't a habbit. The reason behind these might be the timing and the tools of the age. If you check the [\"Creation and use section\"](https://en.wikipedia.org/wiki/Image_map#Creation_and_use) of the Wikipedia article, you'll see that the recommended programs for image map creation are Dreamweaver, KDE and GIMP (with a plugin). Tools that aren't used anymore or took a turn in an other direction.\n\nSo my good friend Csaba wanted to make a proper, modern, web-based image-map editor and asked me to help with building the stack.\n\n![A screenshot of the Pictogon interface](/content/blog/pictogon/Pictogon.png)\n\nIt was fun not only because we built a finished product from scratch in a relatively short period of time, but also because it was the first larger-scale project I've worked on (as for most 18 years olds). As it was just a secondary project for Csaba, I designed the whole infrastructure, built the backend and a part of the front-end, while he designed and coordinated everything with precision. I even built a working recurring billing system!\n\nWe tried to keep everything as simple as possible. An image map editor shouldn't be complicated anyways. You have an image → draw some polygons on it → set their content → save → get the embed code or download → put it onto your website.\n\nWe've also experimented with alternative solutions for the upcoming problems (some of them worked out, some of the didn't). For example we didn't want to spend energy, money and computing power on hosting images. They're large and there are enough hosting services on the web (most users have a website with its own storage, why would they also pay for storing images somewhere else?). So you can only input the URL of an image as a starting point. Pictogon will never store the file, it's just a middle layer, between an image and the frontend, that turns the former into an interactive object.\n\nWe decided to let users download the result and handle the embedding part by themselves. **It's a tool, not a platform.**\n\nWe've released Pictogon (into the wild) on 5. October via [Product Hunt](https://www.producthunt.com/posts/pictogon) (which is the only marketing we've done) and luckily people liked it. So much that it became \"Product of the Day\" and \"#3 Product of the Week\".\n\n### Technical details\n\nThe image maps are `<svg>` elements with the image, a bunch of polygons and a script inside.\n\nThe frontend was built with [jQuery](https://jquery.com) (I know, it wasn't my decision), the editor was built by us from the ground up. The backend is vanilla PHP.\n\n---\n\n### Update\n\nAs of today ― November 02, 2018 ― Pictogon is a settling puddle in our hearts. After its successful launch we were motivated for a few months, but we've started to neglect and don't care. Maybe, it wasn't fully finished at the release and we were tired of it to finish afterwards. I also started digging into building for the peer-to-peer web around that time (and haven't stopped since then). I love this product and hope that someday I can, maybe, rebuild it and relaunch it. Pictogon 2.0, sometime, maybe.",
     "visible": true,
-    "name": "pictogon",
-    "path": "/content/blog/pictogon",
-    "url": "/blog/pictogon",
+    "text": "I have this vision about a utopian system where a piece of land has no owner ― it's free to use by anyone, but the permission is restricted to usage only. People are not allowed to expropriate the land ― that means no fence, no legal ownership. I know: this isn't a system that could be realized for many reasons (stealing, lowering soil quality, etc.), but it's a concept I like to think about. We could all work how much we want and get profit based on our effort (professions are metaphorically limited to agriculture). \n\nWe can also apply this to the context of the web.\n\n**What if no subspaces of the internet would be owned?** What is a *subspace* on the internet, anyway? First of all, it must be something that can be seen (metaphorically) as a space ― it's in \"READY state\"^1^ and its emptiness is its functionality. It also has some metadata in order to help you access and specify it (geolocation, IDs, URLs, ...).\n\nWe can initiate many spaces in a context by using different perspectives. As the web is a gigantic network of computers, I would see these ― the **computers** ― **as subspaces**.\n\n*In the HTTP universe* **1 computer** mostly equals to **1 site** as you can access it by the machine's IP address. This limits you in the number of sites you would like to publish: most hosting services don't sell cheap hosting plans for small and simple sites and it's also some time to setup them.\n\n*On the peer-to-peer web* you can start a site anarchistically, without depending on domain name registrars and cloud storage services. There's no need to own a piece of web-land, you're free to have as many sites as you want without the need to pay for anything ― and you don't need another computer besides your personal one.\n\nI see the peer-to-peer web similar to the utopia of not-owning. \n\n―\n\nThe `DatArchive` API has a brilliant function called `isOwner()`. It's very simple: returns `true` if the visitor is the owner of the site and `false` otherwise.\n\nThis removes the need of authentication.\n\nI've got interested in interfaces that use this powerful function. Most content management systems have an isolated panel / admin page, where through authentication you can get permission to edit the content. There's no need for this on the peer-to-peer web: the same interface ― under same `dat://` URL ― can be used to read and to edit the content, without any action from the user. The interface can automatically react to a visitor and to its owner.\n\nI've made two tools that use this concept: [orkl](https://github.com/kodedninja/orkl) and [solo](https://github.com/kodedninja/solo).\n\n### orkl\n\nI wanted to build a peer-to-peer only blog (though, later I've included the `http://` accessibility too). [Orkl](https://orkl-kodedninja.hashbase.io) has a simple, text-focused blog interface. The index page shows all the published entries in a chronological order and that's all it can do. But when you want to start a blog, orkl is in ready state. No setup, no admin registration: just copy the site and you can start publishing.\n\nOther than the few buttons that appear for the owner, it's the same interface for the visitor.\n\n![Screenshot of orkl](/content/blog/are-you-the-owner/orkl.png)\n\n### solo\n\n[Solo](https://solo-kodedninja.hashbase.io) is a publication tool for one-page pubications: the entries are not presented in a collective way, like on blogs, magazines. All the entries exist under different `dat://` URLs. When the owner visits the site the editor appears, when it's just a visitor, the formatted version of the text renders.\n\n---\n\n### References\n\n1. [New Computers Working Group / Ready to Use](dat://newcomputers.group/ready2use.html)",
+    "name": "are-you-the-owner",
+    "path": "/content/blog/are-you-the-owner",
+    "url": "/blog/are-you-the-owner",
     "files": {
-      "Pictogon.png": {
-        "name": "Pictogon",
-        "path": "/content/blog/pictogon/Pictogon.png",
-        "url": "/blog/pictogon/Pictogon.png",
-        "source": "dat://11f84fe55630f24f51d3ae446de2c26c94a8ecd9eb8a9bfdda37b175cecc0711/content/blog/pictogon/Pictogon.png",
+      "orkl.png": {
+        "name": "orkl",
+        "path": "/content/blog/are-you-the-owner/orkl.png",
+        "url": "/blog/are-you-the-owner/orkl.png",
+        "source": "dat://11f84fe55630f24f51d3ae446de2c26c94a8ecd9eb8a9bfdda37b175cecc0711/content/blog/are-you-the-owner/orkl.png",
         "extension": ".png",
-        "filename": "Pictogon.png",
+        "filename": "orkl.png",
         "type": "image"
       }
     },

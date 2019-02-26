@@ -42,6 +42,8 @@ I wanted to build a peer-to-peer only blog (though, later I've included the `htt
 
 Other than the few buttons that appear for the owner, it's the same interface for the visitor.
 
+![Screenshot of orkl](/content/blog/are-you-the-owner/orkl.png)
+
 ### solo
 
 [Solo](https://solo-kodedninja.hashbase.io) is a publication tool for one-page pubications: the entries are not presented in a collective way, like on blogs, magazines. All the entries exist under different `dat://` URLs. When the owner visits the site the editor appears, when it's just a visitor, the formatted version of the text renders.
