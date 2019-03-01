@@ -16,7 +16,7 @@ I think image maps actualized a desire many of us have: to make something eterna
 
 So my good friend Csaba wanted to make a proper, modern, web-based image-map editor and asked me to help with building the stack.
 
-![A screenshot of the Pictogon interface](/content/blog/pictogon/pictogon.png)
+![A screenshot of the Pictogon interface](/content/blog/pictogon/Pictogon.png)
 
 It was fun not only because we built a finished product from scratch in a relatively short period of time, but also because it was the first larger-scale project I've worked on (as for most 18 years olds). As it was just a secondary project for Csaba, I designed the whole infrastructure, built the backend and a part of the front-end, while he designed and coordinated everything with precision. I even built a working recurring billing system!
 

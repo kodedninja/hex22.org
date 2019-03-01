@@ -1,12 +1,12 @@
 var Component = require('nanocomponent')
 var html = require('choo/html')
 var format = require('./format')
-var mediumZoom = require('medium-zoom')
+var mediumZoom = null
+if (typeof window !== 'undefined') mediumZoom = require('medium-zoom')
 
 module.exports = class Content extends Component {
 	constructor() {
 		super()
-
 		this.text = ''
 	}
 
@@ -33,11 +33,15 @@ module.exports = class Content extends Component {
 	}
 
 	load(el) {
-		this.formatimages()
+		if (typeof window !== 'undefined') {
+			this.formatimages()
+		}
 	}
 
 	afterupdate(el) {
-		this.formatimages()
+		if (typeof window !== 'undefined') {
+			this.formatimages()
+		}
 	}
 
 	update(text) {

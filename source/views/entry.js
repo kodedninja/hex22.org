@@ -4,7 +4,7 @@ var Content = require('../components/content')
 var Message = require('../components/message')
 
 var content = new Content()
-var message = new Message('https://formsubmit.io/send/2f728f41-d7b8-4e18-940a-49468cd2b4bb')
+// var message = new Message('https://formsubmit.io/send/2f728f41-d7b8-4e18-940a-49468cd2b4bb')
 
 module.exports = view
 
@@ -21,9 +21,9 @@ function view (state, emit) {
 			<div class="1 db">
 				${content.render(excerpt + state.page().v('text'))}
 			</div>
-			${!state.site.p2p ? message.render({ title: state.page().v('title'), url: state.page().v('url')}) : ''}
 		</div>
 	`
+	// ${!state.site.p2p ? message.render({ title: state.page().v('title'), url: state.page().v('url')}) : ''}
 
 	// 2018-03-10 to March 2018
 	function datify(str) {
