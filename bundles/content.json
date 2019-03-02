@@ -1,17 +1,4 @@
 {
-  "/p2p": {
-    "title": "Peer-to-Peer",
-    "view": "default",
-    "banner": true,
-    "text": "I try to keep this page updated about my <u>current</u> interests within the peer-to-peer web space.\n\nIn the past I've built a few applications that express some of the possibilities of the peer-to-peer web. Although, it was an amazing experience and I'm proud of what I've made, I also see this (focusing so much on making) as a mistake. That's why my current interests have changed from *more building* to *more thinking*.\n\n### I am\n\n- Thinking about what does it mean to be members of these new, peer-to-peer spaces\n- Working on a little site seeder that includes server-side rendering for the `http://` version\n- Still integrating the peer-to-peer web into my life to see what's possible and what should be changed\n\n### Previously I've made\n\n1. [ntain](https://github.com/kodedninja/ntain) ― Peer-to-Peer file sharing site → 2017\n2. [orkl](https://github.com/kodedninja/orkl) ― Super simple peer-to-peer blogging site → 2018\n3. [solo](https://github.com/kodedninja/solo) ― The simplest publication tool → 2018\n4. [ridder](https://github.com/kodedninja/ridder) ― An RSS reader that you own → 2018\n5. [seeder](https://github.com/new-computers/seeder) ― Plug-and-play Raspberry Pi DAT seeder → 2018\n6. [present](https://github.com/kodedninja/present) ― Peer-to-Peer text-to-presentation tool → 2018\n7. [Pears](https://github.com/as-dr/pears) ― A peer-to-peer, temporary, collaborative playlist. → 2018 - 2019",
-    "short": "Keeping track of my work in the peer-to-peer web space",
-    "showonwiki": true,
-    "name": "p2p",
-    "path": "/content/p2p",
-    "url": "/p2p",
-    "files": {},
-    "pages": {}
-  },
   "/manifesto": {
     "title": "Manifesto",
     "view": "default",
@@ -45,12 +32,6 @@
         "url": "/blog/reverse-engineering-future-into-daily-tasks",
         "source": "/content/blog/reverse-engineering-future-into-daily-tasks"
       },
-      "pictogon": {
-        "name": "pictogon",
-        "path": "/content/blog/pictogon",
-        "url": "/blog/pictogon",
-        "source": "/content/blog/pictogon"
-      },
       "ntain": {
         "name": "ntain",
         "path": "/content/blog/ntain",
@@ -62,8 +43,27 @@
         "path": "/content/blog/are-you-the-owner",
         "url": "/blog/are-you-the-owner",
         "source": "/content/blog/are-you-the-owner"
+      },
+      "pictogon": {
+        "name": "pictogon",
+        "path": "/content/blog/pictogon",
+        "url": "/blog/pictogon",
+        "source": "/content/blog/pictogon"
       }
     }
+  },
+  "/p2p": {
+    "title": "Peer-to-Peer",
+    "view": "default",
+    "banner": true,
+    "text": "I try to keep this page updated about my <u>current</u> interests within the peer-to-peer web space.\n\nIn the past I've built a few applications that express some of the possibilities of the peer-to-peer web. Although, it was an amazing experience and I'm proud of what I've made, I also see this (focusing so much on making) as a mistake. That's why my current interests have changed from *more building* to *more thinking*.\n\n### I am\n\n- Thinking about what does it mean to be members of these new, peer-to-peer spaces\n- Working on a little site seeder that includes server-side rendering for the `http://` version\n- Still integrating the peer-to-peer web into my life to see what's possible and what should be changed\n\n### Previously I've made\n\n1. [Pears](https://github.com/as-dr/pears) ― A peer-to-peer, temporary, collaborative playlist, 2018―2019\n2. [present](https://github.com/kodedninja/present) ― Peer-to-Peer text-to-presentation tool, 2018\n3. [seeder](https://github.com/new-computers/seeder) ― Plug-and-play Raspberry Pi DAT seeder, 2018\n4. [ridder](https://github.com/kodedninja/ridder) ― An RSS reader that you own, 2018\n5. [solo](https://github.com/kodedninja/solo) ― The simplest publication tool, 2018\n6. [orkl](https://github.com/kodedninja/orkl) ― Super simple peer-to-peer blogging site, 2018\n7. [ntain](https://github.com/kodedninja/ntain) ― Peer-to-Peer file sharing site, 2017",
+    "short": "Keeping track of my work in the peer-to-peer web space",
+    "showonwiki": true,
+    "name": "p2p",
+    "path": "/content/p2p",
+    "url": "/p2p",
+    "files": {},
+    "pages": {}
   },
   "/wiki": {
     "title": "Wiki",
@@ -74,19 +74,31 @@
     "url": "/wiki",
     "files": {},
     "pages": {
-      "readings": {
-        "name": "readings",
-        "path": "/content/wiki/readings",
-        "url": "/wiki/readings",
-        "source": "/content/wiki/readings"
-      },
       "workstation": {
         "name": "workstation",
         "path": "/content/wiki/workstation",
         "url": "/wiki/workstation",
         "source": "/content/wiki/workstation"
+      },
+      "readings": {
+        "name": "readings",
+        "path": "/content/wiki/readings",
+        "url": "/wiki/readings",
+        "source": "/content/wiki/readings"
       }
     }
+  },
+  "/wiki/workstation": {
+    "title": "Workstation",
+    "view": "default",
+    "short": "The tools and apps I use",
+    "showonwiki": true,
+    "text": "I currently use a 2015 Macbook Pro 13\" with 8GB of RAM and 2.7Ghz i5 processor.\n\n### GUI\n\n- Browser: [Firefox](https://mozilla.org/firefox) / [Beaker](https://beakerbrowser.com/)\n- Terminal: [Hyper](https://hyper.is/)\n- Text Editor: [Atom](https://atom.io/)\n- Design: [Figma](https://figma.com)\n- Window Manager: [Spectacle](https://www.spectacleapp.com/)\n- Audio Workstation: [Ableton Live](https://ableton.com/live)\n- Music: [Spotify](https://spotify.com/)\n- Video Player: [IINA](https://lhc70000.github.io/iina/)\n- Calculator: [Numi](https://numi.io/)\n- Chat: [Telegram](https://telegram.org)\n\n### CLI\n\n- npm publish: [np](https://github.com/sindresorhus)\n- Git: [dotfiles](https://github.com/kodedninja/dotfiles)\n- Node Version Manager: [n](https://github.com/tj/n)\n- Domains: [now](https://github.com/zeit/now-cli)\n- Music: [cmus](https://cmus.github.io/)\n- Misc: [`youtube-dl`](https://github.com/rg3/youtube-dl)\n\n### [Beaker](https://beakerbrowser.com) Apps\n\n- Writing: [Enoki](https://enoki.site) / [orkl](https://github.com/kodedninja/orkl)\n- Reading: [Dropout](https://github.com/jondashkyle/dropout-app)\n- Consuming Feeds: [Hardly Everything](https://hardlyeverything.com)\n\nFor the libraries I usually use, go to [this repo](https://github.com/kodedninja/weapons).",
+    "name": "workstation",
+    "path": "/content/wiki/workstation",
+    "url": "/wiki/workstation",
+    "files": {},
+    "pages": {}
   },
   "/blog/being-a-peer": {
     "title": "Being a Peer: A Peer's Manifesto",
@@ -119,7 +131,7 @@
   "/wiki/readings": {
     "title": "Readings",
     "view": "default",
-    "text": "For the books I'm planning to read visit [this channel](https://www.are.na/hunor-karaman/want-to-read-sncwjrjztha) on Are.na.\n\n<u>2019</u>\n\nMartin Heidegger ― **\"The Question Concerning Technology\"**\nHaruki Murakami ― **\"Hard-Boiled Wonderland and the End Of The World\"** _(recommended)_\nFranz Enzenhofer ― **\"Understanding SEO\"**\nYuval Noah Harari ― **\"Homo Deus\"**\n\n<u>2018</u>\n\nBartis Attila ― **\"A Nyugalom\"** _(recommended)_\nPotozky László ― **\"Éles\"**\nJean-Paul Sartre ― **\"Nausea\"** _(recommended)_\nAlain de Botton ― **\"Essays on Love\"**\nMichel Houellebecq ― **\"The Map and the Territory\"**\nArthur Schopenhauer ― **\"The Metaphysics of Love\"**\nKurt Vonnegut ― **\"Slaughterhouse-Five\"**\nPotozky László ― **\"Égéstermék\"**\nMichel Houellebecq ― **\"The Possibility of an Island**\" _(recommended)_",
+    "text": "For the books I'm planning to read visit [this channel](https://www.are.na/hunor-karaman/want-to-read-sncwjrjztha) on Are.na.\n\n<u>2019</u>\n\nRainer Maria Rilke ― **\"Letters To A Young Poet\"**\nMartin Heidegger ― **\"The Question Concerning Technology\"**\nHaruki Murakami ― **\"Hard-Boiled Wonderland and the End Of The World\"** _(recommended)_\nFranz Enzenhofer ― **\"Understanding SEO\"**\nYuval Noah Harari ― **\"Homo Deus\"**\n\n<u>2018</u>\n\nBartis Attila ― **\"A Nyugalom\"** _(recommended)_\nPotozky László ― **\"Éles\"**\nJean-Paul Sartre ― **\"Nausea\"** _(recommended)_\nAlain de Botton ― **\"Essays on Love\"**\nMichel Houellebecq ― **\"The Map and the Territory\"**\nArthur Schopenhauer ― **\"The Metaphysics of Love\"**\nKurt Vonnegut ― **\"Slaughterhouse-Five\"**\nPotozky László ― **\"Égéstermék\"**\nMichel Houellebecq ― **\"The Possibility of an Island**\" _(recommended)_",
     "showonwiki": true,
     "short": "Tracking all the books I've read",
     "name": "readings",
@@ -128,76 +140,40 @@
     "files": {},
     "pages": {}
   },
-  "/wiki/workstation": {
-    "title": "Workstation",
-    "view": "default",
-    "short": "The tools and apps I use",
-    "showonwiki": true,
-    "text": "I currently use a 2015 Macbook Pro 13\" with 8GB of RAM and 2.7Ghz i5 processor.\n\n### GUI\n\n- Browser: [Firefox](https://mozilla.org/firefox) / [Beaker](https://beakerbrowser.com/)\n- Terminal: [Hyper](https://hyper.is/)\n- Text Editor: [Atom](https://atom.io/)\n- Design: [Figma](https://figma.com)\n- Window Manager: [Spectacle](https://www.spectacleapp.com/)\n- Audio Workstation: [Ableton Live](https://ableton.com/live)\n- Music: [Spotify](https://spotify.com/)\n- Video Player: [IINA](https://lhc70000.github.io/iina/)\n- Calculator: [Numi](https://numi.io/)\n- Chat: [Telegram](https://telegram.org)\n\n### CLI\n\n- npm publish: [np](https://github.com/sindresorhus)\n- Git: [aut](https://github.com/kodedninja/aut) / [hub](https://github.com/github/hub)\n- Node Version Manager: [n](https://github.com/tj/n)\n- Music: [cmus](https://cmus.github.io/)\n\n### [Beaker](https://beakerbrowser.com) Apps\n\n- Writing: [Enoki](https://enoki.site) / [orkl](https://github.com/kodedninja/orkl)\n- Reading: [Dropout](https://github.com/jondashkyle/dropout-app)\n- Consuming Feeds: [Hardly Everything](https://hardlyeverything.com)\n\nFor the libraries I usually use, go to [this repo](https://github.com/kodedninja/weapons).",
-    "name": "workstation",
-    "path": "/content/wiki/workstation",
-    "url": "/wiki/workstation",
-    "files": {},
-    "pages": {}
-  },
   "/": {
     "title": "Hunor Karamán",
     "view": "home",
-    "text": "I’m a _digital explorer_ working on experimental projects with small footprint,  fast websites & solutions for the peer-to-peer web.\n\n---\n\n## Currently\n\nWeb-developer at [GeoGebra](https://geogebra.org) <span class=\"f3 fr\">(2018 - 2019)</span> \nExperimenting with [peer-to-peer tools](/p2p) <span class=\"f3 fr\">(2017 - 2019)</span> \n\n## Previously\n\nCo-Made [Pictogon](https://pictogon.com) <span class=\"f3 fr\">(2017)</span>\n\n---\n\nI'm present on [GitHub](https://github.com/kodedninja), [Are.na](https://are.na/hunor-karaman), [Reading Supply](https://reading.supply/@kodedninja) and [Mastodon](https://merveilles.town/@kodedninja).\nYou can contact me via [email](mailto:karamanhunor@pm.me).\n\nEverything I make should pass most of the criterias in my [Manifesto](/manifesto).\n\nI’m a peer.\n\n---\n\nBuilt with [Enoki](https://enoki.site/) & [Choo](https://choo.io/).\n\n<span class=\"wwb\">dat://11f84fe55630f24f51d3ae446de2c26c94a8ecd9eb8a9bfdda37b175cecc0711/</span>",
+    "text": "I’m a _digital explorer_ working on experimental projects with small footprint,  fast websites & solutions for the peer-to-peer web.\n\n---\n\n## Currently\n\nWeb-developer at [GeoGebra](https://geogebra.org), 2018―\nExperimenting with [peer-to-peer tools](/p2p), 2017―\n\n## Previously\n\nCo-Made [Pictogon](https://pictogon.com), 2017\n\n---\n\nI'm present on [GitHub](https://github.com/kodedninja), [Are.na](https://are.na/hunor-karaman), [Reading Supply](https://reading.supply/@kodedninja) and [Mastodon](https://merveilles.town/@kodedninja).\nYou can contact me via [email](mailto:karamanhunor@pm.me).\n\nEverything I make should pass most of the criterias in my [Manifesto](/manifesto).\n\nI’m a peer.\n\n---\n\nBuilt with [Enoki](https://enoki.site/) & [Choo](https://choo.io/).\n\n<span class=\"wwb\">dat://11f84fe55630f24f51d3ae446de2c26c94a8ecd9eb8a9bfdda37b175cecc0711/</span>",
     "name": "content",
     "path": "/content",
     "url": "/",
     "files": {},
     "pages": {
-      "p2p": {
-        "name": "p2p",
-        "path": "/content/p2p",
-        "url": "/p2p",
-        "source": "/content/p2p"
-      },
       "manifesto": {
         "name": "manifesto",
         "path": "/content/manifesto",
         "url": "/manifesto",
         "source": "/content/manifesto"
       },
-      "wiki": {
-        "name": "wiki",
-        "path": "/content/wiki",
-        "url": "/wiki",
-        "source": "/content/wiki"
-      },
       "blog": {
         "name": "blog",
         "path": "/content/blog",
         "url": "/blog",
         "source": "/content/blog"
+      },
+      "p2p": {
+        "name": "p2p",
+        "path": "/content/p2p",
+        "url": "/p2p",
+        "source": "/content/p2p"
+      },
+      "wiki": {
+        "name": "wiki",
+        "path": "/content/wiki",
+        "url": "/wiki",
+        "source": "/content/wiki"
       }
     }
-  },
-  "/blog/pictogon": {
-    "title": "Redefining image maps",
-    "view": "entry",
-    "date": "2017-10-20",
-    "location": "Odorheiu Secuiesc",
-    "excerpt": "Once upon a time images appeared on websites with interactive areas inside. They were called _image maps_.\n\nDuring the summer of 2017, together with my friend and mentor [Csaba](https://codecanyon.net/user/sekler) we've created [Pictogon](https://pictogon.com) ― a modern image map editor.",
-    "text": "\"In HTML and XHTML, an image map is a list of coordinates relating to a specific image, created in order to hyperlink areas of the image to different destinations (as opposed to a normal image link, in which the entire area of the image links to a single destination).\" ― [Wikipedia](https://en.wikipedia.org/wiki/Image_map)\n\nI think image maps actualized a desire many of us have: to make something eternally static (object, image) interactive and alive. Sadly, they didn't spread out on the web and searching for clickable areas on an image isn't a habbit. The reason behind these might be the timing and the tools of the age. If you check the [\"Creation and use section\"](https://en.wikipedia.org/wiki/Image_map#Creation_and_use) of the Wikipedia article, you'll see that the recommended programs for image map creation are Dreamweaver, KDE and GIMP (with a plugin). Tools that aren't used anymore or took a turn in an other direction.\n\nSo my good friend Csaba wanted to make a proper, modern, web-based image-map editor and asked me to help with building the stack.\n\n![A screenshot of the Pictogon interface](/content/blog/pictogon/pictogon.png)\n\nIt was fun not only because we built a finished product from scratch in a relatively short period of time, but also because it was the first larger-scale project I've worked on (as for most 18 years olds). As it was just a secondary project for Csaba, I designed the whole infrastructure, built the backend and a part of the front-end, while he designed and coordinated everything with precision. I even built a working recurring billing system!\n\nWe tried to keep everything as simple as possible. An image map editor shouldn't be complicated anyways. You have an image → draw some polygons on it → set their content → save → get the embed code or download → put it onto your website.\n\nWe've also experimented with alternative solutions for the upcoming problems (some of them worked out, some of the didn't). For example we didn't want to spend energy, money and computing power on hosting images. They're large and there are enough hosting services on the web (most users have a website with its own storage, why would they also pay for storing images somewhere else?). So you can only input the URL of an image as a starting point. Pictogon will never store the file, it's just a middle layer, between an image and the frontend, that turns the former into an interactive object.\n\nWe decided to let users download the result and handle the embedding part by themselves. **It's a tool, not a platform.**\n\nWe've released Pictogon (into the wild) on 5. October via [Product Hunt](https://www.producthunt.com/posts/pictogon) (which is the only marketing we've done) and luckily people liked it. So much that it became \"Product of the Day\" and \"#3 Product of the Week\".\n\n### Technical details\n\nThe image maps are `<svg>` elements with the image, a bunch of polygons and a script inside.\n\nThe frontend was built with [jQuery](https://jquery.com) (I know, it wasn't my decision), the editor was built by us from the ground up. The backend is vanilla PHP.\n\n---\n\n### Update\n\nAs of today ― November 02, 2018 ― Pictogon is a settling puddle in our hearts. After its successful launch we were motivated for a few months, but we've started to neglect and don't care. Maybe, it wasn't fully finished at the release and we were tired of it to finish afterwards. I also started digging into building for the peer-to-peer web around that time (and haven't stopped since then). I love this product and hope that someday I can, maybe, rebuild it and relaunch it. Pictogon 2.0, sometime, maybe.",
-    "visible": true,
-    "name": "pictogon",
-    "path": "/content/blog/pictogon",
-    "url": "/blog/pictogon",
-    "files": {
-      "pictogon.png": {
-        "name": "pictogon",
-        "path": "/content/blog/pictogon/pictogon.png",
-        "url": "/blog/pictogon/pictogon.png",
-        "source": "dat://11f84fe55630f24f51d3ae446de2c26c94a8ecd9eb8a9bfdda37b175cecc0711/content/blog/pictogon/pictogon.png",
-        "extension": ".png",
-        "filename": "pictogon.png",
-        "type": "image"
-      }
-    },
-    "pages": {}
   },
   "/blog/ntain": {
     "title": "ntain ― a peer-to-peer file sharing site",
@@ -242,6 +218,30 @@
         "source": "dat://11f84fe55630f24f51d3ae446de2c26c94a8ecd9eb8a9bfdda37b175cecc0711/content/blog/are-you-the-owner/orkl.png",
         "extension": ".png",
         "filename": "orkl.png",
+        "type": "image"
+      }
+    },
+    "pages": {}
+  },
+  "/blog/pictogon": {
+    "title": "Redefining image maps",
+    "view": "entry",
+    "date": "2017-10-20",
+    "location": "Odorheiu Secuiesc",
+    "excerpt": "Once upon a time images appeared on websites with interactive areas inside. They were called _image maps_.\n\nDuring the summer of 2017, together with my friend and mentor [Csaba](https://codecanyon.net/user/sekler) we've created [Pictogon](https://pictogon.com) ― a modern image map editor.",
+    "text": "\"In HTML and XHTML, an image map is a list of coordinates relating to a specific image, created in order to hyperlink areas of the image to different destinations (as opposed to a normal image link, in which the entire area of the image links to a single destination).\" ― [Wikipedia](https://en.wikipedia.org/wiki/Image_map)\n\nI think image maps actualized a desire many of us have: to make something eternally static (object, image) interactive and alive. Sadly, they didn't spread out on the web and searching for clickable areas on an image isn't a habbit. The reason behind these might be the timing and the tools of the age. If you check the [\"Creation and use section\"](https://en.wikipedia.org/wiki/Image_map#Creation_and_use) of the Wikipedia article, you'll see that the recommended programs for image map creation are Dreamweaver, KDE and GIMP (with a plugin). Tools that aren't used anymore or took a turn in an other direction.\n\nSo my good friend Csaba wanted to make a proper, modern, web-based image-map editor and asked me to help with building the stack.\n\n![A screenshot of the Pictogon interface](/content/blog/pictogon/pictogon.png)\n\nIt was fun not only because we built a finished product from scratch in a relatively short period of time, but also because it was the first larger-scale project I've worked on (as for most 18 years olds). As it was just a secondary project for Csaba, I designed the whole infrastructure, built the backend and a part of the front-end, while he designed and coordinated everything with precision. I even built a working recurring billing system!\n\nWe tried to keep everything as simple as possible. An image map editor shouldn't be complicated anyways. You have an image → draw some polygons on it → set their content → save → get the embed code or download → put it onto your website.\n\nWe've also experimented with alternative solutions for the upcoming problems (some of them worked out, some of the didn't). For example we didn't want to spend energy, money and computing power on hosting images. They're large and there are enough hosting services on the web (most users have a website with its own storage, why would they also pay for storing images somewhere else?). So you can only input the URL of an image as a starting point. Pictogon will never store the file, it's just a middle layer, between an image and the frontend, that turns the former into an interactive object.\n\nWe decided to let users download the result and handle the embedding part by themselves. **It's a tool, not a platform.**\n\nWe've released Pictogon (into the wild) on 5. October via [Product Hunt](https://www.producthunt.com/posts/pictogon) (which is the only marketing we've done) and luckily people liked it. So much that it became \"Product of the Day\" and \"#3 Product of the Week\".\n\n### Technical details\n\nThe image maps are `<svg>` elements with the image, a bunch of polygons and a script inside.\n\nThe frontend was built with [jQuery](https://jquery.com) (I know, it wasn't my decision), the editor was built by us from the ground up. The backend is vanilla PHP.\n\n---\n\n### Update\n\nAs of today ― November 02, 2018 ― Pictogon is a settling puddle in our hearts. After its successful launch we were motivated for a few months, but we've started to neglect and don't care. Maybe, it wasn't fully finished at the release and we were tired of it to finish afterwards. I also started digging into building for the peer-to-peer web around that time (and haven't stopped since then). I love this product and hope that someday I can, maybe, rebuild it and relaunch it. Pictogon 2.0, sometime, maybe.",
+    "visible": true,
+    "name": "pictogon",
+    "path": "/content/blog/pictogon",
+    "url": "/blog/pictogon",
+    "files": {
+      "Pictogon.png": {
+        "name": "Pictogon",
+        "path": "/content/blog/pictogon/Pictogon.png",
+        "url": "/blog/pictogon/Pictogon.png",
+        "source": "dat://11f84fe55630f24f51d3ae446de2c26c94a8ecd9eb8a9bfdda37b175cecc0711/content/blog/pictogon/Pictogon.png",
+        "extension": ".png",
+        "filename": "Pictogon.png",
         "type": "image"
       }
     },

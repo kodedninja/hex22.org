@@ -24,9 +24,11 @@ text: I currently use a 2015 Macbook Pro 13" with 8GB of RAM and 2.7Ghz i5 proce
 ### CLI
 
 - npm publish: [np](https://github.com/sindresorhus)
-- Git: [aut](https://github.com/kodedninja/aut) / [hub](https://github.com/github/hub)
+- Git: [dotfiles](https://github.com/kodedninja/dotfiles)
 - Node Version Manager: [n](https://github.com/tj/n)
+- Domains: [now](https://github.com/zeit/now-cli)
 - Music: [cmus](https://cmus.github.io/)
+- Misc: [`youtube-dl`](https://github.com/rg3/youtube-dl)
 
 ### [Beaker](https://beakerbrowser.com) Apps
 

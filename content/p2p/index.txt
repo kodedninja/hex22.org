@@ -16,13 +16,13 @@ In the past I've built a few applications that express some of the possibilities
 
 ### Previously I've made
 
-1. [ntain](https://github.com/kodedninja/ntain) ― Peer-to-Peer file sharing site → 2017
-2. [orkl](https://github.com/kodedninja/orkl) ― Super simple peer-to-peer blogging site → 2018
-3. [solo](https://github.com/kodedninja/solo) ― The simplest publication tool → 2018
-4. [ridder](https://github.com/kodedninja/ridder) ― An RSS reader that you own → 2018
-5. [seeder](https://github.com/new-computers/seeder) ― Plug-and-play Raspberry Pi DAT seeder → 2018
-6. [present](https://github.com/kodedninja/present) ― Peer-to-Peer text-to-presentation tool → 2018
-7. [Pears](https://github.com/as-dr/pears) ― A peer-to-peer, temporary, collaborative playlist. → 2018 - 2019
+1. [Pears](https://github.com/as-dr/pears) ― A peer-to-peer, temporary, collaborative playlist, 2018―2019
+2. [present](https://github.com/kodedninja/present) ― Peer-to-Peer text-to-presentation tool, 2018
+3. [seeder](https://github.com/new-computers/seeder) ― Plug-and-play Raspberry Pi DAT seeder, 2018
+4. [ridder](https://github.com/kodedninja/ridder) ― An RSS reader that you own, 2018
+5. [solo](https://github.com/kodedninja/solo) ― The simplest publication tool, 2018
+6. [orkl](https://github.com/kodedninja/orkl) ― Super simple peer-to-peer blogging site, 2018
+7. [ntain](https://github.com/kodedninja/ntain) ― Peer-to-Peer file sharing site, 2017
 ----
 short: Keeping track of my work in the peer-to-peer web space
 ----
