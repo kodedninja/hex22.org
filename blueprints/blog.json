@@ -11,6 +11,11 @@
       "required": true,
       "width": "3/4"
     },
+    "entriesPerPage": {
+      "label": "Entries / Page",
+      "type": "number",
+      "width": "1/2"
+    },
     "text": {
       "label": "Text",
       "type": "textarea"

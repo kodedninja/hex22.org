@@ -52,6 +52,8 @@ code, .ffmono{font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo,
 
 .wwb {word-wrap: break-word}
 
+.tcgrey {color:#d0d0d0}
+
 /* blocks */
 
 .db{display:block}
@@ -170,6 +172,10 @@ blockquote {
 }
 
 .cp{cursor:pointer}
+.disabled {
+  pointer-events: none;
+  cursor:default;
+}
 
 /* media query customs */
 
