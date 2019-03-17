@@ -12,9 +12,23 @@
     "files": {},
     "pages": {}
   },
+  "/p2p": {
+    "title": "Peer-to-Peer",
+    "view": "default",
+    "banner": true,
+    "text": "I try to keep this page updated about my <u>current</u> interests within the peer-to-peer web space.\n\nIn the past I've built a few applications that express some of the possibilities of the peer-to-peer web. Although, it was an amazing experience and I'm proud of what I've made, I also see this (focusing so much on making) as a mistake. That's why my current interests have changed from *more building* to *more thinking*.\n\n### I am\n\n- Thinking about what does it mean to be members of these new, peer-to-peer spaces\n- Working on a little site seeder that includes server-side rendering for the `http://` version\n- Still integrating the peer-to-peer web into my life to see what's possible and what should be changed\n\n### Previously I've made\n\n1. [Pears](https://github.com/as-dr/pears) ― A peer-to-peer, temporary, collaborative playlist, 2018―2019\n2. [present](https://github.com/kodedninja/present) ― Peer-to-Peer text-to-presentation tool, 2018\n3. [seeder](https://github.com/new-computers/seeder) ― Plug-and-play Raspberry Pi DAT seeder, 2018\n4. [ridder](https://github.com/kodedninja/ridder) ― An RSS reader that you own, 2018\n5. [solo](https://github.com/kodedninja/solo) ― The simplest publication tool, 2018\n6. [orkl](https://github.com/kodedninja/orkl) ― Super simple peer-to-peer blogging site, 2018\n7. [ntain](https://github.com/kodedninja/ntain) ― Peer-to-Peer file sharing site, 2017",
+    "short": "Keeping track of my work in the peer-to-peer web space",
+    "showonwiki": true,
+    "name": "p2p",
+    "path": "/content/p2p",
+    "url": "/p2p",
+    "files": {},
+    "pages": {}
+  },
   "/blog": {
     "title": "Writings",
     "view": "blog",
+    "entriesPerPage": "5",
     "name": "blog",
     "path": "/content/blog",
     "url": "/blog",
@@ -52,19 +66,6 @@
       }
     }
   },
-  "/p2p": {
-    "title": "Peer-to-Peer",
-    "view": "default",
-    "banner": true,
-    "text": "I try to keep this page updated about my <u>current</u> interests within the peer-to-peer web space.\n\nIn the past I've built a few applications that express some of the possibilities of the peer-to-peer web. Although, it was an amazing experience and I'm proud of what I've made, I also see this (focusing so much on making) as a mistake. That's why my current interests have changed from *more building* to *more thinking*.\n\n### I am\n\n- Thinking about what does it mean to be members of these new, peer-to-peer spaces\n- Working on a little site seeder that includes server-side rendering for the `http://` version\n- Still integrating the peer-to-peer web into my life to see what's possible and what should be changed\n\n### Previously I've made\n\n1. [Pears](https://github.com/as-dr/pears) ― A peer-to-peer, temporary, collaborative playlist, 2018―2019\n2. [present](https://github.com/kodedninja/present) ― Peer-to-Peer text-to-presentation tool, 2018\n3. [seeder](https://github.com/new-computers/seeder) ― Plug-and-play Raspberry Pi DAT seeder, 2018\n4. [ridder](https://github.com/kodedninja/ridder) ― An RSS reader that you own, 2018\n5. [solo](https://github.com/kodedninja/solo) ― The simplest publication tool, 2018\n6. [orkl](https://github.com/kodedninja/orkl) ― Super simple peer-to-peer blogging site, 2018\n7. [ntain](https://github.com/kodedninja/ntain) ― Peer-to-Peer file sharing site, 2017",
-    "short": "Keeping track of my work in the peer-to-peer web space",
-    "showonwiki": true,
-    "name": "p2p",
-    "path": "/content/p2p",
-    "url": "/p2p",
-    "files": {},
-    "pages": {}
-  },
   "/wiki": {
     "title": "Wiki",
     "view": "wiki",
@@ -100,6 +101,18 @@
     "files": {},
     "pages": {}
   },
+  "/wiki/readings": {
+    "title": "Readings",
+    "view": "default",
+    "text": "For the books I'm planning to read visit [this channel](https://www.are.na/hunor-karaman/want-to-read-u8qku8vpli) on Are.na.\n\n<u>2019</u>\n\nHaruki Murakami ― **\"Kafka on the Shore\"**\nRainer Maria Rilke ― **\"Letters To A Young Poet\"**\nMartin Heidegger ― **\"The Question Concerning Technology\"**\nHaruki Murakami ― **\"Hard-Boiled Wonderland and the End Of The World\"**\nFranz Enzenhofer ― **\"Understanding SEO\"**\nYuval Noah Harari ― **\"Homo Deus\"**\n\n<u>2018</u>\n\nAttila Bartis ― **\"A Nyugalom\"**\nLászló Potozky ― **\"Éles\"**\nJean-Paul Sartre ― **\"Nausea\"**\nImre Madách ― **\"The Tragedy of Man\"**\nAlain de Botton ― **\"Essays on Love\"**\nMichel Houellebecq ― **\"The Map and the Territory\"**\nArthur Schopenhauer ― **\"The Metaphysics of Love\"**\nKurt Vonnegut ― **\"Slaughterhouse-Five\"**\nLászló Potozky ― **\"Égéstermék\"**\nMichel Houellebecq ― **\"The Possibility of an Island**\"",
+    "showonwiki": true,
+    "short": "Tracking the books I read",
+    "name": "readings",
+    "path": "/content/wiki/readings",
+    "url": "/wiki/readings",
+    "files": {},
+    "pages": {}
+  },
   "/blog/being-a-peer": {
     "title": "Being a Peer: A Peer's Manifesto",
     "view": "entry",
@@ -128,18 +141,6 @@
     "files": {},
     "pages": {}
   },
-  "/wiki/readings": {
-    "title": "Readings",
-    "view": "default",
-    "text": "For the books I'm planning to read visit [this channel](https://www.are.na/hunor-karaman/want-to-read-sncwjrjztha) on Are.na.\n\n<u>2019</u>\n\nRainer Maria Rilke ― **\"Letters To A Young Poet\"**\nMartin Heidegger ― **\"The Question Concerning Technology\"**\nHaruki Murakami ― **\"Hard-Boiled Wonderland and the End Of The World\"** _(recommended)_\nFranz Enzenhofer ― **\"Understanding SEO\"**\nYuval Noah Harari ― **\"Homo Deus\"**\n\n<u>2018</u>\n\nBartis Attila ― **\"A Nyugalom\"** _(recommended)_\nPotozky László ― **\"Éles\"**\nJean-Paul Sartre ― **\"Nausea\"** _(recommended)_\nAlain de Botton ― **\"Essays on Love\"**\nMichel Houellebecq ― **\"The Map and the Territory\"**\nArthur Schopenhauer ― **\"The Metaphysics of Love\"**\nKurt Vonnegut ― **\"Slaughterhouse-Five\"**\nPotozky László ― **\"Égéstermék\"**\nMichel Houellebecq ― **\"The Possibility of an Island**\" _(recommended)_",
-    "showonwiki": true,
-    "short": "Tracking all the books I've read",
-    "name": "readings",
-    "path": "/content/wiki/readings",
-    "url": "/wiki/readings",
-    "files": {},
-    "pages": {}
-  },
   "/": {
     "title": "Hunor Karamán",
     "view": "home",
@@ -155,17 +156,17 @@
         "url": "/manifesto",
         "source": "/content/manifesto"
       },
-      "blog": {
-        "name": "blog",
-        "path": "/content/blog",
-        "url": "/blog",
-        "source": "/content/blog"
-      },
       "p2p": {
         "name": "p2p",
         "path": "/content/p2p",
         "url": "/p2p",
         "source": "/content/p2p"
+      },
+      "blog": {
+        "name": "blog",
+        "path": "/content/blog",
+        "url": "/blog",
+        "source": "/content/blog"
       },
       "wiki": {
         "name": "wiki",
