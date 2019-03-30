@@ -1,0 +1,13 @@
+title:
+----
+view: entry
+----
+date: 2019-03-30
+----
+location: Linz
+----
+excerpt: At the beginning of the year I've set out to stop trying to control my productivity and do not chase my productive habbits. _"A year of inputs, instead of outputs"_, I've said. It hit me as a surprise that end of February ― beginning of March were one of my most productive periods, especially knowing that I still spent time with all the other habbits.
+
+But now I'm back on the lands of unproductivity (which means that I don't work on personal projects and spend time with other activities) and I feel happy, relaxed and satisfied. That is hard to achieve if you were chasing those productive days for so long. Instead of coming home from work and continue coding until night, I come home, go for a run (if you're interested [here's my Strava](https://www.strava.com/athletes/14194217)), cook and read (most days in this order). I've set out easy, but consistent monthly goals that should keep me motivated through-out the year.
+
+Just wanted to note this down, if anyone's surprised when I'm missing from the internet sometimes. The reason is simple: I try to spend more time with observing _my inside_, instead of _the outside_.
