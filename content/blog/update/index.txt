@@ -11,3 +11,5 @@ excerpt: At the beginning of the year I've set out to stop chasing my productive
 text: But now I'm back on calm, unproductive waters and I feel happy, relaxed and satisfied. That is hard to achieve if you were chasing those productive days for so long. Instead of coming home from work and continue coding until night, I come home, go for a run (if you're interested [here's my Strava](https://www.strava.com/athletes/14194217)), cook and read (most days in this order). I've set out easy, but consistent monthly goals that should keep me motivated through-out the year, so I still have some time to work on personal projects if I feel like. Also, on the side, I spend more time with writing, mostly personal notes that will never be published, but together they act as a mirror of my day-to-day thoughts.
 
 Just wanted to note this down, if anyone's surprised why sometimes I'm missing from the internet. The reason is simple: I try to spend more time with observing _my inside_, instead of _the outside_.
+----
+visible: true

@@ -72,101 +72,6 @@
       }
     }
   },
-  "/wiki/readings": {
-    "title": "Readings",
-    "view": "default",
-    "text": "For the books I'm planning to read visit [this channel](https://www.are.na/hunor-karaman/want-to-read-u8qku8vpli) on Are.na.\n\n<u>Currently Reading</u>\n\nHaruki Murakami ― **\"What I Talk About When I Talk About Running\"**\nJános Pilinszky ― **\"Beszélgetések (Conversations)\"**\n\n<u>2019</u>\n\nLászló Krasznahorkai ― **\"Sátántangó (Satantango)\"**\nPéter Esterházy ― **\"Hasnyálmirigynapló\"**\nHaruki Murakami ― **\"Kafka on the Shore\"**\nRainer Maria Rilke ― **\"Letters To A Young Poet\"**\nMartin Heidegger ― **\"The Question Concerning Technology\"**\nHaruki Murakami ― **\"Hard-Boiled Wonderland and the End Of The World\"**\nFranz Enzenhofer ― **\"Understanding SEO\"**\nYuval Noah Harari ― **\"Homo Deus\"**\n\n<u>2018</u>\n\nAttila Bartis ― **\"A Nyugalom\"**\nLászló Potozky ― **\"Éles\"**\nJean-Paul Sartre ― **\"Nausea\"**\nImre Madách ― **\"The Tragedy of Man\"**\nAlain de Botton ― **\"Essays on Love\"**\nMichel Houellebecq ― **\"The Map and the Territory\"**\nArthur Schopenhauer ― **\"The Metaphysics of Love\"**\nKurt Vonnegut ― **\"Slaughterhouse-Five\"**\nLászló Potozky ― **\"Égéstermék\"**\nMichel Houellebecq ― **\"The Possibility of an Island**\"",
-    "showonwiki": true,
-    "short": "Tracking the books I read",
-    "name": "readings",
-    "path": "/content/wiki/readings",
-    "url": "/wiki/readings",
-    "files": {},
-    "pages": {}
-  },
-  "/wiki": {
-    "title": "Wiki",
-    "view": "wiki",
-    "text": "Collection of additional notes, thoughts, logs.",
-    "name": "wiki",
-    "path": "/content/wiki",
-    "url": "/wiki",
-    "files": {},
-    "pages": {
-      "workstation": {
-        "name": "workstation",
-        "path": "/content/wiki/workstation",
-        "url": "/wiki/workstation",
-        "source": "/content/wiki/workstation"
-      },
-      "readings": {
-        "name": "readings",
-        "path": "/content/wiki/readings",
-        "url": "/wiki/readings",
-        "source": "/content/wiki/readings"
-      }
-    }
-  },
-  "/wiki/workstation": {
-    "title": "Workstation",
-    "view": "default",
-    "short": "The tools and apps I use",
-    "showonwiki": true,
-    "text": "I currently use a 2015 Macbook Pro 13\" with 8GB of RAM and 2.7Ghz i5 processor.\n\n### GUI\n\n- Browser: [Firefox](https://mozilla.org/firefox) / [Beaker](https://beakerbrowser.com/)\n- Terminal: [Hyper](https://hyper.is/)\n- Text Editor: [Atom](https://atom.io/)\n- Design: [Figma](https://figma.com)\n- Window Manager: [Spectacle](https://www.spectacleapp.com/)\n- Audio Workstation: [Ableton Live](https://ableton.com/live)\n- Music: [Spotify](https://spotify.com/)\n- Video Player: [IINA](https://lhc70000.github.io/iina/)\n- Calculator: [Numi](https://numi.io/)\n- Chat: [Telegram](https://telegram.org)\n\n### CLI\n\n- npm publish: [np](https://github.com/sindresorhus)\n- Git: [dotfiles](https://github.com/kodedninja/dotfiles)\n- Node Version Manager: [n](https://github.com/tj/n)\n- Domains: [now](https://github.com/zeit/now-cli)\n- Music: [cmus](https://cmus.github.io/)\n- Misc: [`youtube-dl`](https://github.com/rg3/youtube-dl)\n\n### [Beaker](https://beakerbrowser.com) Apps\n\n- Writing: [Enoki](https://enoki.site) / [orkl](https://github.com/kodedninja/orkl)\n- Reading: [Dropout](https://github.com/jondashkyle/dropout-app)\n- Consuming Feeds: [Hardly Everything](https://hardlyeverything.com)\n\nFor the libraries I usually use, go to [this repo](https://github.com/kodedninja/weapons).",
-    "name": "workstation",
-    "path": "/content/wiki/workstation",
-    "url": "/wiki/workstation",
-    "files": {},
-    "pages": {}
-  },
-  "/blog/update": {
-    "title": "2019 Notes",
-    "view": "entry",
-    "date": "2019-03-30",
-    "location": "Linz",
-    "excerpt": "At the beginning of the year I've set out to stop chasing my productive habbits, mostly out of the frustration of unhealthy eating and a growing [reading list](https://are.na/hunor-karaman/want-to-read-u8qku8vpli). _\"A year of inputs, instead of outputs\"_, I've said. It hit me as a surprise that, even though I was able to focus on these habbits, February and March were highly productive periods. It was a natural state: I had _things to say_ ― or to make.",
-    "text": "But now I'm back on calm, unproductive waters and I feel happy, relaxed and satisfied. That is hard to achieve if you were chasing those productive days for so long. Instead of coming home from work and continue coding until night, I come home, go for a run (if you're interested [here's my Strava](https://www.strava.com/athletes/14194217)), cook and read (most days in this order). I've set out easy, but consistent monthly goals that should keep me motivated through-out the year, so I still have some time to work on personal projects if I feel like. Also, on the side, I spend more time with writing, mostly personal notes that will never be published, but together they act as a mirror of my day-to-day thoughts.\n\nJust wanted to note this down, if anyone's surprised why sometimes I'm missing from the internet. The reason is simple: I try to spend more time with observing _my inside_, instead of _the outside_.",
-    "name": "update",
-    "path": "/content/blog/update",
-    "url": "/blog/update",
-    "files": {},
-    "pages": {}
-  },
-  "/": {
-    "title": "Hunor Karamán",
-    "view": "home",
-    "text": "I’m a _digital explorer_ working on experimental projects with small footprint,  fast websites & solutions for the peer-to-peer web.\n\n---\n\n## Currently\n\nWeb-developer at [GeoGebra](https://geogebra.org), 2018―\nExperimenting with [peer-to-peer tools](/p2p), 2017―\n\n## Previously\n\nCo-Made [Pictogon](https://pictogon.com), 2017\n\n---\n\nI'm present on [GitHub](https://github.com/kodedninja), [Are.na](https://are.na/hunor-karaman), [Reading Supply](https://reading.supply/@kodedninja) and [Mastodon](https://merveilles.town/@kodedninja).\nYou can contact me via [email](mailto:karamanhunor@pm.me).\n\nEverything I make should pass most of the criterias in my [Manifesto](/manifesto).\n\nI’m a peer.\n\n---\n\nBuilt with [Enoki](https://enoki.site/) & [Choo](https://choo.io/).\n\nThe site is part of a <a href=\"https://webring.xxiivv.com/#random\" target=\"_blank\">Webring</a>.\n\n---\n\n<span class=\"wwb\">dat://11f84fe55630f24f51d3ae446de2c26c94a8ecd9eb8a9bfdda37b175cecc0711/</span>",
-    "name": "content",
-    "path": "/content",
-    "url": "/",
-    "files": {},
-    "pages": {
-      "manifesto": {
-        "name": "manifesto",
-        "path": "/content/manifesto",
-        "url": "/manifesto",
-        "source": "/content/manifesto"
-      },
-      "p2p": {
-        "name": "p2p",
-        "path": "/content/p2p",
-        "url": "/p2p",
-        "source": "/content/p2p"
-      },
-      "blog": {
-        "name": "blog",
-        "path": "/content/blog",
-        "url": "/blog",
-        "source": "/content/blog"
-      },
-      "wiki": {
-        "name": "wiki",
-        "path": "/content/wiki",
-        "url": "/wiki",
-        "source": "/content/wiki"
-      }
-    }
-  },
   "/blog/being-a-peer": {
     "title": "Being a Peer: A Peer's Manifesto",
     "view": "entry",
@@ -195,6 +100,90 @@
     "files": {},
     "pages": {}
   },
+  "/wiki": {
+    "title": "Wiki",
+    "view": "wiki",
+    "text": "Collection of additional notes, thoughts, logs.",
+    "name": "wiki",
+    "path": "/content/wiki",
+    "url": "/wiki",
+    "files": {},
+    "pages": {
+      "workstation": {
+        "name": "workstation",
+        "path": "/content/wiki/workstation",
+        "url": "/wiki/workstation",
+        "source": "/content/wiki/workstation"
+      },
+      "readings": {
+        "name": "readings",
+        "path": "/content/wiki/readings",
+        "url": "/wiki/readings",
+        "source": "/content/wiki/readings"
+      }
+    }
+  },
+  "/blog/update": {
+    "title": "2019 Notes",
+    "view": "entry",
+    "date": "2019-03-30",
+    "location": "Linz",
+    "excerpt": "At the beginning of the year I've set out to stop chasing my productive habbits, mostly out of the frustration of unhealthy eating and a growing [reading list](https://are.na/hunor-karaman/want-to-read-u8qku8vpli). _\"A year of inputs, instead of outputs\"_, I've said. It hit me as a surprise that, even though I was able to focus on these habbits, February and March were highly productive periods. It was a natural state: I had _things to say_ ― or to make.",
+    "text": "But now I'm back on calm, unproductive waters and I feel happy, relaxed and satisfied. That is hard to achieve if you were chasing those productive days for so long. Instead of coming home from work and continue coding until night, I come home, go for a run (if you're interested [here's my Strava](https://www.strava.com/athletes/14194217)), cook and read (most days in this order). I've set out easy, but consistent monthly goals that should keep me motivated through-out the year, so I still have some time to work on personal projects if I feel like. Also, on the side, I spend more time with writing, mostly personal notes that will never be published, but together they act as a mirror of my day-to-day thoughts.\n\nJust wanted to note this down, if anyone's surprised why sometimes I'm missing from the internet. The reason is simple: I try to spend more time with observing _my inside_, instead of _the outside_.",
+    "visible": true,
+    "name": "update",
+    "path": "/content/blog/update",
+    "url": "/blog/update",
+    "files": {},
+    "pages": {}
+  },
+  "/wiki/readings": {
+    "title": "Readings",
+    "view": "default",
+    "text": "For the books I'm planning to read visit [this channel](https://www.are.na/hunor-karaman/want-to-read-u8qku8vpli) on Are.na.\n\n<u>Currently Reading</u>\n\nHaruki Murakami ― **\"What I Talk About When I Talk About Running\"**\nJános Pilinszky ― **\"Beszélgetések (Conversations)\"**\n\n<u>2019</u>\n\nLászló Krasznahorkai ― **\"Sátántangó (Satantango)\"**\nPéter Esterházy ― **\"Hasnyálmirigynapló\"**\nHaruki Murakami ― **\"Kafka on the Shore\"**\nRainer Maria Rilke ― **\"Letters To A Young Poet\"**\nMartin Heidegger ― **\"The Question Concerning Technology\"**\nHaruki Murakami ― **\"Hard-Boiled Wonderland and the End Of The World\"**\nFranz Enzenhofer ― **\"Understanding SEO\"**\nYuval Noah Harari ― **\"Homo Deus\"**\n\n<u>2018</u>\n\nAttila Bartis ― **\"A Nyugalom\"**\nLászló Potozky ― **\"Éles\"**\nJean-Paul Sartre ― **\"Nausea\"**\nImre Madách ― **\"The Tragedy of Man\"**\nAlain de Botton ― **\"Essays on Love\"**\nMichel Houellebecq ― **\"The Map and the Territory\"**\nArthur Schopenhauer ― **\"The Metaphysics of Love\"**\nKurt Vonnegut ― **\"Slaughterhouse-Five\"**\nLászló Potozky ― **\"Égéstermék\"**\nMichel Houellebecq ― **\"The Possibility of an Island**\"",
+    "showonwiki": true,
+    "short": "Tracking the books I read",
+    "name": "readings",
+    "path": "/content/wiki/readings",
+    "url": "/wiki/readings",
+    "files": {},
+    "pages": {}
+  },
+  "/": {
+    "title": "Hunor Karamán",
+    "view": "home",
+    "text": "I’m a _digital explorer_ working on experimental projects with small footprint,  fast websites & solutions for the peer-to-peer web.\n\n---\n\n## Currently\n\nWeb-developer at [GeoGebra](https://geogebra.org), 2018―\nExperimenting with [peer-to-peer tools](/p2p), 2017―\n\n## Previously\n\nCo-Made [Pictogon](https://pictogon.com), 2017\n\n---\n\nI'm present on [GitHub](https://github.com/kodedninja), [Are.na](https://are.na/hunor-karaman), [Reading Supply](https://reading.supply/@kodedninja) and [Mastodon](https://merveilles.town/@kodedninja).\nYou can contact me via [email](mailto:karamanhunor@pm.me).\n\nEverything I make should pass most of the criterias in my [Manifesto](/manifesto).\n\nI’m a peer.\n\n---\n\nBuilt with [Enoki](https://enoki.site/) & [Choo](https://choo.io/).\n\nThe site is part of a <a href=\"https://webring.xxiivv.com/#random\" target=\"_blank\">Webring</a>.\n\n---\n\n<span class=\"wwb\">dat://11f84fe55630f24f51d3ae446de2c26c94a8ecd9eb8a9bfdda37b175cecc0711/</span>",
+    "name": "content",
+    "path": "/content",
+    "url": "/",
+    "files": {},
+    "pages": {
+      "manifesto": {
+        "name": "manifesto",
+        "path": "/content/manifesto",
+        "url": "/manifesto",
+        "source": "/content/manifesto"
+      },
+      "p2p": {
+        "name": "p2p",
+        "path": "/content/p2p",
+        "url": "/p2p",
+        "source": "/content/p2p"
+      },
+      "wiki": {
+        "name": "wiki",
+        "path": "/content/wiki",
+        "url": "/wiki",
+        "source": "/content/wiki"
+      },
+      "blog": {
+        "name": "blog",
+        "path": "/content/blog",
+        "url": "/blog",
+        "source": "/content/blog"
+      }
+    }
+  },
   "/blog/are-you-the-owner": {
     "title": "Are you the owner?",
     "view": "entry",
@@ -217,6 +206,18 @@
         "type": "image"
       }
     },
+    "pages": {}
+  },
+  "/wiki/workstation": {
+    "title": "Workstation",
+    "view": "default",
+    "short": "The tools and apps I use",
+    "showonwiki": true,
+    "text": "I currently use a 2015 Macbook Pro 13\" with 8GB of RAM and 2.7Ghz i5 processor.\n\n### GUI\n\n- Browser: [Firefox](https://mozilla.org/firefox) / [Beaker](https://beakerbrowser.com/)\n- Terminal: [Hyper](https://hyper.is/)\n- Text Editor: [Atom](https://atom.io/)\n- Design: [Figma](https://figma.com)\n- Window Manager: [Spectacle](https://www.spectacleapp.com/)\n- Audio Workstation: [Ableton Live](https://ableton.com/live)\n- Music: [Spotify](https://spotify.com/)\n- Video Player: [IINA](https://lhc70000.github.io/iina/)\n- Calculator: [Numi](https://numi.io/)\n- Chat: [Telegram](https://telegram.org)\n\n### CLI\n\n- npm publish: [np](https://github.com/sindresorhus)\n- Git: [dotfiles](https://github.com/kodedninja/dotfiles)\n- Node Version Manager: [n](https://github.com/tj/n)\n- Domains: [now](https://github.com/zeit/now-cli)\n- Music: [cmus](https://cmus.github.io/)\n- Misc: [`youtube-dl`](https://github.com/rg3/youtube-dl)\n\n### [Beaker](https://beakerbrowser.com) Apps\n\n- Writing: [Enoki](https://enoki.site) / [orkl](https://github.com/kodedninja/orkl)\n- Reading: [Dropout](https://github.com/jondashkyle/dropout-app)\n- Consuming Feeds: [Hardly Everything](https://hardlyeverything.com)\n\nFor the libraries I usually use, go to [this repo](https://github.com/kodedninja/weapons).",
+    "name": "workstation",
+    "path": "/content/wiki/workstation",
+    "url": "/wiki/workstation",
+    "files": {},
     "pages": {}
   },
   "/blog/pictogon": {
