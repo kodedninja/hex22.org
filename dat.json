@@ -1,12 +1,3 @@
 {
-  "title": "hex22",
-  "fallback_page": "/index.html",
-  "links": {
-    "payment": [
-      {
-        "href": "https://www.paypal.me/kodedninja",
-        "type": "text/html"
-      }
-    ]
-  }
+  "title": "hex22"
 }
