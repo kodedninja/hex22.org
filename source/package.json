@@ -11,8 +11,8 @@
   "author": "kodedninja",
   "license": "ISC",
   "dependencies": {
+    "@kodedninja/enoki": "^2.1.0",
     "choo": "^6.0.0",
-    "enoki": "^2.1.0",
     "markdown-it": "^8.4.0",
     "markdown-it-sup": "^1.0.0",
     "medium-zoom": "^1.0.2",

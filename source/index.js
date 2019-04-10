@@ -4,7 +4,7 @@ require('./design')
 
 // our app
 var app = choo()
-app.use(require('enoki/choo')())
+app.use(require('@kodedninja/enoki/choo')())
 app.use(require('./plugins/scroll'))
 app.use(require('./plugins/transition'))
 

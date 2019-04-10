@@ -1,17 +1,4 @@
 {
-  "/p2p": {
-    "title": "Peer-to-Peer",
-    "view": "default",
-    "banner": true,
-    "text": "I try to keep this page updated about my <u>current</u> interests within the peer-to-peer web space.\n\nIn the past I've built a few applications that express some of the possibilities of the peer-to-peer web. Although, it was an amazing experience and I'm proud of what I've made, I also see this (focusing so much on making) as a mistake. That's why my current interests have changed from *more building* to *more thinking*.\n\n### I am\n\n- Thinking about what does it mean to be members of these new, peer-to-peer spaces\n- Working on a little site seeder that includes server-side rendering for the `http://` version\n- Still integrating the peer-to-peer web into my life to see what's possible and what should be changed\n\n### Previously I've made\n\n1. [Pears](https://github.com/as-dr/pears) ― A peer-to-peer, temporary, collaborative playlist, 2018―2019\n2. [present](https://github.com/kodedninja/present) ― Peer-to-Peer text-to-presentation tool, 2018\n3. [seeder](https://github.com/new-computers/seeder) ― Plug-and-play Raspberry Pi DAT seeder, 2018\n4. [ridder](https://github.com/kodedninja/ridder) ― An RSS reader that you own, 2018\n5. [solo](https://github.com/kodedninja/solo) ― The simplest publication tool, 2018\n6. [orkl](https://github.com/kodedninja/orkl) ― Super simple peer-to-peer blogging site, 2018\n7. [ntain](https://github.com/kodedninja/ntain) ― Peer-to-Peer file sharing site, 2017",
-    "short": "Keeping track of my work in the peer-to-peer web space",
-    "showonwiki": true,
-    "name": "p2p",
-    "path": "/content/p2p",
-    "url": "/p2p",
-    "files": {},
-    "pages": {}
-  },
   "/manifesto": {
     "title": "Manifesto",
     "view": "default",
@@ -22,6 +9,19 @@
     "name": "manifesto",
     "path": "/content/manifesto",
     "url": "/manifesto",
+    "files": {},
+    "pages": {}
+  },
+  "/p2p": {
+    "title": "Peer-to-Peer",
+    "view": "default",
+    "banner": true,
+    "text": "I try to keep this page updated about my <u>current</u> interests within the peer-to-peer web space.\n\nIn the past I've built a few applications that express some of the possibilities of the peer-to-peer web. Although, it was an amazing experience and I'm proud of what I've made, I also see this (focusing so much on making) as a mistake. That's why my current interests have changed from *more building* to *more thinking*.\n\n### I am\n\n- Thinking about what does it mean to be members of these new, peer-to-peer spaces\n- Working on a little site seeder that includes server-side rendering for the `http://` version\n- Still integrating the peer-to-peer web into my life to see what's possible and what should be changed\n\n### Previously I've made\n\n1. [Pears](https://github.com/as-dr/pears) ― A peer-to-peer, temporary, collaborative playlist, 2018―2019\n2. [present](https://github.com/kodedninja/present) ― Peer-to-Peer text-to-presentation tool, 2018\n3. [seeder](https://github.com/new-computers/seeder) ― Plug-and-play Raspberry Pi DAT seeder, 2018\n4. [ridder](https://github.com/kodedninja/ridder) ― An RSS reader that you own, 2018\n5. [solo](https://github.com/kodedninja/solo) ― The simplest publication tool, 2018\n6. [orkl](https://github.com/kodedninja/orkl) ― Super simple peer-to-peer blogging site, 2018\n7. [ntain](https://github.com/kodedninja/ntain) ― Peer-to-Peer file sharing site, 2017",
+    "short": "Keeping track of my work in the peer-to-peer web space",
+    "showonwiki": true,
+    "name": "p2p",
+    "path": "/content/p2p",
+    "url": "/p2p",
     "files": {},
     "pages": {}
   },
@@ -147,24 +147,10 @@
     "files": {},
     "pages": {}
   },
-  "/blog/update": {
-    "title": "2019 Notes",
-    "view": "entry",
-    "date": "2019-03-30",
-    "location": "Linz",
-    "excerpt": "At the beginning of the year I've set out to stop chasing my productive habbits, mostly out of the frustration of unhealthy eating and a growing [reading list](https://are.na/hunor-karaman/want-to-read-u8qku8vpli). _\"A year of inputs, instead of outputs\"_, I've said. It hit me as a surprise that, even though I was able to focus on these habbits, February and March were highly productive periods. It was a natural state: I had _things to say_ ― or to make.",
-    "text": "But now I'm back on calm, unproductive waters and I feel happy, relaxed and satisfied. That is hard to achieve if you were chasing those productive days for so long. Instead of coming home from work and continue coding until night, I come home, go for a run (if you're interested [here's my Strava](https://www.strava.com/athletes/14194217)), cook and read (most days in this order). I've set out easy, but consistent monthly goals that should keep me motivated through-out the year, so I still have some time to work on personal projects if I feel like. Also, on the side, I spend more time with writing, mostly personal notes that will never be published, but together they act as a mirror of my day-to-day thoughts.\n\nJust wanted to note this down, if anyone's surprised why sometimes I'm missing from the internet. The reason is simple: I try to spend more time with observing _my inside_, instead of _the outside_.",
-    "visible": true,
-    "name": "update",
-    "path": "/content/blog/update",
-    "url": "/blog/update",
-    "files": {},
-    "pages": {}
-  },
   "/": {
     "title": "Hunor Karamán",
     "view": "home",
-    "text": "I’m a _digital explorer_ working on experimental projects with small footprint,  fast websites & solutions for the peer-to-peer web.\n\n---\n\n## Currently\n\nWeb-developer at [GeoGebra](https://geogebra.org), 2018―\nExperimenting with [peer-to-peer tools](/p2p), 2017―\n\n## Previously\n\nCo-Made [Pictogon](https://pictogon.com), 2017\n\n---\n\nI'm present on [GitHub](https://github.com/kodedninja), [Are.na](https://are.na/hunor-karaman), [Reading Supply](https://reading.supply/@kodedninja) and [Mastodon](https://merveilles.town/@kodedninja).\nYou can contact me via [email](mailto:karamanhunor@pm.me).\n\nEverything I make should pass most of the criterias in my [Manifesto](/manifesto).\n\nI’m a peer.\n\n---\n\nBuilt with [Enoki](https://enoki.site/) & [Choo](https://choo.io/).\n\nThe site is part of a <a href=\"https://webring.xxiivv.com/#random\" target=\"_blank\">Webring</a>.\n\n---\n\n<span class=\"wwb\">dat://763aa4572a952b634304e329a37b4fc097a9fbce6b12f0f66aa862bdbe9618c4/</span>",
+    "text": "I’m a _digital explorer_ working on experimental projects with small footprint,  fast websites & solutions for the peer-to-peer web.\n\n---\n\n## Currently\n\nWeb-developer at [GeoGebra](https://geogebra.org), 2018―\nExperimenting with [peer-to-peer tools](/p2p), 2017―\n\n## Previously\n\nCo-Made [Pictogon](https://pictogon.com), 2017\n\n---\n\nI'm present on [GitHub](https://github.com/kodedninja), [Are.na](https://are.na/hunor-karaman), [Reading Supply](https://reading.supply/@kodedninja) and [Mastodon](https://merveilles.town/@kodedninja).\nYou can contact me via [email](mailto:karamanhunor@pm.me).\n\nEverything I make should pass most of the criterias in my [Manifesto](/manifesto).\n\nI’m a peer.\n\n---\n\nBuilt with [Enoki](https://enoki.site/) & [Choo](https://choo.io/).\n\nThe site is part of a <a href=\"https://webring.xxiivv.com/#random\" target=\"_blank\">Webring</a>.\n\n---\n\n<span class=\"wwb\">dat://b9f477682647163ebbde14287d5b01504e27c27d553a4edae6fbfe6c71992278/</span>",
     "name": "content",
     "path": "/content",
     "url": "/",
@@ -212,7 +198,7 @@
         "name": "orkl",
         "path": "/content/blog/are-you-the-owner/orkl.png",
         "url": "/blog/are-you-the-owner/orkl.png",
-        "source": "dat://763aa4572a952b634304e329a37b4fc097a9fbce6b12f0f66aa862bdbe9618c4/content/blog/are-you-the-owner/orkl.png",
+        "source": "dat://b9f477682647163ebbde14287d5b01504e27c27d553a4edae6fbfe6c71992278/content/blog/are-you-the-owner/orkl.png",
         "extension": ".png",
         "filename": "orkl.png",
         "type": "image"
@@ -236,12 +222,26 @@
         "name": "ntain",
         "path": "/content/blog/ntain/ntain.png",
         "url": "/blog/ntain/ntain.png",
-        "source": "dat://763aa4572a952b634304e329a37b4fc097a9fbce6b12f0f66aa862bdbe9618c4/content/blog/ntain/ntain.png",
+        "source": "dat://b9f477682647163ebbde14287d5b01504e27c27d553a4edae6fbfe6c71992278/content/blog/ntain/ntain.png",
         "extension": ".png",
         "filename": "ntain.png",
         "type": "image"
       }
     },
+    "pages": {}
+  },
+  "/blog/update": {
+    "title": "2019 Notes",
+    "view": "entry",
+    "date": "2019-03-30",
+    "location": "Linz",
+    "excerpt": "At the beginning of the year I've set out to stop chasing my productive habbits, mostly out of the frustration of unhealthy eating and a growing [reading list](https://are.na/hunor-karaman/want-to-read-u8qku8vpli). _\"A year of inputs, instead of outputs\"_, I've said. It hit me as a surprise that, even though I was able to focus on these habbits, February and March were highly productive periods. It was a natural state: I had _things to say_ ― or to make.",
+    "text": "But now I'm back on calm, unproductive waters and I feel happy, relaxed and satisfied. That is hard to achieve if you were chasing those productive days for so long. Instead of coming home from work and continue coding until night, I come home, go for a run (if you're interested [here's my Strava](https://www.strava.com/athletes/14194217)), cook and read (most days in this order). I've set out easy, but consistent monthly goals that should keep me motivated through-out the year, so I still have some time to work on personal projects if I feel like. Also, on the side, I spend more time with writing, mostly personal notes that will never be published, but together they act as a mirror of my day-to-day thoughts.\n\nJust wanted to note this down, if anyone's surprised why sometimes I'm missing from the internet. The reason is simple: I try to spend more time with observing _my inside_, instead of _the outside_.",
+    "visible": true,
+    "name": "update",
+    "path": "/content/blog/update",
+    "url": "/blog/update",
+    "files": {},
     "pages": {}
   },
   "/blog/pictogon": {
@@ -260,7 +260,7 @@
         "name": "Pictogon",
         "path": "/content/blog/pictogon/Pictogon.png",
         "url": "/blog/pictogon/Pictogon.png",
-        "source": "dat://763aa4572a952b634304e329a37b4fc097a9fbce6b12f0f66aa862bdbe9618c4/content/blog/pictogon/Pictogon.png",
+        "source": "dat://b9f477682647163ebbde14287d5b01504e27c27d553a4edae6fbfe6c71992278/content/blog/pictogon/Pictogon.png",
         "extension": ".png",
         "filename": "Pictogon.png",
         "type": "image"
