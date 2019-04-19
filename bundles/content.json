@@ -81,31 +81,19 @@
     "url": "/wiki",
     "files": {},
     "pages": {
-      "readings": {
-        "name": "readings",
-        "path": "/content/wiki/readings",
-        "url": "/wiki/readings",
-        "source": "/content/wiki/readings"
-      },
       "workstation": {
         "name": "workstation",
         "path": "/content/wiki/workstation",
         "url": "/wiki/workstation",
         "source": "/content/wiki/workstation"
+      },
+      "readings": {
+        "name": "readings",
+        "path": "/content/wiki/readings",
+        "url": "/wiki/readings",
+        "source": "/content/wiki/readings"
       }
     }
-  },
-  "/wiki/readings": {
-    "title": "Readings",
-    "view": "default",
-    "text": "For the books I'm planning to read visit [this channel](https://www.are.na/hunor-karaman/want-to-read-u8qku8vpli) on Are.na.\n\n<u>Currently Reading</u>\n\nJón Kalman Stefánsson ― **\"Fish Have No Feet\"**\nJános Pilinszky ― **\"Beszélgetések\" / \"Conversations\"**\n\n<u>2019</u>\n\nHaruki Murakami ― **\"What I Talk About When I Talk About Running\"**\nLászló Krasznahorkai ― **\"Sátántangó\" / \"Satantango\"**\nPéter Esterházy ― **\"Hasnyálmirigynapló\"**\nHaruki Murakami ― **\"Kafka on the Shore\"**\nRainer Maria Rilke ― **\"Letters To A Young Poet\"**\nMartin Heidegger ― **\"The Question Concerning Technology\"**\nHaruki Murakami ― **\"Hard-Boiled Wonderland and the End Of The World\"**\nFranz Enzenhofer ― **\"Understanding SEO\"**\nYuval Noah Harari ― **\"Homo Deus\"**\n\n<u>2018</u>\n\nAttila Bartis ― **\"A Nyugalom\"**\nLászló Potozky ― **\"Éles\"**\nJean-Paul Sartre ― **\"Nausea\"**\nImre Madách ― **\"Az Ember Tragédiája\" / \"The Tragedy of Man\"**\nAlain de Botton ― **\"Essays on Love\"**\nMichel Houellebecq ― **\"The Map and the Territory\"**\nArthur Schopenhauer ― **\"The Metaphysics of Love\"**\nKurt Vonnegut ― **\"Slaughterhouse-Five\"**\nLászló Potozky ― **\"Égéstermék\"**\nMichel Houellebecq ― **\"The Possibility of an Island**\"",
-    "showonwiki": true,
-    "short": "Tracking the books I read",
-    "name": "readings",
-    "path": "/content/wiki/readings",
-    "url": "/wiki/readings",
-    "files": {},
-    "pages": {}
   },
   "/wiki/workstation": {
     "title": "Workstation",
@@ -133,17 +121,29 @@
     "files": {},
     "pages": {}
   },
-  "/blog/reverse-engineering-future-into-daily-tasks": {
-    "title": "Reverse-Engineering Future Into Daily Tasks",
+  "/wiki/readings": {
+    "title": "Readings",
+    "view": "default",
+    "text": "For the books I'm planning to read visit [this channel](https://www.are.na/hunor-karaman/want-to-read-u8qku8vpli) on Are.na.\n\n<u>Currently Reading</u>\n\nHaruki Murakami ― **\"The Wind-Up Bird Chronicle\"**\nJános Pilinszky ― **\"Beszélgetések\" / \"Conversations\"**\n\n<u>2019</u>\n\nJón Kalman Stefánsson ― **\"Fish Have No Feet\"**\nHaruki Murakami ― **\"What I Talk About When I Talk About Running\"**\nLászló Krasznahorkai ― **\"Sátántangó\" / \"Satantango\"**\nPéter Esterházy ― **\"Hasnyálmirigynapló\"**\nHaruki Murakami ― **\"Kafka on the Shore\"**\nRainer Maria Rilke ― **\"Letters To A Young Poet\"**\nMartin Heidegger ― **\"The Question Concerning Technology\"**\nHaruki Murakami ― **\"Hard-Boiled Wonderland and the End Of The World\"**\nFranz Enzenhofer ― **\"Understanding SEO\"**\nYuval Noah Harari ― **\"Homo Deus\"**\n\n<u>2018</u>\n\nAttila Bartis ― **\"A Nyugalom\"**\nLászló Potozky ― **\"Éles\"**\nJean-Paul Sartre ― **\"Nausea\"**\nImre Madách ― **\"Az Ember Tragédiája\" / \"The Tragedy of Man\"**\nAlain de Botton ― **\"Essays on Love\"**\nMichel Houellebecq ― **\"The Map and the Territory\"**\nArthur Schopenhauer ― **\"The Metaphysics of Love\"**\nKurt Vonnegut ― **\"Slaughterhouse-Five\"**\nLászló Potozky ― **\"Égéstermék\"**\nMichel Houellebecq ― **\"The Possibility of an Island**\"",
+    "showonwiki": true,
+    "short": "Tracking the books I read",
+    "name": "readings",
+    "path": "/content/wiki/readings",
+    "url": "/wiki/readings",
+    "files": {},
+    "pages": {}
+  },
+  "/blog/update": {
+    "title": "2019 Notes",
     "view": "entry",
-    "text": "I always try to make my tomorrows better, more efficient and don't waste days with stagnation. At the beginning of the year I've introduced a _framework_ into my life. Its purpose is to assist me in working on the tasks and focus on the habits that help me overcome this stagnation. \n\nThe _framework_ is based on [reverse\\-engineering](https://en.wikipedia.org/wiki/Reverse_engineering). Your daily tasks are the outcomes of your current definition of the perfect day / perfect life. \n\nUsing the framework makes the question mentioned above redundant.\n\n[Angela Lee Duckworth defines grit](https://www.ted.com/talks/angela_lee_duckworth_grit_the_power_of_passion_and_perseverance) as \"passion and perseverance for very long term goals\". The framework outputs comprehensible tasks every day and shows your progress to keep you motivated. With grit you can stick to habbits, be more productive and achieve awesome goals.\n\n\n## The Framework\n\n\nAs it uses reverse\\-engineering, we start from what we want to achieve and deconstruct that into smaller steps. I'll go through the building blocks from top to bottom, from big to smallest.\n\n\n### The Dream Day\n\n\nIt's a common technique to take a piece of paper and write down your \"dream day\" in detail. This helps you see what's important in your life and where should you put more energy. What would you do on the day that you call perfect? Got it? Perfect\\! Let's work for it.\n\nKeep in mind that your energy and time is finite in a day — this may help in filtering out a few less important actions.\n\nThe goal of this is to find and define a few _hypergoals_, the main pillars of the framework. Theoretically you can subtract your current day from the dream day and based on the difference you should be able to derive the possible _hypergoals_.\n\n`hypergoals = Derivative(dreamDay - currentDay)`\n\n\n### _Hypergoals_\n\n\n_Hypergoals_ are not easy to describe. They're goals in the far future that are always present in your life, but never visible. They're always at the back of your mind, but they never directly manipulate your decisions. \n\nIf a goal is a point, a _hypergoal_ is a line going through that. It's not your destination, but the direction your destination lays.\n\nAfter you define a few _hypergoals_ in your life, they should assist you at making decisions. They shouldn't put any friction in your life, but guide you in darker times.\n\n\n### Yearly Focuses\n\n\nAfterwards you should define a few areas of focus in the current year \\(or throughout an extended period\\). These are usually close to your _hypergoals_, but they're achievable and more precise.\n\nPersonal Example:\n\nFor this year I've set out a single goal: to focus on myself. I want my year to be as  as possible. I've stopped emphasizing the activities that produce output and started focusing on those that move me in the direction of the human I want to be. This should be a year of inputs.\n\nAs it's a pretty vague goal, I'll try to achieve it by sticking to three habits:\n\n1. Read at least 2 books each month \\(= 24 in the year\\)\n2. Focus more on what I eat, spend more time with cooking and change to a vegetarian diet\n3. Bring running back to my life \\(after a few months of laziness\\)\n\n\n\n### Bullet Journal\n\n\nThe next layer of the framework is the [Bullet Jornal](https://bulletjournal.com/) \\(BuJo\\). This is only my preference and it shouldn't be hard to swap it out with another similar technique.\n\nWith following the BuJo system, you define and keep track of your Monthly Goals and Daily Tasks.\n\n\n### Monthly Goals\n\n\nMonthly Goals are well\\-defined goals and tasks fixed at the beginning of each month. The [BuJo documentation](https://bulletjournal.com/pages/learn) describes how they work in more detail.\n\nThis is the most critical moment\\! You must carefully pick your Monthly Goals — the usefulness of your day\\-to\\-day tasks depends on this. It's the moment of thinking about the bigger picture your Yearly Focuses and _hypergoals_ provide.\n\nAfter they're fixed, you don't have think about them again. Using the BuJo should make it natural to complete these goals.\n\n\n### Daily Tasks \\+ MIT\n\n\nDaily Tasks also follow the general BuJo method with the additional use of the \"**M**ost **I**mportant **T**asks\" technique. MIT gives you a better perspective to define how to distribute your daily focus.\n\nEvery day, define and mark a few tasks that should occupy the major part of your focus. If you complete all of them, the day was successful. One MIT is more important than all non\\-marked tasks together.\n\nDoing this has several benefits:\n\n* Always answers the question of \"what do I do next?\"\n* Ensures that what you've done has a positive impact on your life\n* Keeps track of what you  done \\(the paper doesn't forget\\)\n* Keeps your mind uncluttered\n\n\n\n### Review & Reiterate\n\n\nYou should spend some time at the end of each month with finding possible improvements.\n\nAs mentioned many times: this is a framework. You must adapt it to your needs and not inversely. \n\n\n## ✌️\n\n\n*This post was cross-published from [Reading Supply](https://reading.supply/@kodedninja/reverse-engineering-future-into-daily-tasks-V6m9WD).*",
-    "excerpt": "An introduction to the framework I use to work on meaningful tasks every day.\n\nAlmost every night I go to bed with a question: \"did this day contribute to the future I would like to live?\".",
+    "date": "2019-03-30",
     "location": "Linz",
-    "date": "2019-02-14",
+    "excerpt": "At the beginning of the year I've set out to stop chasing my productive habbits, mostly out of the frustration of unhealthy eating and a growing [reading list](https://are.na/hunor-karaman/want-to-read-u8qku8vpli). _\"A year of inputs, instead of outputs\"_, I've said. It hit me as a surprise that, even though I was able to focus on these habbits, February and March were highly productive periods. It was a natural state: I had _things to say_ ― or to make.",
+    "text": "But now I'm back on calm, unproductive waters and I feel happy, relaxed and satisfied. That is hard to achieve if you were chasing those productive days for so long. Instead of coming home from work and continue coding until night, I come home, go for a run (if you're interested [here's my Strava](https://www.strava.com/athletes/14194217)), cook and read (most days in this order). I've set out easy, but consistent monthly goals that should keep me motivated through-out the year, so I still have some time to work on personal projects if I feel like. Also, on the side, I spend more time with writing, mostly personal notes that will never be published, but together they act as a mirror of my day-to-day thoughts.\n\nJust wanted to note this down, if anyone's surprised why sometimes I'm missing from the internet. The reason is simple: I try to spend more time with observing _my inside_, instead of _the outside_.",
     "visible": true,
-    "name": "reverse-engineering-future-into-daily-tasks",
-    "path": "/content/blog/reverse-engineering-future-into-daily-tasks",
-    "url": "/blog/reverse-engineering-future-into-daily-tasks",
+    "name": "update",
+    "path": "/content/blog/update",
+    "url": "/blog/update",
     "files": {},
     "pages": {}
   },
@@ -181,6 +181,20 @@
         "source": "/content/wiki"
       }
     }
+  },
+  "/blog/reverse-engineering-future-into-daily-tasks": {
+    "title": "Reverse-Engineering Future Into Daily Tasks",
+    "view": "entry",
+    "text": "I always try to make my tomorrows better, more efficient and don't waste days with stagnation. At the beginning of the year I've introduced a _framework_ into my life. Its purpose is to assist me in working on the tasks and focus on the habits that help me overcome this stagnation. \n\nThe _framework_ is based on [reverse\\-engineering](https://en.wikipedia.org/wiki/Reverse_engineering). Your daily tasks are the outcomes of your current definition of the perfect day / perfect life. \n\nUsing the framework makes the question mentioned above redundant.\n\n[Angela Lee Duckworth defines grit](https://www.ted.com/talks/angela_lee_duckworth_grit_the_power_of_passion_and_perseverance) as \"passion and perseverance for very long term goals\". The framework outputs comprehensible tasks every day and shows your progress to keep you motivated. With grit you can stick to habbits, be more productive and achieve awesome goals.\n\n\n## The Framework\n\n\nAs it uses reverse\\-engineering, we start from what we want to achieve and deconstruct that into smaller steps. I'll go through the building blocks from top to bottom, from big to smallest.\n\n\n### The Dream Day\n\n\nIt's a common technique to take a piece of paper and write down your \"dream day\" in detail. This helps you see what's important in your life and where should you put more energy. What would you do on the day that you call perfect? Got it? Perfect\\! Let's work for it.\n\nKeep in mind that your energy and time is finite in a day — this may help in filtering out a few less important actions.\n\nThe goal of this is to find and define a few _hypergoals_, the main pillars of the framework. Theoretically you can subtract your current day from the dream day and based on the difference you should be able to derive the possible _hypergoals_.\n\n`hypergoals = Derivative(dreamDay - currentDay)`\n\n\n### _Hypergoals_\n\n\n_Hypergoals_ are not easy to describe. They're goals in the far future that are always present in your life, but never visible. They're always at the back of your mind, but they never directly manipulate your decisions. \n\nIf a goal is a point, a _hypergoal_ is a line going through that. It's not your destination, but the direction your destination lays.\n\nAfter you define a few _hypergoals_ in your life, they should assist you at making decisions. They shouldn't put any friction in your life, but guide you in darker times.\n\n\n### Yearly Focuses\n\n\nAfterwards you should define a few areas of focus in the current year \\(or throughout an extended period\\). These are usually close to your _hypergoals_, but they're achievable and more precise.\n\nPersonal Example:\n\nFor this year I've set out a single goal: to focus on myself. I want my year to be as  as possible. I've stopped emphasizing the activities that produce output and started focusing on those that move me in the direction of the human I want to be. This should be a year of inputs.\n\nAs it's a pretty vague goal, I'll try to achieve it by sticking to three habits:\n\n1. Read at least 2 books each month \\(= 24 in the year\\)\n2. Focus more on what I eat, spend more time with cooking and change to a vegetarian diet\n3. Bring running back to my life \\(after a few months of laziness\\)\n\n\n\n### Bullet Journal\n\n\nThe next layer of the framework is the [Bullet Jornal](https://bulletjournal.com/) \\(BuJo\\). This is only my preference and it shouldn't be hard to swap it out with another similar technique.\n\nWith following the BuJo system, you define and keep track of your Monthly Goals and Daily Tasks.\n\n\n### Monthly Goals\n\n\nMonthly Goals are well\\-defined goals and tasks fixed at the beginning of each month. The [BuJo documentation](https://bulletjournal.com/pages/learn) describes how they work in more detail.\n\nThis is the most critical moment\\! You must carefully pick your Monthly Goals — the usefulness of your day\\-to\\-day tasks depends on this. It's the moment of thinking about the bigger picture your Yearly Focuses and _hypergoals_ provide.\n\nAfter they're fixed, you don't have think about them again. Using the BuJo should make it natural to complete these goals.\n\n\n### Daily Tasks \\+ MIT\n\n\nDaily Tasks also follow the general BuJo method with the additional use of the \"**M**ost **I**mportant **T**asks\" technique. MIT gives you a better perspective to define how to distribute your daily focus.\n\nEvery day, define and mark a few tasks that should occupy the major part of your focus. If you complete all of them, the day was successful. One MIT is more important than all non\\-marked tasks together.\n\nDoing this has several benefits:\n\n* Always answers the question of \"what do I do next?\"\n* Ensures that what you've done has a positive impact on your life\n* Keeps track of what you  done \\(the paper doesn't forget\\)\n* Keeps your mind uncluttered\n\n\n\n### Review & Reiterate\n\n\nYou should spend some time at the end of each month with finding possible improvements.\n\nAs mentioned many times: this is a framework. You must adapt it to your needs and not inversely. \n\n\n## ✌️\n\n\n*This post was cross-published from [Reading Supply](https://reading.supply/@kodedninja/reverse-engineering-future-into-daily-tasks-V6m9WD).*",
+    "excerpt": "An introduction to the framework I use to work on meaningful tasks every day.\n\nAlmost every night I go to bed with a question: \"did this day contribute to the future I would like to live?\".",
+    "location": "Linz",
+    "date": "2019-02-14",
+    "visible": true,
+    "name": "reverse-engineering-future-into-daily-tasks",
+    "path": "/content/blog/reverse-engineering-future-into-daily-tasks",
+    "url": "/blog/reverse-engineering-future-into-daily-tasks",
+    "files": {},
+    "pages": {}
   },
   "/blog/are-you-the-owner": {
     "title": "Are you the owner?",
@@ -228,20 +242,6 @@
         "type": "image"
       }
     },
-    "pages": {}
-  },
-  "/blog/update": {
-    "title": "2019 Notes",
-    "view": "entry",
-    "date": "2019-03-30",
-    "location": "Linz",
-    "excerpt": "At the beginning of the year I've set out to stop chasing my productive habbits, mostly out of the frustration of unhealthy eating and a growing [reading list](https://are.na/hunor-karaman/want-to-read-u8qku8vpli). _\"A year of inputs, instead of outputs\"_, I've said. It hit me as a surprise that, even though I was able to focus on these habbits, February and March were highly productive periods. It was a natural state: I had _things to say_ ― or to make.",
-    "text": "But now I'm back on calm, unproductive waters and I feel happy, relaxed and satisfied. That is hard to achieve if you were chasing those productive days for so long. Instead of coming home from work and continue coding until night, I come home, go for a run (if you're interested [here's my Strava](https://www.strava.com/athletes/14194217)), cook and read (most days in this order). I've set out easy, but consistent monthly goals that should keep me motivated through-out the year, so I still have some time to work on personal projects if I feel like. Also, on the side, I spend more time with writing, mostly personal notes that will never be published, but together they act as a mirror of my day-to-day thoughts.\n\nJust wanted to note this down, if anyone's surprised why sometimes I'm missing from the internet. The reason is simple: I try to spend more time with observing _my inside_, instead of _the outside_.",
-    "visible": true,
-    "name": "update",
-    "path": "/content/blog/update",
-    "url": "/blog/update",
-    "files": {},
     "pages": {}
   },
   "/blog/pictogon": {
