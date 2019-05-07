@@ -1,4 +1,5 @@
 node_modules
 source/node_modules
 archived
+public
 .DS_Store

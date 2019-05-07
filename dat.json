@@ -1,5 +1,4 @@
 {
   "title": "hex22",
-  "fallback_page": "index.html",
-  "links": {}
+  "fallback_page": "index.html"
 }
