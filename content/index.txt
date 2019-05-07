@@ -9,11 +9,12 @@ text: I’m a _digital explorer_ working on experimental projects with small foo
 ## Currently
 
 Web-developer at [GeoGebra](https://geogebra.org), 2018―
-Experimenting with [peer-to-peer tools](/p2p), 2017―
 
 ## Previously
 
+Experimenting with [peer-to-peer tools](/p2p), 2017―2019
 Co-Made [Pictogon](https://pictogon.com), 2017
+
 
 ---
 

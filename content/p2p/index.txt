@@ -8,11 +8,9 @@ text: I try to keep this page updated about my <u>current</u> interests within t
 
 In the past I've built a few applications that express some of the possibilities of the peer-to-peer web. Although, it was an amazing experience and I'm proud of what I've made, I also see this (focusing so much on making) as a mistake. That's why my current interests have changed from *more building* to *more thinking*.
 
-### I am
+### Currently
 
-- Thinking about what does it mean to be members of these new, peer-to-peer spaces
-- Working on a little site seeder that includes server-side rendering for the `http://` version
-- Still integrating the peer-to-peer web into my life to see what's possible and what should be changed
+I'm not working on any projects related to the peer-to-peer web.
 
 ### Previously I've made
 
@@ -23,6 +21,8 @@ In the past I've built a few applications that express some of the possibilities
 5. [solo](https://github.com/kodedninja/solo) ― The simplest publication tool, 2018
 6. [orkl](https://github.com/kodedninja/orkl) ― Super simple peer-to-peer blogging site, 2018
 7. [ntain](https://github.com/kodedninja/ntain) ― Peer-to-Peer file sharing site, 2017
+
+Some other projects on my [GitHub](https://github.com/kodedninja).
 ----
 short: Keeping track of my work in the peer-to-peer web space
 ----
