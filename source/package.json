@@ -1,0 +1,33 @@
+{
+  "name": "hex22-theme",
+  "version": "1.0.0",
+  "description": "Personal theme",
+  "main": "index.js",
+  "scripts": {
+    "build": "enoki ../content && browserify index.js -o ../bundles/bundle.js -t sheetify -p [css-extract -o ../bundles/bundle.css] -t yo-yoify -g es2040 -p tinyify",
+    "start": "enoki ../content && watchify index.js -o ../bundles/bundle.js -t sheetify -p [css-extract -o ../bundles/bundle.css] -t yo-yoify -t es2040",
+    "http": "budo --dir .. -P"
+  },
+  "author": "kodedninja",
+  "license": "ISC",
+  "dependencies": {
+    "@kodedninja/enoki": "^2.1.0",
+    "choo": "^6.0.0",
+    "markdown-it": "^8.4.0",
+    "markdown-it-sup": "^1.0.0",
+    "medium-zoom": "^1.0.2",
+    "nanocomponent": "^6.4.0",
+    "object-values": "^1.0.0",
+    "xhr": "^2.5.0"
+  },
+  "devDependencies": {
+    "browserify": "^14.5.0",
+    "budo": "^11.6.1",
+    "css-extract": "^1.3.0",
+    "es2040": "^1.2.6",
+    "sheetify": "^7.3.3",
+    "tinyify": "^2.5.0",
+    "watchify": "^3.11.1",
+    "yo-yoify": "^3.7.3"
+  }
+}
