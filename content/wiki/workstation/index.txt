@@ -23,6 +23,7 @@ text: I currently use a 2015 Macbook Pro 13" with 8GB of RAM and 2.7Ghz i5 proce
 
 ### CLI
 
+- Text Editor: [micro](https://github.com/zyedidia/micro)
 - npm publish: [np](https://github.com/sindresorhus)
 - Git: [dotfiles](https://github.com/kodedninja/dotfiles)
 - Node Version Manager: [n](https://github.com/tj/n)
