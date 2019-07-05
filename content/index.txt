@@ -18,7 +18,7 @@ Co-Made [Pictogon](https://pictogon.com), 2017
 
 ---
 
-I'm present on [GitHub](https://github.com/kodedninja), [Are.na](https://are.na/hunor-karaman), [Reading Supply](https://reading.supply/@kodedninja) and [Mastodon](https://merveilles.town/@kodedninja).
+I'm present on [GitHub](https://github.com/kodedninja), [Are.na](https://are.na/hunor-karaman), [Mastodon](https://merveilles.town/@kodedninja) and [twtxt](https://t.seed.hex22.org/twtxt.txt).
 You can contact me via [email](mailto:karamanhunor@pm.me).
 
 Everything I make should pass most of the criterias in my [Manifesto](/manifesto).
