@@ -103,5 +103,7 @@ I also use the [Hallway](https://webring.xxiivv.com/hallway.html) to follow what
 
 ^1^ Equivalent with: other members put enough information into the network
 ^2^ Seems like @jim is pretty good at building experiences like this
+
+This post was cross-published from [Reading Supply](https://reading.supply/@kodedninja/atomic-social-networks-hmyCZv).
 ----
 visible: true
