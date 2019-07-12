@@ -6,8 +6,8 @@
   "scripts": {
     "build:content": "enoki content",
     "build:js": "browserify source/index.js -o ./bundles/bundle.js -t sheetify -p [css-extract -o ./bundles/bundle.css] -t yo-yoify -g es2040 -p tinyify",
-    "build:static": "enoki-build --app source/index.js -o ./public assets bundles",
-    "build": "npm run build:content && npm run build:js",
+    "build:static": "enoki-build --app source/index.js -o ./public bundles",
+    "build": "npm run build:content && npm run build:js && npm run build:static",
     "start": "watchify source/index.js -o ./bundles/bundle.js -t sheetify -p [css-extract -o ./bundles/bundle.css] -t yo-yoify -t es2040"
   },
   "author": "kodedninja",
