@@ -1,1 +1,5 @@
+# Redirect from netlify
 http://hex22.netlify.com/* http://hex22.org/:splat 301!
+
+# 404 rewrite
+/* /404.html 404
