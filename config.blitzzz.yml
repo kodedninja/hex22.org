@@ -1,9 +1,0 @@
-content: /bundles/content.json
-app: /source
-
-# site
-site:
-  title: hex22 | {page}
-  css: /bundles/bundle.css
-  js: /bundles/bundle.js
-  root: body
