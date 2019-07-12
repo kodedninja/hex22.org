@@ -164,17 +164,15 @@ blockquote {
   max-width: 66.666%;
 }
 
-.input-clean {
-  font-family: inherit;
-  background: inherit;
-  outline: none;
-  border: none;
-}
-
 .cp{cursor:pointer}
 .disabled {
   pointer-events: none;
   cursor:default;
+}
+
+pre, code {
+  font-size: 0.875rem;
+  line-height: 1.3;
 }
 
 /* media query customs */
