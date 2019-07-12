@@ -12,6 +12,7 @@ text: Gaming, ordering food, traveling, learning, running, etc. can all include 
 
 In the following paragraphs, you'll read about my approach which indicates what a social network can / should be. Later, in the section at the bottom of the page, you can read a quick note about my [**twtxt**](https://github.com/buckket/twtxt) setup, as this made me think about social networks at all.
 
+---
 
 ### Motivation
 
@@ -30,8 +31,7 @@ The next time you check your timeline, the "tweets" from the file located at tha
 
 Using **twtxt** reminded me of the times spent on **Rotonde** and made me think about “what is a social network?” What _makes_ something into a social network? And how can social networking enhance the experience of a platform and not destroy it? Or more precisely: where is the divide between (for example) a social network with code sharing and collaboration capabilities and a collaborative version control tool with social networking features.
 
-
-
+---
 
 ### What is a social network?
 
@@ -84,12 +84,12 @@ There are already a few examples of projects  integrating social / collaboration
 
 _Note: I like to think about physical places here, such as libraries or parks, where your main goal isn't necessarily to socialize, but it is still an action involving social interactions and meeting like-minded people or to projects like:_
 
-* [_Castle_](https://castle.games) — _making and playing games together^2^_
+* [_Castle_](https://castle.games) — _making and playing games together ^2^_
 * [_Are.na_](https://www.are.na) — _space for collaborative research_
-* [_Reading Supply_](https://reading.supply) — _writing / thinking together^2^_
+* [_Reading Supply_](https://reading.supply) — _writing / thinking together ^2^_
 * [_Werkbank_](https://vimeo.com/157990864) — _somewhere between physical and digital (maybe a physical Are.na?)_
 
-
+---
 
 ### twtxt, DAT & _Hallway_ — a real-time twtxt setup
 
@@ -101,9 +101,13 @@ The last thing was to add the DAT archive to the seeding list on my Hashbase ins
 
 I also use the [Hallway](https://webring.xxiivv.com/hallway.html) to follow what my Merveilles friends are “tweeting” and to discover new people. If we combine all these: **twtxt**, DAT and The Hallway, we arrive at something very similar, but more open, to what Rotonde used to be and that, if you ask me, is a very good and unique thing that we should all care about!
 
-^1^ Equivalent with: other members put enough information into the network
-^2^ Seems like @jim is pretty good at building experiences like this
+---
 
-This post was cross-published from [Reading Supply](https://reading.supply/@kodedninja/atomic-social-networks-hmyCZv).
+1: Equivalent with: other members put enough information into the network
+2: Seems like [@jim](https://reading.supply/@jim) is pretty good at building experiences like this
+
+---
+
+_This post was cross-published from [Reading Supply](https://reading.supply/@kodedninja/atomic-social-networks-hmyCZv)._
 ----
 visible: true
