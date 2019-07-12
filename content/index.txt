@@ -15,7 +15,6 @@ Web-developer at [GeoGebra](https://geogebra.org), 2018―
 Experimenting with [peer-to-peer tools](/p2p), 2017―2019
 Co-Made [Pictogon](https://pictogon.com), 2017
 
-
 ---
 
 I'm present on [GitHub](https://github.com/kodedninja), [Are.na](https://are.na/hunor-karaman), [Mastodon](https://merveilles.town/@kodedninja) and [twtxt](https://t.seed.hex22.org/twtxt.txt).
@@ -23,11 +22,9 @@ You can contact me via [email](mailto:karamanhunor@pm.me).
 
 Everything I make should pass most of the criterias in my [Manifesto](/manifesto).
 
-I’m a peer.
-
 ---
 
-Built with [Enoki](https://enoki.site/) & [Choo](https://choo.io/).
+Built on [this stack](/blog/new-stack).
 
 The site is part of a <a href="https://webring.xxiivv.com/#random" target="_blank">Webring</a>.
 

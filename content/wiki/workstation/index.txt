@@ -10,7 +10,7 @@ text: I currently use a 2015 Macbook Pro 13" with 8GB of RAM and 2.7Ghz i5 proce
 
 ### GUI
 
-- Browser: [Firefox](https://mozilla.org/firefox) / [Beaker](https://beakerbrowser.com/)
+- Browser: Safari / [Firefox](https://mozilla.org/firefox) / [Beaker](https://beakerbrowser.com/)
 - Terminal: [Hyper](https://hyper.is/)
 - Text Editor: [Atom](https://atom.io/)
 - Design: [Figma](https://figma.com)
@@ -29,12 +29,5 @@ text: I currently use a 2015 Macbook Pro 13" with 8GB of RAM and 2.7Ghz i5 proce
 - Node Version Manager: [n](https://github.com/tj/n)
 - Domains: [now](https://github.com/zeit/now-cli)
 - Music: [cmus](https://cmus.github.io/)
-- Misc: [`youtube-dl`](https://github.com/rg3/youtube-dl)
-
-### [Beaker](https://beakerbrowser.com) Apps
-
-- Writing: [Enoki](https://enoki.site) / [orkl](https://github.com/kodedninja/orkl)
-- Reading: [Dropout](https://github.com/jondashkyle/dropout-app)
-- Consuming Feeds: [Hardly Everything](https://hardlyeverything.com)
 
 For the libraries I usually use, go to [this repo](https://github.com/kodedninja/weapons).
