@@ -24,9 +24,7 @@ Everything I make should pass most of the criterias in my [Manifesto](/manifesto
 
 ---
 
-Built on [this stack](/blog/new-stack).
-
-The site is part of a <a href="https://webring.xxiivv.com/#random" target="_blank">Webring</a>.
+The site is part of a <a href="https://webring.xxiivv.com/#random" target="_blank">Webring</a> and built on [this stack](/blog/new-stack).
 
 ---
 
