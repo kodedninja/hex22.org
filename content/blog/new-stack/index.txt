@@ -8,13 +8,13 @@ location: Linz
 ----
 excerpt: The design and the type of this site has changed many times over the 2 years of its existence, but the technologies on which is built on, remained nearly the same. Until now. With some features I was unsatisfied, some I missed and others have been removed. What ― Why?
 ----
-text: The last time I've changed the infrastructure was, when the new [Enoki](https://enoki.site/), including the Enoki Panel, was released. It was a big change from Enoki's UX perspective, but the format of the content (as this is one of the main ideologies behind Enoki) and the use of [Choo](https://choo.io/) as a framework remained the same. This was also the time, when Enoki and the site became peer-to-peer first. I was very happy about this back then, but keeping the DAT and HTTP versions in sync was cumbersome and uncomfortable.
+text: The last time I've changed the infrastructure was, when the new [Enoki](https://enoki.site/), including the Enoki Panel, was released. It was a big change from Enoki's UX perspective, but the format of the content (as this is one of the main ideologies behind Enoki) and the use of [Choo](https://choo.io/) as a framework, remained the same. This was also the time, when Enoki and the site became peer-to-peer first. I was very happy about this back then, but keeping the DAT and HTTP versions in sync was cumbersome and uncomfortable.
 
 As I'm not a "self-titled peer-to-peer web power-user" anymore, I've already stopped updating the DAT version quite some time ago.
 
 ---
 
-### Development
+### Architecture
 
 Nothing has changed in the source of the site, it's still the same [Choo](https://choo.io/) architecture that (for me) is the most natural way of building for the web. A slight difference is that I've moved away from the original `enoki` module and started using [my fork](https://npmjs.com/package/@kodedninja/enoki), as [Jon-Kyle](https://jon-kyle.com/) hasn't accepted my pull request, yet. The fork introduces a `preloaded` variable in the state and if it's present, it skips the first re-render of the app (usually loading state). Small thing with a huge difference.
 
@@ -46,7 +46,7 @@ My editing workflow has also had to adapt. I've stopped using the Enoki Panel an
 
 It's clean, it's simple and almost automatic for a programmer. To make a new page, I simply copy another one with `$ cp`. I was thinking about making a generator script, but right now I find it unnecessary.
 
-The format used by Enoki still resonates with me. I find it very logical, dynamic and future-proof.
+The format used by Enoki still resonates with me. I find it very logical, dynamic and future-proof, while staying [human-readable and editable](/manifesto). 
 
 ![Directory structure of the content folder](/content/blog/new-stack/directory-structure.png)
 
