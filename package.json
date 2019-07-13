@@ -6,7 +6,7 @@
   "scripts": {
     "build:content": "enoki content",
     "build:js": "browserify source/index.js -o ./bundles/bundle.js -t sheetify -p [css-extract -o ./bundles/bundle.css] -t yo-yoify -g es2040 -p tinyify",
-    "build:static": "enoki-build --app source/index.js -o ./public bundles _redirects .well-known",
+    "build:static": "enoki-build --app source/index.js -o ./public --sitemap https://hex22.org bundles _redirects .well-known robots.txt",
     "build": "npm run build:content && npm run build:js && npm run build:static",
     "start": "watchify source/index.js -o ./bundles/bundle.js -t sheetify -p [css-extract -o ./bundles/bundle.css] -t yo-yoify -t es2040"
   },
@@ -15,7 +15,7 @@
   "dependencies": {
     "@kodedninja/enoki": "^2.1.0",
     "choo": "^6.0.0",
-    "enoki-build": "0.0.5",
+    "enoki-build": "^0.1.0",
     "markdown-it": "^8.4.0",
     "markdown-it-sup": "^1.0.0",
     "medium-zoom": "^1.0.2",
