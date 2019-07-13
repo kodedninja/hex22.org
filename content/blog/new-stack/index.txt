@@ -6,24 +6,50 @@ date: 2019-07-13
 ----
 location: Linz
 ----
-excerpt: The design and the type of this site has changed many times over the 2 years of its existence, but the technologies on which is built on, are the same since early 2018. With some features I was unsatisfied, some I missed and others have been removed. What ― Why?
+excerpt: The design and the type of this site has changed many times over the 2 years of its existence, but the technologies on which is built on, remained nearly the same. Until now. With some features I was unsatisfied, some I missed and others have been removed. What ― Why?
 ----
-text: The last time I've changed the infrastructure was, when the new [Enoki](https://enoki.site/) was released. It was quite a big change from Enoki's UX perspective, but the use of [Choo](https://choo.io/) remained the same. Of course, as this is one of the main ideologies behind Enoki, the content was almost perfectly compatible. This was also the time, when the site became peer-to-peer first and only force-pushed to HTTP via GitHub Pages.
+text: The last time I've changed the infrastructure was, when the new [Enoki](https://enoki.site/), including the Enoki Panel, was released. It was a big change from Enoki's UX perspective, but the format of the content (as this is one of the main ideologies behind Enoki) and the use of [Choo](https://choo.io/) as a framework remained the same. This was also the time, when Enoki and the site became peer-to-peer first. I was very happy about this back then, but keeping the DAT and HTTP versions in sync was cumbersome and uncomfortable.
 
-As I'm not a "peer-to-peer web power-user" anymore, I've already stopped updating the DAT version quite some time ago. It was time to change that too.
+As I'm not a "self-titled peer-to-peer web power-user" anymore, I've already stopped updating the DAT version quite some time ago.
 
-Nothing has changed in the source of the site, it's still the same [Choo](https://choo.io/) architecture that (for me) is the most natural way of building for the web. A slight difference is that I've moved away from the original `enoki` module and started using [my fork](https://npmjs.com/package/@kodedninja/enoki), as [Jon-Kyle](https://jon-kyle.com/) hasn't accepted my pull request, yet. The fork introduces a `preloaded` variable in the state and if it's present, it skips the first re-render of the app (usually loading state).
+---
 
-This was required, because the biggest change is that **the site is static-first now**. Two months ago, I've started working on a [little script](https://github.com/kodedninja/enoki-build) that generates static files from an Enoki formatted site. For some inexplicable reason, I thought that this is not working, although I only had to do a few little changes to make it into the version you currently see.
+### Development
 
-To don't end up in a situation as the one with two separate sites for DAT and HTTP, I've decided to make this version HTTP-first, for a few reasons. The most important is that the peer-to-peer site is a JavaScript application, so it was not usable in `<noscript/>` web-browsers and inaccessible for tools like [Dropout](https://github.com/jondashkyle/dropout-app) or search-engines. Using a server-side renderer would have been an overkill, so I've decided next to the static-site version, which is also faster. In reality it still loads the Choo app onto the static layer, but only to enhance the experience with quicker view changes and the pagination of the [Writings](/blog) page.
+Nothing has changed in the source of the site, it's still the same [Choo](https://choo.io/) architecture that (for me) is the most natural way of building for the web. A slight difference is that I've moved away from the original `enoki` module and started using [my fork](https://npmjs.com/package/@kodedninja/enoki), as [Jon-Kyle](https://jon-kyle.com/) hasn't accepted my pull request, yet. The fork introduces a `preloaded` variable in the state and if it's present, it skips the first re-render of the app (usually loading state). Small thing with a huge difference.
 
-The purpose of this site doesn't require any SEO, but since I focus on that as part of my work, I've started to see it as a great technical challenge. I was quite glad when I saw the 100% Google Page Insight results, which is, of course, the success of [Netlify](https://netlify.com/).
+This was required, because the primary goal of the change was to make the site **static**, or at least _static-first_. Two months ago, I've started working on a [little script](https://github.com/kodedninja/enoki-build) that generates static files from an Enoki formatted site. For some inexplicable reason, I thought that this is not working, but the generated site was almost perfect on the first run.
 
-To automate the deployment, the site is now hosted on [Netlify](https://netlify.com/) and is generated on-the-fly using `enoki-build`. I didn't want to use the pre-rendering solution of Netlify, to keep the site independent from platform specific features. If I would like to move away from this host, I can do it without problems ― anyone can host a static site nowadays. I'm very satisfied with Netlify so far, so I don't even think about moving away.
+To don't end up in a situation as the one with two separate sites for DAT and HTTP, I've decided to make this version HTTP-first, for a few reasons. The most important is that the peer-to-peer site was a JavaScript application, so it was not usable in `<noscript/>` web-browsers and inaccessible for tools like [Dropout](https://github.com/jondashkyle/dropout-app) or search-engines. Using a server-side renderer would have been an overkill, so I've decided next to the static-site version, which is also faster and can be more lightweight. In reality it still loads the Choo app onto the static layer, but only to enhance the experience with quicker view changes and the pagination of the [Writings](/blog) page. Feel free to disable JS if you'd like to.
 
-The site is still accessible through DAT, at a [new URL](dat://89a2ea9d96ade0d182e1ed1d70640c523d3d3dc79114c30cf492d4c5482fd47e/), although I use [Beaker](https://beakerbrowser.com/) less nowadays, so it may be a bit out of sync sometimes. Or you might see work-in-progress states there, as I still preview my front-end projects using Beaker. We'll see how this works out in the longer run.
+The purpose of this site doesn't require any SEO, but since I focus on that as part of my work, I've started to see it as a great technical challenge and decided to focus a bit more on it (of course, in a users first, Google last priority). I was quite glad when I saw the 100% PageSpeed Insights results, which is, of course, a success of [Netlify](https://netlify.com/).
 
-My editing workflow has also changed. I've stopped using the Enoki Panel and started to edit the files using `micro`, check the result in Beaker and then `git push` to publish. It's clean, it's simple, it's almost automatic for a programmer.
+![Screenshot of PageSpeed Insight results](/content/blog/new-stack/speed-test.png)
+
+---
+
+### Hosting / Deployment
+
+To automate the deployment, the site is now hosted on [Netlify](https://netlify.com/) and is generated on-the-fly using `enoki-build`. I didn't want to use the pre-rendering solution provided by Netlify, to keep the site independent from platform specific features. If I would like to move away from this host, I can do it without problems ― anyone can host a static site nowadays. So far, the experience with Netlify is over my expectations. Great platform, with useful products / solutions, cutting-edge performance and clean UI. 
+
+The site is still accessible through DAT, at a [new URL](dat://89a2ea9d96ade0d182e1ed1d70640c523d3d3dc79114c30cf492d4c5482fd47e/), but you might see work-in-progress states there, as I still preview my front-end projects using [Beaker](https://beakerbrowser.com/) (it's unbeatable in that). I use Beaker less nowadays, but the site should be seeded by my Hashbase instance. We'll see how this works out in the longer run. I still recommend to "seed it if you need it!".
+
+---
+
+### Content
+
+My editing workflow has also had to adapt. I've stopped using the Enoki Panel and started to edit the files using the following process:
+
+1. Edit the file in `micro`
+2. Check the result in Beaker (with live-reloading enabled)
+3. Run `$ g co "changes" && g sh` to publish
+
+It's clean, it's simple and almost automatic for a programmer. To make a new page, I simply copy another one with `$ cp`. I was thinking about making a generator script, but right now I find it unnecessary.
+
+The format used by Enoki still resonates with me. I find it very logical, dynamic and future-proof.
+
+![Directory structure of the content folder](/content/blog/new-stack/directory-structure.png)
+
+If you are more interested in the format used by Enoki, have a look at the [source of this page](https://github.com/kodedninja/hex22.org/blob/master/content/blog/new-stack/index.txt) on GitHub.
 ----
-visible: false
+visible: true
