@@ -28,4 +28,4 @@ The site is part of a <a href="https://webring.xxiivv.com/#random" target="_blan
 
 ---
 
-<span class="wwb">dat://89a2ea9d96ade0d182e1ed1d70640c523d3d3dc79114c30cf492d4c5482fd47e/</span>
+<span class="wwb">dat://38fe4555350d72a3a17c5d2356f70cbc61ae261cfeae8f9491c63f388f18e0d8/</span>
