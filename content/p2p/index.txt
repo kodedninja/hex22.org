@@ -4,7 +4,7 @@ view: default
 ----
 banner: true
 ----
-text: I try to keep this page updated about my <u>current</u> interests within the peer-to-peer web space.
+text: I try to keep this page updated about my current interests within the peer-to-peer web space.
 
 In the past I've built a few applications that express some of the possibilities of the peer-to-peer web. Although, it was an amazing experience and I'm proud of what I've made, I also see this (focusing so much on making) as a mistake. That's why my current interests have changed from *more building* to *more thinking*.
 

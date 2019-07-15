@@ -24,7 +24,6 @@ Example: as I prefer using the username `kodedninja` on the web, you could follo
 
 ```
 $ twtxt follow kodedninja https://t.seed.hex22.org/twtxt.txt
-
 ```
 
 The next time you check your timeline, the "tweets" from the file located at that URL will also be included.
@@ -55,10 +54,12 @@ Rotonde was based on the [Beaker Browser](https://beakerbrowser.com/) and its `D
   ],
   "dat": "dat://2f21e3c122ef0f2555d3a9....b0383f998a2d37c02c042d598485/"
 }
-
 ```
 
-Example of Rotonde's portal.json
+<p class="tac">
+↑<br/>
+Example of Rotonde's <code>portal.json</code>
+</p>
 
 I think these are the requirements of an _atomic social network_. A **format** understood and accepted by everyone in the network (which is a requirement of becoming a member) and a **channel**, through which information is delivered (all users should have the same access to the channel). It's _incomplete_ because it lacks a feature: **discoverability** — users can only discover the yet unknown parts of the network using external sources, so their personal network can only grow by absorbing external information. This means that in an isolated environment (an environment limited by the edges of the network) a member could never find another member — these networks cannot sustain themselves on their own. In the case of Rotonde, through other users' following list you were able to discover new members (`port` field in the JSON), but **twtxt** feeds lack of this information.
 
