@@ -27,41 +27,24 @@ function blog (state, emit) {
   function entry (page) {
     page = state.page(page.url)
     var title = page.v('title') || ''
-    var note = !title || title.length === 0
-    var render = note ? renderNote : renderEntry
+    
     return html`
 			<li class="mb2 1 db clear fl clean">
-			  ${render([
-          html`<div class="1 db fl mb0-5 clear">
+			  <a href="${page.v('url')}" class="fl db nbb 1">
+          <div class="1 db fl mb0-5 clear">
             <h3 class="dib fl mr1 fwn ul">
               ${title}
             </h3>
             <div class="fr f2 tar lh1 m-fl dib">
               ${datify(page.v('date'))}
             </div>
-          </div>`,
-          html`<div class="1 db fl">
+          </div>
+          <div class="1 db fl">
             ${format(page.v('excerpt'))}
-          </div>`
-			  ])}
+          </div>
+			  </a>
       </li>
   	`
-
-  	function renderEntry (content) {
-  	 return html`
-      <a href="${page.v('url')}" class="fl db nbb 1">
-        ${content}
-      </a>
-  	 ` 
-  	}
-
-  	function renderNote (content) {
-  	 return html`
-      <div class="fl db 1">
-        ${content}
-      </div>
-  	 ` 
-  	}
 
     // 2018-03-10 to March 2018
     function datify (str) {
