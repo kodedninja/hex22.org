@@ -31,7 +31,27 @@ text: I currently use a 2015 Macbook Pro 13" with 8GB of RAM and 2.7Ghz i5 proce
 - Node Version Manager: [n](https://github.com/tj/n)
 - Domains: [now](https://github.com/zeit/now-cli)
 - Localtunnel: [localtunnel](https://github.com/localtunnel/localtunnel)
-- HTTP Server: [http-server](https://npmjs.com/package/http-server)
+- Development Server: [budo](https://github.com/mattdesl/budo) / [http-server](https://npmjs.com/package/http-server)
 - Image Processing: [korkut](https://github.com/oguzhaninan/korkut)
 
-For the libraries I usually use, go to [this repo](https://github.com/kodedninja/weapons).
+### Workflow
+
+As my previous machine was a pretty weak one, I got used to reducing the amount of running applications & browser tabs. If I don't use something, it's not open or it's turned off (Bluetooth / Wi-Fi). I don't have unused applications installed neither (except those that were installed by a more complicated build process).
+ 
+What's almost always open is a terminal window, maximized to the size of the desktop and running various applications using multiple tabs. I prefer Hyper's built-in tabs over `tmux`, because it's faster to open and to close them, and it doesn't block key events. Spotify is also open most of the time.
+
+If I work on a project with a more complicated file structure (I try to avoid these in my personal projects), I use Atom as an editor, in full-screen mode, and the terminal's width is reduced to the half of the desktop.
+
+Front-end projects are previewed with Beaker or bundled + served by `budo` and viewed in some other browser.
+
+```
+DESKTOP LAYOUT
+
+  desk 1                desk 2             desk 3
++---------------------+------------------+-------------+
+|                     |                  |             |
+|  editor / terminal  |  browser / misc  |   spotify   |    
+|                     |                  |             |
++---------------------+------------------+-------------+
+```
+
