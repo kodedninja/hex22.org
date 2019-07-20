@@ -22,7 +22,7 @@ function blog (state, emit) {
       </ul>
       ${pagination()}
       <div class="1 db mt1 tac">
-        <a href="/blog/index">Index of all blog entries</a>
+        <a href="/blog/map/">Index of all blog entries</a>
       </div>
     </div>
   `
