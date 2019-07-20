@@ -1,8 +1,9 @@
 module.exports = {
-	blog: require('./blog.js'),
-	default: require('./default.js'),
-	entry: require('./entry.js'),
-	home: require('./home.js'),
+	blog: require('./blog'),
+	default: require('./default'),
+	entry: require('./entry'),
+	home: require('./home'),
 	wiki: require('./wiki'),
-	notfound: require('./notfound.js')
+	notfound: require('./notfound'),
+	index: require('./index-view')
 }

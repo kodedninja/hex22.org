@@ -1,0 +1,10 @@
+title: Readings Index
+----
+view: index
+----
+target: /wiki/readings
+----
+fields:
+  - title
+  - author
+  - date

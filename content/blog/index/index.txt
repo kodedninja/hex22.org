@@ -1,0 +1,11 @@
+title: Blog Index
+----
+view: index
+----
+target: /blog
+----
+fields:
+  - date
+  - title
+subfields:
+  - excerpt

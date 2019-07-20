@@ -21,6 +21,9 @@ function blog (state, emit) {
         ${!!currentEntries.length ? currentEntries.map(entry) : empty()}
       </ul>
       ${pagination()}
+      <div class="1 db mt1 tac">
+        <a href="/blog/index">Index of all blog entries</a>
+      </div>
     </div>
   `
 
@@ -95,10 +98,14 @@ function blog (state, emit) {
 	}
 
   function entrySort (a, b) {
-    return (state.content[a.url].date <= state.content[b.url].date ? 1 : (state.content[b.url].date <= state.content[a.url].date ? -1 : 0))
+    var dateA = state.page(a.url).v('date')
+    var dateB = state.page(b.url).v('date')
+    return (dateA <= dateB ? 1 : (dateB <= dateA ? -1 : 0))
   }
 
   function entryFilterPublic (entry) {
-    return (state.site.info && state.site.info.isOwner) || state.content[entry.url].visible == true
+    if (!state.page(entry.url).v('date')) return
+    if (state.site.info && state.site.info.isOwner) return true
+    return state.page(entry.url).v('visible') === true
   }
 }

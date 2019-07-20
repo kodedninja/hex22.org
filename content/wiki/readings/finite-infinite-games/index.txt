@@ -1,0 +1,21 @@
+title: Finite and Infinite Games
+----
+view: default
+----
+author: James P. Carse
+----
+date: 2019-06-27
+----
+text: When I first read the core idea behind the book, I was instantly hooked on the topic, so I was very motivated to dig into it quickly. That said, the idea is the only thing I liked, and I liked that very much.
+
+The first few pages of the book were filled with _heureka_ moments, almost every page unfolded a new perspective on the original idea or projected it to another part of life. 
+
+From there on, until the last page, it was a real struggle. There's no new information, only the same scenarios described with different parameters, and what was even more annoying is that these scenarios were mostly bent and molded into artifical shapes, so they reflect better their finite or infinite selves. I allowed myself to skip the last 2 chapters, which really meant that I was uncomfortable with reading.
+
+I think the whole book would be much better as an essay or published on some blog, but I understand that in 1986 this wasn't the case.
+
+There are also parts which I disagree with. For example, Carse says ― and with this I agree _ad hoc_ ― that multiple finite games can take place inside one infinite play, which infers that infinite games cannot exist inside finite plays. This one is clear and can even be deduct with math. But later, on the behalf of the previous affirmationhe says that _"Finite games are theatrical, necessitating an audience; infinite ones are dramatic, involving participants"_, which, I think, is again just a stretched out point-of-view of something that might partly match these criterias.
+
+The book in one quote:
+
+> There are at least two kinds of games: finite and infinite. Finite games are those instrumental activities - from sports to politics to wars - in which the participants obey rules, recognize boundaries and announce winners and losers. The infinite game - there is only one - includes any authentic interaction, from touching to culture, that changes rules, plays with boundaries and exists solely for the purpose of continuing the game.
