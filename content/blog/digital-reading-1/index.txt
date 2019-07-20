@@ -55,6 +55,8 @@ $ pandoc -f html -t epub <site> -o <output file>
 
 It works both for simple HTML only sites and for stylish ones too and I really like this (in the past few days I've used it for approx. 4 sites).
 
+I wish I would have the same, but to the other direction: any e-book format (including Amazon's locked files) → HTML, mostly for revisiting specific sections, which works way better on a website.
+
 ---
 
 ## To wrap it up...
