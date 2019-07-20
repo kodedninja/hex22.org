@@ -1,0 +1,71 @@
+title: Digital Reading 1 ― Long-Form
+----
+view: entry
+----
+date: 2019-07-19
+----
+location: Linz
+----
+excerpt: Reading text on screens is not easy. Interfaces are bloated with unnecessary information, everything tries to suck in our attention. This is especially true for reading long-form texts, like books and even longer essays.
+----
+text: This one is the first in a series of entries, discussing the status quo of reading on digital interfaces (screens) and through digital interactions. I'll try to identify problems, think about solutions and build tools if they don't exist, in the hope to gain back control over my drifting attention while reading. The internet is full of interesting textual content to consume, we're lucky that we can access them so easily, and still, with current state of tools / interfaces, I find it impossible to read on a computer. 
+
+![Screenshot of the website "The Economist"](/content/blog/digital-reading-1/the-economist.jpeg)
+
+<p class="tac f2">
+  ↑<br/>
+  Few days ago this interface welcomed me on the website <a href="https://www.economist.com/">"The Economist"</a>. I find it unacceptable.
+</p> 
+
+---
+
+## Reading Habbit & The Need for New Tools
+
+This year, finally, I was able to sustain a "most-days" reading habbit, resulting in [13 (almost 14) books](/wiki/readings) so far, and many times I was reminded of the void in the digital reading tool space. There are hundreds of writing tools and platforms, but the best e-book management software is still [Calibre](https://calibre-ebook.com), which, well, isn't so intuitive nor modern, and RSS readers focus more on giving you content they think you like than to present the content in a way that's best for the reading experience. How Apple's Books application focuses only on the book is a bit better, but it's slow and tries too hard to imitate the _book_ as a physical object.
+
+If you look at my reading list, you can see, that I didn't follow any system nor a reading path, I read from philosophy to fiction and even some technical books ― every time I started the book that fitted my mood on that specific day. I find it hard to digest everything from my [want to read list](https://www.are.na/hunor-karaman/want-to-read-u8qku8vpli), especially in a chronological order, so I just keep tossing books there and hope that I'll finish them someday. What I also dislike is **the friction between reading and building "reading networks"**. Kindles kindly show you the books whose title appears in the book you're reading, but this is more a marketing trick than an assisting feature. Instead, I would like to have a tool that renders a discoverable network of books related to one by author, mentions, ideas, inspirations. It could tell you to read another book first to maximize the understanding and experience of another.
+
+The book I'm currently reading, _Death & the Afterlife_ by Samuel Scheffler, is full of mentions of another book, _The Children of Men_ by P. D. James, as the core idea of the latter fictional story is a perfect example for Scheffler's philosophical idea. I'm a few pages away from finishing and I plan to start reading P. D. James' book, but looking back from now I realize that it would have been a better reading experience to start with the fiction and transition to the philosophy afterwards.
+
+---
+
+**Reading fiction** is not and was never problematic. You can buy most books in a book-store or from dear (hah!) Amazon, in different forms, qualities and prices. Until March I did that and read books from the small collection I brought to Austria since August, but then I got a Kindle as a birthday present and my reading habbits have changed.
+
+I don't think I've ever heard someone saying _"I don't like my Kindle."_ and now I can understand it. It is a very handy device, that fulfills all of its requirements very well.
+
+Most of the time I keep it in "Airplane mode", so Wi-Fi & friends are turned off and the battery lasts longer. The only feature I use extensively is the definition finder (long press on a word), as this does not depend on the internet connection and has a big impact on the difference between reading on a device compared to paper. All the other pop-ups, reviews, infos, et cetera are turned off and do not destroy the simplicity and disconnection of reading.
+
+Next to fiction books, I would like to get a list of other pieces of art, that are somehow connection. Movies, music and other books are made and written based on the original pieces and I enjoy to get lost between them. After Pink Floyd's _Animals_ I've read the Orwell book, Mastodon's _Leviathan_ was written based on the original _Moby Dick_ and the timings on the album match the movie too.
+
+**What I cannot read on the Kindle is poetry.** Reading prose is a mostly linear act, something that works well, but reading poetry is non-linear and non-temporal ― the Kindle can't really handle this. It doesn't give enough overview, so that you could rush and jump through pages, then spend some time on the one you chose. For poetry I prefer physical books or simple HTML-only sites. With the latter you can do all kinds of transformations, until they match the shape you like.
+
+---
+
+## Tools 
+
+Since I moved my reading to the Kindle, I get my books from all-over the place. I try to avoid buying them on Amazon, but sometimes I have to do that too. Other books are transported to the device by [Calibre](https://calibre-ebook.com), a piece of software that I really don't like, but it works better than anything else.
+
+What I've started to do just recently is, to port my longer online readings to the Kindle too and read them offline, off-screen. For this I mostly use [`pandoc`](http://pandoc.org), but I have to fall back to Calibre sometimes (for example, in the case of converting PDFs to e-book formats). I find it very hard to read PDFs on the Kindle, so I try to avoid it.
+
+Pandoc is a powerful tool and next to other capabilities, it can grab the content right from the web and convert the HTML into `epub` with this command:
+
+```
+$ pandoc -f html -t epub <site> -o <output file>
+```
+
+It works both for simple HTML only sites and for stylish ones too and I really like this (in the past few days I've used it for approx. 4 sites).
+
+---
+
+## To wrap it up...
+
+... I find reading long-form text on the computer uncomfortable and hard, so I try to avoid this and use a more simple device, like the Kindle. By using little transformations, you can take your whole digital reading list from the web with you and read them on a paper-like interface, but this also deprives you from some nice-to-haves of reading on a computer (such as annotations, which is acceptable on the Kindle, but it could work much better, or discussions with other fellows).
+
+![Screenshot of a discussion from the Reading Supply platform](/content/blog/digital-reading-1/rs.jpeg)
+
+## Parting Thoughts
+
+Shoutout to all of those who are working on new digital reading interfaces. Technology has already transformed reading once, when it moved content consumption to the web, now it's time to change the way we interact with the read text too.
+
+----
+visible: false
