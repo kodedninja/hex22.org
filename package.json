@@ -21,6 +21,7 @@
     "medium-zoom": "^1.0.2",
     "nanocomponent": "^6.4.0",
     "object-values": "^1.0.0",
+    "remove-markdown": "^0.3.0",
     "xhr": "^2.5.0"
   },
   "devDependencies": {

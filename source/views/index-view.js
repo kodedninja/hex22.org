@@ -1,5 +1,6 @@
 var html = require('choo/html')
 var format = require('../components/format')
+var removeMarkdown = require('remove-markdown')
 
 module.exports = index
 
@@ -42,7 +43,7 @@ function index (state, emit) {
     function renderField (sub, fieldName, index) {
       return html`
         <div class="tofe ofh wsnw ${sub ? 'fxs0' : 'tcgrey'} mr0-5 lc-mr0">
-          ${child.v(fieldName)}
+          ${removeMarkdown(child.v(fieldName))}
         </div>
       `
     }
