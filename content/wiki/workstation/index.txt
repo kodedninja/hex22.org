@@ -33,6 +33,7 @@ text: I currently use a 2015 Macbook Pro 13" with 8GB of RAM and 2.7Ghz i5 proce
 - Localtunnel: [localtunnel](https://github.com/localtunnel/localtunnel)
 - Development Server: [budo](https://github.com/mattdesl/budo) / [http-server](https://npmjs.com/package/http-server)
 - Image Processing: [korkut](https://github.com/oguzhaninan/korkut)
+- Find: [fd](https://github.com/sharkdp/fd)
 
 ### Workflow
 
