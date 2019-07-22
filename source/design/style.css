@@ -184,6 +184,14 @@ pre, code {
   line-height: 1.5;
 }
 
+.gallery {margin: 1.5rem 0}
+.gallery:first-child{margin-top:0}
+.gallery:last-child{margin-bottom:0}
+
+.tile{padding:0 0.5rem}
+.tile:first-child{padding-left:0}
+.tile:last-child{padding-right:0}
+
 /* media query customs */
 
 @media (max-width: 900px) {
