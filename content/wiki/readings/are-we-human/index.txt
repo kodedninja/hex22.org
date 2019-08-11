@@ -1,0 +1,35 @@
+title: Are We Human?
+----
+view: default
+----
+author: Colomina & Wigley
+----
+date: 2019-08-11
+----
+text: ― **Beatriz Colomina & Mark Wigley**
+
+---
+
+While wandering around the old-town of Zürich last weekend, I found myself in a small bookstore, full of beautiful design, photography and art books. This interesting title-subtitle combination made me quite excited and I bought the small pocket-book, with magazine-like papers (not the best quality), beautiful typography and well-picked images.
+
+I had no precise idea what _Notes on an Archaeology of Design_ could mean, but even the first sentences made me think about the relation between design and human until I finished my previous book and started reading this one.
+
+> Design always presents itself as serving the human but its real ambition is to redesign the human.
+
+We begin at the very early stages of design, the first tools humans created and the impact of these tools back on the human. We cycle around this topic all the time: by designing _for_ the human we also redesign _the_ human. Through these loops we pass by the impact of design on nature and evolution, the growing role of design in the 19. and 20. century, how architects tried to solve global issues, similarly how now developers and web/digital designers do.
+
+You constantly read through sentences that approach what good and human-centered design is.
+
+> "The promise of good design is to produce good humans."
+
+This reminded me about the current important role of small, thoughtful and human-centered designers and developers, who should remind users about the importance of privacy, about _owning the internet you use_ and about owning your data. If we design and build tools that enable (or even force) this, users will also change, their habbits will require all these features facing **them** and not an unknown monopoly.
+
+Colomina & Wigley also write extensively about the standards designers used throught-out the history. How the standard human changed over the years from the perfect body to the much less perfect _real human_. Something similar is happening on the web too with the importance of accessibility. 
+
+> "Designers are always understood as solving a problem. Artists, intellectuals and writers are expected to ask questions, to make us hesitate, to see our world and ourselves differently for a moment, and therefore to think. Why not design as a way of asking questions?"
+
+I think these are between my favourite sentences from the book, sentences I can relate to and identify with. I'm glad that I can shout out without hesitation: I make useless tools. I ask questions, solve problems that only I find important. I really like [this writing](http://mrmrs.cc/writing/too-many-tools/) from [Adam Morse](https://twitter.com/mrmrs_) about having and making too many tools (frameworks).
+
+--- 
+
+Please read this book if you're interested just even a bit in the general topic of design.
