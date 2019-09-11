@@ -15,14 +15,12 @@
     "from2-string": "^1.1.0",
     "markdown-it": "^8.4.0",
     "markdown-it-sup": "^1.0.0",
+    "monote": "^0.2.0",
     "nanocomponent": "^6.4.0",
     "nanositemap": "^0.0.2",
     "object-values": "^1.0.0",
     "remove-markdown": "^0.3.0",
     "stakit": "^0.0.3",
     "stakit-choo": "^0.1.1"
-  },
-  "devDependencies": {
-    "monote": "^0.2.0"
   }
 }
