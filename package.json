@@ -4,33 +4,26 @@
   "description": "Personal theme",
   "main": "index.js",
   "scripts": {
-    "build:content": "enoki content",
-    "build:js": "browserify source/index.js -o ./bundles/bundle.js -t sheetify -p [css-extract -o ./bundles/bundle.css] -t yo-yoify -g es2040 -p tinyify",
-    "build:static": "enoki-build -a source/index.js -o ./public --sitemap https://hex22.org bundles _redirects .well-known robots.txt favicon.ico",
-    "build": "npm run build:content && npm run build:js && npm run build:static",
-    "start": "watchify source/index.js -o ./bundles/bundle.js -t sheetify -p [css-extract -o ./bundles/bundle.css] -t yo-yoify -t es2040"
+    "build": "monote -o ./public build.js",
+    "start": "monote build.js"
   },
   "author": "kodedninja",
   "license": "ISC",
   "dependencies": {
     "@kodedninja/enoki": "^2.1.0",
-    "choo": "^6.0.0",
+    "choo": "^7.0.0",
     "enoki-build": "^1.1.1",
+    "from2-string": "^1.1.0",
     "markdown-it": "^8.4.0",
     "markdown-it-sup": "^1.0.0",
-    "medium-zoom": "^1.0.2",
     "nanocomponent": "^6.4.0",
+    "nanositemap": "^0.0.2",
     "object-values": "^1.0.0",
     "remove-markdown": "^0.3.0",
-    "xhr": "^2.5.0"
+    "stakit": "^0.0.3",
+    "stakit-choo": "^0.1.1"
   },
   "devDependencies": {
-    "browserify": "^14.5.0",
-    "css-extract": "^1.3.0",
-    "es2040": "^1.2.6",
-    "sheetify": "^7.3.3",
-    "tinyify": "^2.5.0",
-    "watchify": "^3.11.1",
-    "yo-yoify": "^3.7.3"
+    "monote": "^0.2.0"
   }
 }

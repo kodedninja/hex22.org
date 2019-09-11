@@ -1,8 +1,6 @@
 var Component = require('nanocomponent')
 var html = require('choo/html')
 var format = require('./format')
-var mediumZoom = null
-if (typeof window !== 'undefined') mediumZoom = require('medium-zoom')
 
 module.exports = class Content extends Component {
 	constructor() {
@@ -19,9 +17,8 @@ module.exports = class Content extends Component {
 		`
 	}
 
-	formatimages() {
-		var element = this.element
-
+	// todo
+	formatimages(element) {
     var galleries = [...element.querySelectorAll('.gallery')]
     galleries.forEach(function (group) {
       group.classList.add('clear', '1', 'db')
@@ -38,14 +35,12 @@ module.exports = class Content extends Component {
         group.appendChild(column)
       })
     })
-		
+
 		var images = [...element.querySelectorAll('img')].forEach(function (image) {
 			if (image.parentNode.nodeName !== 'A') {
-				mediumZoom(image, {
-					margin: 60,
-					background: '#fff',
-					container: element
-				})
+				var openable = html`<a href="${image.getAttribute('src')}">${image}</a>`
+				image.parentNode.appendChild(openable)
+				image.parentNode.removeChild(image)
 			}
 		})
 	}
