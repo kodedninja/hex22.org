@@ -1,5 +1,4 @@
 var html = require('choo/html')
-var ov = require('object-values')
 var format = require('../components/format')
 
 module.exports = home

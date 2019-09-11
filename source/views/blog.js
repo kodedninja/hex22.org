@@ -1,6 +1,5 @@
 var html = require('choo/html')
-var ov = require('object-values')
-var format = require('../components/format')
+var removeMarkdown = require('remove-markdown')
 
 module.exports = blog
 
@@ -30,7 +29,7 @@ function blog (state, emit) {
   function entry (page) {
     page = state.page(page.url)
     var title = page.v('title') || ''
-    
+
     return html`
 			<li class="mb2 1 db clear fl clean">
 			  <a href="${page.v('url')}" class="fl db nbb 1">
@@ -43,7 +42,7 @@ function blog (state, emit) {
             </div>
           </div>
           <div class="1 db fl">
-            ${format(page.v('excerpt'))}
+            ${removeMarkdown(page.v('excerpt'))}
           </div>
 			  </a>
       </li>

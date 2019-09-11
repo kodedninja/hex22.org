@@ -2,4 +2,4 @@ title: Writings
 ----
 view: blog
 ----
-entriesPerPage: 5
+entriesPerPage: 100
