@@ -20,7 +20,7 @@
     "nanositemap": "^0.0.2",
     "object-values": "^1.0.0",
     "remove-markdown": "^0.3.0",
-    "stakit": "^0.0.3",
+    "stakit": "^0.0.4",
     "stakit-choo": "^0.1.1"
   }
 }
