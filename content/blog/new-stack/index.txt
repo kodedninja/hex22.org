@@ -8,7 +8,13 @@ location: Linz
 ----
 excerpt: The design and the type of this site has changed many times over the 2 years of its existence, but the technologies on which is built on, remained nearly the same. Until now. With some features I was unsatisfied, some I missed and others have been removed. What ― Why?
 ----
-text: The last time I've changed the infrastructure was, when the new [Enoki](https://enoki.site/), including the Enoki Panel, was released. It was a big change from Enoki's UX perspective, but the format of the content (as this is one of the main ideologies behind Enoki) and the use of [Choo](https://choo.io/) as a framework, remained the same. This was also the time, when Enoki and the site became peer-to-peer first. I was very happy about this back then, but keeping the DAT and HTTP versions in sync was cumbersome and uncomfortable.
+text: 
+
+<div class="1 ba p1 tac">
+  This post is a bit out of date, as the site is using <a href="https://github.com/stakit/stakit">stakit</a> now. Will write about this soon.
+</div>
+
+The last time I've changed the infrastructure was, when the new [Enoki](https://enoki.site/), including the Enoki Panel, was released. It was a big change from Enoki's UX perspective, but the format of the content (as this is one of the main ideologies behind Enoki) and the use of [Choo](https://choo.io/) as a framework, remained the same. This was also the time, when Enoki and the site became peer-to-peer first. I was very happy about this back then, but keeping the DAT and HTTP versions in sync was cumbersome and uncomfortable.
 
 As I'm not a "self-titled peer-to-peer web power-user" anymore, I've already stopped updating the DAT version quite some time ago.
 
