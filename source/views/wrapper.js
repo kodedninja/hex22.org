@@ -24,7 +24,7 @@ function wrapper (state, emit) {
   function header() {
 		var isIndex = state.href === '/'
     return html`
-      <nav class="1 db py2 mb3 clear">
+      <nav class="1 db py2 mb3 clear-float">
         <ul class="1 db fl clean mb1">
           <li class="fl dib clean">
             <a href="/" class="${isIndex ? '' : 'nbb'}">${state.page('/').v('title')}</a>

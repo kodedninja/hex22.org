@@ -21,7 +21,7 @@ module.exports = class Content extends Component {
 	formatimages(element) {
     var galleries = [...element.querySelectorAll('.gallery')]
     galleries.forEach(function (group) {
-      group.classList.add('clear', '1', 'db')
+      group.classList.add('clear-float', '1', 'db')
 
       var images = [...group.children]
       images.map(function (image) {

@@ -67,16 +67,14 @@ code, .ffmono{font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo,
 .dx{display:flex}
 .pr{position:relative}
 .pa{position:absolute}
-.pf{position:fixed}
 .fl{float:left}
 .fr{float:right}
-.fn{float:none}
 
 .fxg{flex-grow:1}
 .fxs0{flex-shrink:0}
 
 .ofh{overflow:hidden}
-.clear:after {
+.clear-float:after {
   clear: both;
   content: "";
   display: table;
@@ -117,9 +115,6 @@ ul li:not(.clean), ol li:not(.clean) {
 .br {border-right-style: solid; border-right-width: 1px}
 .bb {border-bottom-style: solid; border-bottom-width: 1px}
 .bl {border-left-style: solid; border-left-width: 1px}
-.bn {border-style: none; border-width: 0}
-
-.br50 {border-radius:50px}
 
 .p0 {padding: 0}
 .py0-25{padding-top:.75rem;padding-bottom:.75rem}
@@ -130,10 +125,6 @@ ul li:not(.clean), ol li:not(.clean) {
 .pr1 {padding-right: 3rem}
 .pb1 {padding-bottom: 3rem}
 .pl1 {padding-left: 3rem}
-
-.pinput {padding: .5rem 1rem}
-.prinput {padding-right: 1rem}
-.pyinput {padding-top:.5rem; padding-bottom:.5rem}
 
 .m0 {margin: 0}
 .mb0-5{margin-bottom:1.5rem}

@@ -16,7 +16,7 @@ function blog (state, emit) {
 
   return html`
     <div class="1 db">
-      <ul class="1 db clear clean">
+      <ul class="1 db clear-float clean">
         ${!!currentEntries.length ? currentEntries.map(entry) : empty()}
       </ul>
       ${pagination()}
@@ -31,9 +31,9 @@ function blog (state, emit) {
     var title = page.v('title') || ''
 
     return html`
-			<li class="mb2 1 db clear fl clean">
+			<li class="mb2 1 db clear-float fl clean">
 			  <a href="${page.v('url')}" class="fl db nbb 1">
-          <div class="1 db fl mb0-5 clear">
+          <div class="1 db fl mb0-5 clear-float">
             <h3 class="dib fl mr1 fwn ul">
               ${title}
             </h3>
@@ -65,11 +65,11 @@ function blog (state, emit) {
 			var disableOld = page >= pages - 1
 			return html`
 				<ul class="tac">
-					<li class="clear dib">
+					<li class="clear-float dib">
 						<a href="${newHref}" class="nbb${disableNew ? ' disabled tcgrey' : ''}">← New</a>
 					</li>
 					${Array.from({length:pages}).map(renderLink)}
-					<li class="clear dib">
+					<li class="clear-float dib">
 						<a href="/blog?page=${page + 2}" class="nbb${disableOld ? ' disabled tcgrey' : ''}">Old →</a>
 					</li>
 				</ul>
@@ -80,7 +80,7 @@ function blog (state, emit) {
 			var activeClass = id === page ? ' tcgrey disabled' : ''
 			var href = id !== 0 ? `/blog?page=${id + 1}` : '/blog'
 			return html`
-				<li class="clear dib">
+				<li class="clear-float dib">
 					<a href="${href}" class="nbb${activeClass}">${id + 1}</a>
 				</li>
 			`
