@@ -32,7 +32,7 @@ function blog (state, emit) {
 
     return html`
 			<li class="mb2 1 db clear-float fl clean">
-			  <a href="${page.v('url')}" class="fl db nbb 1">
+			  <a href="${page.v('url') + '/'}" class="fl db nbb 1">
           <div class="w-1 db fl mb0-5 clear-float">
             <h3 class="dib fl mr1 fwn ul">
               ${title}

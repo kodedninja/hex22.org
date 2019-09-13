@@ -7,10 +7,10 @@ module.exports = index
 function index (state, emit) {
   var targetPage = state.page(state.page().v('target'))
   var targetTitle = targetPage.v('title')
-  
+
   var fields = state.page().v('fields') || []
   var subfields = state.page().v('subfields') || []
-  
+
 	// get, filter and sort all sub pages
   var entries = targetPage.children().toArray()
 		.filter(filter)
@@ -30,10 +30,10 @@ function index (state, emit) {
   function renderItem(item, id) {
     var child = state.page(item.url)
     var fieldsLength = fields.length + subfields.length
-  
+
     return html`
       <li class="w-1 db clean">
-        <a href="${item.url}" class="w-1 dx nbb py0-25">
+        <a href="${item.url + '/'}" class="w-1 dx nbb py0-25">
           ${fields.map(renderField.bind(this, true))}
           ${subfields.map(renderField.bind(this, false))}
         </a>
@@ -48,7 +48,7 @@ function index (state, emit) {
       `
     }
   }
-  
+
 	function empty () {
 		return html`
 			<div class="tac">
