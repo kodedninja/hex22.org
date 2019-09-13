@@ -17,6 +17,7 @@
     "markdown-it-sup": "^1.0.0",
     "monote": "^0.2.1",
     "nanocomponent": "^6.4.0",
+    "nanocontent": "^0.4.6",
     "nanositemap": "^0.0.2",
     "object-values": "^1.0.0",
     "remove-markdown": "^0.3.0",
