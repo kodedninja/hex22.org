@@ -5,7 +5,7 @@ module.exports = view
 
 function view (state, emit) {
   return html`
-    <div class="1 db">
+    <div class="w-1 db">
       <div class="tac">
 				<div class="mb0-5">There's nothing here.</div>
 				<div>

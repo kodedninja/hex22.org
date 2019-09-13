@@ -5,8 +5,8 @@ module.exports = home
 
 function home (state, emit) {
   	return html`
-		<div class="1 db">
-			<div class="1 db">
+		<div class="w-1 db">
+			<div class="w-1 db">
 				${format(state.page().v('text'))}
 			</div>
 		</div>

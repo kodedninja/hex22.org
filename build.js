@@ -6,6 +6,15 @@ var nanocontent = require('nanocontent')
 var { includeStyle } = require('stakit/transforms')
 var fromString = require('from2-string')
 var nanositemap = require('nanositemap')
+var inlineCriticalCss = require('stakit-critical-css')
+var minify = require('stakit-posthtml/minify')
+
+var COPY_FILES = {
+  [`${__dirname}/source/design/style.css`]: '/bundle.css',
+  [`${__dirname}/_redirects`]: '/_redirects',
+  [`${__dirname}/robots.txt`]: '/robots.txt',
+  [`${__dirname}/favicon.ico`]: '/favicon.ico'
+}
 
 var app = require('./source')
 var content = nanocontent.readSiteSync(path.resolve('./content'), { parent: true })
@@ -17,17 +26,19 @@ var extendState = {
 
 var kit = stakit()
   .use(stakit.state(extendState))
-  .use(stakit.copy({
-    [`${__dirname}/source/design/style.css`]: '/bundle.css',
-    [`${__dirname}/_redirects`]: '/_redirects',
-    [`${__dirname}/robots.txt`]: '/robots.txt',
-    [`${__dirname}/favicon.ico`]: '/favicon.ico'
-  }))
+  .use(stakit.copy(COPY_FILES))
   .use(writeSitemap)
   .use(copyContentFiles())
+  // routes + render
   .routes(routesWith404)
   .render(render(app))
-  .transform(includeStyle, '/bundle.css')
+  // transforms
+  .transform(inlineCriticalCss, { src: '/bundle.css' })
+  .transform(minify, {
+    collapseBooleanAttributes: true,
+    collapseWhitespace: true,
+    removeEmptyAttributes: true
+  })
 
 module.exports = kit
 
@@ -44,6 +55,7 @@ function writeSitemap (ctx) {
   ctx._files.push(stakitUtils.newFileStream(null, '/sitemap.xml', fromString(sm)))
 }
 
+// copies files from sub-pages and keeps the urls valid
 function copyContentFiles () {
   var res = {}
   Object.keys(content).forEach(function (route) {

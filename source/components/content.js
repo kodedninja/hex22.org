@@ -11,7 +11,7 @@ module.exports = class Content extends Component {
 	createElement(text) {
 		this.text = text
 		return html`
-			<div class="1 db">
+			<div class="w-1 db">
 				${format(text)}
 			</div>
 		`

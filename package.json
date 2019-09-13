@@ -20,8 +20,12 @@
     "nanocontent": "^0.4.6",
     "nanositemap": "^0.0.2",
     "object-values": "^1.0.0",
+    "posthtml-minifier": "^0.1.0",
+    "posthtmlify": "^0.2.0",
     "remove-markdown": "^0.3.0",
     "stakit": "^0.0.4",
-    "stakit-choo": "^0.1.1"
+    "stakit-choo": "^0.1.1",
+    "stakit-critical-css": "^0.1.1",
+    "stakit-posthtml": "^0.1.0"
   }
 }

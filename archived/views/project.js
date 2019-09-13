@@ -11,7 +11,7 @@ function project (state, emit) {
     	: false
 
 	return html`
-		<div class="1 db p1 mb4 fl">
+		<div class="w-1 db p1 mb4 fl">
 			<div class="db 3/5 mxa m-1">
 				<div class="1/2 dib fl m-1">
 					<p>${state.page.title}</p>
@@ -35,7 +35,7 @@ function project (state, emit) {
   	  if (state.page.npm) l.push({t: 'npm ↗', url: state.page.npm})
 
   	  return html`
-  	  	<div class="1 db">
+  	  	<div class="w-1 db">
   			${l.map(link)}
   		</div>
   	  `
@@ -49,8 +49,8 @@ function project (state, emit) {
 
 	function image (image) {
       return html`
-        <div class="1 my2">
-          <img class="1 db" src="${image.path}" />
+        <div class="w-1 my2">
+          <img class="w-1 db" src="${image.path}" />
         </div>
       `
     }

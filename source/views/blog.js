@@ -15,12 +15,12 @@ function blog (state, emit) {
 	var currentEntries = entries.slice(page * entriesPerPage, (page + 1) * entriesPerPage)
 
   return html`
-    <div class="1 db">
-      <ul class="1 db clear-float clean">
+    <div class="w-1 db">
+      <ul class="w-1 db clear-float clean">
         ${!!currentEntries.length ? currentEntries.map(entry) : empty()}
       </ul>
       ${pagination()}
-      <div class="1 db mt1 tac">
+      <div class="w-1 db mt1 tac">
         <a href="/blog/map/">Index of all blog entries</a>
       </div>
     </div>
@@ -33,7 +33,7 @@ function blog (state, emit) {
     return html`
 			<li class="mb2 1 db clear-float fl clean">
 			  <a href="${page.v('url')}" class="fl db nbb 1">
-          <div class="1 db fl mb0-5 clear-float">
+          <div class="w-1 db fl mb0-5 clear-float">
             <h3 class="dib fl mr1 fwn ul">
               ${title}
             </h3>
@@ -41,7 +41,7 @@ function blog (state, emit) {
               ${datify(page.v('date'))}
             </div>
           </div>
-          <div class="1 db fl">
+          <div class="w-1 db fl">
             ${removeMarkdown(page.v('excerpt'))}
           </div>
 			  </a>

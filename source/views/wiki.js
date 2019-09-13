@@ -6,14 +6,14 @@ module.exports = view
 
 function view (state, emit) {
 	return html`
-		<div class="1 db">
-			<div class="1 db mb1 f1 ul">
+		<div class="w-1 db">
+			<div class="w-1 db mb1 f1 ul">
 				<h1 class="fwn">${state.page().v('title')}</h1>
 			</div>
-			<div class="1 db mb1">
+			<div class="w-1 db mb1">
 				${format(state.page().v('text'))}
 			</div>
-			<div class="1 db">
+			<div class="w-1 db">
 				<ul class="clean">
 					${pages().map(renderPage)}
 				</ul>

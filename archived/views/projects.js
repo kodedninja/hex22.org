@@ -12,10 +12,10 @@ function projects (state, emit) {
 
 	return html`
 		<div>
-			<div class="1 db p1">
+			<div class="w-1 db p1">
 				${state.content[state.page.url].text}
 			</div>
-			<div class="1 db p1 mb4 fl">
+			<div class="w-1 db p1 mb4 fl">
 				${entries.map(entry)}
 			</div>
 		</div>
@@ -24,7 +24,7 @@ function projects (state, emit) {
 	function entry(e, id) {
 		var page = state.content[e.url] || {}
 		return html`
-			<a href="${page.url}" class="1 db fl p1 nbb bb ${id == 0 ? 'bt' : ''}">
+			<a href="${page.url}" class="w-1 db fl p1 nbb bb ${id == 0 ? 'bt' : ''}">
 				<div class="1/2 dib fl">
 					${page.title} ― <span class="bb">${page.description}</span>
 				</div>
@@ -42,11 +42,11 @@ function projects (state, emit) {
 	  <div class="pfeed 1 bb">
 	    <div class="f1"><a class="nbb mr1" href="/">/</a> ${state.page.title}</div>
 	  </div>
-	  <div class="1 db bb">
+	  <div class="w-1 db bb">
 		<a href="#" class="${state.filter ? '' : 'strike'} f1 br 1/2 dib p1 tac nbb" onclick="${only_selected}">Selected</a>
 		<a href="#" class="${state.filter ? 'strike' : ''} f1 1/2 dib p1 tac nbb" onclick="${only_mess}">Mess</a>
 	  </div>
-	  <div class="1 db">
+	  <div class="w-1 db">
 	    ${entries.map(row)}
 	  </div>
     </main>

@@ -9,14 +9,14 @@ module.exports = view
 function view (state, emit) {
 	var excerpt = state.page().v('excerpt') ? (state.page().v('excerpt') + '\n\n') : ''
 	return html`
-		<div class="1 db">
-			<h1 class="1 db f1 mb0-5 fwn ul">
+		<div class="w-1 db">
+			<h1 class="w-1 db f1 mb0-5 fwn ul">
 				${state.page().v('title')}
 			</h1>
-			<div class="1 db mb1 f2">
+			<div class="w-1 db mb1 f2">
 				${state.page().v('date') ? datify(state.page().v('date')) : ''}
 			</div>
-			<div class="1 db">
+			<div class="w-1 db">
 				${content.render(excerpt + state.page().v('text'))}
 			</div>
 		</div>

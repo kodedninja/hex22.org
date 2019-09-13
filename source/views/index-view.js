@@ -17,11 +17,11 @@ function index (state, emit) {
 		.sort(sort)
 
   return html`
-    <div class="1 db">
+    <div class="w-1 db">
       <div style="margin-bottom: 2.25rem">
         <u>Index of ${targetTitle}</u>
       </div>
-      <ul class="1 db">
+      <ul class="w-1 db">
         ${!!entries.length ? entries.map(renderItem) : empty()}
       </ul>
     </div>
@@ -32,8 +32,8 @@ function index (state, emit) {
     var fieldsLength = fields.length + subfields.length
   
     return html`
-      <li class="1 db clean">
-        <a href="${item.url}" class="1 dx nbb py0-25">
+      <li class="w-1 db clean">
+        <a href="${item.url}" class="w-1 dx nbb py0-25">
           ${fields.map(renderField.bind(this, true))}
           ${subfields.map(renderField.bind(this, false))}
         </a>
