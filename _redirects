@@ -2,4 +2,6 @@
 https://hex22.netlify.com/* https://hex22.org/:splat 301!
 
 # 404 rewrite
-/* /index.html 404
+/*              /404/index.html 404
+/404            /404/index.html 404
+/404/index.html /404/index.html 404

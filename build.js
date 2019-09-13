@@ -25,14 +25,22 @@ var kit = stakit()
   }))
   .use(writeSitemap)
   .use(copyContentFiles())
-  .routes((state) => Object.keys(state.content))
+  .routes(routesWith404)
   .render(render(app))
   .transform(includeStyle, '/bundle.css')
 
 module.exports = kit
 
+function routesWith404 (state) {
+  var routes = Object.keys(state.content)
+  routes.push('/404')
+  return routes
+}
+
 function writeSitemap (ctx) {
-  var sm = nanositemap('https://hex22.org', Object.keys(content))
+  // Append ending slash to urls
+  var paths = Object.keys(content).map(url => url + '/')
+  var sm = nanositemap('https://hex22.org', paths)
   ctx._files.push(stakitUtils.newFileStream(null, '/sitemap.xml', fromString(sm)))
 }
 

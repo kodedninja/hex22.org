@@ -7,10 +7,10 @@ var format = require('../components/format')
 module.exports = wrapper
 
 function wrapper (state, emit) {
-  if (!state.site.loaded) return loading()
   var view = views[state.page().v('view')] || views.notfound
+  var title = state.page().v('title') || 'Not Found'
 
-  emit('DOMTitleChange', 'hex22 | ' + state.page().v('title'))
+  emit('DOMTitleChange', 'hex22 | ' + title)
 
   return html`
     <body>
@@ -57,12 +57,4 @@ function wrapper (state, emit) {
        }
     }
   }
-}
-
-function loading() {
-  return html`
-    <body>
-      <div class="loading"></div>
-    </body>
-  `
 }
