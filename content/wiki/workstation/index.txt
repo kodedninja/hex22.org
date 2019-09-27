@@ -13,8 +13,8 @@ text: I currently use a 2015 Macbook Pro 13" with 8GB of RAM and 2.7Ghz i5 proce
 ### Graphical
 
 - Browser: Safari / [Firefox](https://mozilla.org/firefox) / [Beaker](https://beakerbrowser.com/)
-- Terminal: [Hyper](https://hyper.is/)
-- Text Editor: [Atom](https://atom.io/) / [Left](https://hundredrabbits.itch.io/left)
+- Terminal: [iTerm2](https://iterm2.com)
+- Text Editor: [Atom](https://atom.io/)
 - Design: [Figma](https://figma.com)
 - Window Manager: [Spectacle](https://www.spectacleapp.com/)
 - Audio Workstation: [Ableton Live](https://ableton.com/live)
@@ -34,6 +34,7 @@ text: I currently use a 2015 Macbook Pro 13" with 8GB of RAM and 2.7Ghz i5 proce
 - Image Processing: [korkut](https://github.com/oguzhaninan/korkut)
 - Find: [fd](https://github.com/sharkdp/fd)
 - Jumping Around: [z](https://github.com/rupa/z)
+- ls: [exa](https://github.com/ogham/exa)
 
 ### Workflow
 
