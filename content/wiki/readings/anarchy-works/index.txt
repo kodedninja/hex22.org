@@ -1,0 +1,27 @@
+title: Anarchy Works
+----
+view: default
+----
+author: Peter Gelderloos
+----
+date: 2019-09-27
+----
+text: ― **Peter Gelderloos**
+
+---
+
+<div class="ba p1 tac">
+  You can read the book for free at <a href="http://www.anarchy.works">anarchy.works</a>.
+</div>
+
+I've generated an `.epub` file from the website using `pandoc` so I could read it on my Kindle. Started the book kind of by accident (while I was on a 9 hours bus ride to Linz), because it was the most appealing unread book in my reader's library.
+
+Although I really enjoyed the first part, that might have happened only because the bus drive was a bad one and the book, together with my headphones, were my only shelter. After the first few chapters, the amount of examples (many times recurring, the same happenings described again and again) becomes a bit overwhelming.
+
+Overall I didn't like the book. It fulfills the original plan of the author: to provide examples of already existing, working anarchist systems, but I don't recommend it to anyone who's not already at least partly a believer of anarchism. I would never call it a good starting read to get to know anarchism. The first part includes the description of the general ideologies of anarchist systems, but the last 70% of the book contains mostly real-world examples of small and medium scale organizations that were approaching (intentionally and unintentionally) something that could be described as anarchist. This mostly stopped at horizontal decision-making, voluntary association and state-free territories (neighbourhoods, cities, regions).
+
+Quite some times I had to put down the book and skip a day of reading, because I got upset of the unilateralism of the author. Eliminating crimes and hiding them behind _police agression_, _freedom_ or the _problems of the system_ is something I can't and don't want to tolerate. Of course, in the most of the cases I can understand the writer and his views, but there are ones that are simply simplifications...
+
+> "...some crimes, such as stealing from the wealthy or sabotaging instruments of warfare, can actually decrease harm."
+
+I have to confess, I've skipped some pages of descriptions of examples.
