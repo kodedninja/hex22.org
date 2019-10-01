@@ -25,7 +25,7 @@ text: I currently use a 2015 Macbook Pro 13" with 8GB of RAM and 2.7Ghz i5 proce
 
 ### Command-Line
 
-- Text Editor: [micro](https://github.com/zyedidia/micro)
+- Text Editor: [kakoune](https://kakoune.org)
 - Git: see [dotfiles](https://github.com/kodedninja/dotfiles)
 - Node: [n](https://github.com/tj/n) + [pnpm](https://github.com/pnpm/pnpm)
 - Domains: [now](https://github.com/zeit/now-cli)
