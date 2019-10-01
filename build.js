@@ -3,7 +3,7 @@ var stakit = require('stakit')
 var stakitUtils = require('stakit/lib/utils')
 var { render } = require('stakit-choo')
 var nanocontent = require('nanocontent')
-var { includeStyle } = require('stakit/transforms')
+var { includeStyle, meta } = require('stakit/transforms')
 var fromString = require('from2-string')
 var nanositemap = require('nanositemap')
 var inlineCriticalCss = require('stakit-critical-css')
@@ -16,6 +16,23 @@ var COPY_FILES = {
   [`${__dirname}/favicon.ico`]: '/favicon.ico'
 }
 
+var DESCRIPTION = 'Personal site and wiki of Hunor Karamán'
+
+var METAS = {
+	author: 'Hunor Karamán',
+	description: DESCRIPTION,
+	keywords: 'kodedninja, hunor karaman, p2p, stakit, orkl',
+	// Open Graph
+	'og:title': 'hex22',
+	'og:type': 'website',
+	'og:url': 'https://hex22.org',
+	'og:description': DESCRIPTION,
+	// Twitter
+	'twitter:card': 'summary',
+	'twitter:creator': '@kodedninja',
+	'twitter:site': '@kodedninja'
+}
+  
 var app = require('./source')
 var content = nanocontent.readSiteSync(path.resolve('./content'), { parent: true })
 
@@ -33,6 +50,7 @@ var kit = stakit()
   .routes(routesWith404)
   .render(render(app))
   // transforms
+  .transform(meta, METAS)
   .transform(inlineCriticalCss, { src: '/bundle.css' })
   .transform(minify, {
     collapseBooleanAttributes: true,
