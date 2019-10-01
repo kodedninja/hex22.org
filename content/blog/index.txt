@@ -1,5 +1,9 @@
 title: Writings
 ----
-view: blog
+view: index
 ----
-entriesPerPage: 100
+fields:
+  - date
+  - title
+subfields:
+  - excerpt
