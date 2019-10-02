@@ -33,7 +33,7 @@ function index (state, emit) {
 
     return html`
       <li class="w-1 db clean">
-        <a href="${item.url + '/'}" class="w-1 dx nbb py0-25">
+        <a href="${item.url + '/'}" class="w-1 dx nbb py0-25 ofh">
           ${fields.map(renderField.bind(this, true))}
           ${subfields.map(renderField.bind(this, false))}
         </a>
