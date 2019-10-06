@@ -44,6 +44,7 @@ var extendState = {
 var kit = stakit()
   .use(stakit.state(extendState))
   .use(stakit.copy(COPY_FILES))
+  .use(watchContent)
   .use(writeSitemap)
   .use(copyContentFiles())
   // routes + render
@@ -84,4 +85,9 @@ function copyContentFiles () {
   })
 
   return stakit.copy(res)
+}
+
+// 
+function watchContent (ctx) {
+  ctx._watch = [ './content/**/*' ] 
 }

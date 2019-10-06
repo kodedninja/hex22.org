@@ -8,7 +8,7 @@ excerpt: About peer-to-peer publishing.
 
 On a free and loosely definable space, like the internet, the whole system's based on ownership. Different locations are owned by countries, corporations and people, just like on the surface of the Earth (though it's much more challening to draw the boundaries of the former).
 ----
-location: Odorheiu Secuiesc
+location: Székelyudvarhely
 ----
 visible: true
 ----

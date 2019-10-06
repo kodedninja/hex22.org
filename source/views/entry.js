@@ -13,11 +13,11 @@ function view (state, emit) {
 			<h1 class="w-1 db f1 mb0-5 fwn ul">
 				${state.page().v('title')}
 			</h1>
-			<div class="w-1 db mb1 f2">
-				${state.page().v('date') ? datify(state.page().v('date')) : ''}
-			</div>
 			<div class="w-1 db">
 				${content.render(excerpt + state.page().v('text'))}
+			</div>
+			<div class="w-1 db mt1 f2">
+				${`~ ${datify(state.page().v('date'))} / ${state.page().v('location')}`}
 			</div>
 		</div>
 	`

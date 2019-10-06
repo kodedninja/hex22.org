@@ -4,7 +4,7 @@ view: entry
 ----
 date: 2017-10-20
 ----
-location: Odorheiu Secuiesc
+location: Székelyudvarhely
 ----
 excerpt: Once upon a time images appeared on websites with interactive areas inside. They were called _image maps_.
 

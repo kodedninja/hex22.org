@@ -4,7 +4,7 @@ view: entry
 ----
 date: 2017-11-10
 ----
-location: Odorheiu Secuiesc
+location: Székelyudvarhely
 ----
 excerpt: My first try at building a peer-to-peer application based on [Beaker Browser](https://beakerbrowser.com) ― a retrospection.
 
