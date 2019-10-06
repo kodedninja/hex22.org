@@ -8,6 +8,7 @@ text: I’m a _digital explorer_ working on experimental projects with small foo
 
 ## Currently
 
+AI student at the [Johannes Kepler Universität](https://jku.at), 2019―
 Web-developer at [GeoGebra](https://geogebra.org), 2018―
 
 ## Previously
