@@ -34,19 +34,13 @@ var METAS = {
 }
   
 var app = require('./source')
-var content = nanocontent.readSiteSync(path.resolve('./content'), { parent: true })
-
-var extendState = {
-  content: content,
-  site: { loaded: true, p2p: false, preloaded: true }
-}
 
 var kit = stakit()
-  .use(stakit.state(extendState))
+  .use(extendState)
   .use(stakit.copy(COPY_FILES))
   .use(watchContent)
   .use(writeSitemap)
-  .use(copyContentFiles())
+  .use(copyContentFiles)
   // routes + render
   .routes(routesWith404)
   .render(render(app))
@@ -61,6 +55,15 @@ var kit = stakit()
 
 module.exports = kit
 
+function extendState (ctx) {
+  var content = nanocontent.readSiteSync(path.resolve('./content'), { parent: true })
+
+  ctx.state = {
+    content: content,
+    site: { loaded: true, p2p: false, preloaded: true }
+  }
+}
+
 function routesWith404 (state) {
   var routes = Object.keys(state.content)
   routes.push('/404')
@@ -69,25 +72,25 @@ function routesWith404 (state) {
 
 function writeSitemap (ctx) {
   // Append ending slash to urls
-  var paths = Object.keys(content).map(url => url + '/')
+  var paths = Object.keys(ctx.state.content).map(url => url[url.length - 1] === '/' ? url : url + '/')
   var sm = nanositemap('https://hex22.org', paths)
   ctx._files.push(stakitUtils.newFileStream(null, '/sitemap.xml', fromString(sm)))
 }
 
 // copies files from sub-pages and keeps the urls valid
-function copyContentFiles () {
+function copyContentFiles (ctx) {
   var res = {}
-  Object.keys(content).forEach(function (route) {
-    var files = content[route].files
+  Object.keys(ctx.state.content).forEach(function (route) {
+    var files = ctx.state.content[route].files
     Object.keys(files).forEach(function (filepath) {
       res[files[filepath].path] = path.join('/content', files[filepath].url)
     })
   })
 
-  return stakit.copy(res)
+  stakit.copy(res)(ctx)
 }
 
-// 
+// watch the content folder 
 function watchContent (ctx) {
   ctx._watch = [ './content/**/*' ] 
 }

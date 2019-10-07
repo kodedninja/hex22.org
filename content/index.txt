@@ -2,7 +2,7 @@ title: Hunor Karamán
 ----
 view: home
 ----
-text: I’m a _digital explorer_ working on experimental projects with small footprint,  fast websites & solutions for the peer-to-peer web.
+text: I’m a _digital explorer_ working on experimental projects with small footprint and an artificial intelligence student who won't work for big tech.
 
 ---
 
