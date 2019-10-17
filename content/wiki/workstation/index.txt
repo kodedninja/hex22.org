@@ -14,35 +14,22 @@ text: I currently use a 2015 Macbook Pro 13" with 8GB of RAM and 2.7Ghz i5 proce
 
 - Browser: Safari / [Firefox](https://mozilla.org/firefox) / [Beaker](https://beakerbrowser.com/)
 - Terminal: [iTerm2](https://iterm2.com)
-- Text Editor: [Atom](https://atom.io/)
 - Design: [Figma](https://figma.com)
 - Window Manager: [Spectacle](https://www.spectacleapp.com/)
 - Audio Workstation: [Ableton Live](https://ableton.com/live)
 - Music: [Spotify](https://spotify.com/)
 - Video Player: [IINA](https://lhc70000.github.io/iina/)
 - Calculator: [Numi](https://numi.io/)
-- Chat: [Telegram](https://telegram.org)
+- Communication: [Telegram](https://telegram.org)
 
 ### Command-Line
 
 - Text Editor: [kakoune](https://kakoune.org)
-- Git: see [dotfiles](https://github.com/kodedninja/dotfiles)
 - Node: [n](https://github.com/tj/n) + [pnpm](https://github.com/pnpm/pnpm)
-- Domains: [now](https://github.com/zeit/now-cli)
 - Localtunnel: [localtunnel](https://github.com/localtunnel/localtunnel)
 - Development Server: [budo](https://github.com/mattdesl/budo) / [http-server](https://npmjs.com/package/http-server) / [monote](https://github.com/stakit/monote)
 - Image Processing: [korkut](https://github.com/oguzhaninan/korkut)
 - Find: [fd](https://github.com/sharkdp/fd)
 - Jumping Around: [z](https://github.com/rupa/z)
 - ls: [exa](https://github.com/ogham/exa)
-
-### Workflow
-
-As my previous machine was a pretty weak one, I got used to reducing the amount of running applications & browser tabs. If I don't use something, it's not open or it's turned off (Bluetooth / Wi-Fi). I don't have unused applications installed neither (except those that were installed by a more complicated build process).
- 
-What's almost always open is a terminal window, maximized to the size of the desktop and running various applications using multiple tabs. I prefer Hyper's built-in tabs over `tmux`, because it's faster to open and to close them, and it doesn't block key events. Spotify is also open most of the time.
-
-If I work on a project with a more complicated file structure (I try to avoid these in my personal projects), I use Atom as an editor, in full-screen mode, and the terminal's width is reduced to the half of the desktop.
-
-Front-end projects are previewed with Beaker or bundled + served by `budo` and viewed in some other browser.
 
