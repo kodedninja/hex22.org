@@ -70,4 +70,4 @@ I wish I would have the same, but to the other direction: any e-book format (inc
 Shoutout to all of those who are working on new digital reading interfaces. Technology has already transformed reading once, when it moved content consumption to the web, now it's time to change the way we interact with the read text too.
 
 ----
-visible: true
+visible: false

@@ -68,6 +68,6 @@ function index (state, emit) {
     if (state.site.info && state.site.info.isOwner) return true
 
     var isVisible = state.page(entry.url).v('visible')
-    return isVisible === undefined ||  isVisible === true
+    return isVisible === true
   }
 }

@@ -40,6 +40,6 @@ location: Linz
 ----
 date: 2019-02-18
 ----
-visible: true
+visible: false
 ----
 excerpt: Lately, I've been identifying myself as a _peer_. It's a way to communicate my support and interest towards peer\-to\-peer networks, but I always knew that this identity doesn't end here. It deeply includes my attitude towards people, ownership, computers and the web.
