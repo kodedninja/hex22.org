@@ -15,7 +15,7 @@
     "from2-string": "^1.1.0",
     "markdown-it": "^8.4.0",
     "markdown-it-sup": "^1.0.0",
-    "monote": "^0.4.0",
+    "monote": "^0.5.0",
     "nanocomponent": "^6.4.0",
     "nanocontent": "^0.4.6",
     "nanositemap": "^0.0.2",
@@ -23,7 +23,7 @@
     "posthtml-minifier": "^0.1.0",
     "posthtmlify": "^0.2.0",
     "remove-markdown": "^0.3.0",
-    "stakit": "^0.0.4",
+    "stakit": "^0.1.0",
     "stakit-choo": "^0.1.1",
     "stakit-critical-css": "^0.1.1",
     "stakit-posthtml": "^0.1.0"
