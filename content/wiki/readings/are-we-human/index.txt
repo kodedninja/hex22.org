@@ -33,3 +33,6 @@ I think these are between my favourite sentences from the book, sentences I can 
 --- 
 
 Please read this book if you're interested just even a bit in the general topic of design.
+----
+visible: true
+

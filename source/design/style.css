@@ -29,7 +29,7 @@ a:not(.nbb) {
 
 h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
-  font-family:georgia, serif;
+	font-weight: 600;
 }
 
 .f1 {font-size:1.61803rem}
@@ -37,7 +37,6 @@ h1, h2, h3, h4, h5, h6 {
 .f3 {font-size:0.61803rem}
 
 .i {font-style: italic}
-.b {font-weight: bold}
 .ul {text-decoration: underline}
 .strike {text-decoration: line-through}
 .ttc {text-transform: capitalize}
@@ -48,7 +47,8 @@ h1, h2, h3, h4, h5, h6 {
 code, .ffmono{font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace}
 .ffsans{font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"}
 
-.fwb {font-weight: bold}
+strong {font-weight:600}
+.fwb {font-weight: 600}
 .fwn {font-weight: normal}
 
 .lh1 {line-height: 1.8}

@@ -18,9 +18,6 @@ function index (state, emit) {
 
   return html`
     <div class="w-1 db">
-      <div style="margin-bottom: 2.25rem">
-        <u>Index of ${targetTitle}</u>
-      </div>
       <ul class="w-1 db">
         ${!!entries.length ? entries.map(renderItem) : empty()}
       </ul>

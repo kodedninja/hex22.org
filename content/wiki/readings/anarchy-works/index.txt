@@ -25,3 +25,5 @@ Quite some times I had to put down the book and skip a day of reading, because I
 > "...some crimes, such as stealing from the wealthy or sabotaging instruments of warfare, can actually decrease harm."
 
 I have to confess, I've skipped some pages of descriptions of examples.
+----
+visible: true

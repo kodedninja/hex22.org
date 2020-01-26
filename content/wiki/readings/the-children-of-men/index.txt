@@ -31,3 +31,5 @@ There are quote some quotes that I would put here to emphasize the sharply shape
 And as a last one, an image burnt into my memory:
 
 > "Daylight, tentative and bleak, stole like a chill breath into the wood, wrapping itself round barks and broken boughs, touching the boles of the trees and the low denuded branches, giving darkness and mystery form and substance."
+----
+visible: true
