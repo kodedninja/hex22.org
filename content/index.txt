@@ -18,7 +18,7 @@ Co-Made [Pictogon](https://pictogon.com), 2017
 
 ---
 
-I'm present on [GitHub](https://github.com/kodedninja), [Are.na](https://are.na/hunor-karaman), [Mastodon](https://merveilles.town/@kodedninja) and [twtxt](https://t.seed.hex22.org/twtxt.txt).
+I'm present on [GitHub](https://github.com/kodedninja), [Are.na](https://are.na/hunor-karaman) and [Mastodon](https://merveilles.town/@kodedninja).
 You can contact me via [email](mailto:karamanhunor@pm.me).
 
 Everything I make should pass most of the criterias in my [Manifesto](/manifesto).
@@ -27,6 +27,3 @@ Everything I make should pass most of the criterias in my [Manifesto](/manifesto
 
 The site is part of a <a href="https://webring.xxiivv.com/#random" target="_blank">Webring</a> and built on [this stack](/blog/new-stack/).
 
----
-
-(Sometimes available on [DAT](dat://d300be8617994ae2796e2e383aba3ce6a4219c27ca6d062eb478341d472028a8/))
