@@ -17,7 +17,7 @@ function view (state, emit) {
 				${content.render(excerpt + state.page().v('text'))}
 			</div>
 			<div class="w-1 db mt1 f2">
-				${`~ ${datify(state.page().v('date'))} / ${state.page().v('location')}`}
+				${`${datify(state.page().v('date'))} / ${state.page().v('location')}`}
 			</div>
 		</div>
 	`

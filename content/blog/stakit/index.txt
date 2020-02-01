@@ -1,0 +1,62 @@
+title: Stakit ― a modular toolkit for building static websites
+----
+view: entry
+----
+excerpt: A static-site generator seems like a platform: it enforces a templating language and its custom content structure. I could never get used to these rules.
+----
+text: A few months ago I've started (and stopped) working on a framework that in my opinion solves that issue. It's been a while, but from time to time I return to it to fix some issues and I thought now it's a good time to write about it.
+
+I will skip the _why you should go static_ part and go through the points in time that led to [stakit](https://github.com/stakit).
+
+---
+
+### 1. enoki-build
+
+Last May, I've started working on a small script that could turn my (back then [Enoki](https://enoki.site) powered) site into a static one. The main motivation behind the transition of my site to a more static site one was my experience with other JS only sites. I could not read them in [Dropout](https://dropout.jon-kyle.com) and if once in a while I opened up my [terminal based browser](https://lynx.browser.org/), they were nothing more than blank spots on the web.
+
+[enoki-build](https://github.com/kodedninja/enoki-build) was very specific to the needs of my Enoki site and I ended up not using it at this state, but it was the kickstart of the journey that led to stakit.
+
+### 2. nanocrane
+
+Then later, in August, I did a refactoring of the project, turning it into a general static site builder for [choo](https://choo.io) apps and using that internally for `enoki-build`. At this point in time I've changed the infrastructure behind the site and it became a mix of the old Choo app and of a static site.
+
+Github Pages has been replaced with [Netlify](https://netlify.com), which ended up being a great decision (such a great service), although I use it in its bare minimums.
+
+But somehow, it still did not feel right, Javascript felt like an unnecessary abstraction.
+
+At this point, I've also felt quite limited with `enoki-build`. Being just a command-line utility, it didn't give much space for adaptation and the client-side Javascript was a low effort work-around.
+
+### 3. stakit
+
+I've started to think about a more general approach, one that would hide the hard-work of a static site generator, but still give me some slack in the pipeline and freedom in using my existing content structure and framework.
+
+I wanted something that acts as a glue between the app and the content.
+
+Stakit is a toolkit, with a framework at its center. The stakit framework provides a simple API and a build process modular in design. Although, it was originally built to support Choo, it's 100% framework agnostic (for some cases there's no need to use a framework at all).
+
+It supports plugins and transforms, making it easy to do post- and pre-processing. The toolkit consists of some transforms and plugins and a [development server](https://github.com/stakit/monote) to speed up working with static sites
+
+From the API standpoint, it's similar to the ones provided by the frameworks I'm familiar with (Choo, browserify, etc.).
+
+---
+
+### Current stack
+
+Currently, the source of the site is almost identical with the Enoki version. The content is read by [nanocontent](https://github.com/jondashkyle/nanocontent), which is then forwarded to the Choo app.
+
+As plugins it utilizes some simple ones: extending the state with the content, copying some static files, generating a sitemap.
+
+CSS is inlined into the HTML and the whole output is minimized by transforms ([stakit-critical-css](https://github.com/stakit/stakit-critical-css), [stakit-posthtml](https://github.com/stakit/stakit-posthtml)). 
+
+---
+
+Additional:
+
+- [Github/Stakit](https://github.com/stakit)
+- [Source hex22.org](https://github.com/kodedninja/hex22.org)
+----
+location: Linz
+----
+date: 2020-02-01
+----
+visible: true
