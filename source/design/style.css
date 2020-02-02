@@ -106,7 +106,7 @@ ul li:not(.clean), ol li:not(.clean) {
 .bl {border-left-style: solid; border-left-width: 1px}
 
 .p0 {padding: 0}
-.py0-25{padding-top:.75rem;padding-bottom:.75rem}
+.py0-1{padding-top:.30rem;padding-bottom:.30rem}
 .p1 {padding: 3rem}
 .px1 {padding-left: 3rem;padding-right: 3rem}
 .py1 {padding-top: 3rem;padding-bottom: 3rem}
