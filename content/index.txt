@@ -2,7 +2,7 @@ title: Hunor Karamán
 ----
 view: home
 ----
-text: My thoughts search for a common surface between the internet, the human and ambient interactions. What I work on is lead by my thoughts. I'm also an artificial intelligence student without wanting your data.
+text: My thoughts search for a common surface between the internet, the human and their ambient interactions. What I work on is lead by my thoughts. I'm also an artificial intelligence student without wanting your data.
 
 ---
 
