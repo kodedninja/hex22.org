@@ -83,7 +83,8 @@ strong {font-weight:600}
 .t0 {top: 0}
 .l0 {left: 0}
 
-.w-1{width:100.000%}
+.w-1{width:100%}
+.w-50{width:50%}
 .auto {width: auto}
 
 p, ul:not(.clean), ol:not(.clean) {margin-top: 1.5rem;margin-bottom:1.5rem}

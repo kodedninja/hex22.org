@@ -48,12 +48,18 @@ As plugins it utilizes some simple ones: extending the state with the content, c
 
 CSS is inlined into the HTML and the whole output is minimized by transforms ([stakit-critical-css](https://github.com/stakit/stakit-critical-css), [stakit-posthtml](https://github.com/stakit/stakit-posthtml)). 
 
+All-in-all, this means:
+- no Javascript
+- no external files (except images)
+- no cookies
+- no tracking
+
 ---
 
-Additional:
+### Footnotes
 
-- [Github/Stakit](https://github.com/stakit)
-- [Source hex22.org](https://github.com/kodedninja/hex22.org)
+- [Stakit](https://github.com/stakit)
+- [Source of hex22.org](https://github.com/kodedninja/hex22.org)
 ----
 location: Linz
 ----
