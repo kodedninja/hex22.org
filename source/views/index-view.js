@@ -10,6 +10,7 @@ function index (state, emit) {
 
   var fields = state.page().v('fields') || []
   var subfields = state.page().v('subfields') || []
+  var primaryField = state.page().v('primary')
 
 	// get, filter and sort all sub pages
   var entries = targetPage.children().toArray()
@@ -29,7 +30,7 @@ function index (state, emit) {
     var fieldsLength = fields.length + subfields.length
 
     return html`
-      <li class="w-1 db clean">
+      <li class="w-1 db clean index-item">
         <a href="${item.url + '/'}" class="w-1 dx nbb py0-1 ofh">
           ${fields.map(renderField.bind(this, true))}
           ${subfields.map(renderField.bind(this, false))}
@@ -38,8 +39,9 @@ function index (state, emit) {
     `
 
     function renderField (sub, fieldName, index) {
+      var primary = fieldName === primaryField ? ' primary' : ''
       return html`
-        <div class="tofe ofh wsnw ${sub ? 'fxs0' : 'tcgrey'} mr0-5 lc-mr0">
+        <div class="tofe ofh wsnw ${sub ? 'fxs0' : 'tcgrey'}${primary} mr0-5 lc-mr0">
           ${removeMarkdown(child.v(fieldName))}
         </div>
       `

@@ -8,3 +8,5 @@ fields:
   - title
   - author
   - date
+----
+primary: title

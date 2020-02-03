@@ -27,7 +27,7 @@ function wrapper (state, emit) {
       <nav class="w-1 db py2 mb3 clear-float">
         <ul class="w-1 db fl clean mb1">
           <li class="fl dib clean">
-            <a href="/" class="${isIndex ? '' : 'nbb'}">${state.page('/').v('title')}</a>
+            <a href="/" class="${isIndex ? '' : 'nbb'}" tabindex="1">${state.page('/').v('title')}</a>
           </li>
           ${navigation()}
         </ul>

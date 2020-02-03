@@ -5,5 +5,8 @@ view: index
 fields:
   - date
   - title
+----
 subfields:
   - excerpt
+----
+primary: title
