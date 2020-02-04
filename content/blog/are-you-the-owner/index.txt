@@ -16,7 +16,7 @@ text: I have this vision about a utopian system where a piece of land has no own
 
 We can also apply this to the context of the web.
 
-**What if no subspaces of the internet would be owned?** What is a *subspace* on the internet, anyway? First of all, it must be something that can be seen (metaphorically) as a space ― it's in "READY state"^1^ and its emptiness is its functionality. It also has some metadata in order to help you access and specify it (geolocation, IDs, URLs, ...).
+**What if no subspaces of the internet would be owned?** What is a *subspace* on the internet, anyway? First of all, it must be something that can be seen (metaphorically) as a space ― it's in "READY state"[^1] and its emptiness is its functionality. It also has some metadata in order to help you access and specify it (geolocation, IDs, URLs, ...).
 
 We can initiate many spaces in a context by using different perspectives. As the web is a gigantic network of computers, I would see these ― the **computers** ― **as subspaces**.
 
@@ -52,4 +52,4 @@ Other than the few buttons that appear for the owner, it's the same interface fo
 
 ### References
 
-1. [New Computers Working Group / Ready to Use](dat://newcomputers.group/ready2use.html)
+[^1]: [New Computers Working Group / Ready to Use](dat://newcomputers.group/ready2use.html)

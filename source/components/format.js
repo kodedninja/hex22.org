@@ -5,6 +5,7 @@ var md = new MarkdownIt({
 	breaks: true
 })
 md.use(require('markdown-it-sup'))
+md.use(require('markdown-it-footnote'))
 
 module.exports = format
 

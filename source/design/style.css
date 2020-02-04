@@ -25,6 +25,11 @@ a:not(.nbb) {
   padding-bottom: 0.1rem;
 }
 
+.footnote-ref a {
+	border-bottom: none;
+	padding-bottom: 0;
+}
+
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
@@ -165,7 +170,7 @@ blockquote {
 }
 
 pre, code {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   line-height: 1.5;
 }
 
