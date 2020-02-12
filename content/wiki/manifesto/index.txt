@@ -14,4 +14,4 @@ text: 1. **Everything should be a tool.** A tool transforms data without adding 
 ----
 showonwiki: true
 ----
-short: Rules to follow when making
+short: Every day I try to keep up with these rules

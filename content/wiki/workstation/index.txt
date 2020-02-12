@@ -12,7 +12,7 @@ text: I currently use a 2015 Macbook Pro 13" with 8GB of RAM and 2.7Ghz i5 proce
 
 ### Graphical
 
-- Browser: Safari / [Firefox](https://mozilla.org/firefox) / [Beaker](https://beakerbrowser.com/)
+- Browser: [Firefox](https://mozilla.org/firefox) / [Beaker](https://beakerbrowser.com/)
 - Terminal: [iTerm2](https://iterm2.com)
 - Design: [Figma](https://figma.com)
 - Window Manager: [Spectacle](https://www.spectacleapp.com/)
