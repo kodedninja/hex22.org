@@ -4,10 +4,11 @@ view: default
 ----
 text: I try to get rid of the rigidness of reading on one surface, in a [linear way](https://urcad.es/writing/reading-networks/index.html). The books below belong to a more goal oriented reading list (books I've been planning to read and I usually finish them). The other part is not centralized: articles, essays, fragments, websites, found and started on an impulse. Reading them everywhere (on paper, on ebook, on a laptop). I like to move texts from one surface to another if I can connect to it more efficiently.
 
-For the books I'm planning to read visit [this channel](https://www.are.na/hunor-karaman/want-to-read-u8qku8vpli) on Are.na.
+For the books I'm planning to read visit [this channel](https://www.are.na/hunor-karaman/books-to-read-wv1xjagz6dy) on Are.na.
 
 ## Currently Reading
 
+Stanford Encyclopedia of Philosophy ― [**"Skepticism"**](https://plato.stanford.edu/entries/skepticism/)
 David Foster Wallace ― **"Infinite Jest"**
 
 ## 2020

@@ -1,4 +1,4 @@
-title: Atomic Social Networks
+title: Atomic social networks
 ----
 view: entry
 ----

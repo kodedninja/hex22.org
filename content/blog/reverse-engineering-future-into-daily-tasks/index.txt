@@ -1,4 +1,4 @@
-title: Reverse-Engineering Future Into Daily Tasks
+title: Reverse-engineering future into daily tasks
 ----
 view: entry
 ----
