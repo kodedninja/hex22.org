@@ -15,7 +15,7 @@ text: I currently use a 2015 Macbook Pro 13" with 8GB of RAM and 2.7Ghz i5 proce
 - Browser: [Firefox](https://mozilla.org/firefox) / [Beaker](https://beakerbrowser.com/)
 - Terminal: [iTerm2](https://iterm2.com)
 - Design: [Figma](https://figma.com)
-- Window Manager: [Spectacle](https://www.spectacleapp.com/)
+- Window Manager: [Rectangle](https://rectangleapp.com/)
 - Audio Workstation: [Ableton Live](https://ableton.com/live)
 - Music: [Spotify](https://spotify.com/)
 - Video Player: [IINA](https://lhc70000.github.io/iina/)
@@ -26,10 +26,15 @@ text: I currently use a 2015 Macbook Pro 13" with 8GB of RAM and 2.7Ghz i5 proce
 
 - Text Editor: [kakoune](https://kakoune.org)
 - Node: [n](https://github.com/tj/n) + [pnpm](https://github.com/pnpm/pnpm)
-- Localtunnel: [localtunnel](https://github.com/localtunnel/localtunnel)
-- Development Server: [budo](https://github.com/mattdesl/budo) / [http-server](https://npmjs.com/package/http-server) / [monote](https://github.com/stakit/monote)
-- Image Processing: [korkut](https://github.com/oguzhaninan/korkut)
+- Dev Server: [budo](https://github.com/mattdesl/budo) / [http-server](https://npmjs.com/package/http-server) / [monote](https://github.com/stakit/monote)
 - Find: [fd](https://github.com/sharkdp/fd)
 - Jumping Around: [z](https://github.com/rupa/z)
 - ls: [exa](https://github.com/ogham/exa)
+
+I casually use:
+- [pandoc](https://pandoc.org/)
+- [localtunnel](https://github.com/localtunnel/localtunnel)
+- [korkut](https://github.com/oguzhaninan/korkut)
+- [you-get](https://you-get.org/)
+- [monolith](https://github.com/Y2Z/monolith)
 
