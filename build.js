@@ -16,7 +16,7 @@ var COPY_FILES = {
   [`${__dirname}/favicon.ico`]: '/favicon.ico'
 }
 
-var DESCRIPTION = 'Personal site and wiki of Hunor Karamán'
+var DESCRIPTION = "My thoughts search for a common surface between the internet, humans and their ambient interactions. I'm interested in small, fast websites."
 
 var METAS = {
 	author: 'Hunor Karamán',

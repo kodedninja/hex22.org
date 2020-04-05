@@ -2,14 +2,14 @@ title: Hunor Karamán
 ----
 view: home
 ----
-text: My thoughts search for a common surface between the internet, the human and their ambient interactions. What I work on is lead by my thoughts. I'm also an artificial intelligence student [without wanting your data](/blog/studying-ai/).
+text: My thoughts search for a common surface between the internet, humans and their ambient interactions. I'm interested in small, fast websites. Studying artificial intelligence [without wanting your data](/blog/studying-ai/).
 
 ---
 
 ## Currently
 
 AI student at the [Johannes Kepler Universität](https://jku.at), 2019―
-Web-developer at [GeoGebra](https://geogebra.org), 2018―
+Web-developer at [GeoGebra](https://www.geogebra.org), 2018―
 
 ## Previously
 
@@ -18,7 +18,7 @@ Co-Made [Pictogon](https://pictogon.com), 2017
 
 ---
 
-I'm on a temporal (or not) break from social media, feeds and news, but you can follow along on [GitHub](https://github.com/kodedninja), [Are.na](https://are.na/hunor-karaman) and my [twtxt feed](https://t.seed.hex22.org/twtxt.txt). I would be happy to [discuss](malto:karamanhunor@pm.me) with you.
+I'm on a temporal (or not) break from social media, feeds and news, but you can follow along on [GitHub](https://github.com/kodedninja), [Are.na](https://www.are.na/hunor-karaman) and my [twtxt feed](https://t.seed.hex22.org/twtxt.txt). I'm happy to [discuss](malto:karamanhunor@pm.me) with you.
 
 ---
 
