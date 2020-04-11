@@ -16,9 +16,18 @@ function view (state, emit) {
 			<div class="w-1 db">
 				${content.render(excerpt + state.page().v('text'))}
 			</div>
-			<div class="w-1 db mt1 f2">
+			<div class="w-1 db mt1 mb1 f2">
 				${`${datify(state.page().v('date'))} / ${state.page().v('location')}`}
 			</div>
+      <form class="w-1 db dx mb0-5" action="https://formsubmit.io/send/karamanhunor@protonmail.com" method="POST">
+        <input name="_redirect" type="hidden" value="https://hex22.org/message/">
+        <input name="message" type="text" placeholder="Tell me what you think..." class="input-clean fxg">
+        <input type="submit" value="Send" class="input-clean fxs0 px0-1 cp">
+        <input name="_formsubmit_id" type="text" style="display:none">
+      </form>
+      <div class="f2">
+        Note: Uses <a href="https://formsubmit.io/">Formsubmit</a>. If you want to give me a chance to respond, don't forget to mention who you are.
+      </div>
 		</div>
 	`
 

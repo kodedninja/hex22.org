@@ -113,6 +113,7 @@ ul li:not(.clean), ol li:not(.clean) {
 
 .p0 {padding: 0}
 .py0-1{padding-top:.30rem;padding-bottom:.30rem}
+.px0-1{padding-left:.30rem;padding-right:.30rem}
 .p1 {padding: 3rem}
 .px1 {padding-left: 3rem;padding-right: 3rem}
 .py1 {padding-top: 3rem;padding-bottom: 3rem}
@@ -177,6 +178,14 @@ pre, code {
 .tile{padding:0 0.5rem}
 .tile:first-child{padding-left:0}
 .tile:last-child{padding-right:0}
+
+.input-clean {
+  font-family: inherit;
+  font-size: inherit;
+  background: inherit;
+  outline: none;
+  border: none;
+}
 
 /* media query customs */
 
