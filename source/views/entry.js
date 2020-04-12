@@ -16,7 +16,7 @@ function view (state, emit) {
 			<div class="w-1 db">
 				${content.render(excerpt + state.page().v('text'))}
 			</div>
-			<div class="w-1 db mt1 mb1 f2">
+			<div class="w-1 db mt1 mb1">
 				${`${datify(state.page().v('date'))} / ${state.page().v('location')}`}
 			</div>
       <form class="w-1 db dx mb0-5" action="https://formsubmit.io/send/karamanhunor@protonmail.com" method="POST">
