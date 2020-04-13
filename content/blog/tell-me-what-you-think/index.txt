@@ -6,7 +6,7 @@ date: 2020-04-11
 ----
 location: Linz
 ----
-excerpt: I don't believe in proclamation and that thoughts should just be told. Only through discussion can both parties arrive to the a conclusion and understand each other.
+excerpt: I don't believe in proclamation and that thoughts should just be told. Only through discussion can both parties arrive to a conclusion and understand each other.
 ----
 text: Reading forms a particular kind of hierarchy through its uni-directional form of communication and I don't think this can be avoided. The reader is always dominated by the writer, even though writers try to turn this around and present the reader as the one being served. Information flows and if we cannot ensure that some information can move in the opposite direction, a natural up and a below is formed.
 
