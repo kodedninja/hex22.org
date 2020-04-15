@@ -6,23 +6,25 @@ banner: true
 ----
 text: I try to keep this page updated about my current interests within the peer-to-peer web space.
 
-In the past I've built a few applications that express some of the possibilities of the peer-to-peer web. Although, it was an amazing experience and I'm proud of what I've made, I also see this (focusing so much on making) as a mistake. That's why my current interests have changed from *more building* to *more thinking*.
+[Beaker Browser](https://beakerbrowser.com) is an experimental web-browser for collectively shaping the peer-to-peer web. Everyone can share their websites and applications without additional infrastructure, instead other peers connect directly to one's computer via the [Dat protocol](https://dat.foundation/).
 
-### Currently
+In the past I've built a few applications that explore some of the possibilities of the peer-to-peer web. These tools are meant as user-facing examples, focusing on certain powers of the peer-to-peer web over the HTTP one, with the hope to inspire better tools and more people to join.
 
-I'm not working on any projects related to the peer-to-peer web.
+For an overview you can watch my [silly talk](https://www.youtube.com/watch?v=HFzJZ3Ms0VI) about some basic introduction to DAT at a [small peer-to-peer event](https://legacy.imal.org/en/event/p2p-web) in Brussels.
 
-### Previously I've made
+### The tools
 
 1. [Pears](https://github.com/as-dr/pears) ― A peer-to-peer, temporary, collaborative playlist, 2018―2019
 2. [present](https://github.com/kodedninja/present) ― Peer-to-Peer text-to-presentation tool, 2018
-3. [seeder](https://github.com/new-computers/seeder) ― Plug-and-play Raspberry Pi DAT seeder, 2018
-4. [ridder](https://github.com/kodedninja/ridder) ― An RSS reader that you own, 2018
-5. [solo](https://github.com/kodedninja/solo) ― The simplest publication tool, 2018
-6. [orkl](https://github.com/kodedninja/orkl) ― Super simple peer-to-peer blogging site, 2018
-7. [ntain](https://github.com/kodedninja/ntain) ― Peer-to-Peer file sharing site, 2017
+3. [seeder](https://github.com/new-computers/seeder) ― Plug-and-play Raspberry Pi DAT seeder^[Together with the [New Computers Working Group](https://newcomputers.group/seeder.html)], 2018
+4. [ridder](https://github.com/kodedninja/ridder) ― An experimental RSS reader that lives on your computer and you can share, 2018
+5. [solo](https://github.com/kodedninja/solo) ― The simplest publication tool[^2], 2018
+6. [orkl](https://github.com/kodedninja/orkl) ― Simple peer-to-peer blogging site where the writer and readers share the same interface[^2], 2018
+7. [ntain](https://github.com/kodedninja/ntain) ― Early Beaker Browser experiment on sharing files directly from your computer, 2017
 
 Some other projects on my [GitHub](https://github.com/kodedninja).
+
+[^2]: You can read more about orkl and solo in [this entry](/blog/are-you-the-owner/)
 ----
 short: Keeping track of my work in the peer-to-peer web space
 ----
