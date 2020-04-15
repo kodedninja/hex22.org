@@ -92,9 +92,9 @@ strong {font-weight:600}
 .w-50{width:50%}
 .auto {width: auto}
 
-p, ul:not(.clean), ol:not(.clean) {margin-top: 1.5rem;margin-bottom:1.5rem}
-p:first-child, ul:first-child:not(.clean), ol:first-child:not(.clean) {margin-top: 0}
-p:last-child, ul:last-child:not(.clean), ol:last-child:not(.clean) {margin-bottom: 0}
+p, ul:not(.clean), ol:not(.clean), pre {margin-top: 1.5rem;margin-bottom:1.5rem}
+p:first-child, ul:first-child:not(.clean), ol:first-child:not(.clean), pre:first-child {margin-top: 0}
+p:last-child, ul:last-child:not(.clean), ol:last-child:not(.clean), pre:first-child {margin-bottom: 0}
 
 img {width: 100%}
 
@@ -106,10 +106,7 @@ ul li:not(.clean), ol li:not(.clean) {
 /* border, margin, padding */
 
 .ba {border-style: solid; border-width: 1px}
-.bt {border-top-style: solid; border-top-width: 1px}
-.br {border-right-style: solid; border-right-width: 1px}
 .bb {border-bottom-style: solid; border-bottom-width: 1px}
-.bl {border-left-style: solid; border-left-width: 1px}
 
 .p0 {padding: 0}
 .py0-1{padding-top:.30rem;padding-bottom:.30rem}

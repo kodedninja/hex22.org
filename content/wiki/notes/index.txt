@@ -1,0 +1,11 @@
+title: Notes
+----
+view: default
+----
+text: Notes to save or to buffer end up here. From thoughts to programming languages.
+
+- [**On the R language**](/wiki/notes/r/)
+----
+showonwiki: true
+----
+short: A collection of notes on different topics
