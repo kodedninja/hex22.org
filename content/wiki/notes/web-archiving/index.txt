@@ -1,0 +1,17 @@
+title: Web archiving
+----
+view: default
+----
+text: Websites are momentary. Apps disappear, services shut down and while new ones replace them, the content that once was available at a certain URL is lost. I think _personal web archiving_ is the only long-term solution.
+
+### Toolkit
+
+For my personal toolkit, I'm trying to find and use already existing tools to reduce the required maintenance. It's mainly based on [monolith](https://github.com/Y2Z/monolith), therefore all assets are embedded into single, self-contained HTML documents. This makes the files bigger, but so far, self-contained files worked better.  I tend to also archive external resources, Are.na channels, videos, mentioned articles. Sometimes I fall back to `wget` though.
+
+Next to a few helper scripts, I use the following tools:
+
+- [natto](https://github.com/jamesroutley/natto) - to crawl the site
+- [monolith](https://github.com/Y2Z/monolith) - to save pages
+- wget - to save pages
+- [you-get](https://github.com/soimort/you-get) - to save media
+- gzip - to compress
