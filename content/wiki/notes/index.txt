@@ -4,6 +4,7 @@ view: default
 ----
 text: Notes to save or to buffer end up here. From thoughts to programming languages.
 
+- [**Web archiving**](/wiki/notes/web-archiving/)
 - [**On the R language**](/wiki/notes/r/)
 ----
 showonwiki: true
