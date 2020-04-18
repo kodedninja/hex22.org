@@ -9,12 +9,25 @@ function blog (state, emit) {
 		.filter(entryFilterPublic)
 		.sort(entrySort)
 
-	var currentEntries = entries
+  var years = {}
+
+	entries.forEach(function (entry) {
+    var year = entry.date ? entry.date.split('-')[0] : 1999
+    if (!years[year]) {
+      years[year] = []
+    }
+    years[year].push(entry)
+  })
 
   return html`
     <div class="w-1 db mw500 mxa">
       <ul class="w-1 db clear-float clean">
-        ${!!currentEntries.length ? currentEntries.map(entry) : empty()}
+        ${Object.keys(years).reverse().map(function (year) {
+          return html`
+            <div class="my0-5">${year}</div>
+            ${years[year].map(entry)}
+          `
+        })}
       </ul>
       <div class="tac w-1 mt1">
         <a href="/wiki/" class="button">Explore additional notes</a>

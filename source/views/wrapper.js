@@ -27,7 +27,7 @@ function wrapper (state, emit) {
       <nav class="w-1 db py2 mb1 clear-float mw500 mxa">
         <ul class="w-1 db fl clean">
           <li class="fl dib clean">
-            <a href="/" class="${isIndex ? '' : 'nbb'}" tabindex="1">${state.page('/').v('title')}</a>
+            <a href="/" class="${isIndex ? 'nbb' : ''}" tabindex="1">${state.page('/').v('title')}</a>
           </li>
           ${navigation()}
         </ul>
@@ -42,7 +42,7 @@ function wrapper (state, emit) {
       `
 
       function link (link) {
-        var activeClass = isActive(link.v('url')) ? '' : 'nbb'
+        var activeClass = isActive(link.v('url')) ? 'nbb' : ''
         return html`
           <li class="dib clean">
             <a href="${link.v('url') + '/'}" title="${link.v('title')}" class="${activeClass} ml1">${link.v('title')}</a>
