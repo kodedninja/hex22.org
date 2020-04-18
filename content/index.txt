@@ -2,17 +2,17 @@ title: Hunor Karamán
 ----
 view: home
 ----
-text: My thoughts circulate around the internet, humans and their ambient interactions. I'm interested in small, fast websites. This is my personal space ― a sandbox, an archive.
+text: My thoughts circulate around topics like the internet, humans and their ambient interactions. I'm interested in small, fast websites. This is my personal space ― a sandbox, an archive.
+----
+left: I currently study artificial intelligence at the [Johannes Kepler Universität](https://jku.at) (2019―), while being part of the website team at [GeoGebra](https://www.geogebra.org) (2018―).
+----
+right: Before I was experimenting with [peer-to-peer tools](/p2p/) (2017―2019) and co-launched a small tool called [Pictogon](https://pictogon.com) (2017).
+----
+bottom: I'm enjoying a break from social media, feeds and news, but you can follow along on [GitHub](https://github.com/kodedninja), [Are.na](https://www.are.na/hunor-karaman) and through my [twtxt feed](https://t.seed.hex22.org/twtxt.txt). Feel free to reach out beyond this website to talk, to collaborate.
 
----
-
-I _currently_ study artificial intelligence at the [Johannes Kepler Universität](https://jku.at) (2019―), while being part of the website team at [GeoGebra](https://www.geogebra.org) (2018―).
-
-_Before_ I was experimenting with [peer-to-peer tools](/p2p/) (2017―2019) and co-launched a small tool called [Pictogon](https://pictogon.com) (2017).
-
----
-
-I'm on a break from social media, feeds and news, but you can follow along on [GitHub](https://github.com/kodedninja), [Are.na](https://www.are.na/hunor-karaman) and my [twtxt feed](https://t.seed.hex22.org/twtxt.txt). I'm happy to [discuss](malto:karamanhunor@pm.me) with you.
+<div class="tac w-1 mt1">
+  <a href="mailto:karamanhunor@pm.me" class="button">Write me an email</a>
+</div>
 
 ---
 

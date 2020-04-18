@@ -9,19 +9,15 @@ function blog (state, emit) {
 		.filter(entryFilterPublic)
 		.sort(entrySort)
 
-	var entriesPerPage = state.page().v('entriesPerPage') || 5
-  var page = state.query.page ? (state.query.page - 1) : 0
-
-	var currentEntries = entries.slice(page * entriesPerPage, (page + 1) * entriesPerPage)
+	var currentEntries = entries
 
   return html`
-    <div class="w-1 db">
+    <div class="w-1 db mw500 mxa">
       <ul class="w-1 db clear-float clean">
         ${!!currentEntries.length ? currentEntries.map(entry) : empty()}
       </ul>
-      ${pagination()}
-      <div class="w-1 db mt1 tac">
-        <a href="/blog/map/">Index of all blog entries</a>
+      <div class="tac w-1 mt1">
+        <a href="/wiki/" class="button">Explore additional notes</a>
       </div>
     </div>
   `
@@ -31,20 +27,8 @@ function blog (state, emit) {
     var title = page.v('title') || ''
 
     return html`
-			<li class="mb2 1 db clear-float fl clean">
-			  <a href="${page.v('url') + '/'}" class="fl db nbb 1">
-          <div class="w-1 db fl mb0-5 clear-float">
-            <h3 class="dib fl mr1 fwn ul">
-              ${title}
-            </h3>
-            <div class="fr f2 tar lh1 m-fl dib">
-              ${datify(page.v('date'))}
-            </div>
-          </div>
-          <div class="w-1 db fl">
-            ${removeMarkdown(page.v('excerpt'))}
-          </div>
-			  </a>
+			<li class="w-100 db clean">
+			  <a href="${page.v('url') + '/'}">${title.trim()}</a>
       </li>
   	`
 
@@ -56,38 +40,7 @@ function blog (state, emit) {
     }
   }
 
-	function pagination () {
-		var pages = Math.ceil(entries.length / entriesPerPage)
-
-		if (pages > 1) {
-			var disableNew = page <= 0
-			var newHref = page - 1 !== 0 ? `/blog?page=${page}` : '/blog'
-			var disableOld = page >= pages - 1
-			return html`
-				<ul class="tac">
-					<li class="clear-float dib">
-						<a href="${newHref}" class="nbb${disableNew ? ' disabled tcgrey' : ''}">← New</a>
-					</li>
-					${Array.from({length:pages}).map(renderLink)}
-					<li class="clear-float dib">
-						<a href="/blog?page=${page + 2}" class="nbb${disableOld ? ' disabled tcgrey' : ''}">Old →</a>
-					</li>
-				</ul>
-			`
-		}
-
-		function renderLink (_, id) {
-			var activeClass = id === page ? ' tcgrey disabled' : ''
-			var href = id !== 0 ? `/blog?page=${id + 1}` : '/blog'
-			return html`
-				<li class="clear-float dib">
-					<a href="${href}" class="nbb${activeClass}">${id + 1}</a>
-				</li>
-			`
-		}
-	}
-
-	function empty () {
+  function empty () {
 		return html`
 			<div class="tac">
 				<div class="mb0-5">There's nothing here.</div>

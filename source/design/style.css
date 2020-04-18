@@ -8,7 +8,7 @@ html {font-size: 15px}
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  line-height: 1.7;
+  line-height: 1.75;
   font-size: 1rem;
   background: white;
   -webkit-font-smoothing: antialiased;
@@ -111,6 +111,8 @@ ul li:not(.clean), ol li:not(.clean) {
 .p0 {padding: 0}
 .py0-1{padding-top:.30rem;padding-bottom:.30rem}
 .px0-1{padding-left:.30rem;padding-right:.30rem}
+.pl0-1{padding-left:.3rem}
+.pr0-1{padding-right:.3rem}
 .p1 {padding: 3rem}
 .px1 {padding-left: 3rem;padding-right: 3rem}
 .py1 {padding-top: 3rem;padding-bottom: 3rem}
@@ -141,7 +143,8 @@ ul li:not(.clean), ol li:not(.clean) {
 .trans-y50 {transform: translateY(-50%)}
 .trans-x50 {transform: translateX(-50%)}
 
-.mw700{max-width:700px}
+.mw800{max-width:800px}
+.mw500{max-width:500px}
 
 hr {
   border: 0;
@@ -154,7 +157,6 @@ blockquote {
   border-left: 1px solid #000;
   padding-left: 1.5rem;
   margin-left: 1.5rem;
-  max-width: 66.666%;
 }
 
 .cp{cursor:pointer}
@@ -184,12 +186,23 @@ pre, code {
   border: none;
 }
 
+.button {
+  display: inline-block;
+	background: #000;
+	color: #fff;
+	padding: 8px 64px;
+	text-decoration: none;
+	border-radius: 50px;
+}
+
+textarea {resize: none}
+
 /* media query customs */
 
-@media (max-width: 900px) {
+@media (max-width: 600px) {
   html{font-size:16px}
 
-  .m-\31 {width: 100%}
+  .m-w-100 {width: 100%}
   .m-fl {float:left}
   .m-db {display:block}
 
@@ -211,4 +224,6 @@ pre, code {
   .mb1 {margin-bottom: 2rem}
   .ml1 {margin-left: 2rem}
   .mb2 {margin-bottom: 4rem}
+
+  .m-mb0-5{margin-bottom:1rem}
 }

@@ -1,5 +1,11 @@
 title: Wiki
 ----
-view: wiki
+view: default
 ----
 text: Collection of additional notes, thoughts, logs.
+
+- [Manifesto](/wiki/manifesto/), every day I try to keep up with these rules
+- [Notes](/wiki/notes/), of different topics
+- [Peer-to-Peer](/p2p/), keeping track of my work in the peer-to-peer web space
+- [Readings](/wiki/readings/), archive and reading journal
+- [Workstation](/wiki/workstation/), description of the tools and apps I use

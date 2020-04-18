@@ -1,12 +1,4 @@
 title: Writings
 ----
-view: index
-----
-fields:
-  - date
-  - title
-----
-subfields:
-  - excerpt
-----
-primary: title
+view: blog
+

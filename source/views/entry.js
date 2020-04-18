@@ -9,22 +9,21 @@ module.exports = view
 function view (state, emit) {
 	var excerpt = state.page().v('excerpt') ? (state.page().v('excerpt') + '\n\n') : ''
 	return html`
-		<div class="w-1 db">
-			<h1 class="w-1 db f1 mb0-5 fwn">
+		<div class="w-1 db mw500 mxa">
+			<h1 class="w-1 db mb0-5">
 				${state.page().v('title')}
 			</h1>
-			<div class="w-1 db">
+			<div class="w-1 db mb2">
 				${content.render(excerpt + state.page().v('text'))}
 			</div>
-			<div class="w-1 db mt1 mb1">
-				${`${datify(state.page().v('date'))} / ${state.page().v('location')}`}
-			</div>
-      <form class="w-1 db dx mb0-5" action="https://formsubmit.io/send/karamanhunor@protonmail.com" method="POST">
+      <form class="w-1 db mb0-5" action="https://formsubmit.io/send/karamanhunor@protonmail.com" method="POST">
         <input name="_redirect" type="hidden" value="https://hex22.org/message/">
         <input name="_formsubmit_id" type="text" style="display:none">
         <input name="entry" type="hidden" value="${state.page().v('title')}">
-        <input name="message" type="text" placeholder="Tell me what you think..." class="input-clean fxg" required>
-        <input type="submit" value="Send" class="input-clean fxs0 px0-1 cp">
+        <textarea name="message" placeholder="Tell me what you think..." class="input-clean w-1 mb0-5" required></textarea>
+        <div class="w-1 tac">
+          <input type="submit" value="Send" class="input-clean button cp">
+        </div>
       </form>
       <div class="f2">
         <details>
