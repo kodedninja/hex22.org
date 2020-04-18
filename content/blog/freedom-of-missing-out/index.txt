@@ -24,8 +24,8 @@ The plan was to conclude the experiment with the end of February, but the impact
 
 Some related works / inspiration from [Jon-Kyle Mohr](https://jon-kyle.com):
 
-[Kawara](https://kawara.app)
-[Hardly Everything](https://hardlyeverything.com/about)
-[Jon-Kyle / Dropout](https://www.jon-kyle.com/entries/2017-10-26-dropout)
+- [Kawara](https://kawara.app)
+- [Hardly Everything](https://hardlyeverything.com/about)
+- [Jon-Kyle / Dropout](https://www.jon-kyle.com/entries/2017-10-26-dropout)
 ----
 visible: true

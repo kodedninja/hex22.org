@@ -2,10 +2,10 @@ title: Wiki
 ----
 view: default
 ----
-text: Collection of additional notes, thoughts, logs.
+text: Collection of additional notes, thoughts, logs. Originally inspired by [Devine Lu Linvega's Memex](https://wiki.xxiivv.com/), but with reduced depth into my daily life.
 
-- [Manifesto](/wiki/manifesto/), every day I try to keep up with these rules
-- [Notes](/wiki/notes/), of different topics
-- [Peer-to-Peer](/p2p/), keeping track of my work in the peer-to-peer web space
+- [Manifesto](/wiki/manifesto/) of working on the right tools, in the right way
+- [Notes](/wiki/notes/) on different topics
+- [Peer-to-Peer](/p2p/) web related personal history
 - [Readings](/wiki/readings/), archive and reading journal
 - [Workstation](/wiki/workstation/), description of the tools and apps I use

@@ -28,8 +28,9 @@ _If ntain were a baby, then everything I've made since then for the peer-to-peer
 
 ---
 
-[Repository](https://github.com/kodedninja/ntain)
+Links:
 
-[dat://ntain-kodedninja.hashbase.io](dat://ntain-kodedninja.hashbase.io)
+- [Repository](https://github.com/kodedninja/ntain)
+- [dat://ntain-kodedninja.hashbase.io](dat://ntain-kodedninja.hashbase.io)
 ----
 visible: true

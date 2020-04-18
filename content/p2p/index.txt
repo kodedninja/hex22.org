@@ -22,10 +22,10 @@ For an overview you can watch my [silly talk](https://www.youtube.com/watch?v=HF
 6. [orkl](https://github.com/kodedninja/orkl) ― Simple peer-to-peer blogging site where the writer and readers share the same interface[^2], 2018
 7. [ntain](https://github.com/kodedninja/ntain) ― Early Beaker Browser experiment on sharing files directly from your computer, 2017
 
-Some other projects on my [GitHub](https://github.com/kodedninja).
+<div class="w-1 tac my1">
+	<a href="https://github.com/kodedninja" class="button">
+		See more projects on GitHub
+	</a>
+</div>
 
 [^2]: You can read more about orkl and solo in [this entry](/blog/are-you-the-owner/)
-----
-short: Keeping track of my work in the peer-to-peer web space
-----
-showonwiki: true

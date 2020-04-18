@@ -56,10 +56,7 @@ All-in-all, this means:
 
 ---
 
-### Footnotes
-
-- [Stakit](https://github.com/stakit)
-- [Source of hex22.org](https://github.com/kodedninja/hex22.org)
+If you're interested, check out the [source code of this website](https://github.com/kodedninja/hex22.org).
 ----
 location: Linz
 ----
