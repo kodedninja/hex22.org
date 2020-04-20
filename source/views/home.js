@@ -11,10 +11,10 @@ function home (state, emit) {
   				${format(state.page().v('text'))}
 			  </div>
 				<div class="w-1 db clear-float my1">
-          <div class="w-50 m-w-100 pr0-1 m-mb0-5 fl dib">
+          <div class="w-50 m-w-100 pr0-1 m-px0 m-mb0-5 fl dib">
             ${format(state.page().v('left'))}
           </div>
-          <div class="w-50 m-w-100 pl0-1 fl dib">
+          <div class="w-50 m-w-100 pl0-1 m-px0 fl dib">
             ${format(state.page().v('right'))}
           </div>
 				</div>

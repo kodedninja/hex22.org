@@ -13,7 +13,10 @@ function view (state, emit) {
 			<h1 class="w-1 db mb0-5">
 				${state.page().v('title')}
 			</h1>
-			<div class="w-1 db mb2">
+			<div class="mb1">
+        ${state.page().v('date')}
+			</div>
+			<div class="w-1 db mb1">
 				${content.render(excerpt + state.page().v('text'))}
 			</div>
       <form class="w-1 db mb0-5" action="https://formsubmit.io/send/karamanhunor@protonmail.com" method="POST">

@@ -191,9 +191,10 @@ pre, code {
   display: inline-block;
 	background: #000;
 	color: #fff;
-	padding: 8px 64px;
+	padding: 14px 64px;
 	text-decoration: none;
 	border-radius: 50px;
+	line-height: 1.4;
 }
 
 textarea {resize: none}
@@ -215,6 +216,8 @@ textarea {resize: none}
   .pr1 {padding-right: 2rem}
   .pb1 {padding-bottom: 2rem}
   .pl1 {padding-left: 2rem}
+  
+  .m-px0{padding-left:0;padding-right:0}
 
   .m0 {margin: 0}
   .m1 {margin: 2rem}
