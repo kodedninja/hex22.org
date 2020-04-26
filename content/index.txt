@@ -11,7 +11,7 @@ right: Before I was experimenting with [peer-to-peer tools](/p2p/) (2017―2019)
 bottom: I'm enjoying a break from social media, feeds and news, but you can follow along on [GitHub](https://github.com/kodedninja), [Are.na](https://www.are.na/hunor-karaman) and through my [twtxt feed](https://t.seed.hex22.org/twtxt.txt). Feel free to reach out beyond this website to talk, to collaborate.
 
 <div class="tac w-1 mt1">
-  <a href="mailto:karamanhunor@pm.me" class="button">Write me an email</a>
+  <a href="mailto:karamanhunor@protonmail.com" class="button">Write me an email</a>
 </div>
 
 ---
