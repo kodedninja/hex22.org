@@ -43,3 +43,6 @@ Calculating quantiles for raw data can be done in many ways. Tukey's five number
 
 ### Measures of correlation
 The built-in `cov(x, y)` function is handy to calculate the covariance of sampled data. We can calculate difference correlation coefficients with the `cor(x, y, method="method")` function, where the method can be one of `"pearson"`, `"spearman"` or `"kendall"`.
+
+### Linear Regression
+R provides a very simple way to fit linear regression models through the `lm(y~x)` function. Afterwards, using the `summary(model)` function we can get values like the intercept, slope or R squared.
