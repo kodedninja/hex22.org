@@ -47,5 +47,7 @@ The built-in `cov(x, y)` function is handy to calculate the covariance of sample
 ### Linear Regression
 R provides a very simple way to fit linear regression models through the `lm(y~x)` or `lm(y ~ x1 + x2)` function.  Afterwards, using the `summary(model)` function we can get values like the intercept, slope or R squared.
 
+We can plot the model by calling `abline(model)` after a `plot` call.
+
 ### Combinatorics
 The package `gtools` provides simple helper functions for combinatorics: `permutations(length(x), n, x)` and `combinations(n, k, x)`. `choose(n, k)` provides a quick way to calculate binomial coefficients.
