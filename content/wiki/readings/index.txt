@@ -2,7 +2,7 @@ title: Readings
 ----
 view: default
 ----
-text: I try to get rid of the rigidness of reading on one surface, in a [linear way](https://urcad.es/writing/reading-networks/index.html). The books below belong to a more goal oriented reading list (books I've been planning to read and I usually finish them). The other part is not centralized: articles, essays, fragments, websites, found and started on an impulse. Reading them everywhere (on paper, on ebook, on a laptop). I like to move texts from one surface to another if I can connect to it more efficiently.
+text: I try to read on multiple interfaces, in [multiple dimensions](https://urcad.es/writing/reading-networks/index.html). The books below are parts of a more goal oriented reading list (the books I've been planning to read). The other readings are not centralized: articles, essays, fragments, websites, found and started on an impulse. I like to move texts from one interface to another if I can connect to it more efficiently that way.
 
 For the books I'm planning to read visit [this channel](https://www.are.na/hunor-karaman/books-to-read-wv1xjagz6dy) on Are.na.
 
@@ -58,10 +58,6 @@ Arthur Schopenhauer ― **"The Metaphysics of Love"**
 Kurt Vonnegut ― **"Slaughterhouse-Five"**
 László Potozky ― **"Égéstermék"**
 Michel Houellebecq ― **"The Possibility of an Island**"
-
----
-
-You can find an index of all the book reviews [here](/wiki/readings/map/).
 ----
 showonwiki: true
 ----

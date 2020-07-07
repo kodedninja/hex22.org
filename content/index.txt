@@ -2,9 +2,9 @@ title: Hunor Karamán
 ----
 view: home
 ----
-text: My thoughts circulate around topics like the internet, humans and their ambient interactions. I'm interested in small, fast websites. This is my personal space ― a sandbox, an archive.
+text: My thoughts wander around topics like the internet, humans and their ambient interactions. I'm interested in small, fast websites. This is my personal space ― a sandbox, an archive.
 ----
-left: I currently study artificial intelligence at the [Johannes Kepler Universität](https://jku.at) (2019―), while being part of the website team at [GeoGebra](https://www.geogebra.org) (2018―).
+left: I currently study artificial intelligence at the [Johannes Kepler Universität](https://jku.at) (2019―), while working on the website at [GeoGebra](https://www.geogebra.org) (2018―).
 ----
 right: Before I was experimenting with [peer-to-peer tools](/p2p/) (2017―2019) and co-launched a small tool called [Pictogon](https://pictogon.com) (2017).
 ----
