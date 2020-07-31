@@ -43,6 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 .ttc {text-transform: capitalize}
 .ttu {text-transform: uppercase}
 .tac {text-align: center}
+.tar {text-align: right}
 .tofe {text-overflow:ellipsis}
 
 .index-item:hover .primary {

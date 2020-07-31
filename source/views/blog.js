@@ -21,6 +21,9 @@ function blog (state, emit) {
 
   return html`
     <div class="w-1 db mw500 mxa">
+      <div class="tar mb1">
+        <a href="/wiki/">Wiki</a>
+      </div>
       <ul class="w-1 db clear-float clean">
         ${Object.keys(years).reverse().map(function (year) {
           return html`
@@ -29,9 +32,6 @@ function blog (state, emit) {
           `
         })}
       </ul>
-      <div class="tac w-1 mt1">
-        <a href="/wiki/" class="button">Explore additional notes</a>
-      </div>
     </div>
   `
 
