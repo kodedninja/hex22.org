@@ -6,21 +6,18 @@ short: The tools and apps I use
 ----
 showonwiki: true
 ----
-text: I currently use a 2015 Macbook Pro 13" with 8GB of RAM and 2.7Ghz i5 processor.
-
-![Screenshot of my desktop](/content/wiki/workstation/desktop.png)
+text: Currently, I mainly use a 2020 Razer Blade Stealth with Windows (but using the Linux Subsystem 80% of the time), sometimes falling back to my 2015 Macbook Pro 13". The list below is a mixture of programs I use on both machines.
 
 ### Graphical
 
-- Browser: [Firefox](https://mozilla.org/firefox) / [Beaker](https://beakerbrowser.com/)
-- Terminal: [iTerm2](https://iterm2.com)
+- Browser: [Firefox](https://mozilla.org/firefox)
+- Terminal: [iTerm2](https://iterm2.com) / [Windows Terminal](https://aka.ms/terminal)
 - Design: [Figma](https://figma.com)
 - Window Manager: [Rectangle](https://rectangleapp.com/)
 - Audio Workstation: [Ableton Live](https://ableton.com/live)
-- Music: [Spotify](https://spotify.com/)
-- Video Player: [IINA](https://lhc70000.github.io/iina/)
-- Calculator: [Numi](https://numi.io/)
+- Music: [Spotify](https://spotify.com/) / [cmus](https://cmus.github.io/)
 - Communication: [Telegram](https://telegram.org)
+- Todo List: [Microsoft To Do](https://todo.microsoft.com/)
 
 ### Command-Line
 
