@@ -1,0 +1,25 @@
+title: Silence
+----
+view: entry
+----
+date: 2020-10-17
+----
+location: Linz
+----
+excerpt: How do you break the silence and start writing about the silence itself?
+----
+text: For 6 months I haven't written anything for this feed. No drafts, no edits, most of my [commits](https://github.com/kodedninja/hex22.org/commits/master) to the site touched the readings page only. I won't try to make up for these 6 months, I don't even want to. Writing is the activity of the present, a very accurate perspective on the present and writing about the past is always just writing about _some_ past through the perspective of the present.
+
+It's October now, the rain and the grayness of winter is already here, and here I am, fighting myself through this English text, as many times before. Writing in English is a powerless, silent fight every time. The precision of the language, the level of detail, I use in English is far from what I'm used to in Hungarian. Even when writing about the present, the thoughts lose so much detail in the translation that it's almost like I would be writing about the vague past. The sentences don't take up the shape I want them to have, but also, unlike Hungarian, the language itself doesn't shape my thoughts, doesn't give me feedback, like clay that's too hard or too soft for the hands to work with. Nonetheless, I like maintaining this site and to some extent I enjoy my wrestle with the language too.
+
+That said, language is not the single force holding me back from publishing. Throughout the last 2 years my focus has shifted from chasing my output on the external world to following my internal clock, the internal flows and currents of focus. And my internal clock is long-term, very long-term. Most of the projects I work on, including albums, poetry, product ideas, are planned out on a long-term scale. I don't hold back any of these projects, just never force working on them. Long-term means "anytime from the next year to the next 40".
+
+Therefore I stay in silence and plant thoughts, ideas and plans in my internal garden, and as soon as you start doing this, writing about the present becomes much less important. I have the feeling that all my ideas will develop further and I cannot share them until they feel (at least in that certain moment) finalized. What remains, you may ask, if writing about the past is in vain, writing about the present is just rushing and stressing your thoughts, and the future, well, we do not know?
+
+We could go further and ask why do we write at all, but that is far from my point (especially because Rilke already gave the answer to that: because there's no other way). So, I'd rather highlight something else: finished and unfinished thoughts (or dead and alive). The unfinished thoughts, the ones that we constantly re- and re-think, that are rooted in the now, but will bloom only in the future, are the only thoughts I wish to write about and exactly at the point when they're blooming, right before they become dead. That point is easy to miss, and that's why most thoughts remain unwritten for ever.
+
+So until none of my thoughts are blooming (which seems to be the case right now), silence will stay, but a silence howling louder than ever before. Because silence is not void, not null and not constant nothingness. In our universe silence is just as noisy as a street in rush hours, but the sounds have a smaller amplitude. You just have to be more attentive to sense them.
+
+I actually ended up somewhere totally different than what was originally planned, and therefore I stop now, suddenly, and without further motivation to finish my thoughts up.
+----
+visible: true
