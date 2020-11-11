@@ -9,4 +9,4 @@ text: Collection of additional notes, thoughts, logs. Originally inspired by [De
 - [Notes](/wiki/notes/) — Various topics
 - [Peer-to-Peer](/p2p/) — Personal history with a technology
 - [Workstation](/wiki/workstation/) — The tools and apps I use
-- [Links](/wiki/links/) - My feed to read and explore
+- [Links](/wiki/links/) — Manual content recommendation system

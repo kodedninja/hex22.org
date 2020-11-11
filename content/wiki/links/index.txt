@@ -4,7 +4,7 @@ view: default
 ----
 text: These lists of links serve as my alternative to content recommendation algorithms.
 
-To read: [Aeon](https://aeon.co), [e-flux](https://e-flux.com/), [LOW TECH MAGAZINE](https://solar.lowtechmagazine.com/), [Are.na/Blog](https://www.are.na/blog), [Jon-Kyle](https://www.jon-kyle.com), [space and times](https://spaceandtim.es/), [Subpixel Space](https://subpixel.space/entries), [mrms/writing](http://mrmrs.cc/writing/), [Edge Conversations](https://edge.org/conversations), [Helikon](https://helikon.ro/category/irodalom/vers)
+To read: [Aeon](https://aeon.co), [e-flux](https://e-flux.com/), [LOW TECH MAGAZINE](https://solar.lowtechmagazine.com/), [Are.na/Blog](https://www.are.na/blog), [Jon-Kyle](https://www.jon-kyle.com), [space and times](https://spaceandtim.es/), [Subpixel Space](https://subpixel.space/entries), [mrms/writing](http://mrmrs.cc/writing/), [Edge Conversations](https://edge.org/conversations), [Helikon](https://helikon.ro/category/irodalom/vers), [julian.digital](https://julian.digital/)
 
 To visit: [Small Seasons](https://smallseasons.guide/), [100r.co](https://100r.co/site/home.html), [Minimal Gallery](https://minimal.gallery/), [Httpster](https://httpster.net/), [Wilson FM](https://wilson.fm), [nomasters](https://nomasters.io/), [Josh Avanier](https://avanier.now.sh/)
 
