@@ -2,7 +2,7 @@ title: Hunor Karamán
 ----
 view: home
 ----
-text: Thinking about the internet, humans and their ambient interactions. I'm interested in building small, fast websites. This is my personal space ― a sandbox, an archive.
+text: Thinking about computers, humans and their long-term, ambient interactions. I'm interested in building fast websites, particular tools and through them personal experiences. This is my personal space ― a sandbox, an archive.
 ----
 left: I currently study artificial intelligence at the [Johannes Kepler Universität](https://jku.at) (2019―), while working on the website at [GeoGebra](https://www.geogebra.org) (2018―).
 ----
