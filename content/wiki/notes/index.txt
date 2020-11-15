@@ -7,3 +7,4 @@ text: Notes to save or to buffer end up here. From thoughts to programming langu
 - [Lifestyle](/wiki/notes/lifestyle/)
 - [Web archiving](/wiki/notes/web-archiving/)
 - [On the R language](/wiki/notes/r/)
+- [Peer-to-Peer](/wiki/notes/p2p/), my personal history with a technology
