@@ -6,35 +6,35 @@ date: 2018-03-20
 ----
 excerpt: About peer-to-peer publishing.
 
-On a free and loosely definable space, like the internet, the whole system's based on ownership. Different locations are owned by countries, corporations and people, just like on the surface of the Earth (though it's much more challening to draw the boundaries of the former).
+On a free and hardly definable space, like the internet, the whole system is based on ownership. Different locations are owned by countries, corporations and people, just like on the surface of the Earth; though it's much more challening to draw the boundaries of the former.
 ----
 location: Székelyudvarhely
 ----
 visible: true
 ----
-text: I have this vision about a utopian system where a piece of land has no owner ― it's free to use by anyone, but the permission is restricted to usage only. People are not allowed to expropriate the land ― that means no fence, no legal ownership. I know: this isn't a system that could be realized for many reasons (stealing, lowering soil quality, etc.), but it's a concept I like to think about. We could all work how much we want and get profit based on our effort (professions are metaphorically limited to agriculture). 
+text: I have this vision about a utopian system where a piece of land has no owner: it's free to use by anyone, but the permission is restricted to usage only. People are not allowed to expropriate the land, which means no fence around the property and no legal ownership. I know that this isn't a system that could be realized for many reasons (stealing, lowering soil quality, etc.), but it's a concept I like to think about. We could all work how much we want and get profit based on our effort (professions are conceptually limited to agriculture). 
 
 We can also apply this to the context of the web.
 
-**What if no subspaces of the internet would be owned?** What is a *subspace* on the internet, anyway? First of all, it must be something that can be seen (metaphorically) as a space ― it's in "READY state"[^1] and its emptiness is its functionality. It also has some metadata in order to help you access and specify it (geolocation, IDs, URLs, ...).
+What if no subspaces of the internet would be owned? What is a *subspace* on the internet, anyways? First of all, it must be something that can be seen as a space ― it's in "ready state"[^1] and its emptiness is its functionality. It also has some metadata in order to help you access and specify it, such as geolocation, IDs, URLs, et cetera.
 
-We can initiate many spaces in a context by using different perspectives. As the web is a gigantic network of computers, I would see these ― the **computers** ― **as subspaces**.
+We can initiate many spaces in a context by using different perspectives. As the web is a gigantic network of computers, I would see these, the computers, as subspaces.
 
-*In the HTTP universe* **1 computer** mostly equals to **1 site** as you can access it by the machine's IP address. This limits you in the number of sites you would like to publish: most hosting services don't sell cheap hosting plans for small and simple sites and it's also some time to setup them.
+In the *HTTP universe* **1 computer** usually equals to **1 site** as you can access it by the machine's IP address. This limits you in the number of sites you would like to publish: most hosting services don't sell cheap hosting plans for small and simple sites and it's also some time to setup them.
 
-*On the peer-to-peer web* you can start a site anarchistically, without depending on domain name registrars and cloud storage services. There's no need to own a piece of web-land, you're free to have as many sites as you want without the need to pay for anything ― and you don't need another computer besides your personal one.
+On the *peer-to-peer web* you can start a site anarchistically, without depending on domain name registrars and cloud storage services. There's no need to own a piece of web-land, you're free to have as many sites as you want without the need to pay for anything ― and you don't need another computer besides your personal one.
 
 I see the peer-to-peer web similar to the utopia of not-owning. 
 
-―
+---
 
 The `DatArchive` API has a brilliant function called `isOwner()`. It's very simple: returns `true` if the visitor is the owner of the site and `false` otherwise.
 
 This removes the need of authentication.
 
-I've got interested in interfaces that use this powerful function. Most content management systems have an isolated panel / admin page, where through authentication you can get permission to edit the content. There's no need for this on the peer-to-peer web: the same interface ― under same `dat://` URL ― can be used to read and to edit the content, without any action from the user. The interface can automatically react to a visitor and to its owner.
+I've got interested in interfaces that use this powerful function. Most content management systems have an isolated panel / admin page, where through authentication you can get permission to edit the content. There's no need for this on the peer-to-peer web: the same interface (under the same `dat://` URL) can be used to read and to edit the content, without any action from the user. The interface can automatically react to a visitor and to its owner.
 
-I've made two tools that use this concept: [orkl](https://github.com/kodedninja/orkl) and [solo](https://github.com/kodedninja/solo).
+I've made two tools that navigate through concept: [orkl](https://github.com/kodedninja/orkl) and [solo](https://github.com/kodedninja/solo).
 
 ### orkl
 

@@ -47,7 +47,7 @@ function blog (state, emit) {
 			<li class="w-100 db clean mb1">
 			  <a href="${page.v('url') + '/'}" class="nbb hover">
 			    <span class="fwb db">${title.trim()}</span>
-  			  <span class="db tcgrey tcblack-h trans-color">${removeMarkdown(page.v('excerpt') || '')}</span>
+  			  <span class="db tcgrey tcblack-h">${removeMarkdown(page.v('excerpt') || '')}</span>
 		    </a>
       </li>
   	`

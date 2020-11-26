@@ -62,10 +62,10 @@ strong {font-weight:600}
 .wwb {word-wrap: break-word}
 .wsnw {white-space:nowrap}
 
-.tcgrey {color:#a5a5a5}
+.tclightgrey {color: #e1e1e1}
+.tcgrey {color:#747474}
 .bcgrey {background: #f5f5f5}
 
-.trans-color {transition:color 2s}
 .hover.tcblack-h:hover, .hover:hover .tcblack-h {color:#000}
 
 /* blocks */
