@@ -62,7 +62,11 @@ strong {font-weight:600}
 .wwb {word-wrap: break-word}
 .wsnw {white-space:nowrap}
 
-.tcgrey {color:#d0d0d0}
+.tcgrey {color:#a5a5a5}
+.bcgrey {background: #f5f5f5}
+
+.trans-color {transition:color 2s}
+.hover.tcblack-h:hover, .hover:hover .tcblack-h {color:#000}
 
 /* blocks */
 
@@ -121,6 +125,8 @@ ul li:not(.clean), ol li:not(.clean) {
 .pr1 {padding-right: 3rem}
 .pb1 {padding-bottom: 3rem}
 .pl1 {padding-left: 3rem}
+.px8px {padding-left:16px;padding-right:16px}
+.py4px {padding-top:4px;padding-bottom:4px}
 
 .m0 {margin: 0}
 .mb0-5{margin-bottom:1.5rem}
@@ -166,6 +172,8 @@ blockquote {
   pointer-events: none;
   cursor:default;
 }
+
+.brpill {border-radius: 24px}
 
 pre, code {
   font-size: 0.9rem;

@@ -21,17 +21,21 @@ function blog (state, emit) {
 
   return html`
     <div class="w-1 db mw500 mxa">
-      <div class="tar mb1">
-        <a href="/wiki/">Wiki</a>
-      </div>
       <ul class="w-1 db clear-float clean">
         ${Object.keys(years).reverse().map(function (year) {
           return html`
-            <div class="my0-5">${year}</div>
+            <div class="tac my1">
+              <span class="dib fwb bcgrey py4px px8px brpill">
+                ${year}
+              </span>
+            </div>
             ${years[year].map(entry)}
           `
         })}
       </ul>
+      <div class="tac mt1">
+        Not in the mood to read? → <a href="/wiki/">Take a walk in the Wiki</a>
+      </div>
     </div>
   `
 
@@ -40,8 +44,11 @@ function blog (state, emit) {
     var title = page.v('title') || ''
 
     return html`
-			<li class="w-100 db clean">
-			  <a href="${page.v('url') + '/'}">${title.trim()}</a>
+			<li class="w-100 db clean mb1">
+			  <a href="${page.v('url') + '/'}" class="nbb hover">
+			    <span class="fwb db">${title.trim()}</span>
+  			  <span class="db tcgrey tcblack-h trans-color">${removeMarkdown(page.v('excerpt') || '')}</span>
+		    </a>
       </li>
   	`
 

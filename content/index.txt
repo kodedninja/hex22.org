@@ -8,7 +8,9 @@ left: I currently study artificial intelligence at the [Johannes Kepler Universi
 ----
 right: Before I was experimenting with [peer-to-peer tools](/wiki/notes/p2p/) (2017―2019) and co-launched a small tool called [Pictogon](https://pictogon.com) (2017).
 ----
-bottom: I'm off social media and try to avoid feeds in general. You can follow along on [Are.na](https://www.are.na/hunor-karaman) and [GitHub](https://github.com/kodedninja). Feel free to reach out beyond this website to talk ― to collaborate.
+bottom: For a silently updated collection of notes, thoughts and readings, I maintain a Wiki. [Take a walk](/wiki/).
+
+I'm off social media and try to avoid feeds in general. You can follow along on [Are.na](https://www.are.na/hunor-karaman) and [GitHub](https://github.com/kodedninja). Feel free to reach out beyond this website to talk ― to collaborate.
 
 <div class="tac w-1 mt1">
   <a href="mailto:karamanhunor@protonmail.com" class="button">Write me an email</a>

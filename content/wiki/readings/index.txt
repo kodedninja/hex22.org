@@ -6,11 +6,17 @@ text: I try to read on multiple interfaces and in [networks](https://urcad.es/wr
 
 For the books I'm planning to read visit [this channel](https://www.are.na/hunor-karaman/books-to-read-wv1xjagz6dy) on Are.na.
 
-## Currently Reading
+---
+
+<div class="tac">
+  <h2 class="dib fwb bcgrey py4px px8px brpill">Currently Reading</h2>
+</div>
 
 Graham Harman ― **"Object-Oriented Ontology"**
 
-## 2020
+<div class="tac">
+  <h2 class="dib fwb bcgrey py4px px8px brpill">2020</h2>
+</div>
 
 Isaac Asimov ― **"I, Robot"**
 László Potozky ― **"Nappá lett lámpafény"**
@@ -31,7 +37,9 @@ John F. W. Herschel ― **"Preliminary Discourse on the Study of Natural Philoso
 Stanford Encyclopedia of Philosophy ― [**"Skepticism"**](https://plato.stanford.edu/entries/skepticism/)
 Haruki Murakami ― **"1Q84"**
 
-## 2019
+<div class="tac">
+  <h2 class="dib fwb bcgrey py4px px8px brpill">2019</h2>
+</div>
 
 Stefan Zweig ― **"Schachnovelle"**
 Albert Camus ― **"The Plague"**
@@ -56,7 +64,9 @@ Haruki Murakami ― **"Hard-Boiled Wonderland and the End Of The World"**
 Franz Enzenhofer ― **"Understanding SEO"**
 Yuval Noah Harari ― **"Homo Deus"**
 
-## 2018
+<div class="tac">
+	<h2 class="dib fwb bcgrey py4px px8px brpill">2018</h2>
+</div>
 
 Attila Bartis ― **"A Nyugalom"**
 László Potozky ― **"Éles"**

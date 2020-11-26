@@ -10,7 +10,7 @@ function wrapper (state, emit) {
   var view = views[state.page().v('view')] || views.notfound
   var title = state.page().v('title') || 'Not Found'
 
-  emit('DOMTitleChange', title + ' | hex22')
+  emit('DOMTitleChange', title + ' / hex22')
 
   return html`
     <body>
