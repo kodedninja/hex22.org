@@ -4,10 +4,43 @@ view: default
 ----
 text: This collection of additional notes, thoughts and logs was originally inspired by [Devine's memex](https://wiki.xxiivv.com/); it's now become a place for mapping out thoughts, unsorted notes, no matter how unrelated or short-term they are.
 
-Walk around the pages by clicking on links and don't forget that the back button of your browser always takes you back into the safety of your history.
+Walk around the pages and don't forget that the back button of your browser always takes you back into the safety of your history.
 
-- [Readings](/wiki/readings/) — Archive and reading journal
-- [Manifesto](/wiki/manifesto/) — Rules to work on the right tools, in the right way
-- [Notes](/wiki/notes/) — Various topics
-- [Workstation](/wiki/workstation/) — The tools and apps I use
-- [Links](/wiki/links/) — Manual content recommendation system
+<div class="tac">
+  <h2 class="dib fwb bcgrey py4px px8px brpill">
+		Readings
+	</h2>
+</div>
+
+My reading journal and archive of thoughts about the books I've read. [See my readings](/wiki/readings/).
+
+<div class="tac">
+  <h2 class="dib fwb bcgrey py4px px8px brpill">
+		Links
+	</h2>
+</div>
+
+Instead of using frequentally updated feeds, I maintain a static list of websites as a content recommendation system. [Go to the list](/wiki/links/).
+
+<div class="tac">
+  <h2 class="dib fwb bcgrey py4px px8px brpill">
+		Manifesto
+	</h2>
+</div>
+
+I try to keep a set of rules that help me to work on the right tools, in the right way. [Read my manifesto](/wiki/manifesto/).
+
+<div class="tac">
+  <h2 class="dib fwb bcgrey py4px px8px brpill">
+		Notes
+	</h2>
+</div>
+
+Notes to save or to buffer end up here. From thoughts to programming languages.
+
+- [Lifestyle](/wiki/notes/lifestyle/)
+- [Web archiving](/wiki/notes/web-archiving/)
+- [On the R language](/wiki/notes/r/)
+- [Peer-to-Peer](/wiki/notes/p2p/), my personal history with a technology
+- [Workstation](/wiki/notes/workstation/)
+

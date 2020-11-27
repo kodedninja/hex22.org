@@ -6,8 +6,6 @@ text: I try to read on multiple interfaces and in [networks](https://urcad.es/wr
 
 For the books I'm planning to read visit [this channel](https://www.are.na/hunor-karaman/books-to-read-wv1xjagz6dy) on Are.na.
 
----
-
 <div class="tac">
   <h2 class="dib fwb bcgrey py4px px8px brpill">Currently reading</h2>
 </div>
@@ -34,7 +32,7 @@ David Foster Wallace ― **"Infinite Jest"**
 Norbert Wiener ― **"The Human Use of Human Beings"**
 Norbert Wiener ― **"Cybernetics: or the Control and Communication in the Animal and the Machine"**
 John F. W. Herschel ― **"Preliminary Discourse on the Study of Natural Philosophy"**
-Stanford Encyclopedia of Philosophy ― [**"Skepticism"**](https://plato.stanford.edu/entries/skepticism/)
+Stanford Encyclopedia of Philosophy ― **"Skepticism"**
 Haruki Murakami ― **"1Q84"**
 
 <div class="tac">
