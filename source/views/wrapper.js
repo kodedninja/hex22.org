@@ -41,17 +41,18 @@ function wrapper (state, emit) {
     function navigation () {
       return html`
         <div class="dib fr">
-          ${[state.page('/blog')].map(link)}
+          ${[state.page('/blog'), state.page('/wiki')].map(link)}
         </div>
       `
 
-      function link (link) {
+      function link (link, index) {
+        var className = index > 0 ? 'ml1' : '';
         return html`
           <li class="dib clean">
             ${isActive(link.v('url')) ? (
-              html`<h1 class="fwn">${link.v('title')}</h1>`
+              html`<h1 class="fwn ${className}">${link.v('title')}</h1>`
             ) : (
-              html`<a href="${link.v('url') + '/'}" title="${link.v('title')}" class="ml1">${link.v('title')}</a>`
+              html`<a href="${link.v('url') + '/'}" title="${link.v('title')}" class="${className}">${link.v('title')}</a>`
             )}
           </li>
         `
