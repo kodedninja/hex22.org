@@ -12,7 +12,7 @@ Walk around the pages and don't forget that the back button of your browser alwa
 	</h2>
 </div>
 
-My reading journal and archive of thoughts about the books I've read. [See my readings](/wiki/readings/).
+My reading journal and archive of thoughts about the books I've read. [See what I read](/wiki/readings/).
 
 <div class="tac">
   <h2 class="dib fwb bcgrey py4px px8px brpill">
