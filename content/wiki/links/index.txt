@@ -4,9 +4,21 @@ view: default
 ----
 text: These lists of links serve as my alternative to content recommendation algorithms.
 
-To read: [Aeon](https://aeon.co), [e-flux](https://e-flux.com/), [LOW TECH MAGAZINE](https://solar.lowtechmagazine.com/), [Are.na/Blog](https://www.are.na/blog), [Jon-Kyle](https://www.jon-kyle.com), [space and times](https://spaceandtim.es/), [Subpixel Space](https://subpixel.space/entries), [mrms/writing](http://mrmrs.cc/writing/), [Edge Conversations](https://edge.org/conversations), [Helikon](https://helikon.ro/category/irodalom/vers), [julian.digital](https://julian.digital/)
+<div class="tac">
+  <h2 class="dib fwb bcgrey py4px px8px brpill">To read</h2>
+</div>
 
-To visit: [Small Seasons](https://smallseasons.guide/), [100r.co](https://100r.co/site/home.html), [Minimal Gallery](https://minimal.gallery/), [Httpster](https://httpster.net/), [Wilson FM](https://wilson.fm), [nomasters](https://nomasters.io/), [Josh Avanier](https://avanier.now.sh/)
+[Aeon](https://aeon.co), [e-flux](https://e-flux.com/), [LOW TECH MAGAZINE](https://solar.lowtechmagazine.com/), [Are.na/Blog](https://www.are.na/blog), [space and times](https://spaceandtim.es/), [Subpixel Space](https://subpixel.space/entries), [Edge Conversations](https://edge.org/conversations), [Helikon](https://helikon.ro/category/irodalom/vers), [julian.digital](https://julian.digital/), [mrms/writing](http://mrmrs.cc/writing/)
 
-To remember: [The Size of Life](https://youtube.com/watch?v=MUWUHf-rzks), [Build your own X](https://github.com/danistefanovic/build-your-own-x), [Kiss Tibi ArcKép](https://youtube.com/watch?v=6NtjIGsyAr8), [Majla Sándor - Requiem](https://hooktube.com/watch?v=dVL3iBBaC3w)
+<div class="tac">
+  <h2 class="dib fwb bcgrey py4px px8px brpill">To visit</h2>
+</div>
+
+[Small Seasons](https://smallseasons.guide/), [100r.co](https://100r.co/site/home.html), [Minimal Gallery](https://minimal.gallery/), [Httpster](https://httpster.net/), [Wilson FM](https://wilson.fm), [nomasters](https://nomasters.io/), [Josh Avanier](https://avanier.now.sh/), [Dark Blue Heaven](https://darkblueheaven.com/), [Jon-Kyle](https://www.jon-kyle.com)
+
+<div class="tac">
+  <h2 class="dib fwb bcgrey py4px px8px brpill">To remember</h2>
+</div>
+
+[The Size of Life](https://youtube.com/watch?v=MUWUHf-rzks), [Build your own X](https://github.com/danistefanovic/build-your-own-x), [Kiss Tibi ArcKép](https://youtube.com/watch?v=6NtjIGsyAr8), [Majla Sándor - Requiem](https://hooktube.com/watch?v=dVL3iBBaC3w)
 
