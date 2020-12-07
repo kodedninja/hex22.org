@@ -1,0 +1,27 @@
+title: Designing for different timescales
+----
+view: entry
+----
+date: 2020-12-07
+----
+location: Linz
+----
+visible: true
+----
+excerpt: While working on the design mocks of some ideas, I've been thinking about how tools / products can function on different temporal scales.
+----
+text: While in the present Spotify is just a tool for listening to the music that suits your current mood, at the end of every year it prompts you with an overview of "This year in Music". What was a music provider service in the present, scaled to a yearly rhythm became a self-reflection app, navigating on the data you had unconsciously generated. The same way social networks are communication and self-advertisement tools (as well as quick sources of dopamine) in the present, but they become personal archives over time. Sharing a song with your friends (in the present) also shares it with your future self. Facebook and Apple's Photos app automatically generate throwbacks for you about happenings in the past.
+
+I've started consciously searching for a view from this perspective while thinking about the design of a product. Most of the time, the feature that sparks the idea of a tool is a feature of the present. How do the tool and the user interact? Through which interface? The first questions that arise are about interactions in the present. We could start stretching out these thoughts to longer rhythms by asking the questions: what functionality could this provide to a user in a larger timescale? what features could turn the inputs of a user from the present into something of the future? what does a click on a button mean tomorrow, in 6 months or in a year? what could I do to make sure this echo returns to the user after some time (this is both a question of design and technicality)?
+
+Take a writing / note taking app. I have hundreds of notes lying around about ideas, feelings, status updates; the writing app was used as a tool to develop my thoughts. The memory of these notes is my only reference to them, which slowly fades away. They will never pop up randomly some day in the app to be re-read and reminded of or to trigger an internal reflection on them. I miss these random reminders of old thoughts that could help me see a manifestation of my internal changes.
+
+After ordering something online, you usually get an email to rate the product, yet this comes in hours or maximum in a few days after hitting the checkout button. Getting one of these emails after a year could help costumers think about their experience with the product, which probably became almost invisible in their lives until that point. The feedback would even be more trustworthy after the initial love or hate endorsements settled.
+
+![An email in my dreams: the online store I've bought a chair from is asking for my feedback after a year of usage.](/content/blog/designing-for-timescales/email-feedback.png)
+
+Another example of the scaling of time are "convergence apps". Drawing a line a day becomes an abstract painting in a year. Randomly mix recordings of your environment within a season and you'll have your own ambient version of Vivaldi's "The Four Seasons" (or noise). The convergence of many small inputs to something bigger is a medium of its own. More apps out there are focusing on this aspect of time.
+
+Le Monte Young, one of the first minimalist musicians, stated once that "Time is my medium", referring to the monotonicity of his music. Time is a medium of products too and we have to design _on_ it. Even without the different scales and rhythms, time can be the canvas to make subtle impressions on the user and their connection to the product. Waiting as a feature. Silence and void could be built into apps as integral features next to the like and follow buttons. Online shops with opening hours, where products would naturally change with the seasons.
+
+Anyways.
