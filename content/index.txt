@@ -2,13 +2,13 @@ title: Hunor Karamán
 ----
 view: home
 ----
-text: Thinking about computers, humans and their long-term, ambient interactions. I'm interested in building fast websites, particular tools and through them personal experiences. This is my personal space ― a sandbox, an archive.
+text: Thinking about computers, humans and their long-term ambient interactions. Code is just the raw material. This is my personal space ― a sandbox, an archive.
 ----
 left: I currently study artificial intelligence at the [Johannes Kepler Universität](https://jku.at) (2019―), while working on the website at [GeoGebra](https://www.geogebra.org) (2018―).
 ----
 right: Before I was experimenting with [peer-to-peer tools](/wiki/notes/p2p/) (2017―2019) and co-launched a small tool called [Pictogon](https://pictogon.com) (2017).
 ----
-bottom: I'm off social media and try to avoid feeds in general. You can follow along on [Are.na](https://www.are.na/hunor-karaman) and [GitHub](https://github.com/kodedninja). Feel free to reach out beyond this website to talk ― to collaborate.
+bottom: [Are.na](https://www.are.na/hunor-karaman) and [GitHub](https://github.com/kodedninja). No feeds.
 
 <div class="tac w-1 mt1">
   <a href="mailto:karamanhunor@protonmail.com" class="button">Write me an email</a>
@@ -16,5 +16,5 @@ bottom: I'm off social media and try to avoid feeds in general. You can follow a
 
 ---
 
-The site is part of a <a href="https://webring.xxiivv.com/#random" target="_blank">Webring</a> and built on [this stack](/blog/stakit/).
+The site is part of a <a href="https://webring.xxiivv.com/#random" target="_blank">Webring</a>.
 
