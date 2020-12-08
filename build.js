@@ -8,6 +8,7 @@ var fromString = require('from2-string')
 var nanositemap = require('nanositemap')
 var inlineCriticalCss = require('stakit-critical-css')
 var minify = require('stakit-posthtml/minify')
+var removeMarkdown = require('remove-markdown')
 
 var COPY_FILES = {
   [`${__dirname}/source/design/style.css`]: '/bundle.css',
@@ -16,17 +17,13 @@ var COPY_FILES = {
   [`${__dirname}/favicon.ico`]: '/favicon.ico'
 }
 
-var DESCRIPTION = "My thoughts circulate around the internet, humans and their ambient interactions. I'm interested in small, fast websites. This is my personal space ― a sandbox, an archive."
-
 var METAS = {
 	author: 'Hunor Karamán',
-	description: DESCRIPTION,
 	keywords: 'kodedninja, hunor karaman, p2p, stakit, orkl',
 	// Open Graph
 	'og:title': 'hex22',
 	'og:type': 'website',
 	'og:url': 'https://hex22.org',
-	'og:description': DESCRIPTION,
 	// Twitter
 	'twitter:card': 'summary',
 	'twitter:creator': '@kodedninja',
@@ -45,7 +42,7 @@ var kit = stakit()
   .routes(routesWith404)
   .render(render(app))
   // transforms
-  .transform(meta, METAS)
+  .transform(customMeta)
   .transform(inlineCriticalCss, { src: '/bundle.css' })
   .transform(minify, {
     collapseBooleanAttributes: true,
@@ -54,6 +51,18 @@ var kit = stakit()
   })
 
 module.exports = kit
+
+function customMeta (ctx) {
+  var description = removeMarkdown(ctx.state.content['/'].text.split('\n')[0])
+
+  if (ctx.state.content[ctx.state.href] && ctx.state.content[ctx.state.href].excerpt) {
+    description = removeMarkdown(ctx.state.content[ctx.state.href].excerpt)
+  }
+  
+  return function () {
+    return meta()({ ...METAS, description: description, 'og:description': description })
+  }
+}
 
 function extendState (ctx) {
   var content = nanocontent.readSiteSync(path.resolve('./content'), { parent: true })
