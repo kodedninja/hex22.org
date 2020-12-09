@@ -2,9 +2,9 @@ title: Hunor Karamán
 ----
 view: home
 ----
-text: Thinking about computers, humans and their long-term ambient interactions. Code is just the raw material. This is my personal space ― a sandbox, an archive.
+text: Thinking about software, humans, identities, environments and their ambient interactions. Code is just the raw material. We are designing products and landscapes.
 
-[Are.na](https://www.are.na/hunor-karaman) and [GitHub](https://github.com/kodedninja). No feeds.
+[Are.na](https://www.are.na/hunor-karaman) and [GitHub](https://github.com/kodedninja). No feeds. This is my personal space ― a sandbox, an archive.
 ----
 left: I currently study artificial intelligence at the [Johannes Kepler Universität](https://jku.at) (2019―), while working on the website at [GeoGebra](https://www.geogebra.org) (2018―).
 ----

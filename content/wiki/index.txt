@@ -16,19 +16,19 @@ My reading journal and archive of thoughts about the books I've read. [See what 
 
 <div class="tac">
   <h2 class="dib fwb bcgrey py4px px8px brpill">
-		Links
-	</h2>
-</div>
-
-Instead of using frequentally updated feeds, I maintain a static list of websites as a content recommendation system. [Go to the list](/wiki/links/).
-
-<div class="tac">
-  <h2 class="dib fwb bcgrey py4px px8px brpill">
 		Manifesto
 	</h2>
 </div>
 
 I try to keep a set of rules that help me to work on the right tools, in the right way. [Read my manifesto](/wiki/manifesto/).
+
+<div class="tac">
+  <h2 class="dib fwb bcgrey py4px px8px brpill">
+		Links
+	</h2>
+</div>
+
+Instead of using frequentally updated feeds, I maintain a static list of websites as a content recommendation system. [Go to the list](/wiki/links/).
 
 <div class="tac">
   <h2 class="dib fwb bcgrey py4px px8px brpill">
