@@ -19,7 +19,7 @@ var COPY_FILES = {
 
 var METAS = {
 	author: 'Hunor Karamán',
-	keywords: 'kodedninja, hunor karaman, p2p, stakit, orkl',
+	keywords: 'hex22, hunor karaman, peer to peer, ambient design',
 	// Open Graph
 	'og:title': 'hex22',
 	'og:type': 'website',
