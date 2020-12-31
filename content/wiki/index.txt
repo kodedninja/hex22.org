@@ -2,9 +2,7 @@ title: Wiki
 ----
 view: default
 ----
-text: This collection of additional notes, thoughts and logs was originally inspired by [Devine's memex](https://wiki.xxiivv.com/); it's now become a place for mapping out thoughts, unsorted notes, no matter how unrelated or short-term they are.
-
-Walk around the pages and don't forget that the back button of your browser always takes you back into the safety of your history.
+text: This collection of additional notes, thoughts and logs was originally inspired by [Devine's memex](https://wiki.xxiivv.com/). It's now become a place for mapping out unsorted notes, no matter how unrelated or short-term they might be.
 
 <div class="tac">
   <h2 class="dib fwb bcgrey py4px px8px brpill">
@@ -12,7 +10,7 @@ Walk around the pages and don't forget that the back button of your browser alwa
 	</h2>
 </div>
 
-My reading journal and archive of thoughts about the books I've read. [See what I read](/wiki/readings/).
+My reading journal and archive of thoughts on the books I've read. Nowadays, it's probably the most frequentally updated page of the site. [See what I read](/wiki/readings/).
 
 <div class="tac">
   <h2 class="dib fwb bcgrey py4px px8px brpill">
@@ -36,7 +34,7 @@ Instead of using frequentally updated feeds, I maintain a static list of website
 	</h2>
 </div>
 
-Notes to save or to buffer end up here. From thoughts to programming languages.
+Notes to buffer end up here. From thoughts to programming languages.
 
 - [Lifestyle](/wiki/notes/lifestyle/)
 - [Web archiving](/wiki/notes/web-archiving/)

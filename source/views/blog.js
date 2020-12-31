@@ -25,9 +25,9 @@ function blog (state, emit) {
         ${Object.keys(years).reverse().map(function (year) {
           return html`
             <div class="tac my1">
-              <span class="dib fwb bcgrey py4px px8px brpill">
+              <h2 class="dib fwb bcgrey py4px px8px brpill">
                 ${year}
-              </span>
+              </h2>
             </div>
             ${years[year].map(entry)}
           `
