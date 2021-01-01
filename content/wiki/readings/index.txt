@@ -12,12 +12,13 @@ For the books I'm planning to read visit [this channel](https://www.are.na/hunor
   <h2 class="dib fwb bcgrey py4px px8px brpill">Currently reading</h2>
 </div>
 
-Bruno Latour ― **"We Have Never Been Modern"**
+Yuk Hui ― **"On the Existence of Digital Objects"**
 
 <div class="tac">
   <h2 class="dib fwb bcgrey py4px px8px brpill">2020</h2>
 </div>
 
+Bruno Latour ― **"We Have Never Been Modern"**
 Timothy Morton ― **"Hyperobjects"**
 Kyle Chayka ― **"The Longing for Less"**
 Graham Harman ― **"Object-Oriented Ontology"**
