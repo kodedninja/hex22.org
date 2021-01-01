@@ -19,9 +19,7 @@ function view (state, emit) {
 			<div class="w-1 db mb1">
 				${content.render(excerpt + state.page().v('text'))}
 			</div>
-      <form class="w-1 db mb0-5" action="https://formsubmit.io/send/karamanhunor@protonmail.com" method="POST">
-        <input name="_redirect" type="hidden" value="https://hex22.org/message/">
-        <input name="_formsubmit_id" type="text" style="display:none">
+      <form class="w-1 db mb0-5" action="https://formspree.io/f/mayllzqk" method="POST">
         <input name="entry" type="hidden" value="${state.page().v('title')}">
         <textarea name="message" placeholder="Tell me what you think (include your email for a reply)..." class="input-clean w-1 mb0-5" required></textarea>
         <div class="w-1 tac">
