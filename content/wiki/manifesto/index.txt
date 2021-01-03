@@ -4,7 +4,7 @@ view: default
 ----
 banner: true
 ----
-text: These points are my long-term opinions about product design and user experience. Product in the broadest sense of the word. Everything around us, material and nonmaterial objects, are products. Any interaction with them is user experience. 
+text: These points are my long-term opinions about product design and user experience. Product in the broadest sense of the word. Everything around us, material and nonmaterial objects, are products. Any interaction with them is user experience, which is human experience.
 
 1. **Everything should be a tool.** A tool transforms its input without adding to its limitations. It's a function: returns an output for a given input. Its invisibility maximizes user experience.
 2. **Tools should be [ambient](https://are.na/alex-singh/ambient-product-design).** It disappears and flows through your actions. You should never need it because it's always at your hands. You should never ignore it because it's never in your way.
