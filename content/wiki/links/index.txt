@@ -8,13 +8,13 @@ text: These lists of links serve as my alternative to content recommendation alg
   <h2 class="dib fwb bcgrey py4px px8px brpill">To read</h2>
 </div>
 
-[Aeon](https://aeon.co), [e-flux](https://e-flux.com/), [LOW TECH MAGAZINE](https://solar.lowtechmagazine.com/), [Are.na/Blog](https://www.are.na/blog), [space and times](https://spaceandtim.es/), [Subpixel Space](https://subpixel.space/entries), [Edge Conversations](https://edge.org/conversations), [Helikon](https://helikon.ro/category/irodalom/vers), [julian.digital](https://julian.digital/), [mrms/writing](http://mrmrs.cc/writing/), [Into The Well](https://www.readintothewell.com/)
+[Aeon](https://aeon.co), [e-flux](https://e-flux.com/), [LOW TECH MAGAZINE](https://solar.lowtechmagazine.com/), [Are.na/Blog](https://www.are.na/blog), [space and times](https://spaceandtim.es/), [Subpixel Space](https://subpixel.space/entries), [Edge Conversations](https://edge.org/conversations), [Helikon](https://helikon.ro/category/irodalom/vers), [mrms/writing](http://mrmrs.cc/writing/), [Into The Well](https://www.readintothewell.com/), [Avant](http://avant.org/)
 
 <div class="tac">
   <h2 class="dib fwb bcgrey py4px px8px brpill">To visit</h2>
 </div>
 
-[Small Seasons](https://smallseasons.guide/), [100r.co](https://100r.co/site/home.html), [Minimal Gallery](https://minimal.gallery/), [Httpster](https://httpster.net/), [Wilson FM](https://wilson.fm), [nomasters](https://nomasters.io/), [Josh Avanier](https://avanier.now.sh/), [Dark Blue Heaven](https://darkblueheaven.com/), [Jon-Kyle](https://www.jon-kyle.com)
+[Small Seasons](https://smallseasons.guide/), [100r.co](https://100r.co/site/home.html), [Minimal Gallery](https://minimal.gallery/), [Httpster](https://httpster.net/), [Wilson FM](https://wilson.fm), [nomasters](https://nomasters.io/), [Josh Avanier](https://avanier.now.sh/), [Dark Blue Heaven](https://darkblueheaven.com/), [Jon-Kyle](https://www.jon-kyle.com), [julian.digital](https://julian.digital/)
 
 <div class="tac">
   <h2 class="dib fwb bcgrey py4px px8px brpill">To remember</h2>
