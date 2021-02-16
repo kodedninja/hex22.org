@@ -12,12 +12,13 @@ For the books I'm planning to read visit [this channel](https://www.are.na/hunor
   <h2 class="dib fwb bcgrey py4px px8px brpill">Currently reading</h2>
 </div>
 
-Gilles Deleuze ― **"Nietzsche and Philosophy"**
+Anthony Dunne & Fiona Raby ― **"Speculative Everything"**
 
 <div class="tac">
   <h2 class="dib fwb bcgrey py4px px8px brpill">2021</h2>
 </div>
 
+Gilles Deleuze ― **"Nietzsche and Philosophy"**
 Félix Guattari ― **"Chaosophy"**
 Bohumil Hrabal ― **"Cutting it Short"** 
 Yuk Hui ― **"On the Existence of Digital Objects"**
