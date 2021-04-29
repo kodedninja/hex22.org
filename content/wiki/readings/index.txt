@@ -18,6 +18,7 @@ McKenzie Wark ― **"A Hacker Manifesto"**
   <h2 class="dib fwb bcgrey py4px px8px brpill">2021</h2>
 </div>
 
+Lev Manovich ― **"AI Aesthetics"**
 Benjamin H. Bratton ― **"The Terraforming"**
 Gilles Deleuze & Félix Guattari ― **"Anti-Oedipus"**
 Eugene W. Holland ― **"Deleuze and Guattari's Anti-Oedipus"**
