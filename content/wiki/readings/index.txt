@@ -12,12 +12,13 @@ For the books I'm planning to read visit [this channel](https://www.are.na/hunor
   <h2 class="dib fwb bcgrey py4px px8px brpill">Currently reading</h2>
 </div>
 
-McKenzie Wark ― **"A Hacker Manifesto"**
+Lukáš Likavčan ― **"Introduction to Comparative Planetology"**
 
 <div class="tac">
   <h2 class="dib fwb bcgrey py4px px8px brpill">2021</h2>
 </div>
 
+McKenzie Wark ― **"A Hacker Manifesto"**
 Lev Manovich ― **"AI Aesthetics"**
 Benjamin H. Bratton ― **"The Terraforming"**
 Gilles Deleuze & Félix Guattari ― **"Anti-Oedipus"**
