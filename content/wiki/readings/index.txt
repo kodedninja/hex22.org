@@ -2,9 +2,7 @@ title: Readings
 ----
 view: default
 ----
-text: I try to read in [networks](https://urcad.es/writing/reading-networks/index.html). The books below are from a more oriented reading list (the books I've been planning to read). The other readings are not centralized: articles, essays, fragments, websites, found and started on an impulse. 
-
-Nowadays, I read about the early years of artificial intelligence, contemporary philosophy, minimalism, with shorter and longer detours to literature.
+text: Nowadays, I read about the early years of artificial intelligence, contemporary philosophy, minimalism, with shorter and longer detours to literature.
 
 For the books I'm planning to read visit [this channel](https://www.are.na/hunor-karaman/books-to-read-yi2tfqpkvto) on Are.na.
 
@@ -12,12 +10,13 @@ For the books I'm planning to read visit [this channel](https://www.are.na/hunor
   <h2 class="dib fwb bcgrey py4px px8px brpill">Currently reading</h2>
 </div>
 
-Lukáš Likavčan ― **"Introduction to Comparative Planetology"**
+Holly Jean Buck ― **"After Geoengineering"**
 
 <div class="tac">
   <h2 class="dib fwb bcgrey py4px px8px brpill">2021</h2>
 </div>
 
+Lukáš Likavčan ― **"Introduction to Comparative Planetology"**
 McKenzie Wark ― **"A Hacker Manifesto"**
 Lev Manovich ― **"AI Aesthetics"**
 Benjamin H. Bratton ― **"The Terraforming"**
@@ -64,13 +63,13 @@ Stefan Zweig ― **"Schachnovelle"**
 Albert Camus ― **"The Plague"**
 Ádám Bodor ― **"Sinistra körzet"**
 Ian McEwan ― **"The Cockroach"**
-Peter Gelderloos ― [**"Anarchy Works"**](/wiki/readings/anarchy-works/)
+Peter Gelderloos ― **"Anarchy Works"**
 Haruki Murakami ― **"After Dark"**
-Beatriz Colomina & Mark Wigley ― [**"Are We Human? ― Notes on an Archaeology of Design"**](/wiki/readings/are-we-human/)
-P. D. James ― [**"The Children of Men"**](/wiki/readings/the-children-of-men/)
+Beatriz Colomina & Mark Wigley ― **"Are We Human? ― Notes on an Archaeology of Design"**
+P. D. James ― **"The Children of Men"**
 Samuel Scheffler ― **"Death & the Afterlife"**
-James P. Carse ― [**"Finite and Infinite Games"**](/wiki/readings/finite-infinite-games/)
-Stephen Hawking ― [**"A Brief History of Time"**](/wiki/readings/a-brief-history-of-time/)
+James P. Carse ― **"Finite and Infinite Games"**
+Stephen Hawking ― **"A Brief History of Time"**
 Haruki Murakami ― **"The Wind-Up Bird Chronicle"**
 Jón Kalman Stefánsson ― **"Fish Have No Feet"**
 Haruki Murakami ― **"What I Talk About When I Talk About Running"**
