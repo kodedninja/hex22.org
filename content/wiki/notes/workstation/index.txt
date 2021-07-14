@@ -15,23 +15,18 @@ text: Currently, I mainly use a 2020 Razer Blade Stealth with Windows (but using
 - Design: [Figma](https://figma.com)
 - Window Manager: [Rectangle](https://rectangleapp.com/)
 - Audio Workstation: [Ableton Live](https://ableton.com/live)
-- Music: [Spotify](https://spotify.com/) / [cmus](https://cmus.github.io/)
-- Communication: [Telegram](https://telegram.org)
-- Todo List: [Microsoft To Do](https://todo.microsoft.com/)
 
 ### Command-Line
 
-- Text Editor: [kakoune](https://kakoune.org)
-- Node: [n](https://github.com/tj/n) + [pnpm](https://github.com/pnpm/pnpm)
-- Dev Server: [budo](https://github.com/mattdesl/budo) / [http-server](https://npmjs.com/package/http-server) / [monote](https://github.com/stakit/monote)
-- Find: [fd](https://github.com/sharkdp/fd)
-- Jumping Around: [z](https://github.com/rupa/z)
-- ls: [exa](https://github.com/ogham/exa)
-
-I casually use:
-- [pandoc](https://pandoc.org/)
+- [kak](https://kakoune.org) to write
+- [fd](https://github.com/sharkdp/fd) to find
+- [exa](https://github.com/ogham/exa) to ls
+- [fzy](https://github.com/jhawthorn/fzy) to fuzzy-search
+- [ag](https://github.com/ggreer/the_silver_searcher) to search in files
+- [z](https://github.com/rupa/z) to jump around
+- [n](https://github.com/tj/n) + [pnpm](https://github.com/pnpm/pnpm)
+- [pandoc](https://pandoc.org/) for documents
 - [localtunnel](https://github.com/localtunnel/localtunnel)
-- [korkut](https://github.com/oguzhaninan/korkut)
 - [you-get](https://you-get.org/)
-- [monolith](https://github.com/Y2Z/monolith)
+- [monolith](https://github.com/Y2Z/monolith) to archive
 
