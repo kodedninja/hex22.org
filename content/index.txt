@@ -2,14 +2,13 @@ title: Hunor Karamán
 ----
 view: home
 ----
-text: Thinking about the design and development of products and how we arrange them into landscapes. Working with code as raw material on their ambient interactions with identity and environment.
+text: I believe that art causes the social axiomatic to grow more complicated (a détournement of Deleuze & Guattari) and in this sense my work aims to be art, saturating the social code in the hope of a decentralized future that thrives for harmony instead of growth, and ambience instead of disruption.
 
-
-[Are.na](https://www.are.na/hunor-karaman) and [GitHub](https://github.com/kodedninja). No feeds.
+[Are.na](https://www.are.na/hunor-karaman) and [GitHub](https://github.com/kodedninja). No feeds. Living in Vienna.
 ----
-left: I currently study artificial intelligence at the [Johannes Kepler Universität](https://jku.at) (2019―), while working on the website at [GeoGebra](https://www.geogebra.org) (2018―).
+left: Currently studying how machines learn from data at the [JKU](https://jku.at) (2019―), while working on the website of an education company (2018―).
 ----
-right: Before I was experimenting with [peer-to-peer tools](/wiki/notes/p2p/) (2017―2019) and co-launched a small tool called [Pictogon](https://pictogon.com) (2017).
+right: Previously prototyped experimental [peer-to-peer tools](/wiki/notes/p2p/) (2017―2019) and helped building a ["Product of the Day"](https://www.producthunt.com/posts/pictogon) (2017).
 ----
 bottom: 
 
@@ -19,5 +18,4 @@ bottom:
 
 ---
 
-The site is part of a <a href="https://webring.xxiivv.com/#random" target="_blank">Webring</a>. It's a sandbox with memory, an archive.
-
+The site is part of a <a href="https://webring.xxiivv.com/#random" target="_blank">Webring</a>.
