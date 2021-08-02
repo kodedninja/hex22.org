@@ -2,7 +2,7 @@ title: Hunor Karamán
 ----
 view: home
 ----
-text: I believe that art causes the social axiomatic to grow more complicated (a détournement of Deleuze & Guattari) and in this sense my work aims to be art, saturating the social code in the hope of a decentralized future that thrives for harmony instead of growth, and ambience instead of disruption.
+text: I believe that art causes the social axiomatic to grow more complicated (détourned from Deleuze & Guattari) and in this sense my work aims to be art, saturating the social code in the hope of a decentralized future that thrives for harmony instead of growth, and ambience instead of disruption.
 
 [Are.na](https://www.are.na/hunor-karaman) and [GitHub](https://github.com/kodedninja). No feeds. Living in Vienna.
 ----
