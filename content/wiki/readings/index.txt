@@ -10,12 +10,13 @@ For the books I'm planning to read visit [this channel](https://www.are.na/hunor
   <h2 class="dib fwb bcgrey py4px px8px brpill">Currently reading</h2>
 </div>
 
-János Pilinszky ― **"Önéletrajzaim"**
+Hermann Hesse ― **"Demian"**
 
 <div class="tac">
   <h2 class="dib fwb bcgrey py4px px8px brpill">2021</h2>
 </div>
 
+János Pilinszky ― **"Önéletrajzaim"**
 Péter Nádas ― **"Saját Halál"**
 Franz Kafka ― **"The Castle"**
 Attila Bartis ― **"A Vége"**
