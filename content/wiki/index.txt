@@ -1,8 +1,8 @@
-title: Wiki
+title: Index
 ----
 view: default
 ----
-text: This collection of additional notes, thoughts and logs was originally inspired by [Devine's memex](https://wiki.xxiivv.com/). It's now become a place for mapping out unsorted notes, no matter how unrelated or short-term they might be.
+text: Maps of the present. Leftovers of the past.
 
 <div class="tac">
   <h2 class="dib fwb bcgrey py4px px8px brpill">
@@ -10,7 +10,7 @@ text: This collection of additional notes, thoughts and logs was originally insp
 	</h2>
 </div>
 
-My reading journal and archive of thoughts on the books I've read. Nowadays, it's probably the most frequentally updated page of the site. [See what I read](/wiki/readings/).
+Nowadays, this is probably the most frequentally updated page of the site. [See what I read](/wiki/readings/).
 
 <div class="tac">
   <h2 class="dib fwb bcgrey py4px px8px brpill">
@@ -19,14 +19,6 @@ My reading journal and archive of thoughts on the books I've read. Nowadays, it'
 </div>
 
 I try to keep a set of rules that help me to work on the right tools, in the right way. [Read my manifesto](/wiki/manifesto/).
-
-<div class="tac">
-  <h2 class="dib fwb bcgrey py4px px8px brpill">
-		Links
-	</h2>
-</div>
-
-Instead of using frequentally updated feeds, I maintain a static list of websites as a content recommendation system. [Go to the list](/wiki/links/).
 
 <div class="tac">
   <h2 class="dib fwb bcgrey py4px px8px brpill">

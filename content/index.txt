@@ -2,20 +2,26 @@ title: Hunor Karamán
 ----
 view: home
 ----
-text: I believe that art causes the social axiomatic to grow more complicated and in this sense my work aims to be art, saturating the social code in the hope of a decentralized future that thrives for harmony instead of growth, and ambience instead of disruption.
+text: On a journey of poetry, algorithms, chaos, harmony, and books.
 
-[Are.na](https://www.are.na/hunor-karaman) and [GitHub](https://github.com/kodedninja). No feeds. Living in Vienna.
+<div class="tac mt1">
+  <h2 class="dib fwb bcgrey py4px px8px brpill">
+		About
+	</h2>
+</div>
 ----
 left: Currently studying how machines learn from data at the [JKU](https://jku.at) (2019―), while working on the website of an education company (2018―).
 ----
 right: Previously prototyped experimental [peer-to-peer tools](/wiki/notes/p2p/) (2017―2019) and helped building a ["Product of the Day"](https://www.producthunt.com/posts/pictogon) (2017).
 ----
-bottom: 
+bottom:
 
-<div class="tac w-1 mt1">
-  <a href="mailto:karamanhunor@protonmail.com" class="button">Write me an email</a>
+<div class="tac mb1">
+  <h2 class="dib fwb bcgrey py4px px8px brpill">
+		Connect
+	</h2>
 </div>
 
----
+Find me on [Are.na](https://www.are.na/hunor-karaman), [GitHub](https://github.com/kodedninja) or in [Email](mailto:karmanhunor@protonmail.com). No feeds. Living in Vienna.
 
 The site is part of a <a href="https://webring.xxiivv.com/#random" target="_blank">Webring</a>.
