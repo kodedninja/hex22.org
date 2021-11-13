@@ -22,6 +22,6 @@ bottom:
 	</h2>
 </div>
 
-Find me on [Are.na](https://www.are.na/hunor-karaman), [GitHub](https://github.com/kodedninja) or in [Email](mailto:karmanhunor@protonmail.com). No feeds. Living in Vienna.
+Find me on [Are.na](https://www.are.na/hunor-karaman), [GitHub](https://github.com/kodedninja) or in [Email](mailto:karamanhunor@protonmail.com). No feeds. Living in Vienna.
 
 The site is part of a <a href="https://webring.xxiivv.com/#random" target="_blank">Webring</a>.

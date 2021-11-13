@@ -2,7 +2,7 @@ title: Index
 ----
 view: default
 ----
-text: Maps of the present. Leftovers of the past.
+text: Maps of the present. Leftovers from the past.
 
 <div class="tac">
   <h2 class="dib fwb bcgrey py4px px8px brpill">
@@ -10,7 +10,19 @@ text: Maps of the present. Leftovers of the past.
 	</h2>
 </div>
 
-Nowadays, this is probably the most frequentally updated page of the site. [See what I read](/wiki/readings/).
+These days, this is probably the most frequentally updated page of the site. [See what I read](/wiki/readings/).
+
+<div class="tac">
+  <h2 class="dib fwb bcgrey py4px px8px brpill">
+		Writings
+	</h2>
+</div>
+
+Some sketches of ideas.
+
+- [Silence](/blog/silence/), 2020
+- [Freedom of missing out](/blog/freedom-of-missing-out/), 2020
+- [Reverse-engineering future into daily tasks](/blog/reverse-engineering-future-into-daily-tasks/), 2019
 
 <div class="tac">
   <h2 class="dib fwb bcgrey py4px px8px brpill">
