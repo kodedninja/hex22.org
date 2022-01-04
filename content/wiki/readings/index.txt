@@ -10,6 +10,7 @@ For the books I'm planning to read visit [this channel](https://www.are.na/hunor
   <h2 class="dib fwb bcgrey py4px px8px brpill">Currently reading</h2>
 </div>
 
+Dommann, Rickli, Stadler ― **"Data Centers: Edges of a Wired Nation"**
 Gilles Deleuze & Félix Guattari ― **"A Thousand Plateaus"**
 
 <div class="tac">
