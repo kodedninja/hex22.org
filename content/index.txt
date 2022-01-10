@@ -2,7 +2,7 @@ title: Hunor Karamán
 ----
 view: home
 ----
-text: On a journey of poetry, metaphysics, ecological thought, and the politics of AI and automation.
+text: Optimistic computational nihilist on a journey of poetry, metaphysics, ecological thought, and the politics of AI and automation.
 
 <div class="tac mt1">
   <h2 class="dib fwb bcgrey py4px px8px brpill">
