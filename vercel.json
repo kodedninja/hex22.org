@@ -2,5 +2,8 @@
   "routes": [
     { "handle": "filesystem" },
     { "src": "/(.*)", "status": 404, "dest": "/404/index.html" }
+  ],
+  "rewrites": [
+		{ "source": "/inside-dream-machines/", "destination": "https://dream-machines-h4dhsuw8.vercel.app" }
   ]
 }
