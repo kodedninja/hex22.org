@@ -1,7 +1,19 @@
 {
-  "routes": [
-    { "handle": "filesystem" },
-    { "src": "/inside-dream-machines/", "dest": "https://dream-machines-h4dhsuw8.vercel.app" },
-    { "src": "/(.*)", "status": 404, "dest": "/404/index.html" }
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "rewrites": [
+    { "source": "/inside-dream-machines/", "destination": "https://dream-machines-h4dhsuw8.vercel.app" },
+    { "source": "/(.*)", "destination": "/404/index.html" }
+  ],
+  "headers": [
+		{
+  		"source": "/404/index.html",
+  		"headers": [
+  			{
+					"key": "Status",
+					"value": "404"
+    		}
+  		]
+  	}
   ]
 }
