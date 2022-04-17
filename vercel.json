@@ -2,7 +2,7 @@
   "cleanUrls": true,
   "trailingSlash": true,
   "rewrites": [
-    { "source": "/inside-dream-machines/", "destination": "https://dream-machines-h4dhsuw8.vercel.app" },
+    { "source": "/inside-dream-machines/(.*)", "destination": "https://dream-machines-h4dhsuw8.vercel.app" },
     { "source": "/(.*)", "destination": "/404/index.html" }
   ],
   "headers": [
