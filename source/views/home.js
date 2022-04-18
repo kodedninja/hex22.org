@@ -7,7 +7,7 @@ function home (state, emit) {
   	return html`
 		<div class="w-1 db">
 			<div class="w-1 db">
-			  <div class="mw500 mxa">
+			  <div class="mw400 mxa">
   				${format(state.page().v('text'))}
 			  </div>
 				<div class="w-1 db clear-float my1">
@@ -18,7 +18,7 @@ function home (state, emit) {
             ${format(state.page().v('right'))}
           </div>
 				</div>
-				<div class="mw500 mxa">
+				<div class="mw400 mxa">
   				${format(state.page().v('bottom'))}
 				</div>
 			</div>

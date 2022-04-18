@@ -24,13 +24,13 @@ function wrapper (state, emit) {
   function header() {
 		var isIndex = state.href === '/'
     return html`
-      <nav class="w-1 db py2 mb1 clear-float mw500 mxa">
+      <nav class="w-1 db py2 mt1 mb2 m-mt0 clear-float mw400 mxa">
         <ul class="w-1 db fl clean">
           <li class="fl dib clean">
             ${isIndex ? (
               html`<h1 class="fwn">${state.page('/').v('title')}</h1>`
             ) : (
-              html`<a href="/" tabindex="1">${state.page('/').v('title')}</a>`
+              html`<a href="/" tabindex="1">Index</a>`
             )}
           </li>
           ${navigation()}
@@ -41,7 +41,7 @@ function wrapper (state, emit) {
     function navigation () {
       return html`
         <div class="dib fr">
-          ${[state.page('/wiki')].map(link)}
+          ${[].map(link)}
         </div>
       `
 

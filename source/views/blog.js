@@ -20,7 +20,7 @@ function blog (state, emit) {
   })
 
   return html`
-    <div class="w-1 db mw500 mxa">
+    <div class="w-1 db mw400 mxa">
       <ul class="w-1 db clear-float clean">
         ${Object.keys(years).reverse().map(function (year) {
           return html`

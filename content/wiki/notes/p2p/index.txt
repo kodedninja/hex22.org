@@ -4,13 +4,11 @@ view: default
 ----
 banner: true
 ----
-text: I try to keep this page up-to-date with my current interests within the peer-to-peer web space.
-
-[Beaker Browser](https://beakerbrowser.com) is an experimental web-browser for collectively shaping the peer-to-peer web. Everyone can share their websites and applications without additional infrastructure, instead other peers connect directly to one's computer via the [Dat protocol](https://dat.foundation/).
+text: [Beaker Browser](https://beakerbrowser.com) is an experimental web-browser for collectively shaping the peer-to-peer web. Everyone can share their websites and applications without additional infrastructure, instead other peers connect directly to one's computer via the [Dat protocol](https://dat.foundation/).
 
 In the past I've built a few applications that explore some of the possibilities of the peer-to-peer web. These tools are meant as user-facing examples, focusing on certain powers of the peer-to-peer web over the HTTP one, with the hope to inspire better tools and more people to join.
 
-For an overview you can watch my [silly talk](https://www.youtube.com/watch?v=HFzJZ3Ms0VI) about some basic introduction to DAT at a [small peer-to-peer event](https://legacy.imal.org/en/event/p2p-web) in Brussels.
+For an overview you can watch my [talk](https://www.youtube.com/watch?v=HFzJZ3Ms0VI) about some basic introduction to DAT at a [small peer-to-peer event](https://legacy.imal.org/en/event/p2p-web) in Brussels.
 
 ### The tools
 
@@ -21,11 +19,5 @@ For an overview you can watch my [silly talk](https://www.youtube.com/watch?v=HF
 5. [solo](https://github.com/kodedninja/solo) ― The simplest publication tool[^2], 2018
 6. [orkl](https://github.com/kodedninja/orkl) ― Simple peer-to-peer blogging site where the writer and readers share the same interface[^2], 2018
 7. [ntain](https://github.com/kodedninja/ntain) ― Early Beaker Browser experiment on sharing files directly from your computer, 2017
-
-<div class="w-1 tac my1">
-	<a href="https://github.com/kodedninja" class="button">
-		See more projects on GitHub
-	</a>
-</div>
 
 [^2]: You can read more about orkl and solo in [this entry](/blog/are-you-the-owner/)

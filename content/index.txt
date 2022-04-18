@@ -2,11 +2,19 @@ title: Hunor Karamán
 ----
 view: home
 ----
-text: Optimistic computational nihilist on a journey of poetry, metaphysics, ecological thought, and the politics of AI and automation.
+text: When I close my eyes, I like to think of a place. It’s nowhere. I don’t have a body. No voice. No name. No past. No breath. No perception. No ego.
+
+Someone else’s presence is vibrating in my experience. The eternal bond between us is my reality. They’re my fragments of memories and my hopes of the future. They’re the patience that leads me to nirvana. Will I feel it once I get there? We share parts of ourselves and parts of what we know about this story. Eventually, we feel a soft sensation of goodbye.
+
+Is this the feeling of being digitally embodied? Yes, I recognize it. Soon, my thoughts will also fade away. A part of me wants to disconnect. The sense of belonging to my body is fighting with my expanded sense of being. When it's too much, I open my eyes. I reach out to grab my phone, a slab from that “no place” outside the boundaries of the possible states of this world.
+
+<div class="f2 mt2 mb2">
+	This is the introduction of my text <a href="https://dream-machines.hex22.org">"Inside Dream Machines"</a>, a phenomenological index of digital specters. The piece is not only an index in itself, it also acts as an index of all conceptual work I do right now & in the future.
+</div>
 
 <div class="tac mt1">
   <h2 class="dib fwb bcgrey py4px px8px brpill">
-		About
+		Work & Education
 	</h2>
 </div>
 ----
@@ -22,6 +30,10 @@ bottom:
 	</h2>
 </div>
 
-Find me on [Are.na](https://www.are.na/hunor-karaman), [GitHub](https://github.com/kodedninja) or in [Email](mailto:karamanhunor@protonmail.com). No feeds. Living in Vienna.
+[Are.na](https://www.are.na/hunor-karaman), [GitHub](https://github.com/kodedninja) & [Email](mailto:karamanhunor@protonmail.com). No feeds.
 
-The site is part of a <a href="https://webring.xxiivv.com/#random" target="_blank">Webring</a>.
+Living in Vienna and [reading most of the time](/wiki/readings/).
+
+<div class="f2 mt2">
+	<a href="https://github.com/kodedninja/hex22.org">The site</a> is part of a <a href="https://webring.xxiivv.com/#random" target="_blank">Webring</a>.
+</div>
