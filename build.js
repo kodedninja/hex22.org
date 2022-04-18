@@ -82,7 +82,6 @@ function routesWith404 (state) {
 function writeSitemap (ctx) {
   // Append ending slash to urls
   var paths = Object.keys(ctx.state.content).map(url => url[url.length - 1] === '/' ? url : url + '/')
-  paths.push('https://dream-machines.hex22.org/')
   var sm = nanositemap('https://hex22.org', paths)
   ctx._files.push(stakitUtils.newFileStream(null, '/sitemap.xml', fromString(sm)))
 }
