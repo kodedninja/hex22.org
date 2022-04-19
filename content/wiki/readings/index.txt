@@ -8,7 +8,7 @@ text:
   <h2 class="dib fwb bcgrey py4px px8px brpill">Currently reading</h2>
 </div>
 
-Gilles Deleuze ― **"Difference and Repetition"**
+Gilles Deleuze ― **"Logic of Sense"**
 Miklós Mészöly ― **"Film"**
 Richard Powers ― **"The Overstory"**
 
