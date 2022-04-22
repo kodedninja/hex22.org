@@ -9,7 +9,7 @@ module.exports = view
 function view (state, emit) {
 	var excerpt = state.page().v('excerpt') ? (state.page().v('excerpt') + '\n\n') : ''
 	return html`
-		<div class="w-1 db mw500 mxa">
+		<div class="w-1 db mw400 mxa">
 			<h1 class="w-1 db mb0-5">
 				${state.page().v('title')}
 			</h1>
