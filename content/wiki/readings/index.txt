@@ -8,6 +8,7 @@ text:
   <h2 class="dib fwb bcgrey py4px px8px brpill">Currently reading</h2>
 </div>
 
+Han Kang ― **"The White Book"**
 Gilles Deleuze ― **"Difference and Repetition"**
 Gilles Deleuze ― **"Logic of Sense"**
 
