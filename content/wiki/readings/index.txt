@@ -8,7 +8,6 @@ text:
   <h2 class="dib fwb bcgrey py4px px8px brpill">Currently reading</h2>
 </div>
 
-Han Kang ― **"The White Book"**
 Gilles Deleuze ― **"Difference and Repetition"**
 Gilles Deleuze ― **"Logic of Sense"**
 
@@ -16,6 +15,7 @@ Gilles Deleuze ― **"Logic of Sense"**
   <h2 class="dib fwb bcgrey py4px px8px brpill">2022</h2>
 </div>
 
+Han Kang ― **"The White Book"**
 Irene Solà ― **"Canto jo i la muntanya balla"**
 Richard Powers ― **"The Overstory"**
 Quentin Meillassoux ― **"Time Without Becoming"**
