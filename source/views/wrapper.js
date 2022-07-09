@@ -26,11 +26,16 @@ function wrapper (state, emit) {
     return html`
       <nav class="w-1 db py2 mt1 mb2 m-mt0 clear-float mw400 mxa">
         <ul class="w-1 db fl clean">
-          <li class="fl dib clean">
+          <li class="fl dib clean w-1">
             ${isIndex ? (
               html`<h1 class="fwn">${state.page('/').v('title')}</h1>`
             ) : (
-              html`<a href="/" tabindex="1">Index</a>`
+              html`
+                <div class="w-1 db">
+                  <a href="/" tabindex="1" class="pa">Index</a>
+                  <div class="w-1 tac dib">0x22</div>
+                </div>
+              `
             )}
           </li>
           ${navigation()}
