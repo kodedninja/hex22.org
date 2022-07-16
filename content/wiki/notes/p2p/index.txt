@@ -4,20 +4,14 @@ view: default
 ----
 banner: true
 ----
-text: [Beaker Browser](https://beakerbrowser.com) is an experimental web-browser for collectively shaping the peer-to-peer web. Everyone can share their websites and applications without additional infrastructure, instead other peers connect directly to one's computer via the [Dat protocol](https://dat.foundation/).
+text: [Beaker Browser](https://beakerbrowser.com) is an experimental web-browser for collectively shaping the peer-to-peer web, where everyone can share their websites and applications without additional infrastructure. Instead other peers connect directly to one's computer via the [Dat protocol](https://dat.foundation/).
 
-In the past I've built a few applications that explore some of the possibilities of the peer-to-peer web. These tools are meant as user-facing examples, focusing on certain powers of the peer-to-peer web over the HTTP one, with the hope to inspire better tools and more people to join.
+In the past I've built a few applications that explore some of the possibilities of the peer-to-peer web. These tools were meant as user-facing examples, focusing on particular features of the peer-to-peer web that aren't present on the HTTP one, with the hope to inspire better tools and more people to join.
 
 For an overview you can watch my [talk](https://www.youtube.com/watch?v=HFzJZ3Ms0VI) about some basic introduction to DAT at a [small peer-to-peer event](https://legacy.imal.org/en/event/p2p-web) in Brussels.
 
-### The tools
+[ntain](https://github.com/kodedninja/ntain) (2017) was meant as a raw interface with direct access to the file system for sharing and hosting files. [Orkl](https://github.com/kodedninja/orkl) (2018) and [solo](https://github.com/kodedninja/solo) (2018) were two interfaces rejecting the "admin view" in web publishing. Readers and writers are presented with the same view, with the only difference that writers can automatically edit the text without the need to sign in. [Ridder](https://github.com/kodedninja/ridder) (2018) was an example of a conventional app, an RSS reader, running and keeping your data on your own machine. Similarly, [present](https://github.com/kodedninja/present) (2018), a very simple presentation tool.
 
-1. [Pears](https://github.com/as-dr/pears) ― A peer-to-peer, temporary, collaborative playlist, 2018―2019
-2. [present](https://github.com/kodedninja/present) ― Peer-to-Peer text-to-presentation tool, 2018
-3. [seeder](https://github.com/new-computers/seeder) ― Plug-and-play Raspberry Pi DAT seeder^[Together with the [New Computers Working Group](https://newcomputers.group/seeder.html)], 2018
-4. [ridder](https://github.com/kodedninja/ridder) ― An experimental RSS reader that lives on your computer and that you can share, 2018
-5. [solo](https://github.com/kodedninja/solo) ― The simplest publication tool[^2], 2018
-6. [orkl](https://github.com/kodedninja/orkl) ― Simple peer-to-peer blogging site where the writer and readers share the same interface[^2], 2018
-7. [ntain](https://github.com/kodedninja/ntain) ― Early Beaker Browser experiment on sharing files directly from your computer, 2017
+[Seeder](https://github.com/new-computers/seeder) (2018), built together with the New Computers Working Group, was a collective effort at establishing a plug-and-play home-computing device, "seeding" your peer-to-peer sites while your computer is turned off. Finally, [Pears](https://github.com/as-dr/pears) (2018―2019), together with Alex Singh, was an unsuccessful try at building a peer-to-peer, temporary, collaborative playlist, combining all of the features above into a single, beautiful example of the peer-to-peer user-experience.
 
-[^2]: You can read more about orkl and solo in [this entry](/blog/are-you-the-owner/)
+
