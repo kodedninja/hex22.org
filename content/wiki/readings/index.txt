@@ -8,13 +8,14 @@ text:
   <h2 class="dib fwb bcgrey py4px px8px brpill">Currently reading</h2>
 </div>
 
-Donna J. Haraway ― **"Staying with the Trouble"**
+Antonin Artaud ― **"The Theatre and Its Double"**
 Gilles Deleuze ― **"Logic of Sense"**
 
 <div class="tac">
   <h2 class="dib fwb bcgrey py4px px8px brpill">2022</h2>
 </div>
 
+Donna J. Haraway ― **"Staying with the Trouble"**
 Gilles Deleuze ― **"Difference and Repetition"**
 Attila Bartis ― **"A Vége"**
 Jean-Paul Sartre ― **"Existentialism Is a Humanism"** 
