@@ -8,13 +8,14 @@ text:
   <h2 class="dib fwb bcgrey py4px px8px brpill">Currently reading</h2>
 </div>
 
-Olga Tokarczuk ― **"Flights"**
+Péter Nádas ― **"Világló részletek"**
 Gilles Deleuze ― **"Logic of Sense"**
 
 <div class="tac">
   <h2 class="dib fwb bcgrey py4px px8px brpill">2022</h2>
 </div>
 
+Olga Tokarczuk ― **"Flights"**
 Olga Ravn ― **"The Employees"**
 Yuri Rytkheu ― **"When the Whales Leave"**
 Péter Esterházy ― **"Kis Magyar Pornográfia"**
