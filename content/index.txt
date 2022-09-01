@@ -17,12 +17,20 @@ Is this the feeling of being digitally embodied? Yes, I recognize it. Soon, my t
 		Work & Education
 	</h2>
 </div>
-----
-left: Currently studying how machines learn from data at the [JKU](https://jku.at) (2019―), while working on the website of an education company (2018―).
-----
-right: Previously prototyped experimental [peer-to-peer tools](/wiki/notes/p2p/) (2017―2019) and helped building a ["Product of the Day"](https://www.producthunt.com/posts/pictogon) (2017).
-----
-bottom:
+
+Currently, data engineering at [XUND](https://xund.ai) (2022―).
+
+Previously, studied how machines learn from data at the [JKU](https://jku.at) (2019―2022), worked on the website of an education company (2018―2022), and helped building a ["Product of the Day"](https://www.producthunt.com/posts/pictogon) (2017).
+
+<div class="tac mt1">
+  <h2 class="dib fwb bcgrey py4px px8px brpill">
+		Experimental
+	</h2>
+</div>
+
+These days, [writing in various formats](/wiki/output/).
+
+In the past, I prototyped experimental [peer-to-peer tools](/wiki/notes/p2p/) (2017―2019).
 
 <div class="tac mb1">
   <h2 class="dib fwb bcgrey py4px px8px brpill">
@@ -32,8 +40,8 @@ bottom:
 
 [Are.na](https://www.are.na/hunor-karaman), [GitHub](https://github.com/kodedninja) & [Email](mailto:karamanhunor@protonmail.com). No feeds.
 
-Living in Vienna and [reading most of the time](/wiki/readings/).
+Living in Vienna and [reading in most of my free time](/wiki/readings/).
 
 <div class="f2 mt2">
-	<a href="https://github.com/kodedninja/hex22.org">The site</a> is part of a <a href="https://webring.xxiivv.com/#random" target="_blank">Webring</a>.
+	Part of a <a href="https://webring.xxiivv.com/#random" target="_blank">Webring</a>.
 </div>

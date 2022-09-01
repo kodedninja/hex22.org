@@ -1,0 +1,11 @@
+title: Output
+----
+view: default
+----
+banner: true
+----
+text:
+
+(2022) _Vessels of Knowledge_, an exploration of new languages in artificial intelligence. Transmedia group project.
+
+(2022) [_Inside Dream Machines_](https://dream-machines.hex22.org), a (post-) phenomenological index of digital specters.
