@@ -18,7 +18,7 @@ Is this the feeling of being digitally embodied? Yes, I recognize it. Soon, my t
 	</h2>
 </div>
 
-Currently, data engineering at [XUND](https://xund.ai) (2022―).
+Currently, data & machine learning engineering at [XUND](https://xund.ai) (2022―).
 
 Previously, studied how machines learn from data at the [JKU](https://jku.at) (2019―2022), worked on the website of an education company (2018―2022), and helped building a ["Product of the Day"](https://www.producthunt.com/posts/pictogon) (2017).
 
