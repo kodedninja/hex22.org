@@ -32,7 +32,7 @@ These days, [writing in various formats](/wiki/output/).
 
 In the past, I prototyped experimental [peer-to-peer tools](/wiki/notes/p2p/) (2017―2019).
 
-<div class="tac mb1">
+<div class="tac">
   <h2 class="dib fwb bcgrey py4px px8px brpill">
 		Connect
 	</h2>
