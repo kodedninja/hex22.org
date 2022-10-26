@@ -9,13 +9,13 @@ text:
 </div>
 
 Simone Weil ― **"An Anthology"**
-Mohamed Mbougar Sarr ― **"La plus secrète mémoire des hommes"**
 Gilles Deleuze ― **"Logic of Sense"**
 
 <div class="tac">
   <h2 class="dib fwb bcgrey py4px px8px brpill">2022</h2>
 </div>
 
+Mohamed Mbougar Sarr ― **"La plus secrète mémoire des hommes"**
 Annie Ernaux ― **"Mémoire de fille"**
 Miklós Mészöly ― **"Saulus"**
 Péter Nádas ― **"Világló részletek"**
