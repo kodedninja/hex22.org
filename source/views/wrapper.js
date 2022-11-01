@@ -14,7 +14,7 @@ function wrapper (state, emit) {
 
   return html`
     <body>
-      <div class="w-1 db mw800 mxa p1 mb1">
+      <div class="w-1 db mw800 mxa p1 pt2 mb1">
         ${header()}
         ${view(state, emit)}
       </div>
@@ -28,7 +28,7 @@ function wrapper (state, emit) {
         <ul class="w-1 db fl clean">
           <li class="fl dib clean w-1">
             ${isIndex ? (
-              html`<h1 class="fwn">${state.page('/').v('title')}</h1>`
+              html`<h1 class="fwn tac f1">🙂</h1>`
             ) : (
               html`
                 <div class="w-1 db">

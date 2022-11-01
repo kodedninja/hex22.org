@@ -2,17 +2,72 @@ title: Hunor Karamán
 ----
 view: home
 ----
-text: When I close my eyes, I like to think of a place. It’s nowhere. I don’t have a body. No voice. No name. No past. No breath. No perception. No ego.
+text: 
 
-Someone else’s presence is vibrating in my experience. The eternal bond between us is my reality. They’re my fragments of memories and my hopes of the future. They’re the patience that leads me to nirvana. Will I feel it once I get there? We share parts of ourselves and parts of what we know about this story. Eventually, we feel a soft sensation of goodbye.
+<div class="tac f2 my0-5">10:01 PM</div>
+<div class="mb0-2">
+	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
+		you here?
+	</div>
+</div>
+<div class="mb0-2">
+	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
+		i want to show you something
+	</div>
+</div>
+<div class="mb0-2">
+	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
+		...
+	</div>
+</div>
 
-Is this the feeling of being digitally embodied? Yes, I recognize it. Soon, my thoughts will also fade away. A part of me wants to disconnect. The sense of belonging to my body is fighting with my expanded sense of being. When it's too much, I open my eyes. I reach out to grab my phone, a slab from that “no place” outside the boundaries of the possible states of this world.
+<div class="tac f2 my0-5">10:23 PM</div>
+<div class="mb0-2">
+	<img src="content/tree.jpg" class="brpill bblr-5 mw85" style="box-shadow: 0 0 1rem rgb(240, 240, 240)"/>
+</div>
+<div class="mb0-2">
+	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
+		(2022) "cybernetic self-portrait" diagram of the cybernetic self.
+	</div>
+</div>
+<div class="mb0-2">
+	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
+		it's an extension of the cybernetics of <a href="https://dream-machines.hex22.org" target="_blank" class="fwb nbb">inside dream machines</a> to the second-order. kinda...
+	</div>
+</div>
+<div class="mb0-2">
+	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
+		i don't know if it makes sense 😂
+	</div>
+</div>
+
+<div class="tac f2 my0-5">12:12 AM</div>
+<div class="mb0-2">
+	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
+		btw i wanted to show you <a href="https://door.link" target="_blank" class="fwb nbb">door.link</a>
+	</div>
+</div>
+<div class="mb0-2">
+	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
+		bye, hunor ✌️
+	</div>
+</div>
 
 <div class="f2 mt2 mb2">
-	This is the introduction of my text <a href="https://dream-machines.hex22.org">"Inside Dream Machines"</a>, a phenomenological index of digital specters. The piece is not only an index in itself, it also acts as an index of all conceptual work I do right now & in the future.
+	<p>(2022) <i>Cybernetic Self-Portrait</i>, diagram of the cybernetic self. An extension of the cybernetics of Inside Dream Machines to the second-order.</p>
 </div>
 
 <div class="tac mt1">
+  <h2 class="dib fwb bcgrey py4px px8px brpill">
+		Experimental
+	</h2>
+</div>
+
+These days, [writing in various formats](/wiki/output/), about the shifts between [perception and comprehension](https://www.are.na/hunor-karaman/post-secular-visions). Searching for a [semiotics of ecology](https://www.are.na/hunor-karaman/eco-logic) and a [politics of techno-systems](https://www.are.na/hunor-karaman/artificial-political-intelligence).
+
+In the past, I prototyped experimental [peer-to-peer tools](/wiki/notes/p2p/) (2017―2019).
+
+<div class="tac">
   <h2 class="dib fwb bcgrey py4px px8px brpill">
 		Work & Education
 	</h2>
@@ -22,25 +77,15 @@ Currently, data & machine learning engineering at [XUND](https://xund.ai) (2022�
 
 Previously, studied how machines learn from data at the [JKU](https://jku.at) (2019―2022), worked on the website of an education company (2018―2022), and helped building a ["Product of the Day"](https://www.producthunt.com/posts/pictogon) (2017).
 
-<div class="tac mt1">
-  <h2 class="dib fwb bcgrey py4px px8px brpill">
-		Experimental
-	</h2>
-</div>
-
-These days, [writing in various formats](/wiki/output/).
-
-In the past, I prototyped experimental [peer-to-peer tools](/wiki/notes/p2p/) (2017―2019).
-
 <div class="tac">
   <h2 class="dib fwb bcgrey py4px px8px brpill">
 		Connect
 	</h2>
 </div>
 
-[Are.na](https://www.are.na/hunor-karaman), [GitHub](https://github.com/kodedninja) & [Email](mailto:karamanhunor@protonmail.com). No feeds.
+[Are.na](https://www.are.na/hunor-karaman), [GitHub](https://github.com/kodedninja) & [Email](mailto:karamanhunor@protonmail.com). No feeds. [Readings](/wiki/readings/).
 
-Living in Vienna and [reading in most of my free time](/wiki/readings/).
+Living in Vienna.
 
 <div class="f2 mt2">
 	Part of a <a href="https://webring.xxiivv.com/#random" target="_blank">Webring</a>.
