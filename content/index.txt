@@ -34,8 +34,8 @@ text:
 		maybe because i was researching mystics and their visions for the whole week?
 	</div>
 </div>
-<div class="mb0-2">
-	<img src="content/god.png" class="brad16 bblr-5" style="box-shadow: 0 0 1rem rgb(240, 240, 240)"/>
+<div class="mb0-2 pr" style="padding-top: 72.5%">
+	<img src="content/god.png" alt="and I'm trying to find God everywhere." class="brad16 bblr-5 stretch" style="box-shadow: 0 0 1rem rgb(240, 240, 240)" loading="lazy"/>
 </div>
 
 <div class="tac f2 my0-5">00:29 AM</div>
@@ -49,8 +49,8 @@ text:
 		i was like
 	</div>
 </div>
-<div class="mb0-2">
-	<img src="content/heinz.jpg" class="brad16 bblr-5" style="box-shadow: 0 0 1rem rgb(240, 240, 240)"/>
+<div class="mb0-2 pr" style="padding-top: 75%">
+	<img src="content/heinz.jpg" alt="Where is reality? Can you show it to me?" class="brad16 bblr-5 stretch" style="box-shadow: 0 0 1rem rgb(240, 240, 240)" loading="lazy"/>
 </div>
 <div class="mb0-2">
 	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">

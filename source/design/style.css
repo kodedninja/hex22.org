@@ -92,6 +92,13 @@ strong {font-weight:600}
 
 .t0 {top: 0}
 .l0 {left: 0}
+.stretch {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
 
 .w-1{width:100%}
 .w-50{width:50%}
