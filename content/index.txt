@@ -31,7 +31,7 @@ text:
 </div>
 <div class="mb0-2">
 	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
-		maybe because i was researching mystics and their visions for the whole week?
+		maybe because i was researching <a href="https://www.are.na/hunor-karaman/post-secular-visions" target="_blank" class="nbb fwb">mystics and their visions</a> for the whole week?
 	</div>
 </div>
 <div class="mb0-2 pr" style="padding-top: 72.5%">
@@ -69,7 +69,7 @@ text:
 </div>
 <div class="mb0-2">
 	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
-		to channel this power towards the right semiotic and material flows is to find the right symbols that can fill in the empty spaces left in the language of contemporary humanities (?)
+		"to channel this power towards the right semiotic and material flows is to find the right symbols that can fill in the empty spaces left in the language of contemporary humanities" (?)
 	</div>
 </div>
 
@@ -90,7 +90,7 @@ text:
 	</h2>
 </div>
 
-These days, [writing in various formats](/wiki/output/) about the shifts between [perception and comprehension](https://www.are.na/hunor-karaman/kaleidoscope-v4dcpl3emja). Searching for a [semiotics of ecology](https://www.are.na/hunor-karaman/eco-logic) and a [politics of techno-systems](https://www.are.na/hunor-karaman/artificial-political-intelligence).
+These days, [writing in various formats](/wiki/output/) about the shifts between [perception and comprehension](https://www.are.na/hunor-karaman/kaleidoscope-v4dcpl3emja). 
 
 In the past, I prototyped experimental [peer-to-peer tools](/wiki/notes/p2p/) (2017―2019).
 
