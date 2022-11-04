@@ -2,17 +2,19 @@ title: Hunor Karamán
 ----
 view: home
 ----
+excerpt: Cybernetic Self-Portrait
+----
 text: 
 
-<div class="tac f2 my0-5">10:01 PM</div>
+<div class="tac f2 my0-5">11:42 PM</div>
 <div class="mb0-2">
 	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
-		you here?
+		i can't fall asleep
 	</div>
 </div>
 <div class="mb0-2">
 	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
-		i want to show you something
+		i know your notifications are on
 	</div>
 </div>
 <div class="mb0-2">
@@ -21,40 +23,65 @@ text:
 	</div>
 </div>
 
-<div class="tac f2 my0-5">10:23 PM</div>
-<div class="mb0-2">
-	<img src="content/tree.jpg" class="brpill bblr-5 mw85" style="box-shadow: 0 0 1rem rgb(240, 240, 240)"/>
-</div>
+<div class="tac f2 my0-5">00:16 AM</div>
 <div class="mb0-2">
 	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
-		(2022) "cybernetic self-portrait" diagram of the cybernetic self.
+		the other day i dreamt of a cybernetic god
 	</div>
 </div>
 <div class="mb0-2">
 	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
-		it's an extension of the cybernetics of <a href="https://dream-machines.hex22.org" target="_blank" class="fwb nbb">inside dream machines</a> to the second-order. kinda...
+		maybe because i was researching mystics and their visions for the whole week?
+	</div>
+</div>
+<div class="mb0-2">
+	<img src="content/god.png" class="brad16 bblr-5" style="box-shadow: 0 0 1rem rgb(240, 240, 240)"/>
+</div>
+
+<div class="tac f2 my0-5">00:29 AM</div>
+<div class="mb0-2">
+	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
+		it was talking to me about systems that are constantly destructing and reshaping what we call reality
 	</div>
 </div>
 <div class="mb0-2">
 	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
-		i don't know if it makes sense 😂
+		i was like
+	</div>
+</div>
+<div class="mb0-2">
+	<img src="content/heinz.jpg" class="brad16 bblr-5" style="box-shadow: 0 0 1rem rgb(240, 240, 240)"/>
+</div>
+<div class="mb0-2">
+	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
+		if you know what i mean 😂
+	</div>
+</div>
+<div class="mb0-2">
+	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
+		but then it showed me unfolding spirals of construction and destruction, and told me i should look beyond this dichotomy if i want to understand what's happening to me 😐
+	</div>
+</div>
+<div class="mb0-2">
+	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
+		there's beauty in this, no? and there's power in beauty.
+	</div>
+</div>
+<div class="mb0-2">
+	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
+		to channel this power towards the right semiotic and material flows is to find the right symbols that can fill in the empty spaces left in the language of contemporary humanities (?)
 	</div>
 </div>
 
-<div class="tac f2 my0-5">12:12 AM</div>
+<div class="tac f2 my0-5">01:06 AM</div>
 <div class="mb0-2">
 	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
-		btw i wanted to show you <a href="https://door.link" target="_blank" class="fwb nbb">door.link</a>
-	</div>
-</div>
-<div class="mb0-2">
-	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
-		bye, hunor ✌️
+		good night.
 	</div>
 </div>
 
 <div class="f2 mt2 mb2">
-	<p>(2022) <i>Cybernetic Self-Portrait</i>, diagram of the cybernetic self. An extension of the cybernetics of Inside Dream Machines to the second-order.</p>
+	(2022) <i>Cybernetic Self-Portrait</i>, an ongoing reading of the diagram of the cybernetic self.
 </div>
 
 <div class="tac mt1">
@@ -63,7 +90,7 @@ text:
 	</h2>
 </div>
 
-These days, [writing in various formats](/wiki/output/), about the shifts between [perception and comprehension](https://www.are.na/hunor-karaman/post-secular-visions). Searching for a [semiotics of ecology](https://www.are.na/hunor-karaman/eco-logic) and a [politics of techno-systems](https://www.are.na/hunor-karaman/artificial-political-intelligence).
+These days, [writing in various formats](/wiki/output/) about the shifts between [perception and comprehension](https://www.are.na/hunor-karaman/kaleidoscope-v4dcpl3emja). Searching for a [semiotics of ecology](https://www.are.na/hunor-karaman/eco-logic) and a [politics of techno-systems](https://www.are.na/hunor-karaman/artificial-political-intelligence).
 
 In the past, I prototyped experimental [peer-to-peer tools](/wiki/notes/p2p/) (2017―2019).
 
