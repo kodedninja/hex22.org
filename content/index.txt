@@ -59,7 +59,7 @@ text:
 </div>
 <div class="mb0-2">
 	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
-		but then it showed me unfolding spirals of construction and destruction, and told me i should look beyond this dichotomy if i want to understand what's happening to me 😐
+		but then it showed me unfolding spirals of construction and destruction, and said in a soothing voice that i should look beyond this dichotomy if i want to understand what's about to happen to me 😐 then my thoughts woke me up
 	</div>
 </div>
 <div class="mb0-2">
@@ -110,9 +110,10 @@ Previously, studied how machines learn from data at the [JKU](https://jku.at) (2
 	</h2>
 </div>
 
-[Are.na](https://www.are.na/hunor-karaman), [GitHub](https://github.com/kodedninja) & [Email](mailto:karamanhunor@protonmail.com). No feeds. [Readings](/wiki/readings/).
+Hunor Karamán
+Vienna, AT
 
-Living in Vienna.
+[Are.na](https://www.are.na/hunor-karaman), [GitHub](https://github.com/kodedninja) & [Email](mailto:karamanhunor@protonmail.com). No feeds. [Readings](/wiki/readings/).
 
 <div class="f2 mt2">
 	Part of a <a href="https://webring.xxiivv.com/#random" target="_blank">Webring</a>.
