@@ -8,7 +8,6 @@ text:
   <h2 class="dib fwb bcgrey py4px px8px brpill">Currently reading</h2>
 </div>
 
-Erik Olin Wright ― **"How to Be an Anticapitalist in the 21st Century"**
 Arundhati Roy ― **"The Ministry of Utmost Happiness"**
 Gilles Deleuze ― **"Logic of Sense"**
 
@@ -16,6 +15,7 @@ Gilles Deleuze ― **"Logic of Sense"**
   <h2 class="dib fwb bcgrey py4px px8px brpill">2022</h2>
 </div>
 
+Erik Olin Wright ― **"How to Be an Anticapitalist in the 21st Century"**
 Simone Weil ― **"An Anthology"**
 Mohamed Mbougar Sarr ― **"La plus secrète mémoire des hommes"**
 Annie Ernaux ― **"Mémoire de fille"**
