@@ -6,9 +6,9 @@ banner: true
 ----
 text:
 
-(2022) [_Erózió_](https://www.helikon.ro/lapszam/xxxiii-evfolyam-2022-23-853-szam-december-10). Appeared in Helikon 2022/23+24.
+(2022) [_Erózió_](https://www.helikon.ro/bejegyzesek/erozio). Appeared in [Helikon 2022/23+24](https://www.helikon.ro/lapszam/xxxiii-evfolyam-2022-23-853-szam-december-10).
 
-(2022) [_Mező_](https://www.helikon.ro/lapszam/xxxiii-evfolyam-2022-21-851-szam-november-10). Appeared in Helikon 2022/21.
+(2022) [_Mező_](https://www.helikon.ro/bejegyzesek/mezo). Appeared in [Helikon 2022/21](https://www.helikon.ro/lapszam/xxxiii-evfolyam-2022-21-851-szam-november-10).
 
 (2022) _Vessels of Knowledge_, an exploration of new languages in artificial intelligence. Transmedia group project.
 
