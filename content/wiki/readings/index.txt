@@ -8,12 +8,13 @@ text:
   <h2 class="dib fwb bcgrey py4px px8px brpill">Currently reading</h2>
 </div>
 
-Olga Tokarczuk ― **"The Books of Jacob"**
+Reza Negarestani ― **"Cyclonopedia"**
 
 <div class="tac">
   <h2 class="dib fwb bcgrey py4px px8px brpill">2023</h2>
 </div>
 
+Olga Tokarczuk ― **"The Books of Jacob"**
 Péter Esterházy ― **"Egy nő"**
 
 <div class="tac">
