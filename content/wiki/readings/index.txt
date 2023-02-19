@@ -8,12 +8,13 @@ text:
   <h2 class="dib fwb bcgrey py4px px8px brpill">Currently reading</h2>
 </div>
 
-Ingeborg Bachmann ― **"Malina"**
+Simone de Beauvoir ― **"The Second Sex"**
 
 <div class="tac">
   <h2 class="dib fwb bcgrey py4px px8px brpill">2023</h2>
 </div>
 
+Ingeborg Bachmann ― **"Malina"**
 Péter Nádas ― **"Rémtörténetek"**
 Reza Negarestani ― **"Cyclonopedia"**
 Olga Tokarczuk ― **"The Books of Jacob"**
