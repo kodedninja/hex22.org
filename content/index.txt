@@ -4,117 +4,14 @@ view: home
 ----
 excerpt: Cybernetic Self-Portrait
 ----
-text: 
+text: Why must we turn our gaze inward, embracing introspection, to establish a renewed connection with the landscape? With my work, this is the ambiguity I desire to unfold within a postnatural framework. Rejecting the term _nature_, and therefore decentering the _human_. Zooming in instead to where the two terms blur: the environment, the landfill. Language is compost is humus. A material shared between past and future.
 
-<div class="tac f2 my0-5">11:42 PM</div>
-<div class="mb0-2">
-	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
-		i can't fall asleep
-	</div>
-</div>
-<div class="mb0-2">
-	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
-		i know your notifications are on
-	</div>
-</div>
-<div class="mb0-2">
-	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
-		...
-	</div>
-</div>
+<span style="text-decoration: underline">Literature</span>
 
-<div class="tac f2 my0-5">00:16 AM</div>
-<div class="mb0-2">
-	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
-		the other day i dreamt of a cybernetic god
-	</div>
-</div>
-<div class="mb0-2">
-	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
-		maybe because i was researching <a href="https://www.are.na/hunor-karaman/post-secular-visions" target="_blank" class="nbb fwb">mystics and their visions</a> for the whole week?
-	</div>
-</div>
-<div class="mb0-2 pr" style="padding-top: 72.5%">
-	<img src="content/god.png" alt="and I'm trying to find God everywhere." class="brad16 bblr-5 stretch" style="box-shadow: 0 0 1rem rgb(240, 240, 240)" loading="lazy"/>
-</div>
+Two times a year I publish a postnatural literary PDF pamphlet, **ERDŐ**. Other writings appear in Hungarian literary magazines.
 
-<div class="tac f2 my0-5">00:29 AM</div>
-<div class="mb0-2">
-	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
-		it was talking to me about systems that are constantly destructing and reshaping what we call reality
-	</div>
-</div>
-<div class="mb0-2">
-	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
-		i was like
-	</div>
-</div>
-<div class="mb0-2 pr" style="padding-top: 75%">
-	<img src="content/heinz.jpg" alt="Where is reality? Can you show it to me?" class="brad16 bblr-5 stretch" style="box-shadow: 0 0 1rem rgb(240, 240, 240)" loading="lazy"/>
-</div>
-<div class="mb0-2">
-	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
-		if you know what i mean 😂
-	</div>
-</div>
-<div class="mb0-2">
-	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
-		but then it showed me unfolding spirals of construction and destruction, and said in a soothing voice that i should look beyond this dichotomy if i want to understand what's about to happen to me 😐 then my thoughts woke me up
-	</div>
-</div>
-<div class="mb0-2">
-	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
-		there's beauty in this, no? and there's power in beauty.
-	</div>
-</div>
-<div class="mb0-2">
-	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
-		"to channel this power towards the right semiotic and material flows is to find the right symbols that can fill in the empty spaces left in the language of contemporary humanities" (?)
-	</div>
-</div>
+<span style="text-decoration: underline">Connect</span>
 
-<div class="tac f2 my0-5">01:06 AM</div>
-<div class="mb0-2">
-	<div class="dib bcgrey p0-3 brpill bblr-5 mw85">
-		good night.
-	</div>
-</div>
+karamanhunor@protonmail.com
+**https://www.are.na/hunor-karaman**
 
-<div class="f2 mt2 mb2">
-	(2022) <i>Cybernetic Self-Portrait</i>, an ongoing reading of the diagram of the cybernetic self.
-</div>
-
-<div class="tac mt1">
-  <h2 class="dib fwb bcgrey py4px px8px brpill">
-		Experimental
-	</h2>
-</div>
-
-These days, [writing in various formats](/wiki/output/) about the shifts between [perception and comprehension](https://www.are.na/hunor-karaman/kaleidoscope-v4dcpl3emja). 
-
-In the past, I prototyped experimental [peer-to-peer tools](/wiki/notes/p2p/) (2017―2019).
-
-<div class="tac">
-  <h2 class="dib fwb bcgrey py4px px8px brpill">
-		Work & Education
-	</h2>
-</div>
-
-Currently, data & machine learning engineering at [XUND](https://xund.ai) (2022―).
-
-Previously, studied how machines learn from data at the [JKU](https://jku.at) (2019―2022), worked on the website of an education company (2018―2022), and helped building a ["Product of the Day"](https://www.producthunt.com/posts/pictogon) (2017).
-
-<div class="tac">
-  <h2 class="dib fwb bcgrey py4px px8px brpill">
-		Connect
-	</h2>
-</div>
-
-Hunor Karamán
-Vienna, AT
-
-[Are.na](https://www.are.na/hunor-karaman), [GitHub](https://github.com/kodedninja) & [Email](mailto:karamanhunor@protonmail.com). No feeds. [Readings](/wiki/readings/).
-
-<div class="f2 mt2">
-	Part of a <a href="https://webring.xxiivv.com/#random" target="_blank">Webring</a>.
-</div>
