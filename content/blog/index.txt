@@ -1,4 +1,0 @@
-title: Writings
-----
-view: blog
-

@@ -1,7 +1,0 @@
-title: Hunor Karamán
-----
-view: home
-----
-excerpt: Cybernetic Self-Portrait
-----
-text: [https://hex22.org](https://hex22.org)
