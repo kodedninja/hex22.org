@@ -28,7 +28,7 @@ function wrapper (state, emit) {
         <ul class="w-1 db fl clean">
           <li class="fl dib clean w-1">
             ${isIndex ? (
-              html`<h1 class="fwn tac f1">HUNOR KARAMÁN</h1>`
+              html`<h1 class="fwn tac f1">archive.hex22.org</h1>`
             ) : (
               html`
                 <div class="w-1 db">

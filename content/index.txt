@@ -4,14 +4,4 @@ view: home
 ----
 excerpt: Cybernetic Self-Portrait
 ----
-text: Why must we turn our gaze inward, embracing introspection, to establish a renewed connection with the landscape? With my work, this is the ambiguity I desire to unfold within a postnatural framework. Rejecting the term _nature_, and therefore decentering the _human_. Zooming in instead to where the two terms blur: the environment, the landfill. Language is compost is humus. A material shared between past and future.
-
-<span style="text-decoration: underline">Literature</span>
-
-Two times a year I publish a postnatural literary PDF pamphlet, **ERDŐ**. Other writings appear in Hungarian literary magazines.
-
-<span style="text-decoration: underline">Connect</span>
-
-karamanhunor@protonmail.com
-**https://www.are.na/hunor-karaman**
-
+text: [https://hex22.org](https://hex22.org)

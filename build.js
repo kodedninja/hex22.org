@@ -12,22 +12,12 @@ var removeMarkdown = require('remove-markdown')
 
 var COPY_FILES = {
   [`${__dirname}/source/design/style.css`]: '/bundle.css',
-  [`${__dirname}/_redirects`]: '/_redirects',
   [`${__dirname}/robots.txt`]: '/robots.txt',
   [`${__dirname}/favicon.ico`]: '/favicon.ico'
 }
 
 var METAS = {
-	author: 'Hunor Karamán',
-	keywords: 'hex22, hunor karaman, peer to peer, cybernetic self',
-	// Open Graph
-	'og:title': 'hex22',
-	'og:type': 'website',
-	'og:url': 'https://hex22.org',
-	// Twitter
-	'twitter:card': 'summary',
-	'twitter:creator': '@kodedninja',
-	'twitter:site': '@kodedninja'
+	'robots': 'noindex'
 }
   
 var app = require('./source')
@@ -36,7 +26,6 @@ var kit = stakit()
   .use(extendState)
   .use(stakit.copy(COPY_FILES))
   .use(watchContent)
-  .use(writeSitemap)
   .use(copyContentFiles)
   // routes + render
   .routes(routesWith404)

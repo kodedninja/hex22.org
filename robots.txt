@@ -1,3 +1,2 @@
 User-Agent: *
-Disallow:
-Sitemap: https://hex22.org/sitemap.xml
+Disallow: /
