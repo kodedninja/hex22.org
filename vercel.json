@@ -2,11 +2,11 @@
   "cleanUrls": true,
   "trailingSlash": true,
   "rewrites": [
-    { "source": "/(.*)", "destination": "/404/index.html" }
+    { "source": "/(.*)", "destination": "/404.html" }
   ],
   "headers": [
 		{
-  		"source": "/404/index.html",
+  		"source": "/404.html",
   		"headers": [
   			{
 					"key": "Status",
